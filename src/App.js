@@ -1,9 +1,14 @@
+import { Route, Router } from 'react-router-dom';
 import './App.css';
+import Home from './Pages/Home/Home';
 
 function App() {
   return (
     <div className="App">
-      <h3 className="text-rose-600 text-3xl">Welcome to Emotion Production</h3>
+      
+      <Router>
+        <Route path='/' element={<Home />} />
+      </Router>
     </div>
   );
 }

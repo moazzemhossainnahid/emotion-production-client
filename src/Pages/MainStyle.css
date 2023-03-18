@@ -1,0 +1,56 @@
+.navbar-start {
+    width: 25% !important;
+}
+
+.navbar-end {
+    width: 75% !important;
+}
+
+.container {
+    margin: 0 auto !important;
+}
+
+.menu li{
+    margin-left: 39px;
+}
+.menu li:hover {
+    border-bottom: 1px solid;
+}
+.menu :where(li) > :where(*:not(ul)) {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    padding-top: 11px !important;
+    padding-bottom:11px !important;
+    /* border-bottom: 1px solid; */
+
+}
+.menu a {
+    opacity: 0.9;
+    color: rgb(255, 255, 255);
+    font-family: Switzer;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+    text-transform: capitalize;
+}
+
+.menu a:hover {
+    background: none;
+    /* border-bottom: 1px solid; */
+
+}
+
+.btnEnd {
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.navbar-end a {
+    color: rgb(216, 216, 216);
+    font-family: Switzer;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0px;
+}

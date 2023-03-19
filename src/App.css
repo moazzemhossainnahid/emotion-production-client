@@ -28,6 +28,80 @@
   color: #61dafb;
 }
 
+.logo{
+  height: 70px !important;
+}
+
+.navItem {
+  font-size: 16px;
+  color: #ffffff;
+  position: relative;
+}
+.navItem:hover {
+  color: #828b9a;
+}
+.active {
+  position: relative;
+  color: #ffffff;
+}
+.active::after {
+  content: "";
+  position: absolute;
+  color: #222f3e;
+  bottom: -5px;
+  width: 16px;
+  height: 2px;
+  right: 0;
+  background: #ff9f26 0% 0% no-repeat padding-box;
+}
+.navItem:hover::after {
+  content: "";
+  position: absolute;
+  color: #222f3e;
+  bottom: -5px;
+  width: 16px;
+  height: 2px;
+  right: 0;
+  background: #ff9f26 0% 0% no-repeat padding-box;
+}
+.menu1 {
+  width: 30px;
+  height: 2px;
+  display: block;
+  background-color: #828b9a;
+}
+.menu2 {
+  width: 25px;
+  height: 2px;
+  margin-top: 5px;
+  display: block;
+  margin-left: auto;
+  background-color: #828b9a;
+}
+.menu3 {
+  width: 20px;
+  height: 2px;
+  margin-top: 5px;
+  display: block;
+  margin-left: auto;
+  background-color: #828b9a;
+}
+.navItemMobile {
+  font-size: 14px;
+  position: relative;
+  color: #ffffff !important;
+}
+.navItemMobileHover:hover {
+  background-color: #ffac45;
+}
+.zIndex {
+  z-index: 35555;
+}
+.marginBottomNavbar {
+  margin-bottom: 92px;
+}
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

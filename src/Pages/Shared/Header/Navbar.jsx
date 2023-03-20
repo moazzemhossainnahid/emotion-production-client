@@ -118,6 +118,12 @@ const Navbar = ({ handleThemeChange, theme }) => {
                                     </div>
                                 )}
                             </li> */}
+
+                            <li>
+                                <Link to="meeting" className="mx-auto text-white">
+                                    <h3 className="px-5 py-2 border rounded w-[170px] mx-auto">Make a Meeting</h3>
+                                </Link>
+                            </li>
                         </ul>
                     </div>
                 </Drawer>
@@ -135,8 +141,8 @@ const Navbar = ({ handleThemeChange, theme }) => {
                     {manuItems}
                 </ul>
             </div>
-{/*
-            <div className="navbar-end hidden lg:flex">
+
+            {/* <div className="navbar-end hidden lg:flex">
 
                 {user ? (
                     <div className="dropdown dropdown-end">
@@ -218,8 +224,14 @@ const Navbar = ({ handleThemeChange, theme }) => {
                         </a>
                     </div>
                 )}
-            </div>
-*/}
+            </div> */}
+
+            <li className="navbar-end hidden lg:flex">
+                <Link to="meeting" className="mx-auto text-white">
+                    <h3 className="px-5 py-2 border rounded w-[170px] mx-auto">Make a Meeting</h3>
+                </Link>
+            </li>
+
             <div className="navbar-end lg:hidden flex">
 
                 <div className="dropdown">

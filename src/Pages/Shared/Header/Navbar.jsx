@@ -46,10 +46,10 @@ const Navbar = ({ handleThemeChange, theme }) => {
                     <div className="">
                         <ul tabIndex="0" className="bg-[#211f20] h-screen">
                             <Link to="/">
-                                <div className="flex items-center p-2 w-full">
+                                <div className="flex items-center w-full">
                                     {/* <img className="w-9 ml-3" src={wslogo} alt="image" /> */}
                                     <div className="ml-1 text-md font-sub font-bold mt-1">
-                                        <img className="w-[50%]" src={logo} alt="" />
+                                        <img className="h-[70px]" src={logo} alt="" />
                                     </div>
                                 </div>
                             </Link>
@@ -125,7 +125,7 @@ const Navbar = ({ handleThemeChange, theme }) => {
                     <div className="flex items-center">
                         {/* <img className="w-9 ml-3" src={wslogo} alt="image" /> */}
                         <div className="ml-1 text-md font-header font-bold">
-                            <img className="w-[50%]" src={logo} alt="" />
+                            <img className="h-[70px]" src={logo} alt="" />
                         </div>
                     </div>
                 </Link>

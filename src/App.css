@@ -39,29 +39,35 @@
 }
 .navItem:hover {
   color: #828b9a;
+  background-color: transparent;
+}
+.navItem:focus {
+  color: #828b9a;
+  background-color: transparent;
 }
 .active {
   position: relative;
   color: #ffffff;
+  background-color: transparent;
 }
 .active::after {
   content: "";
   position: absolute;
   color: #222f3e;
-  bottom: -5px;
+  bottom: -2px;
   width: 16px;
   height: 2px;
-  right: 0;
+  right: -1;
   background: #ff9f26 0% 0% no-repeat padding-box;
 }
 .navItem:hover::after {
   content: "";
   position: absolute;
   color: #222f3e;
-  bottom: -5px;
+  bottom: -2px;
   width: 16px;
   height: 2px;
-  right: 0;
+  right: -1;
   background: #ff9f26 0% 0% no-repeat padding-box;
 }
 .menu1 {

@@ -1,117 +1,238 @@
-import { AiOutlineClose } from "react-icons/ai";
+import { signOut } from "firebase/auth";
+import React, { useState } from "react";
+import { useAuthState } from "react-firebase-hooks/auth";
+import Drawer from "react-modern-drawer";
+import "react-modern-drawer/dist/index.css";
 import { Link, NavLink } from "react-router-dom";
-import logo from "../../../Assets/Public/Logo.png";
-import { NavbarData } from "../../../Data/NavbarData";
+import auth from "../../../firebase.init";
+import { HiBars3CenterLeft } from "react-icons/hi2";
+import logo from '../../../Assets/Public/Logo.png';
 
-const Navbar = () => {
+
+const Navbar = ({ handleThemeChange, theme }) => {
+    const [user] = useAuthState(auth);
+
+
+    const [isOpen, setIsOpen] = useState(false);
+    const toggleDrawer = () => {
+        setIsOpen((prevState) => !prevState);
+    };
+
+
+    const logout = () => {
+        signOut(auth);
+        //Token Remove
+        localStorage.removeItem("accessToken");
+    };
+
+    const manuItems = (
+        <>
+            <li>
+                <NavLink className="hover:rounded-none" to="/"> Home </NavLink>
+            </li>
+            <li>
+                <NavLink to="services">Services</NavLink>
+            </li>
+            <li>
+                <NavLink to="blogs">Blogs</NavLink>
+            </li>
+        </>
+    );
 
     return (
-        <nav>
-            <div className={`marginBottomNavbar`}>
-                <div className={`sticky-top bg-[#211F20]`}>
-                    <div className="flex justify-between z-50 items-center container py-1">
-                        <div className="hidden md:block w-1/5">
-                            <Link to="/" scroll legacyBehavior>
-
-                                <img
-                                    className="logo"
-                                    src={logo}
-                                    alt="emotion-production"
-                                    title="emotion-production"
-                                    height="70"
-                                    width="278"
-                                />
-
+        <div className="navbar sticky top-0 w-full z-50 lg:px-10 bg-[#211f20] backdrop-filter backdrop-blur-lg border-b-[0.5px] border-neutral">
+            <div className="navbar-start">
+                <Drawer open={isOpen} onClose={toggleDrawer} direction="left">
+                    <div className="">
+                        <ul tabIndex="0" className="bg-[#211f20] h-screen">
+                            <Link to="/">
+                                <div className="flex items-center p-2 w-full">
+                                    {/* <img className="w-9 ml-3" src={wslogo} alt="image" /> */}
+                                    <div className="ml-1 text-md font-sub font-bold mt-1">
+                                        <img className="w-[50%]" src={logo} alt="" />
+                                    </div>
+                                </div>
                             </Link>
-                        </div>
-                        <div className="block md:hidden">
-                            <Link to="/" scroll legacyBehavior>
-
-                                <img src={logo} alt="logo" height="31" width="170" />
-
-                            </Link>
-                        </div>
-                        <div className="hidden md:block w-3/5">
-                            <ul className="flex items-center justify-center">
-                                {NavbarData?.map((nav) => (
-                                    <li key={nav.id} className="mx-5 relative">
-                                        <NavLink
-                                            to={nav.link}
-                                            className={`navItem`}
-                                            legacyBehavior>
-
-                                            {nav.title}
-
-                                        </NavLink>
-                                    </li>
-                                ))}
+                            <ul className="menu menu-compact text-white py-7 text-xl">
+                                {manuItems}
                             </ul>
-                        </div>
-                        <div className="drawer-content block md:hidden">
-                            <label htmlFor="my-drawer" className="btn btn-primary drawer-button">
-                                <span className="menu1"></span>
-                                <span className="menu2"></span>
-                                <span className="menu3"></span>
-                            </label>
+                            {/* <li>
+                                {user ? (
+                                    <div>
+                                        <div className="flex flex-nowrap items-center cursor-pointer border-b border-neutral w-full">
+                                            <label className="avatar">
+                                                <div className="w-7 mx-2 my-2 rounded-full border border-gray-200">
+                                                    <img
+                                                        src={`${user?.photoURL
+                                                            ? user?.photoURL
+                                                            : "https://github.com/MShafiMS/admission/blob/gh-pages/profile.png?raw=true"
+                                                            }`}
+                                                        alt=""
+                                                    />
+                                                </div>
+                                            </label>
+                                        </div>
+                                        <ul className="menu menu-compact">
+                                            <li>
+                                                <NavLink className="hover:rounded-none" to={"profile"}>
+                                                    <i className="ml-4 fa-solid fa-user" />
+                                                    Profile
+                                                </NavLink>
+                                            </li>
+                                            <li>
+                                                <NavLink className="hover:rounded-none" to={"mycourse"}>
+                                                    <i className="ml-4 fa-solid fa-bolt"></i>My Courses
+                                                </NavLink>
+                                            </li>
+                                            <li>
+                                                <NavLink className="hover:rounded-none" to={"mybooks"}>
+                                                    <i className="ml-4 fa-solid fa-book"></i>My Books
+                                                </NavLink>
+                                            </li>
+                                            <li>
+                                                <a href="!#" className=" hover:rounded-none" onClick={logout}>
+                                                    <i className="ml-4 fa-solid fa-right-from-bracket"></i>
+                                                    Logout
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                ) : (
+                                    <div className="border-t border-neutral">
+                                        <li>
+                                            <Link
+                                                className="mt-3 mx-3 w-56 btn-info btn-sm btn rounded-full text-white hover:rounded-full font-thin"
+                                                to="Login"
+                                            >
+                                                Login
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            <Link
+                                                className="bg-[#494FC1] hover:bg-[#4a4e94] my-3 mx-3 w-56 hover:rounded-full btn-sm btn rounded-full text-white font-thin"
+                                                to="Signup"
+                                            >
+                                                Register
+                                            </Link>
+                                        </li>
+                                    </div>
+                                )}
+                            </li> */}
+                        </ul>
+                    </div>
+                </Drawer>
+                <Link to="/">
+                    <div className="flex items-center">
+                        {/* <img className="w-9 ml-3" src={wslogo} alt="image" /> */}
+                        <div className="ml-1 text-md font-header font-bold">
+                            <img className="w-[50%]" src={logo} alt="" />
                         </div>
                     </div>
+                </Link>
+            </div>
+            <div className="navbar-center hidden lg:flex">
+                <ul className="menu text-white menu-horizontal menu-compact p-0 gap-3 uppercase">
+                    {manuItems}
+                </ul>
+            </div>
+{/*
+            <div className="navbar-end hidden lg:flex">
+
+                {user ? (
+                    <div className="dropdown dropdown-end">
+                        <label tabIndex="0" className="btn btn-ghost btn-circle avatar">
+                            <div className="w-9 rounded-full">
+                                <img
+                                    src={`${user?.photoURL
+                                        ? user?.photoURL
+                                        : "https://github.com/MShafiMS/admission/blob/gh-pages/profile.png?raw=true"
+                                        }`}
+                                    alt=""
+                                />
+                            </div>
+                        </label>
+                        <ul
+                            tabIndex="0"
+                            className="mt-3 shadow menu menu-compact dropdown-content rounded-md w-56 bg-base-100 text-warning"
+                        >
+                            <div className="mx-auto mt-3">
+                                <div className="avatar">
+                                    <div className="w-20 rounded-full">
+                                        <img
+                                            src={`${user?.photoURL
+                                                ? user?.photoURL
+                                                : "https://github.com/MShafiMS/admission/blob/gh-pages/profile.png?raw=true"
+                                                }`}
+                                            alt=""
+                                        />
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="border-b border-neutral">
+                                <h1 className="text-lg text-center">
+                                    {
+                                </h1>
+                                <p className="text-xs mb-2 text-center">Student</p>
+                            </div>
+                            <li>
+                                <NavLink to={"profile"} className=" hover:rounded-none">
+                                    <i className="ml-4 fa-solid fa-user" />
+                                    Profile
+                                </NavLink>
+                            </li>
+                            <li>
+                                <NavLink to={"mycourse"} className="hover:rounded-none">
+                                    <i className="ml-4 fa-solid fa-bolt"></i>My Courses
+                                </NavLink>
+                            </li>
+                            <li>
+                                <NavLink className="hover:rounded-none" to={"mybooks"}>
+                                    <i className="ml-4 fa-solid fa-book"></i>My Books
+                                </NavLink>
+                            </li>
+                            <li>
+                                <NavLink to={"/orders"} className="hover:rounded-none">
+                                    <i className="ml-4 fa-solid fa-clock"></i>Payment History
+                                </NavLink>
+                            </li>
+                            <li>
+                                <a
+                                    href="!#"
+                                    onClick={logout}
+                                    className="hover:rounded-b-md hover:rounded-none text-red-600"
+                                >
+                                    <i className="ml-4 fa-solid fa-right-from-bracket"></i>
+                                    Logout
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                ) : (
+                    <div className="flex">
+                        <a href="!#" className="btn-accent btn-sm btn rounded-md text-white font-thin">
+                            <Link to="Login">Login</Link>
+                        </a>
+                        <div className="divider lg:divider-horizontal"></div>
+                        <a href="!#" className="bg-[#494FC1] hover:bg-[#4a4e94] btn-sm btn rounded-md text-white font-thin">
+                            <Link to="SignUp">Register</Link>
+                        </a>
+                    </div>
+                )}
+            </div>
+*/}
+            <div className="navbar-end lg:hidden flex">
+
+                <div className="dropdown">
+                    <label
+                        onClick={toggleDrawer}
+                        tabIndex="0"
+                        className="mx-4 text-3xl lg:hidden cursor-pointer"
+                    >
+                        <HiBars3CenterLeft className="text-white" />
+                    </label>
                 </div>
             </div>
-            {/* <div className="block md:hidden">
-                <div
-                    style={{ backgroundColor: "#828B9A" }}
-                    className={`offcanvas offcanvas-end zIndex`}
-                    tabIndex="-1"
-                    id="offcanvasRight"
-                    aria-labelledby="offcanvasRightLabel"
-                >
-                    
-                    <div className="offcanvas-header">
-                        <div className="ml-auto text-white">
-                            <AiOutlineClose
-                                size={24}
-                                data-bs-dismiss="offcanvas"
-                                aria-label="Close"
-                            />
-                        </div>
-                    </div>
-                    <div className="mx-auto">
-                        <Link to="/" scroll legacyBehavior>
-
-                            <img
-                                src={logo}
-                                height={100}
-                                width={150}
-                                alt="loading..."
-                                data-bs-dismiss="offcanvas"
-                                aria-label="Close"
-                            />
-
-                        </Link>
-                    </div>
-                    <div className="offcanvas-body">
-                        <div className="text-center">
-                            {NavbarData?.map((nav) => (
-                                <div
-                                    key={nav.id}
-                                    className={`navItemMobileHover my-2 py-2`}
-                                >
-                                    <NavLink to={nav.link} passHref legacyBehavior>
-                                        <span
-                                            className={`cursor-pointer`}
-                                            data-bs-dismiss="offcanvas"
-                                            aria-label="Close"
-                                        >
-                                            <a href={nav.link} className="navItemMobile">{nav.title}</a>
-                                        </span>
-                                    </NavLink>
-                                </div>
-                            ))}
-                        </div>
-                    </div>
-                </div>
-            </div> */}
-        </nav>
+        </div>
     );
 };
 

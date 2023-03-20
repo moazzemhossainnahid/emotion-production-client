@@ -1,0 +1,174 @@
+ body {
+     max-width: 1990px;
+     margin: 0 auto;
+     background-color: #211F20;
+ }
+
+ .container {
+     margin: 0 auto !important;
+ }
+ .navbar-end {
+    width: 85%;
+    justify-content: flex-end;
+}
+.navbar-start {
+    width: 15%;
+    justify-content: flex-start;
+}
+.nav-background{
+    
+border-bottom: 1px solid #211F2000
+#101010FF;
+}
+ nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+    position: relative;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+.menu li a{
+    opacity: 0.9 !important;
+    color: white !important;
+    font-family: Switzer !important;
+    font-size: 18px !important;
+    /* font-weight: undefined ; */
+    line-height: 22px !important;
+    letter-spacing: 0px !important;
+    text-align: left !important;
+    text-transform: capitalize !important;
+    margin-left: 32px !important;
+}
+.menu ul li a{
+    opacity: 0.9 !important;
+    color: black !important;
+    font-family: Switzer !important;
+    font-size: 18px !important;
+    /* font-weight: undefined ; */
+    line-height: 22px !important;
+    letter-spacing: 0px !important;
+    text-align: left !important;
+    text-transform: capitalize !important;
+    margin-left: 32px !important;
+}
+nav ul li a {
+    opacity: 0.9;
+    color: rgb(255, 255, 255);
+    font-family: Switzer;
+    font-size: 18px;
+    font-weight: undefined;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+    text-transform: capitalize;
+    margin-left: 32px;
+}
+
+nav li a:hover {
+    border-bottom: 1px solid white;
+}
+
+nav ul li:hover>ul {
+    display: block;
+}
+
+.dropdown-menu {
+   background: rgb(39, 39, 39);
+   box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.18);
+   border-radius: 7px;
+   display: none;
+   position: absolute;
+   background-color: #333;
+   width: 628px;
+   margin-left: -210px;
+}
+
+.dropdown-menu li {
+    margin: 0;
+    margin-top: 20px;
+}
+
+
+.dropdown-menu li a {
+   color: rgb(255, 255, 255);
+   font-family: Inter Tight;
+   font-size: 22px;
+   line-height: 27px;
+   letter-spacing: 0px;
+   text-align: left;
+   padding: 0px;
+   display: block;
+   text-decoration: none;
+   position: relative;
+   margin-left: 20px;
+}
+
+.dropdown-menu li a:hover {
+    border: none;
+}
+
+
+.arrow {
+   font-size: 40px;
+    margin-right: -85px;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    visibility: hidden;
+}
+
+.dropdown-menu li:hover .arrow,
+.dropdown:hover>a .arrow {
+    visibility: visible;
+}
+
+.navLastButton a {
+    color: rgb(216, 216, 216);
+    font-family: Switzer;
+    font-size: 16px;
+    font-weight: undefined;
+    line-height: 19px;
+    letter-spacing: 0px;
+    text-align: left;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 8px;
+}
+ .emotion h2{
+    color: rgb(255, 255, 255);
+font-family: Inter Tight;
+font-size: 54px;
+font-weight: undefined;
+line-height: 65px;
+letter-spacing: 0px;
+text-transform: capitalize;
+
+ }    
+.emotion .m-auto h2{
+    color: rgb(255, 255, 255);
+    font-family: Inter Tight;
+    font-size: 54px;
+    font-weight: undefined;
+    line-height: 65px;
+    letter-spacing: 0px;
+    text-transform: capitalize;
+}
+.emotion .m-auto p{
+    color: rgb(201, 201, 201);
+    font-family: Inter Tight;
+    font-size: 18px;
+    font-weight: undefined;
+    line-height: 31px;
+    letter-spacing: 0px;
+}
+.emotion img{
+    width: 450px;
+}

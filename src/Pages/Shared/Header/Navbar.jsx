@@ -40,7 +40,7 @@ const Navbar = ({ handleThemeChange, theme }) => {
     );
 
     return (
-        <div className="navbar sticky top-0 w-full z-50 lg:px-10 bg-[#211f20] backdrop-filter backdrop-blur-lg border-b-[0.5px] border-neutral">
+        <div className="navbar sticky top-0 w-full z-50 lg:px-10 bg-[#211f20] backdrop-filter backdrop-blur-lg border-b-[0.5px] border-gray-500">
             <div className="navbar-start">
                 <Drawer open={isOpen} onClose={toggleDrawer} direction="left">
                     <div className="">
@@ -121,7 +121,7 @@ const Navbar = ({ handleThemeChange, theme }) => {
 
                             <li>
                                 <Link to="meeting" className="mx-auto text-white">
-                                    <h3 className="px-5 py-2 border rounded w-[170px] mx-auto">Make a Meeting</h3>
+                                    <h3 className="px-5 py-2 border hover:border-primary hover:duration-150 rounded w-[170px] mx-auto">Make a Meeting</h3>
                                 </Link>
                             </li>
                         </ul>
@@ -228,7 +228,7 @@ const Navbar = ({ handleThemeChange, theme }) => {
 
             <li className="navbar-end hidden lg:flex">
                 <Link to="meeting" className="mx-auto text-white">
-                    <h3 className="px-5 py-2 border rounded w-[170px] mx-auto">Make a Meeting</h3>
+                    <h3 className="px-5 py-2 border hover:border-primary hover:duration-150 rounded w-[170px] mx-auto">Make a Meeting</h3>
                 </Link>
             </li>
 

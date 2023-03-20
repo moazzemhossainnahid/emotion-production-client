@@ -1,12 +1,12 @@
 import React from 'react';
+import Banner from '../../Components/Home/Banner';
 
 const Home = () => {
     return (
         <div>
-            <h3 className="text-rose-600 text-3xl">Welcome to Emotion Production</h3>
-            
+            <Banner />
         </div>
     );
 };
 
-export default Home; <br/>
+export default Home; <br />

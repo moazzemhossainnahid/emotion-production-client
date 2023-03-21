@@ -27,75 +27,104 @@ const Navbar = ({ handleThemeChange, theme }) => {
 
     const manuItems = (
         <>
-            <li>
+            {/* <li>
                 <NavLink className="hover:rounded-none" to="/"> Home </NavLink>
+            </li> */}
+            <li>
+                <NavLink className="hover:rounded-none" to="english"> English </NavLink>
+            </li>
+            <li>
+                <NavLink className="hover:rounded-none" to="concepts"> Concepts </NavLink>
+            </li>
+            <li>
+                <NavLink className="hover:rounded-none" to="empowerment"> Empowerment </NavLink>
             </li>
             <li class="dropdown">
-                <a href="#">Service</a>
+                <span>Services</span>
                 <ul class="dropdown-menu">
-                    <div className='mb-1 ml-5 flex items-center'>
-                        <span>
-                            <li className='flex items-center'>
-                                <span className='w-12 p-3 h-12 bg-downlist flex items-center rounded-full'>
-                                    <img className='w-7' src="https://i.ibb.co/L6Jkztx/Path-2.png" alt="" />
-                                </span>
-                                <a href="#">Digital Brand <span class="arrow">&rarr;</span></a>
-
+                    <div className='mb-1 -ml-52 -mt-3 bg-[#211f20] flex items-start rounded'>
+                        <div>
+                            <li className='flex items-center group'>
+                                <NavLink to="digitalbrand">
+                                    <span className='w-12 p-3 h-12 bg-[#707070] flex items-center rounded-full'>
+                                        <img className='w-7' src="https://i.ibb.co/L6Jkztx/Path-2.png" alt="" />
+                                    </span>
+                                    <p className="flex items-center"> Digital Brand </p>
+                                    <span class="text-transparent text-4xl -pt-5 group-hover:text-white">&rarr;</span>
+                                </NavLink>
                             </li>
-                            <li className='flex items-center'>
-                                <span className='w-12 p-3 h-12 bg-downlist flex items-center rounded-full'>
-                                    <img className='w-7' src="https://i.ibb.co/9bzLHG5/Group-792.png" alt="" />
-                                </span>
-                                <a href="#">Web Design<span class="arrow">&rarr;</span></a>
-
+                            <li className='flex items-center group'>
+                                <NavLink to="webdesign">
+                                    <span className='w-12 p-3 h-12 bg-[#707070] flex items-center rounded-full'>
+                                        <img className='w-7' src="https://i.ibb.co/9bzLHG5/Group-792.png" alt="" />
+                                    </span>
+                                    <p className="flex items-center"> Web Design </p>
+                                    <span class="text-transparent text-4xl -pt-5 group-hover:text-white">&rarr;</span>
+                                </NavLink>
                             </li>
-                            <li className='flex items-center'>
-                                <span className='w-12 p-3 h-12 bg-white  flex items-center rounded-full'>
-                                    <img className='w-7' src="https://i.ibb.co/XkFg5PV/package-box.png" alt="" />
-                                </span>
-                                <a href="#">Packaging<span class="arrow">&rarr;</span></a>
-
+                            <li className='flex items-center group'>
+                                <NavLink to="packaging">
+                                    <span className='w-12 p-3 h-12 bg-[#707070] flex items-center rounded-full'>
+                                        <img className='w-7' src="https://i.ibb.co/XkFg5PV/package-box.png" alt="" />
+                                    </span>
+                                    <p className="flex items-center"> Packaging </p>
+                                    <span class="text-transparent text-4xl -pt-5 group-hover:text-white">&rarr;</span>
+                                </NavLink>
                             </li>
-                            <li className='flex items-center'>
-                                <span className='w-12 p-3 h-12 bg-downlist flex items-center rounded-full'>
-                                    <img className='w-7' src="https://i.ibb.co/k9pRjt1/animation.png" alt="" />
-                                </span>
-                                <a href="#">Animation <span class="arrow">&rarr;</span></a>
-
+                            <li className='flex items-center group'>
+                                <NavLink to="animation">
+                                    <span className='w-12 p-3 h-12 bg-[#707070] flex items-center rounded-full'>
+                                        <img className='w-7' src="https://i.ibb.co/k9pRjt1/animation.png" alt="" />
+                                    </span>
+                                    <p className="flex items-center"> Animation </p>
+                                    <span class="text-transparent text-4xl -pt-5 group-hover:text-white">&rarr;</span>
+                                </NavLink>
                             </li>
-                        </span>
-                        <span className='ml-24 mt-0'>
-                            <li className='flex items-center'>
-                                <span className='w-12 p-3 h-12 bg-downlist flex items-center rounded-full'>
-                                    <img className='w-7' src="https://i.ibb.co/pZtx1mq/Design-32.png" alt="" />
-                                </span>
-                                <a href="#">Content Shotting <span class="arrow">&rarr;</span></a>
-
+                        </div>
+                        <div className='ml-24 mt-0 flex flex-col items-start'>
+                            <li className='flex items-center group'>
+                                <NavLink to="contantshotting">
+                                    <span className='w-12 p-3 h-12 bg-[#707070] flex items-center rounded-full'>
+                                        <img className='w-7' src="https://i.ibb.co/pZtx1mq/Design-32.png" alt="" />
+                                    </span>
+                                    <p className="flex items-center"> Content Shotting </p>
+                                    <span class="text-transparent text-4xl -pt-5 group-hover:text-white">&rarr;</span>
+                                </NavLink>
                             </li>
-                            <li className='flex items-center'>
-                                <span className='w-12 p-3 h-12 bg-downlist flex items-center rounded-full'>
-                                    <img className='w-7' src="https://i.ibb.co/zP51JbF/ux-design.png" alt="" />
-                                </span>
-                                <a href="#">UX UI Design<span class="arrow">&rarr;</span></a>
-
+                            <li className='flex items-center group'>
+                                <NavLink to="uiuxdesign">
+                                    <span className='w-12 p-3 h-12 bg-[#707070] flex items-center rounded-full'>
+                                        <img className='w-7' src="https://i.ibb.co/zP51JbF/ux-design.png" alt="" />
+                                    </span>
+                                    <p className="flex items-center"> UX UI Design </p>
+                                    <span class="text-transparent text-4xl -pt-5 group-hover:text-white">&rarr;</span>
+                                </NavLink>
                             </li>
-                            <li className='flex items-center'>
-                                <span className='w-12 p-3 h-12 bg-downlist flex items-center rounded-full'>
-                                    <img className='w-7' src=" https://i.ibb.co/0V2cnpt/prototype.png" alt="" />
-                                </span>
-                                <a href="#">Prototype <span class="arrow">&rarr;</span></a>
-
+                            <li className='flex items-center group'>
+                                <NavLink to="prototype">
+                                    <span className='w-12 p-3 h-12 bg-[#707070] flex items-center rounded-full'>
+                                        <img className='w-7' src="https://i.ibb.co/0V2cnpt/prototype.png" alt="" />
+                                    </span>
+                                    <p className="flex items-center"> Prototype </p>
+                                    <span class="text-transparent text-4xl -pt-5 group-hover:text-white">&rarr;</span>
+                                </NavLink>
                             </li>
-                            <li className='flex items-center'>
-                                <span className='w-12 p-3 h-12 flex items-center rounded-full'>
-                                    <img className='w-7' src=" " alt="" />
-                                </span>
-                                <a href="#"> <span class="arrow"></span></a>
+                            {/* <li className='flex items-center group'>
+                                <NavLink to="blogs">
+                                    <span className='w-12 p-3 h-12 bg-[#707070] flex items-center rounded-full'>
+                                        <img className='w-7' src="https://i.ibb.co/k9pRjt1/animation.png" alt="" />
+                                    </span>
+                                    <p className="flex items-center"> Animation </p>
+                                    <span class="text-transparent text-4xl -pt-5 group-hover:text-white">&rarr;</span>
+                                </NavLink>
+                            </li> */}
 
-                            </li>
-                        </span>
+                        </div>
                     </div>
                 </ul>
+            </li>
+            <li>
+                <NavLink to="brandportfolio">Brand Portfolios</NavLink>
             </li>
             <li>
                 <NavLink to="blogs">Blogs</NavLink>

@@ -5,7 +5,7 @@ import Drawer from "react-modern-drawer";
 import "react-modern-drawer/dist/index.css";
 import { Link, NavLink } from "react-router-dom";
 import auth from "../../../firebase.init";
-import { HiBars3CenterLeft } from "react-icons/hi2";
+import { HiBars3CenterLeft, HiFaceSmile } from "react-icons/hi2";
 import logo from '../../../Assets/Public/Logo.png';
 
 
@@ -132,6 +132,89 @@ const Navbar = ({ handleThemeChange, theme }) => {
         </>
     );
 
+    const mobileManuItems = (
+        <>
+            {/* <li>
+                <NavLink className="hover:rounded-none" to="/"> Home </NavLink>
+            </li> */}
+            <li>
+                <NavLink className="hover:rounded-none" to="english"> English </NavLink>
+            </li>
+            <li>
+                <NavLink className="hover:rounded-none" to="concepts"> Concepts </NavLink>
+            </li>
+            <li>
+                <NavLink className="hover:rounded-none" to="empowerment"> Empowerment </NavLink>
+            </li>
+            <li class="dropdown">
+                <span>Services &rarr;</span>
+                <ul class="dropdown-menu">
+                    <div className='mb-1 -ml-40 -mt-32 z-20 bg-[#211f20] flex flex-col items-start rounded'>
+                        <div>
+                            <li className='flex items-center group'>
+                                <NavLink to="digitalbrand">
+                                    <p className="flex items-center"> Digital Brand </p>
+                                    <span class="text-transparent text-4xl -pt-5 group-hover:text-white">&rarr;</span>
+                                </NavLink>
+                            </li>
+                            <li className='flex items-center group'>
+                                <NavLink to="webdesign">
+                                    <p className="flex items-center"> Web Design </p>
+                                    <span class="text-transparent text-4xl -pt-5 group-hover:text-white">&rarr;</span>
+                                </NavLink>
+                            </li>
+                            <li className='flex items-center group'>
+                                <NavLink to="packaging">
+                                    <p className="flex items-center"> Packaging </p>
+                                    <span class="text-transparent text-4xl -pt-5 group-hover:text-white">&rarr;</span>
+                                </NavLink>
+                            </li>
+                            <li className='flex items-center group'>
+                                <NavLink to="animation">
+                                    <p className="flex items-center"> Animation </p>
+                                    <span class="text-transparent text-4xl -pt-5 group-hover:text-white">&rarr;</span>
+                                </NavLink>
+                            </li>
+                        </div>
+                        <div className='flex flex-col items-start'>
+                            <li className='flex items-center group'>
+                                <NavLink to="contantshotting">
+                                    <p className="flex items-center"> Content Shotting </p>
+                                    <span class="text-transparent text-4xl -pt-5 group-hover:text-white">&rarr;</span>
+                                </NavLink>
+                            </li>
+                            <li className='flex items-center group'>
+                                <NavLink to="uiuxdesign">
+                                    <p className="flex items-center"> UX UI Design </p>
+                                    <span class="text-transparent text-4xl -pt-5 group-hover:text-white">&rarr;</span>
+                                </NavLink>
+                            </li>
+                            <li className='flex items-center group'>
+                                <NavLink to="prototype">
+                                    <p className="flex items-center"> Prototype </p>
+                                    <span class="text-transparent text-4xl -pt-5 group-hover:text-white">&rarr;</span>
+                                </NavLink>
+                            </li>
+                            {/* <li className='flex items-center group'>
+                                <NavLink to="blogs">
+                                    <p className="flex items-center"> Animation </p>
+                                    <span class="text-transparent text-4xl -pt-5 group-hover:text-white">&rarr;</span>
+                                </NavLink>
+                            </li> */}
+
+                        </div>
+                    </div>
+                </ul>
+            </li>
+            <li>
+                <NavLink to="brandportfolio">Brand Portfolios</NavLink>
+            </li>
+            <li>
+                <NavLink to="blogs">Blogs</NavLink>
+            </li>
+        </>
+    );
+
     return (
         <div className="navbar sticky top-0 w-full z-50 lg:px-10 bg-[#211f20] backdrop-filter backdrop-blur-lg border-b-[0.5px] border-gray-500">
             <div className="navbar-start">
@@ -147,7 +230,7 @@ const Navbar = ({ handleThemeChange, theme }) => {
                                 </div>
                             </Link>
                             <ul className="menu menu-compact text-white py-7 text-xl">
-                                {manuItems}
+                                {mobileManuItems}
                             </ul>
                             {/* <li>
                                 {user ? (

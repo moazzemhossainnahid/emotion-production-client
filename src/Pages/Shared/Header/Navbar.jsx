@@ -30,8 +30,72 @@ const Navbar = ({ handleThemeChange, theme }) => {
             <li>
                 <NavLink className="hover:rounded-none" to="/"> Home </NavLink>
             </li>
-            <li>
-                <NavLink to="services">Services</NavLink>
+            <li class="dropdown">
+                <a href="#">Service</a>
+                <ul class="dropdown-menu">
+                    <div className='mb-1 ml-5 flex items-center'>
+                        <span>
+                            <li className='flex items-center'>
+                                <span className='w-12 p-3 h-12 bg-downlist flex items-center rounded-full'>
+                                    <img className='w-7' src="https://i.ibb.co/L6Jkztx/Path-2.png" alt="" />
+                                </span>
+                                <a href="#">Digital Brand <span class="arrow">&rarr;</span></a>
+
+                            </li>
+                            <li className='flex items-center'>
+                                <span className='w-12 p-3 h-12 bg-downlist flex items-center rounded-full'>
+                                    <img className='w-7' src="https://i.ibb.co/9bzLHG5/Group-792.png" alt="" />
+                                </span>
+                                <a href="#">Web Design<span class="arrow">&rarr;</span></a>
+
+                            </li>
+                            <li className='flex items-center'>
+                                <span className='w-12 p-3 h-12 bg-white  flex items-center rounded-full'>
+                                    <img className='w-7' src="https://i.ibb.co/XkFg5PV/package-box.png" alt="" />
+                                </span>
+                                <a href="#">Packaging<span class="arrow">&rarr;</span></a>
+
+                            </li>
+                            <li className='flex items-center'>
+                                <span className='w-12 p-3 h-12 bg-downlist flex items-center rounded-full'>
+                                    <img className='w-7' src="https://i.ibb.co/k9pRjt1/animation.png" alt="" />
+                                </span>
+                                <a href="#">Animation <span class="arrow">&rarr;</span></a>
+
+                            </li>
+                        </span>
+                        <span className='ml-24 mt-0'>
+                            <li className='flex items-center'>
+                                <span className='w-12 p-3 h-12 bg-downlist flex items-center rounded-full'>
+                                    <img className='w-7' src="https://i.ibb.co/pZtx1mq/Design-32.png" alt="" />
+                                </span>
+                                <a href="#">Content Shotting <span class="arrow">&rarr;</span></a>
+
+                            </li>
+                            <li className='flex items-center'>
+                                <span className='w-12 p-3 h-12 bg-downlist flex items-center rounded-full'>
+                                    <img className='w-7' src="https://i.ibb.co/zP51JbF/ux-design.png" alt="" />
+                                </span>
+                                <a href="#">UX UI Design<span class="arrow">&rarr;</span></a>
+
+                            </li>
+                            <li className='flex items-center'>
+                                <span className='w-12 p-3 h-12 bg-downlist flex items-center rounded-full'>
+                                    <img className='w-7' src=" https://i.ibb.co/0V2cnpt/prototype.png" alt="" />
+                                </span>
+                                <a href="#">Prototype <span class="arrow">&rarr;</span></a>
+
+                            </li>
+                            <li className='flex items-center'>
+                                <span className='w-12 p-3 h-12 flex items-center rounded-full'>
+                                    <img className='w-7' src=" " alt="" />
+                                </span>
+                                <a href="#"> <span class="arrow"></span></a>
+
+                            </li>
+                        </span>
+                    </div>
+                </ul>
             </li>
             <li>
                 <NavLink to="blogs">Blogs</NavLink>

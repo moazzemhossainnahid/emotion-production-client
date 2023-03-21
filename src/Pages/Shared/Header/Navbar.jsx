@@ -31,7 +31,7 @@ const Navbar = ({ handleThemeChange, theme }) => {
                 <NavLink className="hover:rounded-none" to="/"> Home </NavLink>
             </li> */}
             <li>
-                <NavLink className="hover:rounded-none" to="english"> English </NavLink>
+                <NavLink className="hover:rounded-none" to="/"> English </NavLink>
             </li>
             <li>
                 <NavLink className="hover:rounded-none" to="concepts"> Concepts </NavLink>
@@ -138,7 +138,7 @@ const Navbar = ({ handleThemeChange, theme }) => {
                 <NavLink className="hover:rounded-none" to="/"> Home </NavLink>
             </li> */}
             <li>
-                <NavLink className="hover:rounded-none" to="english"> English </NavLink>
+                <NavLink className="hover:rounded-none" to="/"> English </NavLink>
             </li>
             <li>
                 <NavLink className="hover:rounded-none" to="concepts"> Concepts </NavLink>

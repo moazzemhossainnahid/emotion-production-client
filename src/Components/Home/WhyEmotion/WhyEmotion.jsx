@@ -12,7 +12,7 @@ const WhyEmotion = () => {
 
 
                         <li class="nav-item" role="presentation">
-                            <a href="#tabs-company" class="" id="tabs-company-tab" data-bs-toggle="pill" data-bs-target="#tabs-home" role="tab" aria-controls="tabs-home"
+                            <a href="#tabs-company" class="" id="tabs-company-tab" data-bs-toggle="pill" data-bs-target="#tabs-company" role="tab" aria-controls="tabs-company"
                                 aria-selected="true">
                                 <div class="card hover:bg-neutral focus:bg-neutral rounded-full m-2">
                                     <div class="card-body">
@@ -22,8 +22,8 @@ const WhyEmotion = () => {
                             </a>
                         </li>
                         <li class="nav-item" role="presentation">
-                            <a href="#tabs-owner" class="" id="tabs-owner-tab" data-bs-toggle="pill" data-bs-target="#tabs-profile" role="tab"
-                                aria-controls="tabs-profile" aria-selected="false">
+                            <a href="#tabs-owner" class="" id="tabs-owner-tab" data-bs-toggle="pill" data-bs-target="#tabs-owner" role="tab"
+                                aria-controls="tabs-owner" aria-selected="false">
                                 <div class="card hover:bg-neutral focus:bg-neutral rounded-full m-2">
                                     <div class="card-body">
                                         <p className='text-white'>Owner</p>
@@ -34,10 +34,10 @@ const WhyEmotion = () => {
 
                     </ul>
                     <div class="tab-content" id="tabs-tabContent">
-                        <div class="tab-pane fade show active" id="tabs-company" role="tabpanel" aria-labelledby="tabs-home-tab">
+                        <div class="tab-pane fade show active" id="tabs-company" role="tabpanel" aria-labelledby="tabs-company-tab">
                             <Company/>
                         </div>
-                        <div class="tab-pane fade" id="tabs-owner" role="tabpanel" aria-labelledby="tabs-profile-tab">
+                        <div class="tab-pane fade" id="tabs-owner" role="tabpanel" aria-labelledby="tabs-owner-tab">
                             <Owner/> 
                         </div>
                     </div>

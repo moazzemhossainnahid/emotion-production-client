@@ -11,4 +11,4 @@ const Home = () => {
     );
 };
 
-export default Home; <br />
+export default Home;

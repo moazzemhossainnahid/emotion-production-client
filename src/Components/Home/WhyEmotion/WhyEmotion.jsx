@@ -1,4 +1,6 @@
 import React from 'react';
+import Company from './Company';
+import Owner from './Owner';
 
 const WhyEmotion = () => {
     return (
@@ -33,10 +35,10 @@ const WhyEmotion = () => {
                     </ul>
                     <div class="tab-content" id="tabs-tabContent">
                         <div class="tab-pane fade show active" id="tabs-company" role="tabpanel" aria-labelledby="tabs-home-tab">
-                            {/* <Accounts /> */}
+                            <Company/>
                         </div>
                         <div class="tab-pane fade" id="tabs-owner" role="tabpanel" aria-labelledby="tabs-profile-tab">
-                            {/* <OurCards /> */}
+                            <Owner/> 
                         </div>
                     </div>
                 </div>

@@ -9,21 +9,21 @@ const WhyEmotion = () => {
                 <div className="drawer">
                     <div className="drawer-content flex flex-col">
                         {/* <!-- Navbar --> */}
-                        <div className="w-5/6 md:w-1/4 mx-auto navbar bg-base-300 rounded-full">
-                            <div className="flex-none">
-                                <ul className="menu menu-horizontal flex justify-center w-full mx-auto ">
+                        <div className="w-5/6 md:w-1/5 mx-auto navbar bg-base-300 rounded-full">
+                            <div className="w-full mx-auto ">
+                                <ul className="menu menu-horizontal flex justify-between items-center w-full mx-auto ">
                                     {/* <!-- Navbar menu content here --> */}
-                                    <li className='flex w-1/2 mx-auto rounded-full'>
+                                    <li className='flex justify-center w-1/2 mx-auto rounded-full'>
                                         <Link className='focus:bg-black focus:text-white' to="company"> Company </Link>
                                     </li>
-                                    <li className='flex w-1/2 mx-auto rounded-full'>
+                                    <li className='flex justify-center w-1/2 mx-auto rounded-full'>
                                         <Link className='focus:bg-black focus:text-white' to="owner"> Owner </Link>
                                     </li>
                                 </ul>
                             </div>
                         </div>
                         {/* <!-- Page content here --> */}
-                        <div className="h-96 w-full">
+                        <div className="h-full w-full pt-16">
                             <Outlet />
                         </div>
                     </div>

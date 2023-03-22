@@ -17,7 +17,6 @@ function App() {
           <Route path='company' element={<Company/>} />
           <Route path='owner' element={<Owner/>} />
         </Route>
-
         <Route path='services' element={<Services />} />
         <Route path='blogs' element={<Blogs />} />
       </Routes>

@@ -3,7 +3,7 @@ import React from 'react';
 const OurWorks = () => {
     return (
         <div className='container p-3 md:p-1 w-full md:w-5/6 mx-auto py-10'>
-            <div className="flex flex-col md:flex-row justify-between items-center gap-5 py-20">
+            <div className="flex flex-col md:flex-row justify-between items-center gap-5 md:py-20">
                 <div className="text-white md:text-start order-2 md:order-1">
                     <h3 className="text-3xl md:text-4xl">Lorem Ipsum is simply</h3>
                     <div className="pt-3">

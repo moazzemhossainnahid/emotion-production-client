@@ -2,7 +2,7 @@ import React from 'react';
 
 const BrandConcepts = () => {
     return (
-        <div className='container p-3 md:p-1 py-20'>
+        <div className='container p-3'>
             <div className=" w-full md:w-5/6 mx-auto py-10">
                 <div className="bg-[url('https://svgshare.com/i/rNr.svg')] relative rounded-3xl flex items-center md:w-2/3 h-[80vh] md:h-[75vh] bg-cover p-7">
                     <div className="bg-[#211F20] text-white rounded-2xl p-5 m-5 md:w-2/3 text-start absolute -right-0 md:-right-52">

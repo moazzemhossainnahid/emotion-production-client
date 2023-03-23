@@ -109,15 +109,15 @@ const Navbar = ({ handleThemeChange, theme }) => {
                                     <span class="text-transparent text-4xl -pt-5 group-hover:text-white">&rarr;</span>
                                 </NavLink>
                             </li>
-                            {/* <li className='flex items-center group'>
+                            <li className='flex items-center group'>
                                 <NavLink to="blogs">
                                     <span className='w-12 p-3 h-12 bg-[#707070] flex items-center rounded-full'>
                                         <img className='w-7' src="https://i.ibb.co/k9pRjt1/animation.png" alt="" />
                                     </span>
-                                    <p className="flex items-center"> Animation </p>
+                                    <p className="flex items-center"> Accessories </p>
                                     <span class="text-transparent text-4xl -pt-5 group-hover:text-white">&rarr;</span>
                                 </NavLink>
-                            </li> */}
+                            </li>
 
                         </div>
                     </div>
@@ -195,12 +195,12 @@ const Navbar = ({ handleThemeChange, theme }) => {
                                     <span class="text-transparent text-4xl -pt-5 group-hover:text-white">&rarr;</span>
                                 </NavLink>
                             </li>
-                            {/* <li className='flex items-center group'>
+                            <li className='flex items-center group'>
                                 <NavLink to="blogs">
-                                    <p className="flex items-center"> Animation </p>
+                                    <p className="flex items-center"> Accessories </p>
                                     <span class="text-transparent text-4xl -pt-5 group-hover:text-white">&rarr;</span>
                                 </NavLink>
-                            </li> */}
+                            </li>
 
                         </div>
                     </div>

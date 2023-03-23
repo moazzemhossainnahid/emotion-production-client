@@ -1,16 +1,16 @@
-import { signOut } from "firebase/auth";
+// import { signOut } from "firebase/auth";
 import React, { useState } from "react";
-import { useAuthState } from "react-firebase-hooks/auth";
+// import { useAuthState } from "react-firebase-hooks/auth";
 import Drawer from "react-modern-drawer";
 import "react-modern-drawer/dist/index.css";
 import { Link, NavLink } from "react-router-dom";
-import auth from "../../../firebase.init";
+// import auth from "../../../firebase.init";
 import { HiBars3CenterLeft } from "react-icons/hi2";
 import logo from '../../../Assets/Public/Logo.png';
 
 
 const Navbar = ({ handleThemeChange, theme }) => {
-    const [user] = useAuthState(auth);
+    // const [user] = useAuthState(auth);
 
 
     const [isOpen, setIsOpen] = useState(false);
@@ -19,11 +19,11 @@ const Navbar = ({ handleThemeChange, theme }) => {
     };
 
 
-    const logout = () => {
-        signOut(auth);
-        //Token Remove
-        localStorage.removeItem("accessToken");
-    };
+    // const logout = () => {
+    //     signOut(auth);
+    //     //Token Remove
+    //     localStorage.removeItem("accessToken");
+    // };
 
     const manuItems = (
         <>

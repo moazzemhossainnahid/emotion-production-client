@@ -12,7 +12,6 @@ import Packaging from './Pages/Services/Service/Packaging';
 import Prototype from './Pages/Services/Service/Prototype';
 import UiUxService from './Pages/Services/Service/UiUxService';
 import WebDesign from './Pages/Services/Service/WebDesign';
-import Services from './Pages/Services/Services';
 import Footer from './Pages/Shared/Footer/Footer';
 
 import Navbar from './Pages/Shared/Header/Navbar';

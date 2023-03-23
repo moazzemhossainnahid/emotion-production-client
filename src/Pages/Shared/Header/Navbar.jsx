@@ -5,7 +5,7 @@ import Drawer from "react-modern-drawer";
 import "react-modern-drawer/dist/index.css";
 import { Link, NavLink } from "react-router-dom";
 import auth from "../../../firebase.init";
-import { HiBars3CenterLeft, HiFaceSmile } from "react-icons/hi2";
+import { HiBars3CenterLeft } from "react-icons/hi2";
 import logo from '../../../Assets/Public/Logo.png';
 
 
@@ -40,7 +40,8 @@ const Navbar = ({ handleThemeChange, theme }) => {
                 <NavLink className="hover:rounded-none" to="empowerment"> Empowerment </NavLink>
             </li>
             <li class="dropdown">
-                <span>Services</span>
+                <span><NavLink to="services">Services</NavLink></span>
+                {/* <span>Services</span> */}
                 <ul class="dropdown-menu">
                     <div className='mb-1 -ml-52 -mt-3 bg-[#211f20] flex items-start rounded'>
                         <div>
@@ -147,7 +148,8 @@ const Navbar = ({ handleThemeChange, theme }) => {
                 <NavLink className="hover:rounded-none" to="empowerment"> Empowerment </NavLink>
             </li>
             <li class="dropdown">
-                <span>Services &rarr;</span>
+                <span><NavLink to="services">Services</NavLink> &rarr;</span>
+                {/* <span>Services &rarr;</span> */}
                 <ul class="dropdown-menu">
                     <div className='mb-1 -ml-40 -mt-32 z-20 bg-[#211f20] flex flex-col items-start rounded'>
                         <div>

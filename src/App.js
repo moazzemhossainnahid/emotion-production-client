@@ -2,7 +2,6 @@ import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import Blogs from './Pages/Blogs/Blogs';
 import Home from './Pages/Home/Home';
-
 import Services from './Pages/Services/Services';
 
 import Navbar from './Pages/Shared/Header/Navbar';

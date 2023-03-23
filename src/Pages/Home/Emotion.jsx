@@ -23,19 +23,6 @@ const Emotion = () => {
                   <img className='w-' src={bg} alt="" />
                 </div>
             </div>
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
         </div>
     );
 };

@@ -40,8 +40,7 @@ const Navbar = ({ handleThemeChange, theme }) => {
                 <NavLink className="hover:rounded-none" to="empowerment"> Empowerment </NavLink>
             </li>
             <li class="dropdown">
-                <span><NavLink to="services">Services</NavLink></span>
-                {/* <span>Services</span> */}
+                <span>Services</span>
                 <ul class="dropdown-menu">
                     <div className='mb-1 -ml-52 -mt-3 bg-[#211f20] flex items-start rounded'>
                         <div>
@@ -148,8 +147,7 @@ const Navbar = ({ handleThemeChange, theme }) => {
                 <NavLink className="hover:rounded-none" to="empowerment"> Empowerment </NavLink>
             </li>
             <li class="dropdown">
-                <span><NavLink to="services">Services</NavLink> &rarr;</span>
-                {/* <span>Services &rarr;</span> */}
+                <span>Services &rarr;</span>
                 <ul class="dropdown-menu">
                     <div className='mb-1 -ml-40 -mt-32 z-20 bg-[#211f20] flex flex-col items-start rounded'>
                         <div>

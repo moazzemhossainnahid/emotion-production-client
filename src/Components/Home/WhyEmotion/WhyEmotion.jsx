@@ -1,44 +1,30 @@
 import React from 'react';
-import Company from './Company';
-import Owner from './Owner';
+import { Link, Outlet } from 'react-router-dom';
 
 const WhyEmotion = () => {
     return (
         <div className='py-10'>
             <h3 className="text-2xl md:text-3xl text-white font-bold">Why Emotion</h3>
             <section className='flex items-center justify-center w-full mx-auto my-20'>
-                <div className='w-full mx-auto'>
-                    <ul class="nav nav-tabs grid grid-cols-2 md:flex-row flex-wrap list-none border-b-0 mb-4 bg-white rounded-full justify-center w-1/3 mx-auto gap-4" id="tabs-tab" role="tablist">
-
-
-                        <li class="nav-item" role="presentation">
-                            <a href="#tabs-company" class="" id="tabs-company-tab" data-bs-toggle="pill" data-bs-target="#tabs-company" role="tab" aria-controls="tabs-company"
-                                aria-selected="true">
-                                <div class="card hover:bg-neutral focus:bg-neutral rounded-full m-2">
-                                    <div class="card-body">
-                                        <p className='text-white'>Company</p>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="nav-item" role="presentation">
-                            <a href="#tabs-owner" class="" id="tabs-owner-tab" data-bs-toggle="pill" data-bs-target="#tabs-owner" role="tab"
-                                aria-controls="tabs-owner" aria-selected="false">
-                                <div class="card hover:bg-neutral focus:bg-neutral rounded-full m-2">
-                                    <div class="card-body">
-                                        <p className='text-white'>Owner</p>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-
-                    </ul>
-                    <div class="tab-content" id="tabs-tabContent">
-                        <div class="tab-pane fade show active" id="tabs-company" role="tabpanel" aria-labelledby="tabs-company-tab">
-                            <Company/>
+                <div className="drawer">
+                    <div className="drawer-content flex flex-col">
+                        {/* <!-- Navbar --> */}
+                        <div className="w-5/6 md:w-1/5 mx-auto navbar bg-base-300 rounded-full">
+                            <div className="w-full mx-auto ">
+                                <ul className="menu menu-horizontal flex justify-between items-center w-full mx-auto ">
+                                    {/* <!-- Navbar menu content here --> */}
+                                    <li className='flex justify-center w-1/2 mx-auto rounded-full'>
+                                        <Link className='focus:bg-black focus:text-white' to="company"> Company </Link>
+                                    </li>
+                                    <li className='flex justify-center w-1/2 mx-auto rounded-full'>
+                                        <Link className='focus:bg-black focus:text-white' to="owner"> Owner </Link>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
-                        <div class="tab-pane fade" id="tabs-owner" role="tabpanel" aria-labelledby="tabs-owner-tab">
-                            <Owner/> 
+                        {/* <!-- Page content here --> */}
+                        <div className="h-full w-full pt-16">
+                            <Outlet />
                         </div>
                     </div>
                 </div>

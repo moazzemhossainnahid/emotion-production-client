@@ -10,13 +10,13 @@ module.exports = {
         "accent": "#1FB2A6", 
         "neutral": "#191D24",   
         "base-100": "#ffff",
-        "info": "#3ABFF8",
+        "info": "#171717",
         "success": "#36D399",
-        "warning": "#FBBD23",
+        "warning": "#1d1d1d",
         "error": "#F87272",
         },
       },
     ],
   },
-  plugins: [require("daisyui")]
-}
+  plugins: [require("daisyui")
+] }

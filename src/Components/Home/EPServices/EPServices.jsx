@@ -21,7 +21,7 @@ const EPServices = () => {
                     </div>
                     <button className='bg-[#5B5B5B] px-5 py-3 rounded text-white'>Make a Meeting</button>
                 </div>
-                <div className="w-full md:w-3/6 mx-auto">
+                <div className="w-full md:w-3/6 mx-auto p-2">
                     <img src="https://i.ibb.co/XYQSQF3/Group-763.png" alt="" className="" />
                 </div>
             </div>

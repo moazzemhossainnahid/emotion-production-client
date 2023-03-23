@@ -210,11 +210,15 @@
 
 // export default Services;
 
+import React from 'react';
+import { Outlet } from 'react-router-dom';
 
-// // 3 https://i.ibb.co/XkFg5PV/package-box.png
-// //1 https://i.ibb.co/L6Jkztx/Path-2.png
-// //7 https://i.ibb.co/0V2cnpt/prototype.png
-// //6 https://i.ibb.co/zP51JbF/ux-design.png
-// //4 https://i.ibb.co/k9pRjt1/animation.png
-// //5 https://i.ibb.co/pZtx1mq/Design-32.png
-// //2 https://i.ibb.co/9bzLHG5/Group-792.png
+const Services = () => {
+    return (
+        <div>
+            <Outlet/>
+        </div>
+    );
+};
+
+export default Services;

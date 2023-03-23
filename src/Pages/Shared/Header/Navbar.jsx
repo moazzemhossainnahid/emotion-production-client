@@ -40,12 +40,12 @@ const Navbar = ({ handleThemeChange, theme }) => {
                 <NavLink className="hover:rounded-none" to="empowerment"> Empowerment </NavLink>
             </li>
             <li class="dropdown">
-                <span>Services</span>
+                <span> Services </span>
                 <ul class="dropdown-menu">
                     <div className='mb-1 -ml-52 -mt-3 bg-[#211f20] flex items-start rounded'>
                         <div>
                             <li className='flex items-center group'>
-                                <NavLink to="digitalbrand">
+                                <NavLink to="service/digitalbrand">
                                     <span className='w-12 p-3 h-12 bg-[#707070] flex items-center rounded-full'>
                                         <img className='w-7' src="https://i.ibb.co/L6Jkztx/Path-2.png" alt="" />
                                     </span>
@@ -54,7 +54,7 @@ const Navbar = ({ handleThemeChange, theme }) => {
                                 </NavLink>
                             </li>
                             <li className='flex items-center group'>
-                                <NavLink to="webdesign">
+                                <NavLink to="service/webdesign">
                                     <span className='w-12 p-3 h-12 bg-[#707070] flex items-center rounded-full'>
                                         <img className='w-7' src="https://i.ibb.co/9bzLHG5/Group-792.png" alt="" />
                                     </span>
@@ -63,7 +63,7 @@ const Navbar = ({ handleThemeChange, theme }) => {
                                 </NavLink>
                             </li>
                             <li className='flex items-center group'>
-                                <NavLink to="packaging">
+                                <NavLink to="service/packaging">
                                     <span className='w-12 p-3 h-12 bg-[#707070] flex items-center rounded-full'>
                                         <img className='w-7' src="https://i.ibb.co/XkFg5PV/package-box.png" alt="" />
                                     </span>
@@ -72,7 +72,7 @@ const Navbar = ({ handleThemeChange, theme }) => {
                                 </NavLink>
                             </li>
                             <li className='flex items-center group'>
-                                <NavLink to="animation">
+                                <NavLink to="service/animation">
                                     <span className='w-12 p-3 h-12 bg-[#707070] flex items-center rounded-full'>
                                         <img className='w-7' src="https://i.ibb.co/k9pRjt1/animation.png" alt="" />
                                     </span>
@@ -83,7 +83,7 @@ const Navbar = ({ handleThemeChange, theme }) => {
                         </div>
                         <div className='ml-24 mt-0 flex flex-col items-start'>
                             <li className='flex items-center group'>
-                                <NavLink to="contantshotting">
+                                <NavLink to="service/contantshotting">
                                     <span className='w-12 p-3 h-12 bg-[#707070] flex items-center rounded-full'>
                                         <img className='w-7' src="https://i.ibb.co/pZtx1mq/Design-32.png" alt="" />
                                     </span>
@@ -92,7 +92,7 @@ const Navbar = ({ handleThemeChange, theme }) => {
                                 </NavLink>
                             </li>
                             <li className='flex items-center group'>
-                                <NavLink to="uiuxdesign">
+                                <NavLink to="service/uiuxdesign">
                                     <span className='w-12 p-3 h-12 bg-[#707070] flex items-center rounded-full'>
                                         <img className='w-7' src="https://i.ibb.co/zP51JbF/ux-design.png" alt="" />
                                     </span>
@@ -101,7 +101,7 @@ const Navbar = ({ handleThemeChange, theme }) => {
                                 </NavLink>
                             </li>
                             <li className='flex items-center group'>
-                                <NavLink to="prototype">
+                                <NavLink to="service/prototype">
                                     <span className='w-12 p-3 h-12 bg-[#707070] flex items-center rounded-full'>
                                         <img className='w-7' src="https://i.ibb.co/0V2cnpt/prototype.png" alt="" />
                                     </span>
@@ -110,7 +110,7 @@ const Navbar = ({ handleThemeChange, theme }) => {
                                 </NavLink>
                             </li>
                             <li className='flex items-center group'>
-                                <NavLink to="blogs">
+                                <NavLink to="service/accessories">
                                     <span className='w-12 p-3 h-12 bg-[#707070] flex items-center rounded-full'>
                                         <img className='w-7' src="https://i.ibb.co/k9pRjt1/animation.png" alt="" />
                                     </span>
@@ -152,25 +152,25 @@ const Navbar = ({ handleThemeChange, theme }) => {
                     <div className='mb-1 -ml-40 -mt-32 z-20 bg-[#211f20] flex flex-col items-start rounded'>
                         <div>
                             <li className='flex items-center group'>
-                                <NavLink to="digitalbrand">
+                                <NavLink to="service/digitalbrand">
                                     <p className="flex items-center"> Digital Brand </p>
                                     <span class="text-transparent text-4xl -pt-5 group-hover:text-white">&rarr;</span>
                                 </NavLink>
                             </li>
                             <li className='flex items-center group'>
-                                <NavLink to="webdesign">
+                                <NavLink to="service/webdesign">
                                     <p className="flex items-center"> Web Design </p>
                                     <span class="text-transparent text-4xl -pt-5 group-hover:text-white">&rarr;</span>
                                 </NavLink>
                             </li>
                             <li className='flex items-center group'>
-                                <NavLink to="packaging">
+                                <NavLink to="service/packaging">
                                     <p className="flex items-center"> Packaging </p>
                                     <span class="text-transparent text-4xl -pt-5 group-hover:text-white">&rarr;</span>
                                 </NavLink>
                             </li>
                             <li className='flex items-center group'>
-                                <NavLink to="animation">
+                                <NavLink to="service/animation">
                                     <p className="flex items-center"> Animation </p>
                                     <span class="text-transparent text-4xl -pt-5 group-hover:text-white">&rarr;</span>
                                 </NavLink>
@@ -178,25 +178,25 @@ const Navbar = ({ handleThemeChange, theme }) => {
                         </div>
                         <div className='flex flex-col items-start'>
                             <li className='flex items-center group'>
-                                <NavLink to="contantshotting">
+                                <NavLink to="service/contantshotting">
                                     <p className="flex items-center"> Content Shotting </p>
                                     <span class="text-transparent text-4xl -pt-5 group-hover:text-white">&rarr;</span>
                                 </NavLink>
                             </li>
                             <li className='flex items-center group'>
-                                <NavLink to="uiuxdesign">
+                                <NavLink to="service/uiuxdesign">
                                     <p className="flex items-center"> UX UI Design </p>
                                     <span class="text-transparent text-4xl -pt-5 group-hover:text-white">&rarr;</span>
                                 </NavLink>
                             </li>
                             <li className='flex items-center group'>
-                                <NavLink to="prototype">
+                                <NavLink to="service/prototype">
                                     <p className="flex items-center"> Prototype </p>
                                     <span class="text-transparent text-4xl -pt-5 group-hover:text-white">&rarr;</span>
                                 </NavLink>
                             </li>
                             <li className='flex items-center group'>
-                                <NavLink to="blogs">
+                                <NavLink to="service/accessories">
                                     <p className="flex items-center"> Accessories </p>
                                     <span class="text-transparent text-4xl -pt-5 group-hover:text-white">&rarr;</span>
                                 </NavLink>

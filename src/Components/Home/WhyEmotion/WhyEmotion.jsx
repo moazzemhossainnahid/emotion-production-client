@@ -14,10 +14,10 @@ const WhyEmotion = () => {
                                 <ul className="menu menu-horizontal flex justify-between items-center w-full mx-auto ">
                                     {/* <!-- Navbar menu content here --> */}
                                     <li className='flex justify-center w-1/2 mx-auto rounded-full'>
-                                        <Link className='focus:bg-black focus:text-white' to="company"> Company </Link>
+                                        <Link className='focus:bg-black focus:text-white ml-3 rounded-full ' to="company"> Company </Link>
                                     </li>
                                     <li className='flex justify-center w-1/2 mx-auto rounded-full'>
-                                        <Link className='focus:bg-black focus:text-white' to="owner"> Owner </Link>
+                                        <Link className='focus:bg-black focus:text-white rounded-full' to="owner"> Owner </Link>
                                     </li>
                                 </ul>
                             </div>

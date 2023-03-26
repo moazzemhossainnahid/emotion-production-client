@@ -1,9 +1,11 @@
 import React from 'react';
+import { useNavigate } from 'react-router';
 import data from '../../Data/BlogsData.json';
 
 // console.log(data);
 
 const PopularBlog = () => {
+    const navigate = useNavigate();
 
     const popularBlog = data?.filter(blog => blog?.category === "popular");
 
@@ -11,7 +13,7 @@ const PopularBlog = () => {
     // console.log(pBlog?.title);
 
     return (
-        <div className='w-full md:w-5/6 flex flex-col md:flex-row gap-3 mx-auto py-20'>
+        <div onClick={() => navigate(`/blogs/${pBlog?.id}`)} className='w-full md:w-5/6 flex flex-col md:flex-row gap-3 mx-auto py-20'>
             <div className="w-full md:w-3/6 mx-auto">
                 <img src={pBlog?.blogImg} alt="" className="object-cover" />
             </div>

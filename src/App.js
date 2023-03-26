@@ -3,6 +3,7 @@ import './App.css';
 import Company from './Components/Home/WhyEmotion/Company';
 import Owner from './Components/Home/WhyEmotion/Owner';
 import Blogs from './Pages/Blogs/Blogs';
+import SingleBlog from './Pages/Blogs/SingleBlog/SingleBlog';
 import Home from './Pages/Home/Home';
 import NotFound from './Pages/NotFound/NotFound';
 import Accessories from './Pages/Services/Service/Accessories';
@@ -37,6 +38,7 @@ function App() {
         <Route path='service/accessories' element={<Accessories />} />
 
         <Route path='blogs' element={<Blogs />} />
+        <Route path='blogs/:id' element={<SingleBlog />} />
         <Route path='*' element={<NotFound />} />
       </Routes>
       <Footer />

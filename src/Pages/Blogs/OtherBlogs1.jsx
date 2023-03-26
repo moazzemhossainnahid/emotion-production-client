@@ -1,8 +1,10 @@
 import React from 'react';
+import { useNavigate } from 'react-router';
 import data from '../../Data/BlogsData.json';
 
 const OtherBlogs1 = () => {
     const othersBlog = data?.filter(blog => (blog?.category !== "popular" && blog?.category !== "top"));
+    const navigate = useNavigate();
 
     // console.log(othersBlog);
 
@@ -11,7 +13,7 @@ const OtherBlogs1 = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
                 {
                     othersBlog?.slice(0, 6)?.map(blog => (
-                        <div key={blog?.id} className="">
+                        <div onClick={() => navigate(`/blogs/${blog?.id}`)} key={blog?.id} className="cursor-pointer">
                             <div className='w-full flex flex-col gap-3 mx-auto py-7'>
                                 <div className="w-full mx-auto">
                                     <img src={blog?.blogImg} alt="" className="object-cover" />

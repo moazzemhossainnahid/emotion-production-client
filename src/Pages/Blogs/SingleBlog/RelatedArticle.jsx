@@ -14,7 +14,7 @@ const RelatedArticle = ({blog}) => {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
                 {
                     disMatchId?.slice(0, 3)?.map(blog => (
-                        <div onClick={() => navigate(`/blogs/${blog?.id}`)} key={blog?.id} className="group">
+                        <div onClick={() => navigate(`/blogs/${blog?.id}`)} key={blog?.id} className="group cursor-pointer">
                             <div className='w-full flex flex-col gap-3 mx-auto py-7'>
                                 <div className="w-full mx-auto h-52 overflow-hidden">
                                     <img src={blog?.blogImg} alt="" className="object-cover group-hover:scale-105 group-hover:duration-300" />

@@ -1,15 +1,17 @@
 import React from 'react';
+import { useNavigate } from 'react-router';
 import data from '../../Data/BlogsData.json';
 
 const TopBlog = () => {
-    
+    const navigate = useNavigate();
+
     const topBlog = data?.filter(blog => blog?.category === "top");
 
     const tBlog = topBlog && topBlog[0];
     // console.log(tBlog?.title);
 
     return (
-        <div className='w-full md:w-5/6 flex flex-col md:flex-row gap-3 mx-auto py-20'>
+        <div onClick={() => navigate(`/blogs/${topBlog?.id}`)} className='w-full md:w-5/6 flex flex-col md:flex-row gap-3 mx-auto py-20'>
             <div className="w-full md:w-3/6 mx-auto">
                 <img src={tBlog?.blogImg} alt="" className="object-cover" />
             </div>

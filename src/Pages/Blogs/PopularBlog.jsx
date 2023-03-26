@@ -1,7 +1,7 @@
 import React from 'react';
 import data from '../../Data/BlogsData.json';
 
-console.log(data);
+// console.log(data);
 
 const PopularBlog = () => {
 

@@ -21,9 +21,12 @@ const SingleBlog = () => {
                     <span className="bg-[#707070] text-white rounded-3xl px-5 py-2">{blog?.badge}</span>
                 </div>
             </div>
-            <div className="">
+            <div className="space-y-5">
                 <div className="w-full md:w-5/6 h-96 py-7">
                     <img src={blog?.blogImg} alt="" className="object-cover w-full rounded-t-3xl h-96" />
+                </div>
+                <div className="w-full py-7">
+                    <p className="text-[#C9C9C9]">{blog?.blogText}</p>
                 </div>
             </div>
 

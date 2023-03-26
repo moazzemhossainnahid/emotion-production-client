@@ -13,7 +13,10 @@ const Blogs = () => {
                 <PopularBlog />
                 <OtherBlogs1 />
                 <TopBlog />
-                <OtherBlogs2/>
+                <OtherBlogs2 />
+            </div>
+            <div className="">
+                <button className="px-5 py-2 border text-white hover:border-primary hover:duration-150 rounded w-[170px] mx-auto">See More</button>
             </div>
         </div>
     );

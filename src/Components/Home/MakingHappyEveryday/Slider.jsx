@@ -1,6 +1,6 @@
 import React from "react";
 import Carousel from "react-elastic-carousel";
-import { FaQuoteLeft } from "react-icons/fa";
+import { FaQuoteLeft, FaQuoteRight } from "react-icons/fa";
 
 const Slider = ({ Data }) => {
   return (
@@ -28,6 +28,11 @@ const Slider = ({ Data }) => {
               <div className="flex justify-end  lg:ml-4 -mt-7">
                 <p className="w-12 h-12 lg:w-14 lg:h-14 bg-[#33D687] p-3 lg:p-4 rounded-full">
                   <FaQuoteLeft className="text-xl text-white lg:text-2xl" />
+                </p>
+              </div>
+              <div className="flex justify-end  lg:ml-4 -mt-7">
+                <p className="w-12 h-12 lg:w-14 lg:h-14 bg-[#33D687] p-3 lg:p-4 rounded-full">
+                  <FaQuoteRight className="text-xl text-white lg:text-2xl" />
                 </p>
               </div>
             </div>

@@ -9,7 +9,7 @@ const BrandPortfolios = () => {
                     <div className="w-full md:w-3/6 mx-auto flex flex-col md:flex-row gap-3 overflow-hidden">
                         <div class="group relative h-[35vh] md:h-[70vh] w-full md:w-2/5 overflow-hidden rounded-3xl">
                             <img class="rounded-3xl h-[35vh] md:h-[70vh] object-cover group-hover:scale-110 duration-200"
-                                src="https://i.ibb.co/Vjyv7n6/Full-Outfit-Zhadl.png" alt="" />
+                                src="https://i.ibb.co/6tm3mb4/home-banner.png" alt="" />
                             <div
                                 class="absolute top-0 left-0 w-full h-0 flex flex-col justify-center items-center bg-[#60cd9896] rounded-3xl opacity-0 group-hover:h-full group-hover:opacity-100 duration-500">
                                 <a class="mt-5 px-8 py-3 rounded-full duration-300" href="!#"><img className='w-16 hover:w-14 duration-300' src="https://svgshare.com/i/rRC.svg" alt="link" /></a>
@@ -18,7 +18,7 @@ const BrandPortfolios = () => {
                         <div className="flex flex-col gap-2 h-[70vh] md:w-3/5">
                             <div class="group relative h-[35vh] w-full overflow-hidden rounded-3xl">
                                 <img class="rounded-3xl h-[35vh] w-full object-cover group-hover:scale-110 duration-200"
-                                    src="https://i.ibb.co/X2MvL3T/JOR08613.jpg" alt="" />
+                                    src="https://i.ibb.co/bQLjHND/2-1-1.jpg" alt="" />
                                 <div
                                     class="absolute top-0 left-0 w-full h-0 flex flex-col justify-center items-center bg-[#60cd9896] rounded-3xl opacity-0 group-hover:h-full group-hover:opacity-100 duration-500">
                                     <a class="mt-5 px-8 py-3 rounded-full duration-300" href="!#"><img className='w-16 hover:w-14 duration-300' src="https://svgshare.com/i/rRC.svg" alt="link" /></a>
@@ -26,7 +26,7 @@ const BrandPortfolios = () => {
                             </div>
                             <div class="group relative h-[35vh] w-full overflow-hidden rounded-3xl">
                                 <img class="rounded-3xl h-[35vh] w-full object-cover group-hover:scale-110 duration-200"
-                                    src="https://i.ibb.co/z46HMXZ/1.png" alt="" />
+                                    src="https://i.ibb.co/tPLwZdS/3-1.png" alt="" />
                                 <div
                                     class="absolute top-0 left-0 w-full h-0 flex flex-col justify-center items-center bg-[#60cd9896] rounded-3xl opacity-0 group-hover:h-full group-hover:opacity-100 duration-500">
                                     <a class="mt-5 px-8 py-3 rounded-full duration-300" href="!#"><img className='w-16 hover:w-14 duration-300' src="https://svgshare.com/i/rRC.svg" alt="link" /></a>
@@ -37,7 +37,7 @@ const BrandPortfolios = () => {
                     <div className="w-full md:w-3/6 mx-auto flex flex-col md:flex-row gap-3 overflow-hidden">
                         <div class="group relative h-[35vh] md:h-[70vh] w-full md:w-2/5 overflow-hidden rounded-3xl">
                             <img class="rounded-3xl h-[35vh] md:h-[70vh] w-full object-cover group-hover:scale-110 duration-200"
-                                src="https://i.ibb.co/6ZFtm40/JOR08694.jpg" alt="" />
+                                src="https://i.ibb.co/R38cgFc/4-2-1.jpg" alt="" />
                             <div
                                 class="absolute top-0 left-0 w-full h-0 flex flex-col justify-center items-center bg-[#60cd9896] rounded-3xl opacity-0 group-hover:h-full group-hover:opacity-100 duration-500">
                                 <a class="mt-5 px-8 py-3 rounded-full duration-300" href="!#"><img className='w-16 hover:w-14 duration-300' src="https://svgshare.com/i/rRC.svg" alt="link" /></a>
@@ -46,7 +46,7 @@ const BrandPortfolios = () => {
                         <div className="flex flex-col gap-2 h-[70vh] md:w-3/5">
                             <div class="group relative h-[35vh] w-full overflow-hidden rounded-3xl">
                                 <img class="rounded-3xl h-[35vh] w-full object-cover group-hover:scale-110 duration-200"
-                                    src="https://i.ibb.co/Wf07PDx/JOR08802.jpg" alt="" />
+                                    src="https://i.ibb.co/GHJZQfV/5-1-1.jpg" alt="" />
                                 <div
                                     class="absolute top-0 left-0 w-full h-0 flex flex-col justify-center items-center bg-[#60cd9896] rounded-3xl opacity-0 group-hover:h-full group-hover:opacity-100 duration-500">
                                     <a class="mt-5 px-8 py-3 rounded-full duration-300" href="!#"><img className='w-16 hover:w-14 duration-300' src="https://svgshare.com/i/rRC.svg" alt="link" /></a>
@@ -54,7 +54,7 @@ const BrandPortfolios = () => {
                             </div>
                             <div class="group relative h-[35vh] w-full overflow-hidden rounded-3xl">
                                 <img class="rounded-3xl h-[35vh] w-full object-cover group-hover:scale-110 duration-200"
-                                    src="https://i.ibb.co/SwM84bd/JOR08670.jpg" alt="" />
+                                    src="https://i.ibb.co/THmGyyN/6-1-1.jpg" alt="" />
                                 <div
                                     class="absolute top-0 left-0 w-full h-0 flex flex-col justify-center items-center bg-[#60cd9896] rounded-3xl opacity-0 group-hover:h-full group-hover:opacity-100 duration-500">
                                     <a class="mt-5 px-8 py-3 rounded-full duration-300" href="!#"><img className='w-16 hover:w-14 duration-300' src="https://svgshare.com/i/rRC.svg" alt="link" /></a>

@@ -1,5 +1,6 @@
 import React from 'react';
 import PopularBlog from './PopularBlog';
+import TopBlog from './TopBlog';
 
 const Blogs = () => {
     return (
@@ -8,6 +9,7 @@ const Blogs = () => {
             <p className="text-white">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt.consetetur sadipscing elitr</p>
             <div className="">
                 <PopularBlog />
+                <TopBlog />
             </div>
         </div>
     );

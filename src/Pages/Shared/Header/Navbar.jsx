@@ -5,7 +5,7 @@ import Drawer from "react-modern-drawer";
 import "react-modern-drawer/dist/index.css";
 import { Link, NavLink } from "react-router-dom";
 // import auth from "../../../firebase.init";
-import { HiBars3CenterLeft } from "react-icons/hi2";
+import { HiBars3CenterLeft, HiChatBubbleBottomCenter } from "react-icons/hi2";
 import logo from '../../../Assets/Public/Logo.png';
 
 
@@ -397,9 +397,9 @@ const Navbar = ({ handleThemeChange, theme }) => {
             </div> */}
 
             <li className="navbar-end hidden lg:flex">
-                <Link to="meeting" className="mx-auto text-white">
+                <button className="mx-auto text-white">
                     <h3 className="px-5 py-2 border hover:border-primary hover:duration-150 rounded w-[170px] mx-auto">Make a Meeting</h3>
-                </Link>
+                </button>
             </li>
 
             <div className="navbar-end lg:hidden flex">

@@ -1,5 +1,6 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
+import AboutUS from './Components/AboutUS/AboutUS';
 import Company from './Components/Home/WhyEmotion/Company';
 import Owner from './Components/Home/WhyEmotion/Owner';
 import Blogs from './Pages/Blogs/Blogs';
@@ -37,6 +38,7 @@ function App() {
         <Route path='service/prototype' element={<Prototype />} />
         <Route path='service/accessories' element={<Accessories />} />
 
+        <Route path='aboutus' element={<AboutUS />} />
         <Route path='blogs' element={<Blogs />} />
         <Route path='blogs/:id' element={<SingleBlog />} />
         <Route path='*' element={<NotFound />} />

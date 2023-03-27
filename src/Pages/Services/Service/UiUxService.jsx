@@ -18,7 +18,7 @@ const UiUxService = () => {
                         application development. For examples of dozens of unique and effective UI/UX for Android,
                         iOS, desktop, and other platforms, visit our portfolio.</p>
                 </div>
-                <div className='w-full p-4'>
+                <div className='w-full md:w-3/6 mx-auto p-4'>
                     <img className=' w-full' src={image} alt="" />
                 </div>
             </div>

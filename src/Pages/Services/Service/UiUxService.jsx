@@ -6,8 +6,8 @@ const UiUxService = () => {
 
     return (
         <div className="container px-7 mx-auto w-full text-white">
-            <div className='flex  flex-col md:flex-row justify-between items-center mt-14 '>
-                <div className='w-full p-4'>
+            <div className='flex flex-col md:flex-row justify-between items-center mt-14'>
+                <div className='w-full md:w-3/6 p-0 sm:p-5'>
                     <h2 className='text-center text-2xl sm:text-5xl sm:text-left'>leading provider of
                         UI/UX design development
                         services</h2>

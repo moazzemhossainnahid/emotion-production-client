@@ -5,7 +5,7 @@ import Drawer from "react-modern-drawer";
 import "react-modern-drawer/dist/index.css";
 import { Link, NavLink } from "react-router-dom";
 // import auth from "../../../firebase.init";
-import { HiBars3CenterLeft } from "react-icons/hi2";
+import { HiBars3CenterLeft, HiChatBubbleBottomCenter } from "react-icons/hi2";
 import logo from '../../../Assets/Public/Logo.png';
 
 
@@ -31,13 +31,7 @@ const Navbar = ({ handleThemeChange, theme }) => {
                 <NavLink className="hover:rounded-none" to="/"> Home </NavLink>
             </li> */}
             <li>
-                <NavLink className="hover:rounded-none" to="/"> English </NavLink>
-            </li>
-            <li>
-                <NavLink className="hover:rounded-none" to="concepts"> Concepts </NavLink>
-            </li>
-            <li>
-                <NavLink className="hover:rounded-none" to="empowerment"> Empowerment </NavLink>
+                <NavLink className="hover:rounded-none" to="/"> Home </NavLink>
             </li>
             <li class="dropdown">
                 <span> Services </span>
@@ -65,7 +59,7 @@ const Navbar = ({ handleThemeChange, theme }) => {
                             <li className='flex items-center group'>
                                 <NavLink to="service/packaging">
                                     <span className='w-12 p-3 h-12 bg-[#707070] flex items-center rounded-full'>
-                                        <img className='w-7' src="https://i.ibb.co/XkFg5PV/package-box.png" alt="" />
+                                        <img className='w-7' src="https://svgshare.com/i/rRP.svg" alt="" />
                                     </span>
                                     <p className="flex items-center"> Packaging </p>
                                     <span class="text-transparent text-4xl -pt-5 group-hover:text-white">&rarr;</span>
@@ -124,7 +118,7 @@ const Navbar = ({ handleThemeChange, theme }) => {
                 </ul>
             </li>
             <li>
-                <NavLink to="brandportfolio">Brand Portfolios</NavLink>
+                <NavLink to="aboutus">About US</NavLink>
             </li>
             <li>
                 <NavLink to="blogs">Blogs</NavLink>
@@ -403,9 +397,9 @@ const Navbar = ({ handleThemeChange, theme }) => {
             </div> */}
 
             <li className="navbar-end hidden lg:flex">
-                <Link to="meeting" className="mx-auto text-white">
+                <button className="mx-auto text-white">
                     <h3 className="px-5 py-2 border hover:border-primary hover:duration-150 rounded w-[170px] mx-auto">Make a Meeting</h3>
-                </Link>
+                </button>
             </li>
 
             <div className="navbar-end lg:hidden flex">

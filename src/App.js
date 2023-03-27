@@ -1,9 +1,12 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
+import AboutUS from './Components/AboutUS/AboutUS';
 import Company from './Components/Home/WhyEmotion/Company';
 import Owner from './Components/Home/WhyEmotion/Owner';
 import Blogs from './Pages/Blogs/Blogs';
+import SingleBlog from './Pages/Blogs/SingleBlog/SingleBlog';
 import Home from './Pages/Home/Home';
+import NotFound from './Pages/NotFound/NotFound';
 import Accessories from './Pages/Services/Service/Accessories';
 import Animation from './Pages/Services/Service/Animation';
 import ContentShotting from './Pages/Services/Service/ContentShotting';
@@ -35,7 +38,10 @@ function App() {
         <Route path='service/prototype' element={<Prototype />} />
         <Route path='service/accessories' element={<Accessories />} />
 
+        <Route path='aboutus' element={<AboutUS />} />
         <Route path='blogs' element={<Blogs />} />
+        <Route path='blogs/:id' element={<SingleBlog />} />
+        <Route path='*' element={<NotFound />} />
       </Routes>
       <Footer />
     </div>

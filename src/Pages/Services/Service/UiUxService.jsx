@@ -1,5 +1,4 @@
 import React from 'react';
-
 const UiUxService = () => {
 
     const image = "https://i.ibb.co/7Q7PHrd/5726865.png";
@@ -19,12 +18,12 @@ const UiUxService = () => {
                         application development. For examples of dozens of unique and effective UI/UX for Android,
                         iOS, desktop, and other platforms, visit our portfolio.</p>
                 </div>
-                <div className='w-full md:w-3/6'>
-                    <img className='sm:w-10/12 w-full mt-10' src={image} alt="" />
+                <div className='w-full p-4'>
+                    <img className=' w-full' src={image} alt="" />
                 </div>
             </div>
 
-            <div className='text-style-bottom sm:w-[770px] space-y-3 p-0 sm:p-5 mt-14'>
+            <div className='  mt-14'>
                 <h2 className='text-center text-3xl sm:text-6xl sm:text-left'>WHAT WE DO</h2>
                 <h1 className='text-center text-2xl sm:text-4xl sm:text-left'>We Design Visually Stunning &
                     User-Friendly Customer Experience.</h1>
@@ -33,9 +32,9 @@ const UiUxService = () => {
             </div>
 
             <div className='sm:flex inline-block justify-center items-center mt-14 '>
-                <div className='sm:w-[770px] w-full p-0 space-y-3 sm:p-5'>
+                <div className=' w-full '>
                     <h2 className='text-center text-3xl sm:text-6xl sm:text-left'>UI/UX for Mobile & Web</h2>
-                    <p className='text-center sm:text-left'>We adhere to industry norms and develop UI/UX using design
+                    <p className='text-center pr-5 sm:text-left'>We adhere to industry norms and develop UI/UX using design
                         standards. Our UI/UX design services include the following:</p>
 
                     <div className="space-y-1">
@@ -48,7 +47,7 @@ const UiUxService = () => {
 
                 </div>
                 <div>
-                    <img className='sm:w-10/12 w-full mt-10' src="https://i.ibb.co/KqBW8rM/5810325.png" alt="" />
+                    <img className=' w-full' src="https://i.ibb.co/KqBW8rM/5810325.png" alt="" />
 
                 </div>
             </div>
@@ -207,6 +206,8 @@ const UiUxService = () => {
                     </a>
                 </span>
             </div>
+
+
 
         </div>
     );

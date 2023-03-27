@@ -10,7 +10,7 @@ import NotFound from './Pages/NotFound/NotFound';
 import Accessories from './Pages/Services/Service/Accessories';
 import Animation from './Pages/Services/Service/Animation';
 import ContentShotting from './Pages/Services/Service/ContentShotting';
-import DegitalBrand from './Pages/Services/Service/DegitalBrand';
+import DigitalBrand from './Pages/Services/Service/DigitalBrand';
 import Packaging from './Pages/Services/Service/Packaging';
 import Prototype from './Pages/Services/Service/Prototype';
 import UiUxService from './Pages/Services/Service/UiUxService';
@@ -29,7 +29,7 @@ function App() {
           <Route path='company' element={<Company />} />
           <Route path='owner' element={<Owner />} />
         </Route>
-        <Route path='service/digitalbrand' element={<DegitalBrand />} />
+        <Route path='service/digitalbrand' element={<DigitalBrand />} />
         <Route path='service/webdesign' element={<WebDesign />} />
         <Route path='service/packaging' element={<Packaging />} />
         <Route path='service/animation' element={<Animation />} />

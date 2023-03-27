@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@syncfusion/ej2-react-progressbar": "^21.1.35",
     "@tanstack/react-query": "^4.27.0",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^13.0.0",
@@ -11,12 +12,14 @@
     "daisyui": "^2.51.4",
     "firebase": "^9.18.0",
     "react": "^18.2.0",
+    "react-animated-progress-bar": "^1.1.2",
     "react-dom": "^18.2.0",
     "react-elastic-carousel": "^0.11.5",
     "react-firebase-hooks": "^5.1.1",
     "react-hook-form": "^7.43.5",
     "react-icons": "^4.8.0",
     "react-modern-drawer": "^1.2.0",
+    "react-responsive-carousel": "^3.2.23",
     "react-router-dom": "6",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.0"

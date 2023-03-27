@@ -1,8 +1,8 @@
 import React from 'react';
-import OtherBlogs1 from './OtherBlogs1';
-import OtherBlogs2 from './OtherBlogs2';
-import PopularBlog from './PopularBlog';
-import TopBlog from './TopBlog';
+import OtherBlogs1 from '../../Components/Blogs/OtherBlogs1';
+import OtherBlogs2 from '../../Components/Blogs/OtherBlogs2';
+import PopularBlog from '../../Components/Blogs/PopularBlog';
+import TopBlog from '../../Components/Blogs/TopBlog';
 
 const Blogs = () => {
     return (

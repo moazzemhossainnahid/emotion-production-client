@@ -9,7 +9,7 @@ const OurServices = () => {
             <div className="grid grid-cols-2 md:grid-cols-4 gap-3 py-10 w-full md:w-5/6 mx-auto">
                 {
                     ServicesData?.map(data => (
-                        <div key={data?.id} className="bg-[#707070] rounded flex justify-between items-center px-7 py-10">
+                        <div key={data?.id} className="bg-[#1E1E1E] rounded flex justify-between items-center px-7 py-10">
                             <img src={data?.icon} alt="" className="object-cover w-10" />
                             <p className="text-white text-md">{data?.title}</p>
                         </div>

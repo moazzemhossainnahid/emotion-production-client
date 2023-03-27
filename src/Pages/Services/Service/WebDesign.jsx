@@ -3,10 +3,11 @@ import ProgressBar from 'react-animated-progress-bar';
 // import '../../style.css'
 
 const WebDesign = () => {
-
+      
     return (
         <div className="container px-7 mx-auto w-full text-white ">
-            <div className='flex  flex-col md:flex-row justify-between items-center  mt-10 mb-24'>
+            
+            <div className='flex flex-col md:flex-row justify-between items-center  mt-10 mb-24'>
                 <div className='w-full p-4'>
                     <h2 className='text-center text-2xl sm:text-5xl sm:text-left'> Web Design can make easy your complex product.
                         services</h2>
@@ -20,6 +21,7 @@ const WebDesign = () => {
                     <img className=' w-full' src="https://i.ibb.co/sJ0chV2/ezgif-4-492a554f96.jpg" alt="" />
                 </div>
             </div>
+
             <div>
                 <h2 className=' sm:text-center text-2xl sm:text-5xl text-left'>Why Choose Me? </h2>
                 <p className="inline-block align-middle p-4 text-justify sm:text-left pt-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown print took a galley of type and scrambled electronic.</p>
@@ -50,7 +52,7 @@ const WebDesign = () => {
             </div>
             {/* ==============================Progress Bar  ================= */}
 
-            <div className='mb-10'>
+            {/* <div className='mb-10'>
                 <div>
                     <h2 className="text-left  text-white font-black">HTML</h2>
                     <ProgressBar
@@ -111,10 +113,10 @@ const WebDesign = () => {
                         trackBorderColor="grey"
                     />
                 </div>
-            </div>
+            </div> */}
 
-
-            {/* <div class="p-8 w-full ">
+            
+            <div class="p-8 w-full ">
                 <div class="flex items-center justify-between">
                     <span class="text-slate-400 text-sm text-slate-500">Progress 1</span>
                     <span class="px-2 py-1 bg-teal-50 rounded-lg text-xs text-teal-400 font-medium min-w-[46px] text-center">0%</span>
@@ -159,7 +161,7 @@ const WebDesign = () => {
                 <div class="w-full bg-slate-100 h-1 mt-2">
                     <div class="bg-teal-400 h-1 rounded" style={{width:"100%"}}></div>
                 </div>
-            </div> */}
+            </div>
 
 
             {/* <div>

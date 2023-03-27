@@ -1,5 +1,4 @@
 import React from 'react';
-import '../../style.css'
 const UiUxService = () => {
 
     const image = "https://i.ibb.co/7Q7PHrd/5726865.png";
@@ -24,7 +23,7 @@ const UiUxService = () => {
                 </div>
             </div>
 
-            <div className='text-style-bottom  mt-14'>
+            <div className='  mt-14'>
                 <h2 className='text-center text-3xl sm:text-6xl sm:text-left'>WHAT WE DO</h2>
                 <h1 className='text-center text-2xl sm:text-4xl sm:text-left'>We Design Visually Stunning &
                     User-Friendly Customer Experience.</h1>

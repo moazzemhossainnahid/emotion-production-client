@@ -2,44 +2,44 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <div className='container grid-cols-1 sm:grid-cols-3 grid gap-3 '>
-            <div>
+        <div className='container flex flex-col md:flex-row w-full md:w-5/6 mx-auto '>
+            <div className='space-y-3 w-full md:w-1/4 mx-auto'>
                 <img src="https://i.ibb.co/tstmn7Z/Logo-PNG.png" alt="" />
                 <p className="text-white ml-4 text-left">Lorem Ipsum is simply dummy text of the
                     printing and typesetting industry. Lorem
                     Ipsum has been the industry.</p>
             </div>
-            <div className='flex items-center text-white text-left justify-around'>
+            <div className='flex items-center text-white text-left justify-around w-full md:w-2/4 mx-auto'>
                 <div>
                     <ul>
-                        <liu><a href="">Company</a></liu>
+                        <li className='text-xl font-bold pb-5'><a href="">Company</a></li>
                     </ul>
                     <ul>
-                        <liu><a href="">About Us</a></liu>
+                        <li><a href="">About Us</a></li>
                     </ul>
                     <ul>
-                        <liu><a href="">Contract Us</a></liu>
+                        <li><a href="">Contract Us</a></li>
                     </ul>
                     <ul>
-                        <liu><a href="">Project</a></liu>
+                        <li><a href="">Project</a></li>
                     </ul>
                 </div>
                 <div>
                     <ul>
-                        <liu><a href="">Quick Link</a></liu>
+                        <li className='text-xl font-bold pb-5'><a href="">Quick Link</a></li>
                     </ul>
                     <ul>
-                        <liu><a href="">Contract Us</a></liu>
+                        <li><a href="">Contract Us</a></li>
                     </ul>
                     <ul>
-                        <liu><a href="">Terms of Service</a></liu>
+                        <li><a href="">Terms of Service</a></li>
                     </ul>
                     <ul>
-                        <liu><a href="">Privacy Policy</a></liu>
+                        <li><a href="">Privacy Policy</a></li>
                     </ul>
                 </div>
             </div>
-            <div>
+            <div className=' w-full md:w-1/4 mx-auto space-y-3'>
                 <h1 className="text-white text-center sm:text-left">Follow Hypnobond</h1>
                 <div className='flex items-center justify-left'>
                     <span className="w-8 h-7 bg-white rounded flex justify-center items-center mr-3">

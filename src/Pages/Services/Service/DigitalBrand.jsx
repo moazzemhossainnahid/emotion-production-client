@@ -19,8 +19,8 @@ const DigitalBrand = () => {
             {/*=========================== carousel  =======================*/}
             <div className='flex flex-col md:flex-row justify-between items-center  mt-36'>
                 <div className="w-1/2 sm:pl-20 p-0 text-left">
-                    <p className=' text-left text-white'> BUILDING THE NEXT GENERATION OF BOLD BRANDS</p>
-                    <h2 className="text-left text-white font-black">Branding & Digital Agency</h2>
+                    <p className=' text-left text-white mb-2'> BUILDING THE NEXT GENERATION OF BOLD BRANDS</p>
+                    <h2 className="text-left text-white font-black mb-2">Branding & Digital Agency</h2>
                     <button className='bg-green-800 text-left border p-4 text-white'>READ MORE</button>
                 </div>
 
@@ -74,11 +74,14 @@ const DigitalBrand = () => {
                 <div className='w-full p-4'>
                     <img className=' w-full' src="https://i.ibb.co/sJ0chV2/ezgif-4-492a554f96.jpg" alt="" />
                 </div>
+
+                <div class="divider bg-white lg:divider-horizontal"></div>
+
                 <div className='w-full p-4'>
                     <h2 className='text-center text-white text-2xl sm:text-5xl sm:text-left'> Perfect Digital Start</h2>
-                    <p className='inline-block text-white align-middle p-4 text-justify sm:text-left pt-3'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown print took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic.
+                    <p className='inline-block text-white align-middle  text-justify sm:text-left pt-3'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown print took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic.
                     </p>
-                    <p className='inline-block text-white  align-middle p-4 text-justify sm:text-left pt-3'> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown print took a galley of type and scrambled electronic.
+                    <p className='inline-block text-white  align-middle  text-justify sm:text-left pt-3'> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown print took a galley of type and scrambled electronic.
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown print took a galley of type and scrambled electronic.
                     </p>
                 </div>
@@ -86,8 +89,6 @@ const DigitalBrand = () => {
 
             {/*=========================== Strategy =======================*/}
             <div className='grid grid-cols-1  sm:grid-cols-3 place-items-center mt-36  gap-24'>
-
-
                 <div className=''>
                     <span className='w-16 h-16 bg-slate-700 flex justify-center items-center rounded-full p-3'>
                         <span className='flex justify-start'>
@@ -170,7 +171,7 @@ const DigitalBrand = () => {
             <div className='flex flex-col md:flex-row justify-between items-center  mt-36'>
                 <div className='w-full p-4'>
                     <h2 className='text-center text-white text-2xl sm:text-5xl sm:text-left'> Innovative Approach</h2>
-                    <p className='inline-block text-white align-middle p-4 text-justify sm:text-left pt-3'>Duis accumsan, neque at hendrerit sagittis, elit diam sodales nunc, at auctor leo purus sodales nunc. Maecenas ac lorem sit amet ligula viverra gravida non vel tortor. Phasellus dapibus leo non iaculis ultricies.
+                    <p className='inline-block text-white align-middle  text-justify sm:text-left pt-3'>Duis accumsan, neque at hendrerit sagittis, elit diam sodales nunc, at auctor leo purus sodales nunc. Maecenas ac lorem sit amet ligula viverra gravida non vel tortor. Phasellus dapibus leo non iaculis ultricies.
                     </p>
                 </div>
                 <div className='w-full p-4'>
@@ -258,21 +259,49 @@ const DigitalBrand = () => {
                     <span class="relative text-black group-hover:text-white">Contact Us</span>
                 </button>
             </div>
-            
+
             {/*=========================== Briefing =======================*/}
-            <div className='flex flex-col md:flex-row justify-between items-center  mt-32'>
-               
-                <div className="relative">
-                    <span className="w-16 top-0 h-16 bg-zinc-500 flex justify-center items-center">
-                        <h2 classname="font-black text-white text-5xl">1</h2>
+            <div className='flex flex-col md:flex-row justify-between items-center mb-36 px-3 mt-32'>           
+                <div class="indicator">
+                    <span class="indicator-item badge w-16 h-16  rounded-none bg-slate-600 ">
+                        <h2 className=" text-white text-6xl font-bold">1</h2>
                     </span>
+                    <div class="grid gap-1 w-72 h-52 border place-items-center">
+                        <h2 className="text-white font-black text-left">Brifing</h2>
+                        <p className="text-white text-sm -mt-28">Donec mattis odio dui, eget congue diam tempus a. Proin sed urna et purus fringilla facilisis.</p>
+                    </div>
                 </div>
-                <div className="w-72 h-72 border rounded p-7 absolute">
-                    <h2 classNamne="text-black">Brifing</h2>
-                    <p className="text-white">Donec mattis odio dui, eget congue diam tempus a. Proin sed urna et purus fringilla facilisis.</p>
+
+                <div class="indicator">
+                    <span class="indicator-item badge w-16 h-16 rounded-none bg-zinc-500 ">
+                        <h2 className=" text-white text-6xl font-bold">2</h2>
+                    </span>
+                    <div class="grid gap-1 w-72 h-52 border place-items-center">
+                        <h2 className="text-white font-black text-left">Brand Strategy</h2>
+                        <p className="text-white text-sm -mt-28">Donec mattis odio dui, eget congue diam tempus a. Proin sed urna et purus fringilla facilisis.</p>
+                    </div>
+                </div>
+
+                <div class="indicator">
+                    <span class="indicator-item badge w-16 h-16 rounded-none bg-base-500 ">
+                        <h2 className=" text-white text-6xl font-bold">3</h2>
+                    </span>
+                    <div class="grid gap-1 w-72 h-52 border place-items-center">
+                        <h2 className="text-white font-black text-left">Perfect Design</h2>
+                        <p className="text-white text-sm -mt-28">Donec mattis odio dui, eget congue diam tempus a. Proin sed urna et purus fringilla facilisis.</p>
+                    </div>
                 </div>
             </div>
-
+            
+            {/*===========================   showcase your business=======================*/}
+            <div className='flex flex-col md:flex-row justify-between items-center mb-36 mt-36'>
+                <div><img src="https://i.ibb.co/4NrZzv1/ezgif-com-gif-maker-4-removebg-preview.png" alt="" /></div>
+                <div><img src="https://i.ibb.co/WsKZKPb/ezgif-com-gif-maker-1.png" alt="" /></div>
+                <div><img src="https://i.ibb.co/1qnrkFR/ezgif-com-gif-maker-removebg-preview-1.png" alt="" /></div>
+                <div><img src="https://i.ibb.co/64bjn0M/ezgif-com-gif-maker-removebg-preview.png" alt="" /></div>
+                <div><img src="https://i.ibb.co/ysQTR1Z/ezgif-com-gif-maker-1-removebg-preview.png" alt="" /></div>
+                <div><img src="https://i.ibb.co/whs0bgS/ezgif-com-gif-maker-2-removebg-preview.png" alt="" /></div>
+            </div>
         </div>
     );
 };
@@ -284,3 +313,10 @@ export default DigitalBrand;
         //   <img src="https://i.ibb.co/YNv6Tvc/01.png"/>
         //   <img src="https://i.ibb.co/8s6BN0m/5810609.png" />
         //   img src="https://i.ibb.co/pjqRNzZ/5806461.png" />
+
+        // https://i.ibb.co/4NrZzv1/ezgif-com-gif-maker-4-removebg-preview.png
+        // https://i.ibb.co/ZWf7Zxj/ezgif-com-gif-maker-5-removebg-preview.png
+        // https://i.ibb.co/1qnrkFR/ezgif-com-gif-maker-removebg-preview-1.png
+        // https://i.ibb.co/64bjn0M/ezgif-com-gif-maker-removebg-preview.png
+        // https://i.ibb.co/ysQTR1Z/ezgif-com-gif-maker-1-removebg-preview.png
+        // https://i.ibb.co/whs0bgS/ezgif-com-gif-maker-2-removebg-preview.png

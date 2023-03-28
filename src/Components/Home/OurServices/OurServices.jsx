@@ -1,5 +1,7 @@
 import React from 'react';
 import { ServicesData } from '../../../Data/ServicesData';
+import Spin from 'react-reveal/Spin';
+import Fade from 'react-reveal/Fade';
 
 const OurServices = () => {
     return (
@@ -10,8 +12,12 @@ const OurServices = () => {
                 {
                     ServicesData?.map(data => (
                         <div key={data?.id} className="bg-[#1E1E1E] rounded flex justify-between items-center px-7 py-10">
-                            <img src={data?.icon} alt="" className="object-cover w-10" />
-                            <p className="text-white text-md">{data?.title}</p>
+                            <Spin>
+                                <img src={data?.icon} alt="" className="object-cover w-10" />
+                            </Spin>
+                            <Fade right>
+                                <p className="text-white text-md">{data?.title}</p>
+                            </Fade>
                         </div>
                     ))
                 }

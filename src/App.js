@@ -1,5 +1,6 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
+import * as te from 'tw-elements';
 import Company from './Components/Home/WhyEmotion/Company';
 import Owner from './Components/Home/WhyEmotion/Owner';
 import AboutUS from './Pages/AboutUS/AboutUS';

@@ -6,24 +6,152 @@ const FAQ = () => {
     return (
         <div className='w-full p-2 py-10 md:w-4/5 flex flex-col md:flex-row justify-center overflow-hidden items-center mx-auto'>
 
-            <div className='w-full md:w-3/6 order-2 md:order-1 mx-auto md:text-left'>
+            <div className='w-full md:w-3/6 order-2 px-3 md:order-1 mx-auto md:text-left'>
                 <Bounce left>
-                    <h2 className='text-white font-bold text-3xl pb-2'>About Emotion</h2>
                     <div className="text-[#C9C9C9] space-y-2 text-start">
-                        <p className='mt-2' >Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                            been the industry's standard dummy text ever since the 1500s, when an unknown printer
-                            took a galley of type and scrambled it to make a type specimen book. It has survived not
-                            only five centuries, but also the leap into electronic typesetting, remaining essentially
-                            unchanged.</p>
-                        <p className='mt-1'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                            been the industry's standard dummy text ever since the 1500s, when an unknown printer
-                            took a galley of type and scrambled it to make a type specimen book. It has survived not
-                            only five centuries, but also the leap into electronic typesetting.</p>
-
-                        <p className='mt-1'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                            been the industry's standard dummy text ever since the 1500s, when an unknown printer
-                            took a galley of type and scrambled it to make a type specimen book. </p>
-
+                        <div id="accordionExample" className=''>
+                            <div
+                                class="rounded-t-lg border border-neutral-200 bg-white dark:border-neutral-600">
+                                <h2 class="mb-0" id="headingOne" className=''>
+                                    <button
+                                        class="group relative flex w-full items-center border-0 bg-white py-4 px-5 text-left text-base text-neutral-800 transition [overflow-anchor:none] hover:z-[2] focus:z-[3] focus:outline-none dark:bg-white dark:text-natural-800 rounded [&:not([data-te-collapse-collapsed])]:bg-white [&:not([data-te-collapse-collapsed])]:text-primary [&:not([data-te-collapse-collapsed])]:[box-shadow:inset_0_-1px_0_rgba(229,231,235)] dark:[&:not([data-te-collapse-collapsed])]:bg-neutral-800 dark:[&:not([data-te-collapse-collapsed])]:text-primary-400 dark:[&:not([data-te-collapse-collapsed])]:[box-shadow:inset_0_-1px_0_rgba(75,85,99)]"
+                                        type="button"
+                                        data-te-collapse-init
+                                        data-te-target="#collapseOne"
+                                        aria-expanded="true"
+                                        aria-controls="collapseOne">
+                                        Lorem Ipsum is simply dummy text of the printing
+                                        <span
+                                            class="ml-auto h-5 w-5 shrink-0 rotate-[-180deg] fill-[#336dec] transition-transform duration-200 ease-in-out group-[[data-te-collapse-collapsed]]:rotate-0 group-[[data-te-collapse-collapsed]]:fill-[#212529] motion-reduce:transition-none dark:fill-blue-300 dark:group-[[data-te-collapse-collapsed]]:fill-white">
+                                            <svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                fill="none"
+                                                viewBox="0 0 24 24"
+                                                stroke-width="1.5"
+                                                stroke="currentColor"
+                                                class="h-6 w-6">
+                                                <path
+                                                    stroke-linecap="round"
+                                                    stroke-linejoin="round"
+                                                    d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                                            </svg>
+                                        </span>
+                                    </button>
+                                </h2>
+                                <div
+                                    id="collapseOne"
+                                    class="!visible"
+                                    data-te-collapse-item
+                                    data-te-collapse-show
+                                    aria-labelledby="headingOne"
+                                    data-te-parent="#accordionExample">
+                                    <div class="py-4 px-5 text-gray-600">
+                                        <strong>This is the first item's accordion body.</strong> It is
+                                        shown by default, until the collapse plugin adds the appropriate
+                                        classes that we use to style each element. These classes control
+                                        the overall appearance, as well as the showing and hiding via CSS
+                                        transitions. You can modify any of this with custom CSS or
+                                        overriding our default variables. It's also worth noting that just
+                                        about any HTML can go within the <code>.accordion-body</code>,
+                                        though the transition does limit overflow.
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="rounded-t-lg border border-neutral-200 bg-white dark:border-neutral-600">
+                                <h2 class="mb-0" id="headingTwo">
+                                    <button
+                                        class="group relative flex w-full items-center border-0 bg-white py-4 px-5 text-left text-base text-neutral-800 transition [overflow-anchor:none] hover:z-[2] focus:z-[3] focus:outline-none dark:bg-white dark:text-natural-800 rounded [&:not([data-te-collapse-collapsed])]:bg-white [&:not([data-te-collapse-collapsed])]:text-primary [&:not([data-te-collapse-collapsed])]:[box-shadow:inset_0_-1px_0_rgba(229,231,235)] dark:[&:not([data-te-collapse-collapsed])]:bg-neutral-800 dark:[&:not([data-te-collapse-collapsed])]:text-primary-400 dark:[&:not([data-te-collapse-collapsed])]:[box-shadow:inset_0_-1px_0_rgba(75,85,99)]"
+                                        type="button"
+                                        data-te-collapse-init
+                                        data-te-collapse-collapsed
+                                        data-te-target="#collapseTwo"
+                                        aria-expanded="false"
+                                        aria-controls="collapseTwo">
+                                        Lorem Ipsum is simply dummy text of the printing
+                                        <span
+                                            class="ml-auto -mr-1 h-5 w-5 shrink-0 rotate-[-180deg] fill-[#336dec] transition-transform duration-200 ease-in-out group-[[data-te-collapse-collapsed]]:mr-0 group-[[data-te-collapse-collapsed]]:rotate-0 group-[[data-te-collapse-collapsed]]:fill-[#212529] motion-reduce:transition-none dark:fill-blue-300 dark:group-[[data-te-collapse-collapsed]]:fill-white">
+                                            <svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                fill="none"
+                                                viewBox="0 0 24 24"
+                                                stroke-width="1.5"
+                                                stroke="currentColor"
+                                                class="h-6 w-6">
+                                                <path
+                                                    stroke-linecap="round"
+                                                    stroke-linejoin="round"
+                                                    d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                                            </svg>
+                                        </span>
+                                    </button>
+                                </h2>
+                                <div
+                                    id="collapseTwo"
+                                    class="!visible hidden"
+                                    data-te-collapse-item
+                                    aria-labelledby="headingTwo"
+                                    data-te-parent="#accordionExample">
+                                    <div class="py-4 px-5 text-gray-600">
+                                        <strong>This is the second item's accordion body.</strong> It is
+                                        hidden by default, until the collapse plugin adds the appropriate
+                                        classes that we use to style each element. These classes control
+                                        the overall appearance, as well as the showing and hiding via CSS
+                                        transitions. You can modify any of this with custom CSS or
+                                        overriding our default variables. It's also worth noting that just
+                                        about any HTML can go within the <code>.accordion-body</code>,
+                                        though the transition does limit overflow.
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="rounded-t-lg border border-neutral-200 bg-white dark:border-neutral-600">
+                                <h2 class="accordion-header mb-0" id="headingThree">
+                                    <button
+                                        class="group relative flex w-full items-center border-0 bg-white py-4 px-5 text-left text-base text-neutral-800 transition [overflow-anchor:none] hover:z-[2] focus:z-[3] focus:outline-none dark:bg-white dark:text-natural-800 rounded [&:not([data-te-collapse-collapsed])]:bg-white [&:not([data-te-collapse-collapsed])]:text-primary [&:not([data-te-collapse-collapsed])]:[box-shadow:inset_0_-1px_0_rgba(229,231,235)] dark:[&:not([data-te-collapse-collapsed])]:bg-neutral-800 dark:[&:not([data-te-collapse-collapsed])]:text-primary-400 dark:[&:not([data-te-collapse-collapsed])]:[box-shadow:inset_0_-1px_0_rgba(75,85,99)]"
+                                        type="button"
+                                        data-te-collapse-init
+                                        data-te-collapse-collapsed
+                                        data-te-target="#collapseThree"
+                                        aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        Lorem Ipsum is simply dummy text of the printing
+                                        <span
+                                            class="ml-auto -mr-1 h-5 w-5 shrink-0 rotate-[-180deg] fill-[#336dec] transition-transform duration-200 ease-in-out group-[[data-te-collapse-collapsed]]:mr-0 group-[[data-te-collapse-collapsed]]:rotate-0 group-[[data-te-collapse-collapsed]]:fill-[#212529] motion-reduce:transition-none dark:fill-blue-300 dark:group-[[data-te-collapse-collapsed]]:fill-white">
+                                            <svg
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                fill="none"
+                                                viewBox="0 0 24 24"
+                                                stroke-width="1.5"
+                                                stroke="currentColor"
+                                                class="h-6 w-6">
+                                                <path
+                                                    stroke-linecap="round"
+                                                    stroke-linejoin="round"
+                                                    d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                                            </svg>
+                                        </span>
+                                    </button>
+                                </h2>
+                                <div
+                                    id="collapseThree"
+                                    class="!visible hidden"
+                                    data-te-collapse-item
+                                    aria-labelledby="headingThree"
+                                    data-te-parent="#accordionExample">
+                                    <div class="py-4 px-5 text-gray-600">
+                                        <strong>This is the third item's accordion body.</strong> It is
+                                        hidden by default, until the collapse plugin adds the appropriate
+                                        classes that we use to style each element. These classes control
+                                        the overall appearance, as well as the showing and hiding via CSS
+                                        transitions. You can modify any of this with custom CSS or
+                                        overriding our default variables. It's also worth noting that just
+                                        about any HTML can go within the <code>.accordion-body</code>,
+                                        though the transition does limit overflow.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </Bounce>
             </div>

@@ -4,7 +4,7 @@ import { Bounce } from 'react-reveal';
 const MissionVision = () => {
     const bg = "https://i.ibb.co/DkhRFn0/aboutbn.png";
     return (
-        <div className='bg-[#252525] py-10'>
+        <div className='bg-[#252525]'>
             <div className="container ">
                 {/* mission & vision */}
                 <div className='w-full p-2 py-10 md:w-4/5 flex flex-col md:flex-row justify-center overflow-hidden items-center mx-auto'>

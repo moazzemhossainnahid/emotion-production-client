@@ -9,7 +9,7 @@ import Fade from 'react-reveal/Fade';
 const Footer = () => {
     return (
         <div className='container pt-10 pb-7'>
-            <div className=" flex flex-col md:flex-row gap-5 w-full md:w-5/6 mx-auto">
+            <div className=" flex flex-col md:flex-row gap-5 w-full md:w-5/6 mx-auto overflow-hidden">
                 <div className='space-y-3 w-full md:w-1/4 mx-auto'>
                     <Rotate top left>
                         <img className='px-5 md:px-0' src="https://i.ibb.co/tstmn7Z/Logo-PNG.png" alt="" />

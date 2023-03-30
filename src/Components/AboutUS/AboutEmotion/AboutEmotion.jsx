@@ -5,7 +5,7 @@ const AboutEmotion = () => {
     const bg = "https://i.ibb.co/DkhRFn0/aboutbn.png";
 
     return (
-        <div className='w-full p-2 py-10 md:w-4/5 flex flex-col md:flex-row justify-center items-center mx-auto'>
+        <div className='w-full p-2 py-10 md:w-4/5 flex flex-col md:flex-row justify-center overflow-hidden items-center mx-auto'>
 
             <div className='w-full md:w-3/5 order-2 md:order-1 mx-auto md:text-left'>
                 <Bounce left>

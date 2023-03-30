@@ -115,7 +115,7 @@ const Footer = () => {
                 </Slide>
             </div>
 
-        </div >
+         </div >
     );
 };
 

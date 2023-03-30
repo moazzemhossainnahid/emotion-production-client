@@ -3,6 +3,7 @@ import OtherBlogs1 from '../../Components/Blogs/OtherBlogs1';
 import OtherBlogs2 from '../../Components/Blogs/OtherBlogs2';
 import PopularBlog from '../../Components/Blogs/PopularBlog';
 import TopBlog from '../../Components/Blogs/TopBlog';
+import RubberBand from 'react-reveal/RubberBand';
 
 const Blogs = () => {
     return (
@@ -16,7 +17,9 @@ const Blogs = () => {
                 <OtherBlogs2 />
             </div>
             <div className="">
-                <button className="px-5 py-2 border text-white hover:border-primary hover:duration-150 rounded w-[170px] mx-auto">See More</button>
+                <RubberBand>
+                    <button className="px-5 py-2 border text-white hover:border-primary hover:duration-150 rounded w-[170px] mx-auto">See More</button>
+                </RubberBand>
             </div>
         </div>
     );

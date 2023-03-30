@@ -14,7 +14,7 @@ const PopularBlog = () => {
     // console.log(pBlog?.title);
 
     return (
-        <div onClick={() => navigate(`/blogs/${pBlog?.id}`)} className='w-full md:w-5/6 flex flex-col md:flex-row gap-3 mx-auto py-20'>
+        <div onClick={() => navigate(`/blogs/${pBlog?.id}`)} className='w-full md:w-5/6 overflow-hidden flex flex-col md:flex-row gap-3 mx-auto py-20'>
             <div className="w-full md:w-3/6 mx-auto">
                 <Fade left>
                     <img src={pBlog?.blogImg} alt="" className="object-cover" />

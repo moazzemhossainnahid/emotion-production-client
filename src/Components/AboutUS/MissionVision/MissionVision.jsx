@@ -2,7 +2,9 @@ import React from 'react';
 import { Bounce } from 'react-reveal';
 
 const MissionVision = () => {
-    const bg = "https://i.ibb.co/DkhRFn0/aboutbn.png";
+    const mission = "https://i.ibb.co/SQ4RFDC/mission.png";
+    const vision = "https://i.ibb.co/ydsZ0QL/vision.png";
+
     return (
         <div className='bg-[#252525]'>
             <div className="container ">
@@ -10,7 +12,7 @@ const MissionVision = () => {
                 <div className='w-full p-2 py-10 md:w-4/5 flex flex-col md:flex-row justify-center overflow-hidden items-center mx-auto'>
                     <Bounce top>
                         <div className='w-full md:w-2/5 order-2 -p-2 md:order-1 mx-auto rounded'>
-                            <img className='object-cover pt-2' src={bg} alt="" />
+                            <img className='object-cover pt-2' src={mission} alt="" />
                         </div>
                     </Bounce>
 
@@ -41,7 +43,7 @@ const MissionVision = () => {
                 <div className='w-full p-2 py-10 md:w-4/5 flex flex-col md:flex-row justify-center overflow-hidden items-center mx-auto'>
                     <Bounce right>
                         <div className='w-full md:w-2/5 order-1 -p-2 md:order-2 mx-auto rounded'>
-                            <img className='object-cover pt-2' src={bg} alt="" />
+                            <img className='object-cover pt-2' src={vision} alt="" />
                         </div>
                     </Bounce>
 

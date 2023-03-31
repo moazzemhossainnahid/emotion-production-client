@@ -5,7 +5,7 @@ const MakingHappyEveryday = () => {
 
     return (
         <div className='bg-[#1E1E1E] my-10 w-full'>
-            <div className="bg-[url('https://svgshare.com/i/rUV.svg')] relative rounded-3xl flex flex-col justify-center items-center w-full mx-auto h-[80vh] md:h-[90vh] bg-cover p-7">
+            <div className="md:bg-[url('https://svgshare.com/i/rUV.svg')] relative rounded-3xl flex flex-col justify-center items-center w-full mx-auto h-[80vh] md:h-[90vh] bg-cover p-7">
                 <h3 className="text-center text-white text-3xl font-semibold pb-7">Making Many Happy Everyday </h3>
                 <div className="text-center relative w-full md:w-2/3 mx-auto">
                     <div className="pt-10 w-full md:w-3/5 mx-auto">

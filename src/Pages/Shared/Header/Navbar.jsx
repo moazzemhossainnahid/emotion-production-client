@@ -291,9 +291,9 @@ const Navbar = ({ handleThemeChange, theme }) => {
                             </li> */}
 
                             <li>
-                                <Link to="meeting" className="mx-auto text-white">
+                                <label htmlFor="my-modal-3" className="mx-auto text-white">
                                     <h3 className="px-5 py-2 border hover:border-primary hover:duration-150 rounded w-[170px] mx-auto">Make a Meeting</h3>
-                                </Link>
+                                </label>
                             </li>
                         </ul>
                     </div>
@@ -398,9 +398,9 @@ const Navbar = ({ handleThemeChange, theme }) => {
             </div> */}
 
             <li className="navbar-end hidden lg:flex">
-                <button className="mx-auto text-white">
+                <label htmlFor="my-modal-3" className="mx-auto text-white">
                     <h3 className="px-5 py-2 border hover:border-primary hover:duration-150 rounded w-[170px] mx-auto">Make a Meeting</h3>
-                </button>
+                </label>
             </li>
 
             <div className="navbar-end lg:hidden flex">
@@ -413,6 +413,18 @@ const Navbar = ({ handleThemeChange, theme }) => {
                     >
                         <HiBars3CenterLeft className="text-white" />
                     </label>
+                </div>
+            </div>
+            {/* The button to open modal */}
+            {/* <label htmlFor="my-modal-3" className="btn">open modal</label> */}
+
+            {/* Put this part before </body> tag */}
+            <input type="checkbox" id="my-modal-3" className="modal-toggle" />
+            <div className="modal z-50 h-screen w-full overflow-hidden">
+                <div className="modal-box relative">
+                    <label htmlFor="my-modal-3" className="btn btn-sm btn-circle absolute right-2 top-2">✕</label>
+                    <h3 className="text-lg font-bold">Congratulations random Internet user!</h3>
+                    <p className="py-4">You've been selected for a chance to get one year of subscription to use Wikipedia for free!</p>
                 </div>
             </div>
         </div>

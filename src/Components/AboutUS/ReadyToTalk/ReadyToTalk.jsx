@@ -11,7 +11,10 @@ const ReadyToTalk = () => {
                 <h3 className="text-3xl md:text-4xl text-white font-bold pb-10">Ready To Talk?</h3>
             </Jump>
             <LightSpeed>
-                <p className="text-white pb-10">Letʼs Start the Convo <span class="text-white -pt-5">&rarr;</span> </p>
+                <div className="w-full group flex items-center justify-center pb-7">
+                <span className="text-white group transition-all">Letʼs Start the Convo </span>
+                <span class="text-white pl-3 text-xl group-hover:translate-x-5 duration-200">&rarr;</span>
+                </div>
             </LightSpeed>
             <Flash>
                 <div className="bg-gradient-to-r from-[#3b00c4] to-[#c40083] p-10 py-16 md:w-2/3 mx-auto rounded">

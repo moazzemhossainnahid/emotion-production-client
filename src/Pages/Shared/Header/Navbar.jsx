@@ -5,7 +5,7 @@ import Drawer from "react-modern-drawer";
 import "react-modern-drawer/dist/index.css";
 import { Link, NavLink } from "react-router-dom";
 // import auth from "../../../firebase.init";
-import { HiBars3CenterLeft, HiChatBubbleBottomCenter } from "react-icons/hi2";
+import { HiBars3CenterLeft } from "react-icons/hi2";
 import logo from '../../../Assets/Public/Logo.png';
 
 
@@ -35,8 +35,8 @@ const Navbar = ({ handleThemeChange, theme }) => {
             </li>
             <li class="dropdown">
                 <span> Services </span>
-                <ul class="dropdown-menu">
-                    <div className='mb-1 -ml-52 -mt-3 px-7 py-3 bg-[#211f20] flex items-start rounded'>
+                <ul class="dropdown-menu transition-all origin-top duration-300">
+                    <div className='mb-1 -ml-52 -mt-4 px-7 py-3 bg-[#211f20] flex items-start rounded'>
                         <div>
                             <li className='flex items-center group transition-all'>
                                 <NavLink to="service/digitalbrand">
@@ -56,6 +56,7 @@ const Navbar = ({ handleThemeChange, theme }) => {
                                     <span class="text-transparent text-4xl -pt-5 group-hover:text-white group-hover:translate-x-5 duration-200">&rarr;</span>
                                 </NavLink>
                             </li>
+
                             <li className='flex items-center group transition-all'>
                                 <NavLink to="service/packaging">
                                     <span className='w-12 p-3 h-12 bg-[#707070] flex items-center rounded-full'>

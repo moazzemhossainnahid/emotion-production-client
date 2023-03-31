@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const FAQ = () => {
     return (
-        <div className='w-full p-2 py-10 md:w-4/5 flex flex-col md:flex-row justify-center overflow-hidden items-center mx-auto'>
+        <div className='container w-full p-2 py-10 md:w-4/5 flex flex-col gap-3 md:flex-row justify-center overflow-hidden items-center mx-auto'>
 
             <div className='w-full md:w-3/6 order-2 px-3 md:order-1 mx-auto md:text-left overflow-hidden'>
                 <Bounce>

@@ -6,7 +6,7 @@ import Bounce from 'react-reveal/Bounce';
 
 const ReadyToTalk = () => {
     return (
-        <div className='container overflow-hidden h-full pt-5 md:pt-10 py-10'>
+        <div className='container w-full mx-auto overflow-hidden h-full pt-5 md:pt-10 py-10'>
             <Jump>
                 <h3 className="text-3xl md:text-4xl text-white font-bold pb-10">Ready To Talk?</h3>
             </Jump>
@@ -25,7 +25,7 @@ const ReadyToTalk = () => {
                         <p className="text-white font-thin py-3">Join with Us for get instant update about offers and more</p>
                     </Bounce>
                     <Bounce left>
-                        <div className="py-7">
+                        <div className="py-7 space-y-2 md:space-y-0">
                             <input type="text" placeholder="Enter Your Mail" className="input rounded-none w-full max-w-xs" />
                             <input className='bg-black hover:bg-[#212121] text-white px-5 py-3 cursor-pointer' type="submit" value="Subscribe" />
                         </div>

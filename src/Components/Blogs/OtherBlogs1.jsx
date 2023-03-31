@@ -11,7 +11,7 @@ const OtherBlogs1 = () => {
 
     return (
         <div className='container overflow-hidden py-10 w-full md:w-5/6 mx-auto'>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 w-full mx-auto">
                 {
                     othersBlog?.slice(0, 6)?.map(blog => (
                         <LightSpeed>

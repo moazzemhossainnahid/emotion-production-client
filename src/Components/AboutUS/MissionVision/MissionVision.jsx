@@ -6,8 +6,8 @@ const MissionVision = () => {
     const vision = "https://i.ibb.co/ydsZ0QL/vision.png";
 
     return (
-        <div className='bg-[#252525]'>
-            <div className="container ">
+        <div className='bg-[#252525] w-full'>
+            <div className="container w-full mx-auto">
                 {/* mission & vision */}
                 <div className='w-full p-2 py-10 md:w-4/5 flex flex-col md:flex-row justify-center overflow-hidden items-center mx-auto'>
                     <Bounce top>

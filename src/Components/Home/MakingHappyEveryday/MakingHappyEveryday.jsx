@@ -54,6 +54,7 @@ const MakingHappyEveryday = () => {
                                             Working with Timon Openen me a lot of ways, even when im from miami
                                             we had a great collaboration.
                                         </p>
+                                        <p className="w-32 h-1 bg-[#3E3E3E] rounded border-2 mx-auto border-[#AAAAAA]"></p>
                                         <img
                                             src="https://tecdn.b-cdn.net/img/Photos/Slides/img%20(15).jpg"
                                             class="w-24 h-24 object-cover rounded-full mx-auto"
@@ -74,6 +75,8 @@ const MakingHappyEveryday = () => {
                                             Working with Timon Openen me a lot of ways, even when im from miami
                                             we had a great collaboration.
                                         </p>
+                                        <p className="w-32 h-1 bg-[#3E3E3E] rounded border-2 mx-auto border-[#AAAAAA]"></p>
+
                                         <img
                                             src="https://tecdn.b-cdn.net/img/Photos/Slides/img%20(22).jpg"
                                             class="w-24 h-24 object-cover rounded-full mx-auto"
@@ -92,6 +95,8 @@ const MakingHappyEveryday = () => {
                                             Working with Timon Openen me a lot of ways, even when im from miami
                                             we had a great collaboration.
                                         </p>
+                                        <p className="w-32 h-1 bg-[#3E3E3E] rounded border-2 mx-auto border-[#AAAAAA]"></p>
+
                                         <img
                                             src="https://tecdn.b-cdn.net/img/Photos/Slides/img%20(23).jpg"
                                             class="w-24 h-24 object-cover rounded-full mx-auto"

@@ -292,7 +292,7 @@ const Navbar = ({ handleThemeChange, theme }) => {
 
                             <li>
                                 <label htmlFor="my-modal-3" className="mx-auto text-white">
-                                    <h3 className="px-5 py-2 border hover:border-primary hover:duration-150 rounded w-[170px] mx-auto">Make a Meeting</h3>
+                                    <h3 className="px-5 py-2 cursor-pointer border hover:border-primary hover:duration-150 rounded w-[170px] mx-auto">Make a Meeting</h3>
                                 </label>
                             </li>
                         </ul>
@@ -399,7 +399,7 @@ const Navbar = ({ handleThemeChange, theme }) => {
 
             <li className="navbar-end hidden lg:flex">
                 <label htmlFor="my-modal-3" className="mx-auto text-white">
-                    <h3 className="px-5 py-2 border hover:border-primary hover:duration-150 rounded w-[170px] mx-auto">Make a Meeting</h3>
+                    <h3 className="px-5 py-2 border hover:border-primary cursor-pointer hover:duration-150 rounded w-[170px] mx-auto">Make a Meeting</h3>
                 </label>
             </li>
 
@@ -421,10 +421,19 @@ const Navbar = ({ handleThemeChange, theme }) => {
             {/* Put this part before </body> tag */}
             <input type="checkbox" id="my-modal-3" className="modal-toggle" />
             <div className="modal z-50 h-screen w-full overflow-hidden">
-                <div className="modal-box relative">
+                <div className="modal-box relative bg-[#000000] py-10">
                     <label htmlFor="my-modal-3" className="btn btn-sm btn-circle absolute right-2 top-2">✕</label>
-                    <h3 className="text-lg font-bold">Congratulations random Internet user!</h3>
-                    <p className="py-4">You've been selected for a chance to get one year of subscription to use Wikipedia for free!</p>
+                    <div className="text-white">
+                        <form>
+                        <input type="text" placeholder="Type here" className="input my-2 input-bordered w-full max-w-xs" />
+                        <input type="text" placeholder="Type here" className="input my-2 input-bordered w-full max-w-xs" />
+                        <input type="text" placeholder="Type here" className="input my-2 input-bordered w-full max-w-xs" />
+                        <input type="text" placeholder="Type here" className="input my-2 input-bordered w-full max-w-xs" /> <br />
+                        <input type="submit" value="Submit" placeholder="Type here" className="px-7 py-3 bg-[#252525] text-white cursor-pointer rounded" />
+
+                        </form>
+                        
+                    </div>
                 </div>
             </div>
         </div>

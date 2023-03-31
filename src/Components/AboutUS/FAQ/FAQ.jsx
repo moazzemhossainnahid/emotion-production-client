@@ -7,7 +7,7 @@ const FAQ = () => {
         <div className='w-full p-2 py-10 md:w-4/5 flex flex-col md:flex-row justify-center overflow-hidden items-center mx-auto'>
 
             <div className='w-full md:w-3/6 order-2 px-3 md:order-1 mx-auto md:text-left overflow-hidden'>
-                <Bounce left>
+                <Bounce>
                     <div className="text-[#C9C9C9] space-y-2 text-start">
                         <div id="accordionExample" className='space-y-3'>
                             <div
@@ -203,7 +203,7 @@ const FAQ = () => {
                     </div>
                 </Bounce>
             </div>
-            <Bounce right>
+            <Bounce>
                 <div className='w-full md:w-3/6 order-1 -p-2 md:order-2 mx-auto text-start px-3 rounded'>
                     <h3 className="text-white text-5xl font-bold">Frequently <br />
                         Asked Questions</h3>

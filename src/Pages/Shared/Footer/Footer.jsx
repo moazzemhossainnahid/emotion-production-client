@@ -8,7 +8,7 @@ import Fade from 'react-reveal/Fade';
 
 const Footer = () => {
     return (
-        <div className='container pt-10 pb-7'>
+        <div className='container w-full mx-auto pt-10 pb-7'>
             <div className=" flex flex-col md:flex-row gap-5 w-full md:w-5/6 mx-auto overflow-hidden">
                 <div className='space-y-3 w-full md:w-1/4 mx-auto'>
                     <Rotate top left>

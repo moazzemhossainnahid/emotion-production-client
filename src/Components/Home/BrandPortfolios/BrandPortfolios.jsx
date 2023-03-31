@@ -2,7 +2,7 @@ import React from 'react';
 
 const BrandPortfolios = () => {
     return (
-        <div className='container h-full pt-5 md:pt-10 py-10'>
+        <div className='container h-full w-full mx-auto pt-5 md:pt-10 py-10'>
             <h3 className="text-2xl md:text-3xl text-white font-bold pb-10">Brand Portfolios</h3>
             <div className="md:bg-[url('https://i.ibb.co/myqPCyR/Path-14173.jpg')] relative flex items-center w-full h-screen md:h-[80vh] bg-cover p-7">
                 <div className="bg-transparent text-white flex gap-3 rounded-2xl p-5 m-5 text-start absolute -left-0">

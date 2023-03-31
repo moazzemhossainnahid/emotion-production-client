@@ -3,7 +3,7 @@ import { Link, Outlet } from 'react-router-dom';
 
 const WhyEmotion = () => {
     return (
-        <div className='container h-full pt-5 md:pt-10'>
+        <div className='container h-full pt-5 md:pt-10 w-full mx-auto'>
             <h3 className="text-2xl md:text-3xl text-white font-bold">Why Emotion</h3>
 
             <section className='flex items-center justify-center w-full mx-auto'>

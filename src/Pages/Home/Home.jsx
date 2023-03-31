@@ -24,7 +24,7 @@ const Home = () => {
             <BrandPortfolios/>
             <WhatWeDo/>
             <OurServices/>
-            {/* <MakingHappyEveryday/> */}
+            <MakingHappyEveryday/>
         </div>
     );
 };

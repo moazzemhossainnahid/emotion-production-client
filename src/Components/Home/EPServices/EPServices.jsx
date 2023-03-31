@@ -5,7 +5,7 @@ import Slide from 'react-reveal/Slide';
 
 const EPServices = () => {
     return (
-        <div className='container p-3'>
+        <div className='container w-full mx-auto p-3'>
             <div className='w-full md:w-5/6 flex flex-col md:flex-row justify-between items-center gap-3 mx-auto py-10'>
                 <div className="text-white text-start w-full md:w-3/6 mx-auto p-2">
                     <RubberBand>

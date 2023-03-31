@@ -3,7 +3,7 @@ import Bounce from 'react-reveal/Bounce';
 
 const BrandEmpowerment = () => {
     return (
-        <div className='container overflow-hidden p-3'>
+        <div className='container w-full mx-auto overflow-hidden p-3'>
             <div className='w-full md:w-5/6 flex md:justify-end mx-auto py-10'>
                 <div className="bg-[url('https://i.ibb.co/kMwZ9n0/r-Qs-1-1.png')] relative rounded-3xl flex items-center w-full md:w-2/3 h-[80vh] md:h-[75vh] bg-cover p-7">
                     <Bounce left>

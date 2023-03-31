@@ -10,7 +10,7 @@ const OtherBlogs1 = () => {
     // console.log(othersBlog);
 
     return (
-        <div className='container py-10 w-full md:w-5/6 mx-auto'>
+        <div className='container overflow-hidden py-10 w-full md:w-5/6 mx-auto'>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
                 {
                     othersBlog?.slice(0, 6)?.map(blog => (

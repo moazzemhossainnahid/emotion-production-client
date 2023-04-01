@@ -323,3 +323,21 @@
 .carousel-next {
   right: 20px;
 }
+
+.slick-slide img {
+  padding-right:10px; /* add 10 pixels of padding to the left and right sides of the image */
+}
+.slick-dots li button:before {
+  display: none !important;
+  /* color: white !important; */
+  /* font-size: 12px !important; */
+}
+.slick-dots li.slick-active button:before{
+  display: none !important;
+  /* color: green !important; */
+}
+.background{
+  background-color: #0E0E0E;
+    opacity: 0.8;
+    transition: 0.3s, border-radius 0.3s, opacity 0.3s;
+}

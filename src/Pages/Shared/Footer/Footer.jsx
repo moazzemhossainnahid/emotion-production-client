@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <div className='container grid-cols-1 sm:grid-cols-3 grid gap-3 '>
+        <div className='container mx-auto grid-cols-1 sm:grid-cols-3 grid gap-3 '>
             <div>
                 <img src="https://i.ibb.co/tstmn7Z/Logo-PNG.png" alt="" />
                 <p className="text-white ml-4 text-left">Lorem Ipsum is simply dummy text of the

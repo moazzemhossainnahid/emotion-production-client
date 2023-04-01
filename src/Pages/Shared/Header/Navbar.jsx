@@ -107,7 +107,7 @@ const Navbar = ({ handleThemeChange, theme }) => {
                             <li className='flex items-center group transition-all'>
                                 <NavLink to="service/accessories">
                                     <span className='w-12 p-3 h-12 bg-[#707070] flex items-center rounded-full'>
-                                        <img className='w-7' src="https://i.ibb.co/k9pRjt1/animation.png" alt="" />
+                                        <img className='w-7' src="https://svgshare.com/i/rRP.svg" alt="" />
                                     </span>
                                     <p className="flex items-center"> Accessories </p>
                                     <span class="text-transparent text-4xl -pt-5 group-hover:text-white group-hover:translate-x-5 duration-200">&rarr;</span>

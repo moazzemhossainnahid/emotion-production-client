@@ -193,8 +193,20 @@ const WebDesign = () => {
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 justify-around items-center py-10'>
                     {
                         PalnsData?.map(plan => (
-                            <div key={plan?.id} className="p-5 py-10 text-white">
-                                <h3 className="text-3xl">{plan?.plan}</h3>
+                            <div key={plan?.id} className="p-5 py-10 text-white bg-[#1E1E1E] hover:shadow-2xl duration-200 rounded-xl md:mx-5">
+                                <h3 className="text-2xl py-5">{plan?.plan}</h3>
+                                <h2 className="text-5xl md:text-6xl font-bold py-5">${plan?.price} <sub className='text-xl -ml-3'>/mo</sub> </h2>
+                                <div className="space-y-3 pt-5">
+                                    {
+                                        plan?.data?.map(d => (
+                                            <p key={d} className="">{d}</p>
+                                        ))
+                                    }
+                                </div>
+
+                                <div className="pt-5">
+                                    <button className='px-10 py-3 rounded-3xl text-white border hover:border-primary border-white hover:shadow-xl'>Get Started</button>
+                                </div>
                             </div>
                         ))
                     }

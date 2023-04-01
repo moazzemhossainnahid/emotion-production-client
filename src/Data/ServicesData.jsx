@@ -34,10 +34,10 @@ export const ServicesData = [
         icon: "https://svgshare.com/i/rPp.svg",
         title: "Prototyping",
     },
-    // {
-    //     id: "8",
-    //     icon: "",
-    //     title: "",
-    // },
+    {
+        id: "8",
+        icon: "https://svgshare.com/i/rRP.svg",
+        title: "Accessories",
+    },
 
 ]

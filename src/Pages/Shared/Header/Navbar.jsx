@@ -27,9 +27,6 @@ const Navbar = ({ handleThemeChange, theme }) => {
 
     const manuItems = (
         <>
-            {/* <li>
-                <NavLink className="hover:rounded-none" to="/"> Home </NavLink>
-            </li> */}
             <li>
                 <NavLink className="hover:rounded-none" to="/"> Home </NavLink>
             </li>
@@ -40,7 +37,7 @@ const Navbar = ({ handleThemeChange, theme }) => {
                         <div>
                             <li className='flex items-center group transition-all'>
                                 <NavLink to="service/digitalbrand">
-                                    <span className='w-12 p-3 h-12 bg-[#707070] flex items-center rounded-full'>
+                                    <span className='w-12 p-3 h-12 group-hover:bg-[#707070] flex items-center rounded-full'>
                                         <img className='w-7' src="https://i.ibb.co/L6Jkztx/Path-2.png" alt="" />
                                     </span>
                                     <p className="flex items-center"> Digital Brand </p>
@@ -49,7 +46,7 @@ const Navbar = ({ handleThemeChange, theme }) => {
                             </li>
                             <li className='flex items-center group transition-all'>
                                 <NavLink to="service/webdesign">
-                                    <span className='w-12 p-3 h-12 bg-[#707070] flex items-center rounded-full'>
+                                    <span className='w-12 p-3 h-12 group-hover:bg-[#707070] flex items-center rounded-full'>
                                         <img className='w-7' src="https://i.ibb.co/9bzLHG5/Group-792.png" alt="" />
                                     </span>
                                     <p className="flex items-center"> Web Design </p>
@@ -59,7 +56,7 @@ const Navbar = ({ handleThemeChange, theme }) => {
 
                             <li className='flex items-center group transition-all'>
                                 <NavLink to="service/packaging">
-                                    <span className='w-12 p-3 h-12 bg-[#707070] flex items-center rounded-full'>
+                                    <span className='w-12 p-3 h-12 group-hover:bg-[#707070] flex items-center rounded-full'>
                                         <img className='w-7' src="https://svgshare.com/i/rRP.svg" alt="" />
                                     </span>
                                     <p className="flex items-center"> Packaging </p>
@@ -68,7 +65,7 @@ const Navbar = ({ handleThemeChange, theme }) => {
                             </li>
                             <li className='flex items-center group transition-all'>
                                 <NavLink to="service/animation">
-                                    <span className='w-12 p-3 h-12 bg-[#707070] flex items-center rounded-full'>
+                                    <span className='w-12 p-3 h-12 group-hover:bg-[#707070] flex items-center rounded-full'>
                                         <img className='w-7' src="https://i.ibb.co/k9pRjt1/animation.png" alt="" />
                                     </span>
                                     <p className="flex items-center"> Animation </p>
@@ -79,7 +76,7 @@ const Navbar = ({ handleThemeChange, theme }) => {
                         <div className='ml-24 mt-0 flex flex-col items-start'>
                             <li className='flex items-center group transition-all'>
                                 <NavLink to="service/contantshotting">
-                                    <span className='w-12 p-3 h-12 bg-[#707070] flex items-center rounded-full'>
+                                    <span className='w-12 p-3 h-12 group-hover:bg-[#707070] flex items-center rounded-full'>
                                         <img className='w-7' src="https://i.ibb.co/pZtx1mq/Design-32.png" alt="" />
                                     </span>
                                     <p className="flex items-center"> Content Shotting </p>
@@ -88,7 +85,7 @@ const Navbar = ({ handleThemeChange, theme }) => {
                             </li>
                             <li className='flex items-center group transition-all'>
                                 <NavLink to="service/uiuxdesign">
-                                    <span className='w-12 p-3 h-12 bg-[#707070] flex items-center rounded-full'>
+                                    <span className='w-12 p-3 h-12 group-hover:bg-[#707070] flex items-center rounded-full'>
                                         <img className='w-7' src="https://i.ibb.co/zP51JbF/ux-design.png" alt="" />
                                     </span>
                                     <p className="flex items-center"> UX UI Design </p>
@@ -97,7 +94,7 @@ const Navbar = ({ handleThemeChange, theme }) => {
                             </li>
                             <li className='flex items-center group transition-all'>
                                 <NavLink to="service/prototype">
-                                    <span className='w-12 p-3 h-12 bg-[#707070] flex items-center rounded-full'>
+                                    <span className='w-12 p-3 h-12 group-hover:bg-[#707070] flex items-center rounded-full'>
                                         <img className='w-7' src="https://i.ibb.co/0V2cnpt/prototype.png" alt="" />
                                     </span>
                                     <p className="flex items-center"> Prototype </p>
@@ -106,7 +103,7 @@ const Navbar = ({ handleThemeChange, theme }) => {
                             </li>
                             <li className='flex items-center group transition-all'>
                                 <NavLink to="service/accessories">
-                                    <span className='w-12 p-3 h-12 bg-[#707070] flex items-center rounded-full'>
+                                    <span className='w-12 p-3 h-12 group-hover:bg-[#707070] flex items-center rounded-full'>
                                         <img className='w-7' src="https://svgshare.com/i/rRP.svg" alt="" />
                                     </span>
                                     <p className="flex items-center"> Accessories </p>
@@ -129,9 +126,6 @@ const Navbar = ({ handleThemeChange, theme }) => {
 
     const mobileManuItems = (
         <>
-            {/* <li>
-                <NavLink className="hover:rounded-none" to="/"> Home </NavLink>
-            </li> */}
             <li>
                 <NavLink className="hover:rounded-none" to="/"> Home </NavLink>
             </li>
@@ -419,14 +413,14 @@ const Navbar = ({ handleThemeChange, theme }) => {
                     <label htmlFor="my-modal-3" className="btn btn-sm btn-circle absolute right-2 top-2">✕</label>
                     <div className="text-white">
                         <form>
-                        <input type="text" placeholder="Type here" className="input my-2 input-bordered w-full max-w-xs" />
-                        <input type="text" placeholder="Type here" className="input my-2 input-bordered w-full max-w-xs" />
-                        <input type="text" placeholder="Type here" className="input my-2 input-bordered w-full max-w-xs" />
-                        <input type="text" placeholder="Type here" className="input my-2 input-bordered w-full max-w-xs" /> <br />
-                        <input type="submit" value="Submit" placeholder="Type here" className="px-7 py-3 bg-[#252525] text-white cursor-pointer rounded" />
+                            <input type="text" placeholder="Type here" className="input my-2 input-bordered w-full max-w-xs" />
+                            <input type="text" placeholder="Type here" className="input my-2 input-bordered w-full max-w-xs" />
+                            <input type="text" placeholder="Type here" className="input my-2 input-bordered w-full max-w-xs" />
+                            <input type="text" placeholder="Type here" className="input my-2 input-bordered w-full max-w-xs" /> <br />
+                            <input type="submit" value="Submit" placeholder="Type here" className="px-7 py-3 bg-[#252525] text-white cursor-pointer rounded" />
 
                         </form>
-                        
+
                     </div>
                 </div>
             </div>

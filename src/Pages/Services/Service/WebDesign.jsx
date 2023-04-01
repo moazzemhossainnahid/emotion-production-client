@@ -1,5 +1,6 @@
 import React from 'react';
 import ProgressBar from 'react-animated-progress-bar';
+import { PalnsData } from '../../../Data/PlansData';
 // import '../../style.css'
 
 const WebDesign = () => {
@@ -186,8 +187,18 @@ const WebDesign = () => {
             </div> */}
             {/* ============================== packages =================== */}
 
-            <div className='flex flex-col md:flex-row justify-around items-center py-40'>
+            <div className="container w-full mx-auto py-20">
+                <h3 className="text-5xl text-white">My Service Planing</h3>
 
+                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 justify-around items-center py-10'>
+                    {
+                        PalnsData?.map(plan => (
+                            <div key={plan?.id} className="p-5 py-10 text-white">
+                                <h3 className="text-3xl">{plan?.plan}</h3>
+                            </div>
+                        ))
+                    }
+                </div>
             </div>
             <div className='flex flex-col md:flex-row gap-4 justify-around items-center mt-24 mb-36'>
                 <div className='bg-slate-800 p-6'>

@@ -133,13 +133,7 @@ const Navbar = ({ handleThemeChange, theme }) => {
                 <NavLink className="hover:rounded-none" to="/"> Home </NavLink>
             </li> */}
             <li>
-                <NavLink className="hover:rounded-none" to="/"> English </NavLink>
-            </li>
-            <li>
-                <NavLink className="hover:rounded-none" to="concepts"> Concepts </NavLink>
-            </li>
-            <li>
-                <NavLink className="hover:rounded-none" to="empowerment"> Empowerment </NavLink>
+                <NavLink className="hover:rounded-none" to="/"> Home </NavLink>
             </li>
             <li class="dropdown">
                 <span>Services &rarr;</span>
@@ -202,7 +196,7 @@ const Navbar = ({ handleThemeChange, theme }) => {
                 </ul>
             </li>
             <li>
-                <NavLink to="brandportfolio">Brand Portfolios</NavLink>
+                <NavLink to="aboutus">About US</NavLink>
             </li>
             <li>
                 <NavLink to="blogs">Blogs</NavLink>

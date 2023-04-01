@@ -3,10 +3,10 @@ import ProgressBar from 'react-animated-progress-bar';
 // import '../../style.css'
 
 const WebDesign = () => {
-      
+
     return (
         <div className="container px-7 mx-auto w-full text-white ">
-            
+
             <div className='flex flex-col md:flex-row justify-between items-center  mt-10 mb-24'>
                 <div className='w-full p-4'>
                     <h2 className='text-center text-2xl sm:text-5xl sm:text-left'> Web Design can make easy your complex product.
@@ -115,7 +115,7 @@ const WebDesign = () => {
                 </div>
             </div> */}
 
-            
+
             <div class="p-8 w-full ">
                 <div class="flex items-center justify-between">
                     <span class="text-slate-400 text-sm text-slate-500">Progress 1</span>
@@ -123,7 +123,7 @@ const WebDesign = () => {
                 </div>
 
                 <div class="w-full bg-slate-100 h-1 mb-6 mt-2">
-                    <div class="bg-teal-400 h-1 rounded" style={{width:"0%"}}></div>
+                    <div class="bg-teal-400 h-1 rounded" style={{ width: "0%" }}></div>
                 </div>
 
                 <div class="flex items-center justify-between">
@@ -132,7 +132,7 @@ const WebDesign = () => {
                 </div>
 
                 <div class="w-full bg-slate-100 h-1 mb-6 mt-2">
-                    <div class="bg-teal-400 h-1 rounded" style={{width:"25%"}}></div>
+                    <div class="bg-teal-400 h-1 rounded" style={{ width: "25%" }}></div>
                 </div>
 
                 <div class="flex items-center justify-between">
@@ -141,7 +141,7 @@ const WebDesign = () => {
                 </div>
 
                 <div class="w-full bg-slate-100 h-1 mb-6 mt-2">
-                    <div class="bg-teal-400 h-1 rounded" style={{width:"55%"}}></div>
+                    <div class="bg-teal-400 h-1 rounded" style={{ width: "55%" }}></div>
                 </div>
 
                 <div class="flex items-center justify-between">
@@ -150,7 +150,7 @@ const WebDesign = () => {
                 </div>
 
                 <div class="w-full bg-slate-100 h-1 mb-6 mt-2">
-                    <div class="bg-teal-400 h-1 rounded" style={{width:"75%"}}></div>
+                    <div class="bg-teal-400 h-1 rounded" style={{ width: "75%" }}></div>
                 </div>
 
                 <div class="flex items-center justify-between">
@@ -159,7 +159,7 @@ const WebDesign = () => {
                 </div>
 
                 <div class="w-full bg-slate-100 h-1 mt-2">
-                    <div class="bg-teal-400 h-1 rounded" style={{width:"100%"}}></div>
+                    <div class="bg-teal-400 h-1 rounded" style={{ width: "100%" }}></div>
                 </div>
             </div>
 
@@ -186,155 +186,8 @@ const WebDesign = () => {
             </div> */}
             {/* ============================== packages =================== */}
 
-            <div className='flex flex-col md:flex-row justify-between items-center mt-40 mb-40'>
-                {/* ============================== Basic =================== */}
-                <div className='shadow-2xl shadow-blue-500/50 rounded border  bg-slate-800 sm:mb-0 mb-7 w-[300px]'>
-                    <div className='p-3'>
-                        <h1 className='text-white text-center text-2xl border-b font-black '>Basic</h1>
-                        <div className="flex justify-between items-center my-2">
-                            <h2 className='text-left font-normal'>Landing Page Design</h2>
-                            <h2 className='text-3xl text-white'>$100</h2>
-                        </div>
-                        <p className="  ">Three Page Landing Design with Html and css lorem</p>
-                        <div className="flex  justify-between items-center mt-24">
-                            <div className="flex  justify-between items-center ">
-                                <img className='p-1' src="https://img.icons8.com/ios-glyphs/20/12B886/timer.png" />
-                                <h2 className=' text-xs	font-black'>1 Days Delivery</h2>
-                            </div>
-                            <div className="flex justify-between items-center ">
-                                <img className='p-1' src="https://img.icons8.com/external-goofy-solid-kerismaker/17/12B886/external-Revision-graphic-design-goofy-solid-kerismaker.png" />
-                                <h2 className=' text-xs font-black'>Unlimited Revisions</h2>
-                            </div>
+            <div className='flex flex-col md:flex-row justify-around items-center py-40'>
 
-                        </div>
-                        <div className='mt-2 '>
-                            <div className="flex justify-start items-center ">
-                                <img src="https://img.icons8.com/ios/20/12B886/multiply.png" />
-                                <h2 className='ml-2'>2 pages </h2>
-                            </div>
-                            <div className="flex justify-start mt-1 items-center ">
-                                <img src="https://img.icons8.com/material-outlined/18/12B886/checkmark--v1.png" />
-                                <h2 className='ml-2'>Design customization</h2>
-                            </div>
-                            <div className="flex justify-start mt-1 items-center ">
-                                <img src="https://img.icons8.com/ios/20/12B886/multiply.png" />
-                                <h2 className='ml-2'>Content upload </h2>
-                            </div>
-                            <div className="flex justify-start mt-1 items-center ">
-                                <img src="https://img.icons8.com/material-outlined/18/12B886/checkmark--v1.png" />
-                                <h2 className='ml-2'>Responsive design </h2>
-                            </div>
-
-                            <div className="flex justify-start mt-1 items-center ">
-                                <img src="https://img.icons8.com/material-outlined/18/12B886/checkmark--v1.png" />
-                                <h2 className='ml-2'>Source code</h2>
-                            </div>
-
-                        </div>
-                    </div>
-                    <a className='flex items-center justify-between bg-black mt-5 p-2' href="" >
-                        <h1 className='text-2xl text-center' >Continue</h1>
-                        <span><img src="https://img.icons8.com/sf-black/30/12B886/long-arrow-right.png" /></span>
-                    </a>
-                </div>
-                {/* ==============================standard  ================= */}
-                <div className='shadow-2xl shadow-blue-500/50 rounded border  bg-slate-800 sm:mb-0 mb-7 w-[300px]'>
-                    <div className='p-3'>
-                        <h1 className='text-white text-center text-2xl border-b font-black '>Standard</h1>
-                        <div className="flex justify-between items-center my-2">
-                            <h2 className='text-left font-normal'>Minimum 10 Maximum 15 page Design</h2>
-                            <h2 className='text-3xl text-white'>$100</h2>
-                        </div>
-                        <p className="  ">Three Page Landing Design with Html and css lorem</p>
-                        <div className="flex  justify-between items-center mt-24">
-                            <div className="flex  justify-between items-center ">
-                                <img className='p-1' src="https://img.icons8.com/ios-glyphs/20/12B886/timer.png" />
-                                <h2 className=' text-xs	font-black'>1 Days Delivery</h2>
-                            </div>
-                            <div className="flex justify-between items-center ">
-                                <img className='p-1' src="https://img.icons8.com/external-goofy-solid-kerismaker/17/12B886/external-Revision-graphic-design-goofy-solid-kerismaker.png" />
-                                <h2 className=' text-xs font-black'>Unlimited Revisions</h2>
-                            </div>
-
-                        </div>
-                        <div className='mt-2 '>
-                            <div className="flex justify-start items-center ">
-                                <img src="https://img.icons8.com/ios/20/12B886/multiply.png" />
-                                <h2 className='ml-2'>2 pages </h2>
-                            </div>
-                            <div className="flex justify-start mt-1 items-center ">
-                                <img src="https://img.icons8.com/material-outlined/18/12B886/checkmark--v1.png" />
-                                <h2 className='ml-2'>Design customization</h2>
-                            </div>
-                            <div className="flex justify-start mt-1 items-center ">
-                                <img src="https://img.icons8.com/ios/20/12B886/multiply.png" />
-                                <h2 className='ml-2'>Content upload </h2>
-                            </div>
-                            <div className="flex justify-start mt-1 items-center ">
-                                <img src="https://img.icons8.com/material-outlined/18/12B886/checkmark--v1.png" />
-                                <h2 className='ml-2'>Responsive design </h2>
-                            </div>
-
-                            <div className="flex justify-start mt-1 items-center ">
-                                <img src="https://img.icons8.com/material-outlined/18/12B886/checkmark--v1.png" />
-                                <h2 className='ml-2'>Source code</h2>
-                            </div>
-                        </div>
-                    </div>
-                    <a className='flex items-center justify-between bg-black mt-5 p-2' href="" >
-                        <h1 className='text-2xl text-center' >Continue</h1>
-                        <span><img src="https://img.icons8.com/sf-black/30/12B886/long-arrow-right.png" /></span>
-                    </a>
-                </div>
-                {/*======================= Premium ========================== */}
-                <div className='shadow-2xl shadow-blue-500/50 rounded border  bg-slate-800 sm:mb-0 mb-7 w-[300px]'>
-                    <div className='p-3'>
-                        <h1 className='text-white text-center text-2xl border-b font-black '>Premium</h1>
-                        <div className="flex justify-between items-center my-2">
-                            <h2 className='text-left font-normal'>Full Website Design</h2>
-                            <h2 className='text-3xl text-white'>$100</h2>
-                        </div>
-                        <p className="  ">Three Page Landing Design with Html and css lorem</p>
-                        <div className="flex  justify-between items-center mt-24">
-                            <div className="flex  justify-between items-center ">
-                                <img className='p-1' src="https://img.icons8.com/ios-glyphs/20/12B886/timer.png" />
-                                <h2 className=' text-xs	font-black'>1 Days Delivery</h2>
-                            </div>
-                            <div className="flex justify-between items-center ">
-                                <img className='p-1' src="https://img.icons8.com/external-goofy-solid-kerismaker/17/12B886/external-Revision-graphic-design-goofy-solid-kerismaker.png" />
-                                <h2 className=' text-xs font-black'>Unlimited Revisions</h2>
-                            </div>
-
-                        </div>
-                        <div className='mt-2 '>
-                            <div className="flex justify-start items-center ">
-                                <img src="https://img.icons8.com/ios/20/12B886/multiply.png" />
-                                <h2 className='ml-2'>2 pages </h2>
-                            </div>
-                            <div className="flex justify-start mt-1 items-center ">
-                                <img src="https://img.icons8.com/material-outlined/18/12B886/checkmark--v1.png" />
-                                <h2 className='ml-2'>Design customization</h2>
-                            </div>
-                            <div className="flex justify-start mt-1 items-center ">
-                                <img src="https://img.icons8.com/ios/20/12B886/multiply.png" />
-                                <h2 className='ml-2'>Content upload </h2>
-                            </div>
-                            <div className="flex justify-start mt-1 items-center ">
-                                <img src="https://img.icons8.com/material-outlined/18/12B886/checkmark--v1.png" />
-                                <h2 className='ml-2'>Responsive design </h2>
-                            </div>
-
-                            <div className="flex justify-start mt-1 items-center ">
-                                <img src="https://img.icons8.com/material-outlined/18/12B886/checkmark--v1.png" />
-                                <h2 className='ml-2'>Source code</h2>
-                            </div>
-                        </div>
-                    </div>
-                    <a className='flex items-center justify-between bg-black mt-5 p-2' href="" >
-                        <h1 className='text-2xl text-center' >Continue</h1>
-                        <span><img src="https://img.icons8.com/sf-black/30/12B886/long-arrow-right.png" /></span>
-                    </a>
-                </div>
             </div>
             <div className='flex flex-col md:flex-row gap-4 justify-around items-center mt-24 mb-36'>
                 <div className='bg-slate-800 p-6'>

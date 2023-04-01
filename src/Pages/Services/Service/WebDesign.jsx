@@ -119,7 +119,7 @@ const WebDesign = () => {
 
             <div class="p-8 w-full ">
                 <div class="flex items-center justify-between">
-                    <span class="text-slate-400 text-sm text-slate-500">Progress 1</span>
+                    <span class="text-slate-400 text-sm">Progress 1</span>
                     <span class="px-2 py-1 bg-teal-50 rounded-lg text-xs text-teal-400 font-medium min-w-[46px] text-center">0%</span>
                 </div>
 
@@ -128,7 +128,7 @@ const WebDesign = () => {
                 </div>
 
                 <div class="flex items-center justify-between">
-                    <span class="text-slate-400 text-sm text-slate-500">Progress 2</span>
+                    <span class="text-slate-400 text-sm">Progress 2</span>
                     <span class="px-2 py-1 bg-teal-50 rounded-lg text-xs text-teal-400 font-medium min-w-[46px] text-center">25%</span>
                 </div>
 
@@ -137,7 +137,7 @@ const WebDesign = () => {
                 </div>
 
                 <div class="flex items-center justify-between">
-                    <span class="text-slate-400 text-sm text-slate-500">Progress 3</span>
+                    <span class="text-slate-400 text-sm">Progress 3</span>
                     <span class="px-2 py-1 bg-teal-50 rounded-lg text-xs text-teal-400 font-medium min-w-[46px] text-center">50%</span>
                 </div>
 
@@ -146,7 +146,7 @@ const WebDesign = () => {
                 </div>
 
                 <div class="flex items-center justify-between">
-                    <span class="text-slate-400 text-sm text-slate-500">Progress 4</span>
+                    <span class="text-slate-400 text-sm">Progress 4</span>
                     <span class="px-2 py-1 bg-teal-50 rounded-lg text-xs text-teal-400 font-medium min-w-[46px] text-center">75%</span>
                 </div>
 
@@ -155,7 +155,7 @@ const WebDesign = () => {
                 </div>
 
                 <div class="flex items-center justify-between">
-                    <span class="text-slate-400 text-sm text-slate-500">Progress 5</span>
+                    <span class="text-slate-400 text-sm">Progress 5</span>
                     <span class="px-2 py-1 bg-teal-50 rounded-lg text-xs text-teal-400 font-medium min-w-[46px] text-center">100%</span>
                 </div>
 
@@ -212,38 +212,41 @@ const WebDesign = () => {
                     }
                 </div>
             </div>
-            <div className='flex flex-col md:flex-row gap-4 justify-around items-center mt-24 mb-36'>
-                <div className='bg-slate-800 p-6'>
-                    <h2 className="text-5xl font-bold mb-3 text-left text-black">01.</h2>
+            <div className='flex flex-col md:flex-row justify-around items-center mt-24 mb-36 w-full md:w-5/6 mx-auto'>
+                <div className='bg-[#313741] p-6 space-y-3'>
+                    <h2 className="text-3xl font-bold mb-3 text-left text-black">02.</h2>
                     {/* <h4 className="text-5xl text-left mb-3 text-white font-black">WEB DESIGN</h4> */}
                     <span className="flex justify-between items-center">
-                        <h4 className="text-5xl text-white font-black mb-3 text-left">WEB DESIGN</h4>
-                        <img className='w-24' src="https://i.ibb.co/1LcT7sF/download-removebg-preview.png" alt="" />
+                        <h4 className="text-2xl text-[#05C7AE] font-semibold mb-3 text-left">WEB DESIGN</h4>
+                        {/* <img className='w-24' src="https://i.ibb.co/1LcT7sF/download-removebg-preview.png" alt="" /> */}
                     </span>
-                    <p className="inline-block align-middle text-justify ">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown print took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic.
+                    <p className="inline-block align-middle text-start pb-16">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus laoreet dolor metus, eu ullamcorper turpis ornare tincidunt. Vivamus tristique rhoncus enim. Curabitur varius est quis din pat.
                     </p>
                 </div>
-                {/* <div className=' ml-2 mr-2 p-3 bg-cyan-500 shadow-lg shadow-cyan-500/50 py-5'>
-                    <h2 className="text-5xl text-left font-bold mb-3  text-black">01.</h2>
-                    <h4 className="text-5xl text-left mb-3 text-blue-900">WEB DESIGN</h4>
-                    <p className="inline-block align-middle text-justify ">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown print took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic.
-                    </p>
-                </div> */}
-                <div className='bg-slate-800 p-6'>
-                    <h2 className="text-5xl text-left font-bold mb-3  text-black">02.</h2>
+                <div className='bg-[#05C7AE] p-6 py-10 space-y-3'>
+                    <h2 className="text-3xl font-bold mb-3 text-left text-[#07463E]">01.</h2>
+                    {/* <h4 className="text-5xl text-left mb-3 text-white font-black">WEB DESIGN</h4> */}
                     <span className="flex justify-between items-center">
-                        <h4 className="text-5xl text-white font-black mb-3 text-left">APP DESIGN</h4>
-                        <img className='w-16' src="https://i.ibb.co/7XBNx6k/5088-removebg-preview.png" alt="" />
+                        <h4 className="text-2xl text-black font-semibold mb-3 text-left">UX/UI DESIGN</h4>
+                        {/* <img className='w-24' src="https://i.ibb.co/1LcT7sF/download-removebg-preview.png" alt="" /> */}
                     </span>
-                    <p className="inline-block align-middle text-justify ">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown print took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic.
+                    <p className="inline-block align-middle text-start pb-16">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus laoreet dolor metus, eu ullamcorper turpis ornare tincidunt. Vivamus tristique rhoncus enim. Curabitur varius est quis din pat.
+                    </p>
+                </div>
+                <div className='bg-[#313741] p-6 space-y-3'>
+                    <h2 className="text-3xl text-left font-bold mb-3  text-black">03.</h2>
+                    <span className="flex justify-between items-center">
+                        <h4 className="text-2xl text-[#05C7AE] font-semibold mb-3 text-left">APP DESIGN</h4>
+                        {/* <img className='w-16' src="https://i.ibb.co/7XBNx6k/5088-removebg-preview.png" alt="" /> */}
+                    </span>
+                    <p className="inline-block align-middle text-start pb-16">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus laoreet dolor metus, eu ullamcorper turpis ornare tincidunt. Vivamus tristique rhoncus enim. Curabitur varius est quis din pat.
                     </p>
                 </div>
             </div>
             {/*======== Portfulio =============== */}
             <div className='grid grid-cols-1 sm:grid-cols-3 place-items-center mb-36 gap-4'>
                 <div class="group relative w-80">
-                    <img class="w-full object-cover"
-                        src="https://i.ibb.co/8s6BN0m/5810609.png" />
+                    <img class="w-full object-cover" src="https://i.ibb.co/8s6BN0m/5810609.png" />
                     <div
                         class="absolute top-0 left-0 w-full h-0 flex flex-col justify-center items-center bg-indigo-700 opacity-0 group-hover:h-full group-hover:opacity-100 duration-500">
                         <h1 class="text-2xl text-white">Dashboard Design</h1>
@@ -251,8 +254,7 @@ const WebDesign = () => {
                     </div>
                 </div>
                 <div class="group relative w-80">
-                    <img class="w-full object-cover"
-                        src="https://i.ibb.co/pjqRNzZ/5806461.png" />
+                    <img class="w-full object-cover" src="https://i.ibb.co/pjqRNzZ/5806461.png" />
                     <div
                         class="absolute top-0 left-0 w-full h-0 flex flex-col justify-center items-center bg-indigo-700 opacity-0 group-hover:h-full group-hover:opacity-100 duration-500">
                         <h1 class="text-2xl text-white">Awosome Design</h1>
@@ -260,8 +262,7 @@ const WebDesign = () => {
                     </div>
                 </div>
                 <div class="group relative w-80">
-                    <img class="w-full object-cover"
-                        src="https://i.ibb.co/YNv6Tvc/01.png" />
+                    <img class="w-full object-cover" src="https://i.ibb.co/YNv6Tvc/01.png" />
                     <div
                         class="absolute top-0 left-0 w-full h-0 flex flex-col justify-center items-center bg-indigo-700 opacity-0 group-hover:h-full group-hover:opacity-100 duration-500">
                         <h1 class="text-2xl text-white">Mobile Responsive Design</h1>

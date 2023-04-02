@@ -1,5 +1,4 @@
 import React from 'react';
-import Slider from './Slider';
 import data from "../../../Data/SliderData.json";
 
 const MakingHappyEveryday = () => {
@@ -10,7 +9,7 @@ const MakingHappyEveryday = () => {
                 <div className="text-center">
                     <h3 className="text-center text-white text-3xl font-semibold">Making Many Happy Everyday </h3>
                     <div className="">
-                        <Slider Data={data} />
+                        
                     </div>
                 </div>
 

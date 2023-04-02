@@ -1,8 +1,8 @@
 import React from 'react';
 import ProgressBar from 'react-animated-progress-bar';
 import { PalnsData } from '../../../Data/PlansData';
-// import '../../style.css'
 import Fade from 'react-reveal/Fade';
+const myRef = document.querySelector('.scrollable-div')
 
 const WebDesign = () => {
 
@@ -54,114 +54,22 @@ const WebDesign = () => {
             </div>
             {/* ==============================Progress Bar  ================= */}
 
-            {/* <div className='mb-10'>
-                <div>
-                    <h2 className="text-left  text-white font-black">HTML</h2>
-                    <ProgressBar
-                        width="100%"
-                        height="10px"
-                        rect
-                        fontColor="gray"
-                        percentage="25"
-                        rectPadding="1px"
-                        rectBorderRadius="20px"
-                        trackPathColor="transparent"
-                        bgColor="#333333"
-                        trackBorderColor="grey"
-                    />
-                </div>
-                <div className='mb-10'>
-                    <h2 className="text-left  text-white font-black">CSS</h2>
-                    <ProgressBar
-                        width="100%"
-                        height="10px"
-                        rect
-                        fontColor="gray"
-                        percentage="55"
-                        rectPadding="1px"
-                        rectBorderRadius="20px"
-                        trackPathColor="transparent"
-                        bgColor="#333333"
-                        trackBorderColor="grey"
-                    />
-                </div>
-                <div className='mb-10'>
-                    <h2 className="text-left  text-white font-black">PHOTOSHOP</h2>
-                    <ProgressBar
-                        width="100%"
-                        height="10px"
-                        rect
-                        fontColor="gray"
-                        percentage="75"
-                        rectPadding="1px"
-                        rectBorderRadius="20px"
-                        trackPathColor="transparent"
-                        bgColor="#333333"
-                        trackBorderColor="grey"
-                    />
-                </div>
-                <div className='mb-10'>
-                    <h2 className="text-left  text-white font-black">ISSULATOR</h2>
-                    <ProgressBar
-                        width="100%"
-                        height="10px"
-                        rect
-                        fontColor="gray"
-                        percentage="95"
-                        rectPadding="1px"
-                        rectBorderRadius="20px"
-                        trackPathColor="transparent"
-                        bgColor="#333333"
-                        trackBorderColor="grey"
-                    />
-                </div>
-            </div> */}
-
-
-            <div class="p-8 w-full ">
-                <div class="flex items-center justify-between">
-                    <span class="text-slate-400 text-sm">Progress 1</span>
-                    <span class="px-2 py-1 bg-teal-50 rounded-lg text-xs text-teal-400 font-medium min-w-[46px] text-center">0%</span>
-                </div>
-
-                <div class="w-full bg-slate-100 h-1 mb-6 mt-2">
-                    <div class="bg-teal-400 h-1 rounded" style={{ width: "0%" }}></div>
-                </div>
-
-                <div class="flex items-center justify-between">
-                    <span class="text-slate-400 text-sm">Progress 2</span>
-                    <span class="px-2 py-1 bg-teal-50 rounded-lg text-xs text-teal-400 font-medium min-w-[46px] text-center">25%</span>
-                </div>
-
-                <div class="w-full bg-slate-100 h-1 mb-6 mt-2">
-                    <div class="bg-teal-400 h-1 rounded" style={{ width: "25%" }}></div>
-                </div>
-
-                <div class="flex items-center justify-between">
-                    <span class="text-slate-400 text-sm">Progress 3</span>
-                    <span class="px-2 py-1 bg-teal-50 rounded-lg text-xs text-teal-400 font-medium min-w-[46px] text-center">50%</span>
-                </div>
-
-                <div class="w-full bg-slate-100 h-1 mb-6 mt-2">
-                    <div class="bg-teal-400 h-1 rounded" style={{ width: "55%" }}></div>
-                </div>
-
-                <div class="flex items-center justify-between">
-                    <span class="text-slate-400 text-sm">Progress 4</span>
-                    <span class="px-2 py-1 bg-teal-50 rounded-lg text-xs text-teal-400 font-medium min-w-[46px] text-center">75%</span>
-                </div>
-
-                <div class="w-full bg-slate-100 h-1 mb-6 mt-2">
-                    <div class="bg-teal-400 h-1 rounded" style={{ width: "75%" }}></div>
-                </div>
-
-                <div class="flex items-center justify-between">
-                    <span class="text-slate-400 text-sm">Progress 5</span>
-                    <span class="px-2 py-1 bg-teal-50 rounded-lg text-xs text-teal-400 font-medium min-w-[46px] text-center">100%</span>
-                </div>
-
-                <div class="w-full bg-slate-100 h-1 mt-2">
-                    <div class="bg-teal-400 h-1 rounded" style={{ width: "100%" }}></div>
+            <div class="container py-10 w-full md:w-5/6 mx-auto">
+                <h3 className="py-7 text-white text-4xl font-semibold">PROFESSIONAL SKILLS</h3>
+                <div className="scrollable-div">
+                <ProgressBar
+        width="400px"
+        height="10px"
+        rect
+        fontColor="gray"
+        percentage="70"
+        rectPadding="1px"
+        rectBorderRadius="20px"
+        trackPathColor="transparent"
+        bgColor="#333333"
+        trackBorderColor="grey"
+        scrollArea={myRef}
+      />
                 </div>
             </div>
 

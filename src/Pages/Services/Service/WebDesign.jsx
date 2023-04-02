@@ -57,19 +57,19 @@ const WebDesign = () => {
             <div class="container py-10 w-full md:w-5/6 mx-auto">
                 <h3 className="py-7 text-white text-4xl font-semibold">PROFESSIONAL SKILLS</h3>
                 <div className="scrollable-div">
-                <ProgressBar
-        width="400px"
-        height="10px"
-        rect
-        fontColor="gray"
-        percentage="70"
-        rectPadding="1px"
-        rectBorderRadius="20px"
-        trackPathColor="transparent"
-        bgColor="#333333"
-        trackBorderColor="grey"
-        scrollArea={myRef}
-      />
+                    {/* <ProgressBar
+                        width="400px"
+                        height="10px"
+                        rect
+                        fontColor="gray"
+                        percentage="70"
+                        rectPadding="1px"
+                        rectBorderRadius="20px"
+                        trackPathColor="transparent"
+                        bgColor="#333333"
+                        trackBorderColor="grey"
+                        scrollArea={myRef}
+                    /> */}
                 </div>
             </div>
 

@@ -26,9 +26,9 @@ const DigitalBrand = () => {
 
                 <div className="carousel-container">
                     <div className="carousel-slide" style={{ transform: `translateX(-${counter * 500}px)` }}>
-                        <img src="https://i.ibb.co/dK4QXQY/home-bg-01.jpg" />
-                        <img src="https://i.ibb.co/F6Pz9th/home-bg-03.jpg" />
-                        <img src="https://i.ibb.co/ygJDzXx/home-bg-02.jpg" />
+                        <img src="https://i.ibb.co/dK4QXQY/home-bg-01.jpg" alt='' />
+                        <img src="https://i.ibb.co/F6Pz9th/home-bg-03.jpg" alt='' />
+                        <img src="https://i.ibb.co/ygJDzXx/home-bg-02.jpg" alt='' />
                     </div>
                 </div>
             </div>
@@ -208,7 +208,7 @@ const DigitalBrand = () => {
                         </div>
 
                         <div class="flex items-center justify-between">
-                            <span class="text-slate-400 text-sm text-slate-500">Progress 3</span>
+                            <span class="text-slate-400 text-sm">Progress 3</span>
                             <span class="px-2 py-1 bg-teal-50 rounded-lg text-xs text-teal-400 font-medium min-w-[46px] text-center">50%</span>
                         </div>
 
@@ -217,7 +217,7 @@ const DigitalBrand = () => {
                         </div>
 
                         <div class="flex items-center justify-between">
-                            <span class="text-slate-400 text-sm text-slate-500">Progress 4</span>
+                            <span class="text-slate-400 text-sm">Progress 4</span>
                             <span class="px-2 py-1 bg-teal-50 rounded-lg text-xs text-teal-400 font-medium min-w-[46px] text-center">75%</span>
                         </div>
 
@@ -226,7 +226,7 @@ const DigitalBrand = () => {
                         </div>
 
                         <div class="flex items-center justify-between">
-                            <span class="text-slate-400 text-sm text-slate-500">Progress 5</span>
+                            <span class="text-slate-400 text-sm">Progress 5</span>
                             <span class="px-2 py-1 bg-teal-50 rounded-lg text-xs text-teal-400 font-medium min-w-[46px] text-center">100%</span>
                         </div>
 
@@ -240,16 +240,16 @@ const DigitalBrand = () => {
             <div >
                 <div className='flex flex-col md:flex-row justify-between items-center  mt-36'>
                     <div class="w-64 h-64 overflow-hidden">
-                        <img class="transform hover:scale-110 transition duration-300" src="https://i.ibb.co/bdDjSMb/home-work-01-crop-u15974.jpg" alt="Your image" />
+                        <img class="transform hover:scale-110 transition duration-300" src="https://i.ibb.co/bdDjSMb/home-work-01-crop-u15974.jpg" alt="Your" />
                     </div>
                     <div class="w-64 h-64 overflow-hidden">
-                        <img class="transform hover:scale-110 transition duration-300" src="https://i.ibb.co/vqKB8FW/home-work-02-crop-u18578.jpg" alt="Your image" />
+                        <img class="transform hover:scale-110 transition duration-300" src="https://i.ibb.co/vqKB8FW/home-work-02-crop-u18578.jpg" alt="Your" />
                     </div>
                     <div class="w-64 h-64 overflow-hidden">
-                        <img class="transform hover:scale-110 transition duration-300" src="https://i.ibb.co/dpFmsjM/home-work-03-crop-u18631.jpg" alt="Your image" />
+                        <img class="transform hover:scale-110 transition duration-300" src="https://i.ibb.co/dpFmsjM/home-work-03-crop-u18631.jpg" alt="Your" />
                     </div>
                     <div class="w-64 h-64 overflow-hidden">
-                        <img class="transform hover:scale-110 transition duration-300" src="https://i.ibb.co/wKw0GgT/home-work-04-crop-u18684.jpg" alt="Your image" />
+                        <img class="transform hover:scale-110 transition duration-300" src="https://i.ibb.co/wKw0GgT/home-work-04-crop-u18684.jpg" alt="Your" />
                     </div>
                 </div>
                 <h2 className='text-white text-center font-black my-5'>Want to showcase your business?</h2>

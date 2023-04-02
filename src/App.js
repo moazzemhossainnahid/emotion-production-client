@@ -1,8 +1,9 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
-import AboutUS from './Components/AboutUS/AboutUS';
+import * as te from 'tw-elements';
 import Company from './Components/Home/WhyEmotion/Company';
 import Owner from './Components/Home/WhyEmotion/Owner';
+import AboutUS from './Pages/AboutUS/AboutUS';
 import Blogs from './Pages/Blogs/Blogs';
 import SingleBlog from './Pages/Blogs/SingleBlog/SingleBlog';
 import Home from './Pages/Home/Home';

@@ -5,7 +5,7 @@ import Drawer from "react-modern-drawer";
 import "react-modern-drawer/dist/index.css";
 import { Link, NavLink } from "react-router-dom";
 // import auth from "../../../firebase.init";
-import { HiBars3CenterLeft, HiChatBubbleBottomCenter } from "react-icons/hi2";
+import { HiBars3CenterLeft } from "react-icons/hi2";
 import logo from '../../../Assets/Public/Logo.png';
 
 
@@ -27,89 +27,87 @@ const Navbar = ({ handleThemeChange, theme }) => {
 
     const manuItems = (
         <>
-            {/* <li>
-                <NavLink className="hover:rounded-none" to="/"> Home </NavLink>
-            </li> */}
             <li>
                 <NavLink className="hover:rounded-none" to="/"> Home </NavLink>
             </li>
             <li class="dropdown">
                 <span> Services </span>
-                <ul class="dropdown-menu">
-                    <div className='mb-1 -ml-52 -mt-3 bg-[#211f20] flex items-start rounded'>
+                <ul class="dropdown-menu transition-all origin-top duration-300">
+                    <div className='mb-1 -ml-52 -mt-4 px-7 py-3 bg-[#211f20] flex items-start rounded'>
                         <div>
-                            <li className='flex items-center group'>
+                            <li className='flex items-center group transition-all'>
                                 <NavLink to="service/digitalbrand">
-                                    <span className='w-12 p-3 h-12 bg-[#707070] flex items-center rounded-full'>
+                                    <span className='w-12 p-3 h-12 group-hover:bg-[#707070] flex items-center rounded-full'>
                                         <img className='w-7' src="https://i.ibb.co/L6Jkztx/Path-2.png" alt="" />
                                     </span>
                                     <p className="flex items-center"> Digital Brand </p>
-                                    <span class="text-transparent text-4xl -pt-5 group-hover:text-white">&rarr;</span>
+                                    <span class="text-transparent text-4xl -pt-5 group-hover:text-white group-hover:translate-x-5 duration-200">&rarr;</span>
                                 </NavLink>
                             </li>
-                            <li className='flex items-center group'>
+                            <li className='flex items-center group transition-all'>
                                 <NavLink to="service/webdesign">
-                                    <span className='w-12 p-3 h-12 bg-[#707070] flex items-center rounded-full'>
+                                    <span className='w-12 p-3 h-12 group-hover:bg-[#707070] flex items-center rounded-full'>
                                         <img className='w-7' src="https://i.ibb.co/9bzLHG5/Group-792.png" alt="" />
                                     </span>
                                     <p className="flex items-center"> Web Design </p>
-                                    <span class="text-transparent text-4xl -pt-5 group-hover:text-white">&rarr;</span>
+                                    <span class="text-transparent text-4xl -pt-5 group-hover:text-white group-hover:translate-x-5 duration-200">&rarr;</span>
                                 </NavLink>
                             </li>
-                            <li className='flex items-center group'>
+
+                            <li className='flex items-center group transition-all'>
                                 <NavLink to="service/packaging">
-                                    <span className='w-12 p-3 h-12 bg-[#707070] flex items-center rounded-full'>
+                                    <span className='w-12 p-3 h-12 group-hover:bg-[#707070] flex items-center rounded-full'>
                                         <img className='w-7' src="https://svgshare.com/i/rRP.svg" alt="" />
                                     </span>
                                     <p className="flex items-center"> Packaging </p>
-                                    <span class="text-transparent text-4xl -pt-5 group-hover:text-white">&rarr;</span>
+                                    <span class="text-transparent text-4xl -pt-5 group-hover:text-white group-hover:translate-x-5 duration-200">&rarr;</span>
                                 </NavLink>
                             </li>
-                            <li className='flex items-center group'>
+                            <li className='flex items-center group transition-all'>
                                 <NavLink to="service/animation">
-                                    <span className='w-12 p-3 h-12 bg-[#707070] flex items-center rounded-full'>
+                                    <span className='w-12 p-3 h-12 group-hover:bg-[#707070] flex items-center rounded-full'>
                                         <img className='w-7' src="https://i.ibb.co/k9pRjt1/animation.png" alt="" />
                                     </span>
                                     <p className="flex items-center"> Animation </p>
-                                    <span class="text-transparent text-4xl -pt-5 group-hover:text-white">&rarr;</span>
+                                    <span class="text-transparent text-4xl -pt-5 group-hover:text-white group-hover:translate-x-5 duration-200">&rarr;</span>
                                 </NavLink>
                             </li>
                         </div>
                         <div className='ml-24 mt-0 flex flex-col items-start'>
-                            <li className='flex items-center group'>
+                            <li className='flex items-center group transition-all'>
                                 <NavLink to="service/contantshotting">
-                                    <span className='w-12 p-3 h-12 bg-[#707070] flex items-center rounded-full'>
+                                    <span className='w-12 p-3 h-12 group-hover:bg-[#707070] flex items-center rounded-full'>
                                         <img className='w-7' src="https://i.ibb.co/pZtx1mq/Design-32.png" alt="" />
                                     </span>
                                     <p className="flex items-center"> Content Shotting </p>
-                                    <span class="text-transparent text-4xl -pt-5 group-hover:text-white">&rarr;</span>
+                                    <span class="text-transparent text-4xl -pt-5 group-hover:text-white group-hover:translate-x-5 duration-200">&rarr;</span>
                                 </NavLink>
                             </li>
-                            <li className='flex items-center group'>
+                            <li className='flex items-center group transition-all'>
                                 <NavLink to="service/uiuxdesign">
-                                    <span className='w-12 p-3 h-12 bg-[#707070] flex items-center rounded-full'>
+                                    <span className='w-12 p-3 h-12 group-hover:bg-[#707070] flex items-center rounded-full'>
                                         <img className='w-7' src="https://i.ibb.co/zP51JbF/ux-design.png" alt="" />
                                     </span>
                                     <p className="flex items-center"> UX UI Design </p>
-                                    <span class="text-transparent text-4xl -pt-5 group-hover:text-white">&rarr;</span>
+                                    <span class="text-transparent text-4xl -pt-5 group-hover:text-white group-hover:translate-x-5 duration-200">&rarr;</span>
                                 </NavLink>
                             </li>
-                            <li className='flex items-center group'>
+                            <li className='flex items-center group transition-all'>
                                 <NavLink to="service/prototype">
-                                    <span className='w-12 p-3 h-12 bg-[#707070] flex items-center rounded-full'>
+                                    <span className='w-12 p-3 h-12 group-hover:bg-[#707070] flex items-center rounded-full'>
                                         <img className='w-7' src="https://i.ibb.co/0V2cnpt/prototype.png" alt="" />
                                     </span>
                                     <p className="flex items-center"> Prototype </p>
-                                    <span class="text-transparent text-4xl -pt-5 group-hover:text-white">&rarr;</span>
+                                    <span class="text-transparent text-4xl -pt-5 group-hover:text-white group-hover:translate-x-5 duration-200">&rarr;</span>
                                 </NavLink>
                             </li>
-                            <li className='flex items-center group'>
+                            <li className='flex items-center group transition-all'>
                                 <NavLink to="service/accessories">
-                                    <span className='w-12 p-3 h-12 bg-[#707070] flex items-center rounded-full'>
-                                        <img className='w-7' src="https://i.ibb.co/k9pRjt1/animation.png" alt="" />
+                                    <span className='w-12 p-3 h-12 group-hover:bg-[#707070] flex items-center rounded-full'>
+                                        <img className='w-7' src="https://svgshare.com/i/rRP.svg" alt="" />
                                     </span>
                                     <p className="flex items-center"> Accessories </p>
-                                    <span class="text-transparent text-4xl -pt-5 group-hover:text-white">&rarr;</span>
+                                    <span class="text-transparent text-4xl -pt-5 group-hover:text-white group-hover:translate-x-5 duration-200">&rarr;</span>
                                 </NavLink>
                             </li>
 
@@ -128,27 +126,18 @@ const Navbar = ({ handleThemeChange, theme }) => {
 
     const mobileManuItems = (
         <>
-            {/* <li>
+            <li>
                 <NavLink className="hover:rounded-none" to="/"> Home </NavLink>
-            </li> */}
-            <li>
-                <NavLink className="hover:rounded-none" to="/"> English </NavLink>
-            </li>
-            <li>
-                <NavLink className="hover:rounded-none" to="concepts"> Concepts </NavLink>
-            </li>
-            <li>
-                <NavLink className="hover:rounded-none" to="empowerment"> Empowerment </NavLink>
             </li>
             <li class="dropdown">
                 <span>Services &rarr;</span>
                 <ul class="dropdown-menu">
                     <div className='mb-1 -ml-40 -mt-32 z-20 bg-[#211f20] flex flex-col items-start rounded'>
                         <div>
-                            <li className='flex items-center group'>
+                            <li className='flex items-center group transition-all'>
                                 <NavLink to="service/digitalbrand">
                                     <p className="flex items-center"> Digital Brand </p>
-                                    <span class="text-transparent text-4xl -pt-5 group-hover:text-white">&rarr;</span>
+                                    <span class="text-transparent text-4xl -pt-5 group-hover:text-white group-hover:scale-110 duration-200">&rarr;</span>
                                 </NavLink>
                             </li>
                             <li className='flex items-center group'>
@@ -201,7 +190,7 @@ const Navbar = ({ handleThemeChange, theme }) => {
                 </ul>
             </li>
             <li>
-                <NavLink to="brandportfolio">Brand Portfolios</NavLink>
+                <NavLink to="aboutus">About US</NavLink>
             </li>
             <li>
                 <NavLink to="blogs">Blogs</NavLink>
@@ -290,9 +279,9 @@ const Navbar = ({ handleThemeChange, theme }) => {
                             </li> */}
 
                             <li>
-                                <Link to="meeting" className="mx-auto text-white">
-                                    <h3 className="px-5 py-2 border hover:border-primary hover:duration-150 rounded w-[170px] mx-auto">Make a Meeting</h3>
-                                </Link>
+                                <label htmlFor="my-modal-3" className="mx-auto text-white">
+                                    <h3 className="px-5 py-2 cursor-pointer border hover:border-primary hover:duration-150 rounded w-[170px] mx-auto">Make a Meeting</h3>
+                                </label>
                             </li>
                         </ul>
                     </div>
@@ -397,9 +386,9 @@ const Navbar = ({ handleThemeChange, theme }) => {
             </div> */}
 
             <li className="navbar-end hidden lg:flex">
-                <button className="mx-auto text-white">
-                    <h3 className="px-5 py-2 border hover:border-primary hover:duration-150 rounded w-[170px] mx-auto">Make a Meeting</h3>
-                </button>
+                <label htmlFor="my-modal-3" className="mx-auto text-white">
+                    <h3 className="px-5 py-2 border hover:border-primary cursor-pointer hover:duration-150 rounded w-[170px] mx-auto">Make a Meeting</h3>
+                </label>
             </li>
 
             <div className="navbar-end lg:hidden flex">
@@ -412,6 +401,27 @@ const Navbar = ({ handleThemeChange, theme }) => {
                     >
                         <HiBars3CenterLeft className="text-white" />
                     </label>
+                </div>
+            </div>
+            {/* The button to open modal */}
+            {/* <label htmlFor="my-modal-3" className="btn">open modal</label> */}
+
+            {/* Put this part before </body> tag */}
+            <input type="checkbox" id="my-modal-3" className="modal-toggle" />
+            <div className="modal z-50 h-screen w-full overflow-hidden">
+                <div className="modal-box relative bg-[#000000] py-10">
+                    <label htmlFor="my-modal-3" className="btn btn-sm btn-circle absolute right-2 top-2">✕</label>
+                    <div className="text-white">
+                        <form>
+                            <input type="text" placeholder="Type here" className="input my-2 input-bordered w-full max-w-xs" />
+                            <input type="text" placeholder="Type here" className="input my-2 input-bordered w-full max-w-xs" />
+                            <input type="text" placeholder="Type here" className="input my-2 input-bordered w-full max-w-xs" />
+                            <input type="text" placeholder="Type here" className="input my-2 input-bordered w-full max-w-xs" /> <br />
+                            <input type="submit" value="Submit" placeholder="Type here" className="px-7 py-3 bg-[#252525] text-white cursor-pointer rounded" />
+
+                        </form>
+
+                    </div>
                 </div>
             </div>
         </div>

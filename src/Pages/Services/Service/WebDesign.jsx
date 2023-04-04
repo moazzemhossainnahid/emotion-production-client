@@ -2,10 +2,12 @@ import React from 'react';
 import ProgressBar from 'react-animated-progress-bar';
 import { PalnsData } from '../../../Data/PlansData';
 import Fade from 'react-reveal/Fade';
-const myRef = document.querySelector('.scrollable-div')
+import { ProgressBarComponent } from '@syncfusion/ej2-react-progressbar';
+import Progress from '../../../Components/Others/Progress';
+
 
 const WebDesign = () => {
-
+    // const myAppRef = document.querySelector('.scrollable-div')
     return (
         <div className="container px-7 mx-auto w-full text-white ">
 
@@ -54,22 +56,13 @@ const WebDesign = () => {
             </div>
             {/* ==============================Progress Bar  ================= */}
 
-            <div class="container py-10 w-full md:w-5/6 mx-auto">
+            <div class="container scrollable-div py-10 w-full md:w-5/6 mx-auto">
                 <h3 className="py-7 text-white text-4xl font-semibold">PROFESSIONAL SKILLS</h3>
-                <div className="scrollable-div">
-                    {/* <ProgressBar
-                        width="400px"
-                        height="10px"
-                        rect
-                        fontColor="gray"
-                        percentage="70"
-                        rectPadding="1px"
-                        rectBorderRadius="20px"
-                        trackPathColor="transparent"
-                        bgColor="#333333"
-                        trackBorderColor="grey"
-                        scrollArea={myRef}
-                    /> */}
+                <div className="">
+                    <Fade>
+                        <Progress />
+                    </Fade>
+
                 </div>
             </div>
 

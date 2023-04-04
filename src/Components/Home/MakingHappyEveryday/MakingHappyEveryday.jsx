@@ -1,5 +1,4 @@
 import React from 'react';
-import data from "../../../Data/SliderData.json";
 
 const MakingHappyEveryday = () => {
 

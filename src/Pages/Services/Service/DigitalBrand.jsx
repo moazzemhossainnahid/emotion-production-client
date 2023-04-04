@@ -15,10 +15,10 @@ const DigitalBrand = () => {
         return () => clearInterval(intervalId);
     }, [counter]);
     return (
-        <div className='container mx-auto'>
+        <div className='container mx-auto overflow-hidden'>
             {/*=========================== carousel  =======================*/}
             <div className='flex flex-col md:flex-row justify-between items-center  mt-36'>
-                <div className="w-1/2 sm:pl-20 p-0 text-left">
+                <div className="w-1/2 sm:pl-20 p-0 text-left space-y-5">
                     <p className=' text-left text-white mb-2'> BUILDING THE NEXT GENERATION OF BOLD BRANDS</p>
                     <h2 className="text-left text-white font-black mb-2">Branding & Digital Agency</h2>
                     <button className='bg-green-800 text-left border p-4 text-white'>READ MORE</button>
@@ -33,7 +33,7 @@ const DigitalBrand = () => {
                 </div>
             </div>
             {/*===========================our  Goal  =======================*/}
-            <div className='grid grid-cols-1  sm:grid-cols-3 place-items-center mt-36 gap-4'>
+            <div className='grid grid-cols-1  sm:grid-cols-3 place-items-center mt-36 gap-4 w-full md:w-5/6 mx-auto'>
 
                 <div className='flex justify-center items-start'>
                     <span className='mr-4'>
@@ -41,7 +41,7 @@ const DigitalBrand = () => {
                     </span>
                     <span className=''>
                         <h2 className='text-left text-white font-black'>Story</h2>
-                        <p className='text-white text-left'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi soluta ipsum excepturi ex voluptatum quaerat, sint, quo inventore odit nesciunt quod pariatur quam veniam magni labore dolor! At, nulla fugit!</p>
+                        <p className='text-white text-justify'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi soluta ipsum excepturi ex voluptatum quaerat, sint, quo inventore odit nesciunt quod pariatur quam veniam magni labore dolor! At, nulla fugit!</p>
                         <button className='text-gray-500 flex pt-2 justify-items-end bottom-1 border-b'>Explore</button>
                     </span>
                 </div>
@@ -52,7 +52,7 @@ const DigitalBrand = () => {
                     </span>
                     <span>
                         <h2 className='text-left text-white font-black'>Goals</h2>
-                        <p className='text-white text-left'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi soluta ipsum excepturi ex voluptatum quaerat, sint, quo inventore odit nesciunt quod pariatur quam veniam magni labore dolor! At, nulla fugit!</p>
+                        <p className='text-white text-justify'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi soluta ipsum excepturi ex voluptatum quaerat, sint, quo inventore odit nesciunt quod pariatur quam veniam magni labore dolor! At, nulla fugit!</p>
                         <button className='text-gray-500 flex pt-2 justify-items-end bottom-1 border-b'>Explore</button>
                     </span>
                 </div>
@@ -63,14 +63,14 @@ const DigitalBrand = () => {
                     </span>
                     <span>
                         <h2 className='text-left text-white font-black'>Achievements</h2>
-                        <p className='text-white text-left'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi soluta ipsum excepturi ex voluptatum quaerat, sint, quo inventore odit nesciunt quod pariatur quam veniam magni labore dolor! At, nulla fugit!</p>
+                        <p className='text-white text-justify'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi soluta ipsum excepturi ex voluptatum quaerat, sint, quo inventore odit nesciunt quod pariatur quam veniam magni labore dolor! At, nulla fugit!</p>
                         <button className='text-gray-500 flex pt-2 justify-items-end bottom-1 border-b'>Explore</button>
                     </span>
                 </div>
             </div>
 
             {/*=========================== Goal end content =======================*/}
-            <div className='flex flex-col md:flex-row justify-between items-center  mt-36'>
+            <div className='flex flex-col md:flex-row justify-between items-center  mt-36 w-full md:w-5/6 mx-auto'>
                 <div className='w-full p-4'>
                     <img className=' w-full' src="https://i.ibb.co/sJ0chV2/ezgif-4-492a554f96.jpg" alt="" />
                 </div>
@@ -88,7 +88,7 @@ const DigitalBrand = () => {
             </div>
 
             {/*=========================== Strategy =======================*/}
-            <div className='grid grid-cols-1  sm:grid-cols-3 place-items-center mt-36  gap-24'>
+            <div className='grid grid-cols-1 sm:grid-cols-3 place-items-center mt-36  gap-24 w-full md:w-5/6 mx-auto'>
                 <div className=''>
                     <span className='w-16 h-16 bg-slate-700 flex justify-center items-center rounded-full p-3'>
                         <span className='flex justify-start'>
@@ -168,7 +168,7 @@ const DigitalBrand = () => {
             </div>
 
             {/*=========================== Goal end content =======================*/}
-            <div className='flex flex-col md:flex-row justify-between items-center  mt-36'>
+            <div className='flex flex-col md:flex-row justify-between items-center  mt-36 w-full md:w-5/6 mx-auto'>
                 <div className='w-full p-4'>
                     <h2 className='text-center text-white text-2xl sm:text-5xl sm:text-left'> Innovative Approach</h2>
                     <p className='inline-block text-white align-middle  text-justify sm:text-left pt-3'>Duis accumsan, neque at hendrerit sagittis, elit diam sodales nunc, at auctor leo purus sodales nunc. Maecenas ac lorem sit amet ligula viverra gravida non vel tortor. Phasellus dapibus leo non iaculis ultricies.
@@ -180,7 +180,7 @@ const DigitalBrand = () => {
             </div>
 
             {/*=========================== Experts=======================*/}
-            <div className='flex flex-col md:flex-row justify-between items-center  mt-32'>
+            <div className='flex flex-col md:flex-row justify-between items-center  mt-32 w-full md:w-5/6 mx-auto'>
                 <div className='w-full p-4'>
                     <h2 className='text-center text-white text-2xl sm:text-5xl sm:text-left'> Digital experts </h2>
                     <p className='text-left text-white '>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet consequuntur quos, hic quo laborum voluptatem ipsam odio aperiam esse commodi, dolorem, iste architecto quae ipsum ut dicta reiciendis quam dolorum.
@@ -238,7 +238,7 @@ const DigitalBrand = () => {
             </div>
             {/*===========================   showcase your business=======================*/}
             <div >
-                <div className='flex flex-col md:flex-row justify-between items-center  mt-36'>
+                <div className='flex flex-col md:flex-row justify-between items-center  mt-36 w-full md:w-5/6 mx-auto'>
                     <div class="w-64 h-64 overflow-hidden">
                         <img class="transform hover:scale-110 transition duration-300" src="https://i.ibb.co/bdDjSMb/home-work-01-crop-u15974.jpg" alt="Your" />
                     </div>
@@ -261,7 +261,7 @@ const DigitalBrand = () => {
             </div>
 
             {/*=========================== Briefing =======================*/}
-            <div className='flex flex-col md:flex-row justify-between items-center mb-36 px-3 mt-32'>           
+            <div className='flex flex-col md:flex-row justify-between items-center mb-36 px-3 mt-32 w-full md:w-5/6 mx-auto'>           
                 <div class="indicator">
                     <span class="indicator-item badge w-16 h-16  rounded-none bg-slate-600 ">
                         <h2 className=" text-white text-6xl font-bold">1</h2>
@@ -294,7 +294,7 @@ const DigitalBrand = () => {
             </div>
             
             {/*===========================   showcase your business=======================*/}
-            <div className='flex flex-col md:flex-row justify-between items-center mb-36 mt-36'>
+            <div className='flex flex-col md:flex-row justify-between items-center mb-36 mt-36 w-full md:w-5/6 mx-auto'>
                 <div><img src="https://i.ibb.co/4NrZzv1/ezgif-com-gif-maker-4-removebg-preview.png" alt="" /></div>
                 <div><img src="https://i.ibb.co/WsKZKPb/ezgif-com-gif-maker-1.png" alt="" /></div>
                 <div><img src="https://i.ibb.co/1qnrkFR/ezgif-com-gif-maker-removebg-preview-1.png" alt="" /></div>

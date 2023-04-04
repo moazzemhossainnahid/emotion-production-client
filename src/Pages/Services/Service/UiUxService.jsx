@@ -161,8 +161,8 @@ const UiUxService = () => {
                     </div>
                 </div>
             </div>
-            <div className=" blog mb-36">
-                {/* <h2 className="text-center text-white">Blog</h2> */}
+            
+            {/* <div className=" blog mb-36">
                 <h4 className='sm:text-center text-white text-2xl sm:text-4xl text-left' >Blog</h4>
                 <p className="text-center p-3 sm:pl-40 sm:pr-40">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
                     been the industry's standard dummy text ever since the 1500s.</p>
@@ -205,7 +205,8 @@ const UiUxService = () => {
                         <span className='text-white text-3xl font-black'>&#8594;</span>
                     </a>
                 </span>
-            </div>
+            </div> */}
+            
 
 
 

@@ -31,7 +31,7 @@ const WebDesign = () => {
                     <div>
                         <div className='flex flex-col md:flex-row items-center justify-between mb-5 '>
                             <h2 className='text-4xl'>Leadership</h2>
-                            <p className="inline-block align-middle p-4 text-justify text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum suscipit, temporibus, tempora nobis deleniti fuga sunt quia unde voluptates doloribus culpa rerum? Facere cupiditate culpa magnam animi corrupti laborum possimus.</p>
+                            <p className="inline-block align-middle text-justify p-4  text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum suscipit, temporibus, tempora nobis deleniti fuga sunt quia unde voluptates doloribus culpa rerum? Facere cupiditate culpa magnam animi corrupti laborum possimus.</p>
                         </div>
 
 

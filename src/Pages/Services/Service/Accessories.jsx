@@ -14,8 +14,6 @@ const Accessories = () => {
         setData(result);
     }
 
-
-
     function SampleNextArrow(props) {
         const { className, style, onClick } = props;
         return (

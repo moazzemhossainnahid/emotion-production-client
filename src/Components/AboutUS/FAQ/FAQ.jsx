@@ -159,9 +159,9 @@ const FAQ = () => {
                                         type="button"
                                         data-te-collapse-init
                                         data-te-collapse-collapsed
-                                        data-te-target="#collapseThree"
+                                        data-te-target="#collapseFour"
                                         aria-expanded="false"
-                                        aria-controls="collapseThree">
+                                        aria-controls="collapseFour">
                                         Lorem Ipsum is simply dummy text of the printing
                                         <span
                                             class="ml-auto -mr-1 h-5 w-5 shrink-0 rotate-[-180deg] fill-[#336dec] transition-transform duration-200 ease-in-out group-[[data-te-collapse-collapsed]]:mr-0 group-[[data-te-collapse-collapsed]]:rotate-0 group-[[data-te-collapse-collapsed]]:fill-[#212529] motion-reduce:transition-none dark:fill-blue-300 dark:group-[[data-te-collapse-collapsed]]:fill-white">
@@ -181,10 +181,10 @@ const FAQ = () => {
                                     </button>
                                 </h2>
                                 <div
-                                    id="collapseThree"
+                                    id="collapseFour"
                                     class="!visible hidden"
                                     data-te-collapse-item
-                                    aria-labelledby="headingThree"
+                                    aria-labelledby="headingFour"
                                     data-te-parent="#accordionExample">
                                     <div class="py-4 px-5 text-gray-600">
                                         <strong>This is the third item's accordion body.</strong> It is

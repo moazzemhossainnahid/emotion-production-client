@@ -57,8 +57,8 @@ const TrustedPartnersAnim = () => {
                                     <div key={item.alt} className="py-10 d-flex justify-content-center align-items-center gap-5">
                                         <div style={{ position: 'relative', width: '150px', height: '150px', }} className="d-flex justify-content-center mx-auto">
                                             <img
-                                                style={{ filter: "grayscale(100%)", objectFit: 'cover' }}
-                                                className='d-flex justify-content-center align-items-center py-5 px-7'
+                                                style={{ objectFit: 'cover' }}
+                                                className='d-flex grayscale hover:grayscale-0 justify-content-center align-items-center py-5 px-7'
                                                 src={item?.imageURL}
                                                 title={item?.alt}
                                                 alt={item?.alt}

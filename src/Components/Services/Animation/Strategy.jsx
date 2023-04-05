@@ -23,7 +23,7 @@ const Strategy = () => {
                             <Fade bottom>
                                 <div className="w-full flex flex-col md:flex-row justify-around items-center gap-3 mt-10">
                                     <Slide left>
-                                        <div className="flex justify-between items-center px-5 py-2 gap-2 group bg-white hover:bg-slate-800 rounded w-full md:w-2/6">
+                                        <div className="flex justify-between items-center px-5 py-5 gap-2 group bg-white hover:bg-slate-800 rounded w-full md:w-2/6">
                                             <img src="https://wgl-demo.net/zeptech/wp-content/uploads/2021/07/ib-icon-1.png" alt="" className="w-10 h-10 md:w-16 md:h-16" />
                                             <div className="space-y-2 text-start pl-5">
                                                 <h3 className="md:text-md font-bold uppercase text-teal-700 group-hover:text-white">custom targeting</h3>
@@ -32,7 +32,7 @@ const Strategy = () => {
                                         </div>
                                     </Slide>
                                     <Slide right>
-                                        <div className="flex justify-between items-center px-5 py-2 gap-2 group bg-white hover:bg-slate-800 rounded w-full md:w-2/6">
+                                        <div className="flex justify-between items-center px-5 py-5 gap-2 group bg-white hover:bg-slate-800 rounded w-full md:w-2/6">
                                             <img src="https://wgl-demo.net/zeptech/wp-content/uploads/2021/07/vector-img-6.png" alt="" className="w-10 h-10 md:w-16 md:h-16" />
                                             <div className="space-y-2 text-start pl-5">
                                                 <h3 className="md:text-md font-bold uppercase text-teal-700 group-hover:text-white">Business Tools</h3>
@@ -44,7 +44,7 @@ const Strategy = () => {
                                 </div>
                                 <div className="w-full flex flex-col md:flex-row justify-around items-center gap-3 mt-10">
                                     <Slide left>
-                                        <div className="flex justify-between items-center px-5 py-2 gap-2 md:-ml-20 group bg-white hover:bg-slate-800 rounded w-full md:w-2/6">
+                                        <div className="flex justify-between items-center px-5 py-5 gap-2 md:-ml-20 group bg-white hover:bg-slate-800 rounded w-full md:w-2/6">
                                             <img src="https://wgl-demo.net/zeptech/wp-content/uploads/2021/07/ib-icon-6.png" alt="" className="w-10 h-10 md:w-16 md:h-16" />
                                             <div className="space-y-2 text-start pl-5">
                                                 <h3 className="md:text-md font-bold uppercase text-teal-700 group-hover:text-white">SEO Solutions</h3>
@@ -53,7 +53,7 @@ const Strategy = () => {
                                         </div>
                                     </Slide>
                                     <Slide right>
-                                        <div className="flex justify-between items-center px-5 py-2 gap-2 md:-mr-20 group bg-white hover:bg-slate-800 rounded w-full md:w-2/6">
+                                        <div className="flex justify-between items-center px-5 py-5 gap-2 md:-mr-20 group bg-white hover:bg-slate-800 rounded w-full md:w-2/6">
                                             <img src="https://wgl-demo.net/zeptech/wp-content/uploads/2021/07/ib-icon-5.png" alt="" className="w-10 h-10 md:w-16 md:h-16" />
                                             <div className="space-y-2 text-start pl-5">
                                                 <h3 className="md:text-md font-bold uppercase text-teal-700 group-hover:text-white">Improvements</h3>
@@ -66,7 +66,7 @@ const Strategy = () => {
                                 </div>
                                 <div className="w-full flex flex-col md:flex-row justify-around items-center gap-3 mt-10">
                                     <Slide left>
-                                        <div className="flex justify-between items-center px-5 py-2 gap-2 group bg-white hover:bg-slate-800 rounded w-full md:w-2/6">
+                                        <div className="flex justify-between items-center px-5 py-5 gap-2 group bg-white hover:bg-slate-800 rounded w-full md:w-2/6">
                                             <img src="https://wgl-demo.net/zeptech/wp-content/uploads/2021/07/ib-icon-4.png" alt="" className="w-10 h-10 md:w-16 md:h-16" />
                                             <div className="space-y-2 text-start pl-5">
                                                 <h3 className="md:text-md font-bold uppercase text-teal-700 group-hover:text-white">Project Strategy</h3>
@@ -75,7 +75,7 @@ const Strategy = () => {
                                         </div>
                                     </Slide>
                                     <Slide right>
-                                        <div className="flex justify-between items-center px-5 py-2 gap-2 group bg-white hover:bg-slate-800 rounded w-full md:w-2/6">
+                                        <div className="flex justify-between items-center px-5 py-5 gap-2 group bg-white hover:bg-slate-800 rounded w-full md:w-2/6">
                                             <img src="https://wgl-demo.net/zeptech/wp-content/uploads/2021/07/ib-icon-7.png" alt="" className="w-10 h-10 md:w-16 md:h-16" />
                                             <div className="space-y-2 text-start pl-5">
                                                 <h3 className="md:text-md font-bold uppercase text-teal-700 group-hover:text-white">Online Support</h3>

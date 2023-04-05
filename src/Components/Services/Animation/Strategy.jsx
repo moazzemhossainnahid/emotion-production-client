@@ -23,8 +23,68 @@ const Strategy = () => {
 
                             <Fade bottom>
                                 <div className="w-full flex flex-col md:flex-row justify-around items-center gap-3 mt-10">
-                                    <button className="py-3 px-7 rounded bg-indigo-600 hover:bg-indigo-400 duration-300 hover:scale-110 text-white text-xl">Get Started</button>
-                                    <button className="py-3 px-7 rounded duration-300 hover:scale-110 text-white text-xl  flex items-center gap-3"> <span className="text-indigo-600 text-4xl"><FaTelegram /></span> Join us on Telegram</button>
+                                    <Slide left>
+                                        <div className="flex justify-between items-center px-5 py-2 gap-2 group bg-white hover:bg-slate-800 rounded w-2/3 md:w-2/6">
+                                            <img src="https://wgl-demo.net/zeptech/wp-content/uploads/2021/07/ib-icon-1.png" alt="" className="w-16 h-16" />
+                                            <div className="space-y-3 text-start pl-5">
+                                                <h3 className="text-xl font-bold uppercase text-teal-700 group-hover:text-white">custom targeting</h3>
+                                                <p className="text-sm text-gray-700 group-hover:text-white">Personalization assumed up an excess of position showcasing</p>
+                                            </div>
+                                        </div>
+                                    </Slide>
+                                    <Slide right>
+                                        <div className="flex justify-between items-center px-5 py-2 gap-2 group bg-white hover:bg-slate-800 rounded w-2/3 md:w-2/6">
+                                            <img src="https://wgl-demo.net/zeptech/wp-content/uploads/2021/07/vector-img-6.png" alt="" className="w-16 h-16" />
+                                            <div className="space-y-3 text-start pl-5">
+                                                <h3 className="text-xl font-bold uppercase text-teal-700 group-hover:text-white">Business Tools</h3>
+                                                <p className="text-sm text-gray-700 group-hover:text-white">Personalization assumed up an excess of position showcasing</p>
+                                            </div>
+                                        </div>
+                                    </Slide>
+
+                                </div>
+                                <div className="w-full flex flex-col md:flex-row justify-around items-center gap-3 mt-10">
+                                    <Slide left>
+                                        <div className="flex justify-between items-center px-5 py-2 gap-2 md:-ml-20 group bg-white hover:bg-slate-800 rounded w-2/3 md:w-2/6">
+                                            <img src="https://wgl-demo.net/zeptech/wp-content/uploads/2021/07/ib-icon-6.png" alt="" className="w-16 h-16" />
+                                            <div className="space-y-3 text-start pl-5">
+                                                <h3 className="text-xl font-bold uppercase text-teal-700 group-hover:text-white">SEO Solutions</h3>
+                                                <p className="text-sm text-gray-700 group-hover:text-white">Personalization assumed up an excess of position showcasing</p>
+                                            </div>
+                                        </div>
+                                    </Slide>
+                                    <Slide right>
+                                        <div className="flex justify-between items-center px-5 py-2 gap-2 md:-mr-20 group bg-white hover:bg-slate-800 rounded w-2/3 md:w-2/6">
+                                            <img src="https://wgl-demo.net/zeptech/wp-content/uploads/2021/07/ib-icon-5.png" alt="" className="w-16 h-16" />
+                                            <div className="space-y-3 text-start pl-5">
+                                                <h3 className="text-xl font-bold uppercase text-teal-700 group-hover:text-white">Improvements</h3>
+                                                <p className="text-sm text-gray-700 group-hover:text-white">Personalization assumed up an excess of position showcasing</p>
+                                            </div>
+                                        </div>
+                                    </Slide>
+
+
+                                </div>
+                                <div className="w-full flex flex-col md:flex-row justify-around items-center gap-3 mt-10">
+                                    <Slide left>
+                                        <div className="flex justify-between items-center px-5 py-2 gap-2 group bg-white hover:bg-slate-800 rounded w-2/3 md:w-2/6">
+                                            <img src="https://wgl-demo.net/zeptech/wp-content/uploads/2021/07/ib-icon-4.png" alt="" className="w-16 h-16" />
+                                            <div className="space-y-3 text-start pl-5">
+                                                <h3 className="text-xl font-bold uppercase text-teal-700 group-hover:text-white">Project Strategy</h3>
+                                                <p className="text-sm text-gray-700 group-hover:text-white">Personalization assumed up an excess of position showcasing</p>
+                                            </div>
+                                        </div>
+                                    </Slide>
+                                    <Slide right>
+                                        <div className="flex justify-between items-center px-5 py-2 gap-2 group bg-white hover:bg-slate-800 rounded w-2/3 md:w-2/6">
+                                            <img src="https://wgl-demo.net/zeptech/wp-content/uploads/2021/07/ib-icon-7.png" alt="" className="w-16 h-16" />
+                                            <div className="space-y-3 text-start pl-5">
+                                                <h3 className="text-xl font-bold uppercase text-teal-700 group-hover:text-white">Online Support</h3>
+                                                <p className="text-sm text-gray-700 group-hover:text-white">Personalization assumed up an excess of position showcasing</p>
+                                            </div>
+                                        </div>
+                                    </Slide>
+
                                 </div>
                             </Fade>
                         </div>

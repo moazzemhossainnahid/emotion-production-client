@@ -9,7 +9,7 @@ const Strategy = () => {
                 <div className="w-full h-full relative mx-auto">
                     <div className="md:w-5/6 mx-auto text-center pb-10">
                         <Slide top>
-                            <h3 className="text-[70px] md:text-[150px] text-center flex mx-auto w-full justify-center uppercase font-bold text-[#1E1E1E]"><Slide top duration={1000}>S</Slide> <Slide top duration={1500}>T</Slide> <Slide top duration={2000}>R</Slide> <Slide top duration={2500}>A</Slide> <Slide top duration={3000}>T</Slide> <Slide top duration={4000}>E</Slide> <Slide top duration={4500}>G</Slide> <Slide top duration={4500}>Y</Slide></h3>
+                            <h3 className="text-[70px] md:text-[150px] text-center flex mx-auto w-full justify-center uppercase font-bold text-[#1E1E1E]"><Slide top duration={1000}>S</Slide> <Slide top duration={1500}>T</Slide> <Slide top duration={2000}>R</Slide> <Slide top duration={2500}>A</Slide> <Slide top duration={3000}>T</Slide> <Slide top duration={4000}>E</Slide> <Slide top duration={4500}>G</Slide> <Slide top duration={5000}>Y</Slide></h3>
                         </Slide>
                         <Fade bottom>
                             <h4 className="text-2xl md:text-5xl text-center w-full font-bold text-white capitalize md:uppercase -mt-10 md:-mt-24 tracking-[7px] leading-10" style={{ fontFamily: "Rajdhani" }}>Measurable & Effective Results for Customers</h4>

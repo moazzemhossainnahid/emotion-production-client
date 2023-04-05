@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaCheckCircle, FaTelegram } from 'react-icons/fa';
+import { FaCheckCircle } from 'react-icons/fa';
 import { Slide } from 'react-reveal';
 import Fade from 'react-reveal/Fade';
 
@@ -17,7 +17,7 @@ const BusinessGrowingUp = () => {
 
                 <div className="">
                     <Slide top>
-                        <h3 className="text-[100px] md:text-[200px] flex uppercase font-bold text-[#1E1E1E]"><Slide top duration={1000}>W</Slide> <Slide top duration={1500}>H</Slide> <Slide top duration={2000}>Y</Slide></h3>
+                        <h3 className="text-[100px] md:text-[200px] flex uppercase font-bold text-[#1E1E1E]"><Slide top duration={3000}>W</Slide> <Slide top duration={3500}>H</Slide> <Slide top duration={4000}>Y</Slide></h3>
                     </Slide>
                     <Fade bottom>
                         <h4 className="text-3xl md:text-5xl font-bold text-white uppercase text-start -mt-24 tracking-[7px] leading-10" style={{ fontFamily: "Rajdhani" }}>WE HELP BUSINESS GROWING UP</h4>

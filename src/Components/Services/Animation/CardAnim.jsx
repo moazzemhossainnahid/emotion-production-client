@@ -4,7 +4,7 @@ import Fade from 'react-reveal/Fade';
 
 const CardAnim = () => {
     return (
-        <div className='flex flex-col md:flex-row justify-between items-center gap-3 mt-14 py-10 overflow-hidden'>
+        <div className='flex flex-col md:flex-row justify-between items-center shadow-2xl gap-3 mt-14 py-10 overflow-hidden'>
             <div className="flex flex-col md:flex-row w-full bg-[#1E1E1E] rounded-2xl">
                 <Fade bottom>
                     <div className="grid card rounded-box place-items-center">

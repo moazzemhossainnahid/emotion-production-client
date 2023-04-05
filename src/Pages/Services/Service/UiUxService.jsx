@@ -161,52 +161,7 @@ const UiUxService = () => {
                     </div>
                 </div>
             </div>
-            
-            {/* <div className=" blog mb-36">
-                <h4 className='sm:text-center text-white text-2xl sm:text-4xl text-left' >Blog</h4>
-                <p className="text-center p-3 sm:pl-40 sm:pr-40">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                    been the industry's standard dummy text ever since the 1500s.</p>
-                <div className='grid grid-cols-1 mt-16 sm:grid-cols-3 place-items-center gap-4'>
-                    <div className='bg-warning rounded-lg'>
-                        <img className='' src="https://i.ibb.co/jJktgyT/JOR08679.png" alt="" />
-                        <div className=' p-2 -mt-8'>
-                            <p className='text-white mt-0'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
-                            <div className='flex justify-between items-center'>
-                                <h2 className='text-white'>Timon Eijsink</h2>
-                                <button className='text-white bg-info rounded-xl p-3'>Blog</button>
-                            </div>
-                        </div>
-                    </div>
 
-                    <div className='bg-warning rounded-lg'>
-                        <img className='' src="https://i.ibb.co/jJktgyT/JOR08679.png" alt="" />
-                        <div className=' p-2 -mt-8'>
-                            <p className='text-white mt-0'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
-                            <div className='flex justify-between items-center'>
-                                <h2 className='text-white'>Timon Eijsink</h2>
-                                <button className='text-white bg-info rounded-xl p-3'>Blog</button>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className='bg-warning rounded-lg'>
-                        <img className='' src="https://i.ibb.co/jJktgyT/JOR08679.png" alt="" />
-                        <div className=' p-2 -mt-8'>
-                            <p className='text-white mt-0'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
-                            <div className='flex justify-between items-center'>
-                                <h2 className='text-white'>Timon Eijsink</h2>
-                                <button className='text-white bg-info rounded-xl p-3'>Blog</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <span className='flex justify-end items-center '>
-                    <a href="">View All
-                        <span className='text-white text-3xl font-black'>&#8594;</span>
-                    </a>
-                </span>
-            </div> */}
-            
 
 
 

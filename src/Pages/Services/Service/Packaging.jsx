@@ -173,13 +173,13 @@ const Packaging = () => {
 
                             <div>
                                 <li className='flex justify-start items-center mb-5'>
-                                    <span> <FaCheck className='text-white' /> </span>                            <span> <h3 className='text-white font-bold font-mono ml-3'>Flexible & Cost-Effective</h3></span>
+                                    <span> <FaCheck className='text-white' /> </span> <span> <h3 className='text-white font-bold font-mono ml-3'>Flexible & Cost-Effective</h3></span>
                                 </li>
                                 <li className='flex justify-start items-center mb-5'>
-                                    <span> <FaCheck className='text-white' /> </span>                            <span> <h3 className='text-white font-bold font-mono ml-3'>VIP & Annual Pass Programs</h3></span>
+                                    <span> <FaCheck className='text-white' /> </span><span> <h3 className='text-white font-bold font-mono ml-3'>VIP & Annual Pass Programs</h3></span>
                                 </li>
                                 <li className='flex justify-start items-center mb-5'>
-                                    <span> <FaCheck className='text-white' /> </span>                            <span> <h3 className='text-white font-bold font-mono ml-3'>Over 250,000 cleans</h3></span>
+                                    <span> <FaCheck className='text-white' /> </span><span> <h3 className='text-white font-bold font-mono ml-3'>Over 250,000 cleans</h3></span>
                                 </li>
                                 <li className='flex justify-start items-center mb-5'>
                                     <span> <FaCheck className='text-white' /> </span>                            <span> <h3 className='text-white  font-mono font-bold ml-3'>Satisfaction Guarantee</h3></span>
@@ -225,25 +225,25 @@ const Packaging = () => {
                     </div>
                     {/*====================================== Food Packaging Left side  =============================*/}
                     <div className="w-2/6 -mt-44 ">
-                        <div className='w-80   mx-auto border-box-5 opacity-100  bg-white shadow-2xl shadow-slate-100/50 p-4 rounded border'>
-                            <h2 className='text-black text-center text-2xl mb-5 font-bold'>This Service Included</h2>
+                        <div className='w-80 mx-auto border-box-5 opacity-100   bg-stone-900 shadow-2xl shadow-stone-900/50 p-4 rounded border'>
+                            <h2 className='text-white text-center text-2xl mb-5 font-bold'>This Service Included</h2>
                             <li className='flex justify-start items-center mb-3'>
-                                <span> <FaCut className='text-red-950' /> </span>
-                                <span> <h3 className='text-black font-bold ml-3'>V-Cute</h3></span>
+                                <span> <FaCut className='text-white font-black' /> </span>
+                                <span> <h3 className='text-white font-bold ml-3'>V-Cute</h3></span>
                             </li>
                             <li className='flex justify-start items-center mb-3'>
-                                <span> <FaBox className='text-red-950' /> </span>
-                                <span> <h3 className='text-black font-bold ml-3'>Finish</h3></span>
+                                <span> <FaBox className='text-white font-black' /> </span>
+                                <span> <h3 className='text-white font-bold ml-3'>Finish</h3></span>
                             </li>
                             <li className='flex justify-start items-center mb-3'>
-                                <span> <FaTruck className='text-red-900' /> </span>
-                                <span> <h3 className='text-black font-bold ml-3'>Delivery</h3></span>
+                                <span> <FaTruck className='text-white font-black' /> </span>
+                                <span> <h3 className='text-white font-bold ml-3'>Delivery</h3></span>
                             </li>
                             <li className='flex justify-start items-center mb-5'>
-                                <span> <FaBoxes className='text-red-900' /> </span>
-                                <span> <h3 className='text-black font-bold ml-3'>500 pcs Packaging</h3></span>
+                                <span> <FaBoxes className='text-white font-black' /> </span>
+                                <span> <h3 className='text-white font-bold ml-3'>500 pcs Packaging</h3></span>
                             </li>
-                            <button type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                            <button type="button" class="text-white border focus:ring-4 focus:outline-none font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center ">
                                 Book Now
                                 <svg aria-hidden="true" class="w-5 h-5 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
                             </button>

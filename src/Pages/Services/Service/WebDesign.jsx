@@ -40,24 +40,24 @@ const WebDesign = () => {
 
                 <div className='flex  flex-col md:flex-row justify-between items-center mt-7'>
                     <div>
-                        <Slide bottom>
-                            <div className='flex flex-col md:flex-row items-center justify-between mb-5 '>
-                                <h2 className='text-4xl'>Leadership</h2>
-                                <p className="inline-block align-middle p-4 text-justify text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum suscipit, temporibus, tempora nobis deleniti fuga sunt quia unde voluptates doloribus culpa rerum? Facere cupiditate culpa magnam animi corrupti laborum possimus.</p>
-                            </div>
-                        </Slide>
-                        <Slide bottom>
-                            <div className='flex  flex-col md:flex-row items-center justify-between mb-5'>
-                                <h2 className='text-4xl '>Team,Work</h2>
-                                <p className="inline-block align-middle p-4 text-justify text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum suscipit, temporibus, tempora nobis deleniti fuga sunt quia unde voluptates doloribus culpa rerum? Facere cupiditate culpa magnam animi corrupti laborum possimus.</p>
-                            </div>
-                        </Slide>
-                        <Slide bottom>
-                            <div className='flex  flex-col md:flex-row items-center justify-between'>
-                                <h2 className='text-4xl'>Flexibility</h2>
-                                <p className=" inline-block align-middle p-4 text-justify ml-0 sm:ml-6 text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum suscipit, temporibus, tempora nobis deleniti fuga sunt quia unde voluptates doloribus culpa rerum? Facere cupiditate culpa magnam animi corrupti laborum possimus.</p>
-                            </div>
-                        </Slide>
+                        <div className='flex flex-col md:flex-row items-center justify-between mb-5 '>
+                            <h2 className='text-4xl'>Leadership</h2>
+                            <p className="inline-block align-middle text-justify p-4  text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum suscipit, temporibus, tempora nobis deleniti fuga sunt quia unde voluptates doloribus culpa rerum? Facere cupiditate culpa magnam animi corrupti laborum possimus.</p>
+                        </div>
+
+
+                        <div className='flex  flex-col md:flex-row items-center justify-between mb-5'>
+                            <h2 className='text-4xl '>Team,Work</h2>
+                            <p className="inline-block align-middle p-4 text-justify text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum suscipit, temporibus, tempora nobis deleniti fuga sunt quia unde voluptates doloribus culpa rerum? Facere cupiditate culpa magnam animi corrupti laborum possimus.</p>
+                        </div>
+
+                        <div className='flex  flex-col md:flex-row items-center justify-between'>
+                            <h2 className='text-4xl'>Flexibility</h2>
+                            <p className=" inline-block align-middle p-4 text-justify ml-0 sm:ml-6 text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum suscipit, temporibus, tempora nobis deleniti fuga sunt quia unde voluptates doloribus culpa rerum? Facere cupiditate culpa magnam animi corrupti laborum possimus.</p>
+                        </div>
+                    </div>
+                    <div className='w-full p-4'>
+                        <img className=' w-full' src="https://i.ibb.co/hVqxCGS/download.jpg" alt="" />
                     </div>
                     <Slide bottom>
                         <div className='w-full p-4'>

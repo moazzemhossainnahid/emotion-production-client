@@ -4,6 +4,7 @@ import CardAnim from '../../../Components/Services/Animation/CardAnim';
 import BusinessGrowingUp from '../../../Components/Services/Animation/BusinessGrowingUp';
 import Strategy from '../../../Components/Services/Animation/Strategy';
 import TrustedPartnersAnim from '../../../Components/Services/Animation/TrustedPartnersAnim';
+import Reviews from '../../../Components/Services/Animation/Reviews/Reviews';
 
 const Animation = () => {
     return (
@@ -13,6 +14,7 @@ const Animation = () => {
             <BusinessGrowingUp />
             <Strategy />
             <TrustedPartnersAnim />
+            <Reviews />
         </div>
     );
 };

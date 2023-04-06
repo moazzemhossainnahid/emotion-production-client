@@ -71,34 +71,84 @@ const Reviews = () => {
           className="mySwiper"
         >
           <SwiperSlide className="card mb-8 shadow-xl">
-            <Link to={'/course/english-for-career-development'}><img src="https://i.postimg.cc/J0XQf9dR/18899221.png" alt="image" /></Link>
+            <div className="space-y-2 text-start bg-[#252525c2] px-5 py-2 rounded">
+              <h3 className="font-bold text-xl text-gray-300">The Process is Pragmatic and their team collaborates well to make sure requirements and understood.</h3>
+              <p className="text-sm text-gray-100 pt-3">Our Results have been exceptional. We use in different ways to create marketting page and websites for our clients. we send them our own designs to develop which we found to work better.</p>
+              <div className="flex justify-between gap-3 items-center w-full">
+                <div className="flex flex-row gap-3 items-center w-3/5">
+                  <div className="w-16 h-16">
+                    <img src="https://www.pngall.com/wp-content/uploads/12/Avatar-Profile-Vector-PNG-Photos.png" alt="" className="w-7 h-7" />
+                  </div>
+                  <div className="">
+                    <h3 className="text-xl font-bold text-gray-100">Anna Ingrosso</h3>
+                    <p className="text-indigo-500 text-xl">UI/UX Designer</p>
+                  </div>
+                </div>
+                <div className="w-1/3 p-5">
+                  <img src="https://www.pngmart.com/files/9/Text-Message-PNG-HD.png" alt="" className="w-32" />
+                </div>
+              </div>
+            </div>
           </SwiperSlide>
           <SwiperSlide className="card mb-8 shadow-xl">
-            <Link to={'/course/medical-admission-course'}><img src="https://i.postimg.cc/MTd507f8/18899230.png" alt="image" /></Link>
+          <div className="space-y-2 text-start bg-[#252525c2] px-5 py-2 rounded">
+              <h3 className="font-bold text-xl text-gray-300">The Process is Pragmatic and their team collaborates well to make sure requirements and understood.</h3>
+              <p className="text-sm text-gray-100 pt-3">Our Results have been exceptional. We use in different ways to create marketting page and websites for our clients. we send them our own designs to develop which we found to work better.</p>
+              <div className="flex justify-between gap-3 items-center w-full">
+                <div className="flex flex-row gap-3 items-center w-3/5">
+                  <div className="w-16 h-16">
+                    <img src="https://www.pngall.com/wp-content/uploads/12/Avatar-Profile-PNG-Photos.png" alt="" className="w-7 h-7" />
+                  </div>
+                  <div className="">
+                    <h3 className="text-xl font-bold text-gray-100">John Doe</h3>
+                    <p className="text-indigo-500 text-xl">Web Developer</p>
+                  </div>
+                </div>
+                <div className="w-1/3 p-5">
+                  <img src="https://www.pngmart.com/files/9/Text-Message-PNG-HD.png" alt="" className="w-32" />
+                </div>
+              </div>
+            </div>
           </SwiperSlide>
           <SwiperSlide className="card mb-8 shadow-xl">
-            <Link to={'/course/varsity-admission-course'}><img src="https://i.postimg.cc/T1vbDhCX/18899243.png" alt="image" /></Link>
+          <div className="space-y-2 text-start bg-[#252525c2] px-5 py-2 rounded">
+              <h3 className="font-bold text-xl text-gray-300">The Process is Pragmatic and their team collaborates well to make sure requirements and understood.</h3>
+              <p className="text-sm text-gray-100 pt-3">Our Results have been exceptional. We use in different ways to create marketting page and websites for our clients. we send them our own designs to develop which we found to work better.</p>
+              <div className="flex justify-between gap-3 items-center w-full">
+                <div className="flex flex-row gap-3 items-center w-3/5">
+                  <div className="w-16 h-16">
+                    <img src="https://www.pngall.com/wp-content/uploads/12/Avatar-Profile-PNG-Picture.png" alt="" className="w-7 h-7" />
+                  </div>
+                  <div className="">
+                    <h3 className="text-xl font-bold text-gray-100">Richard Sid</h3>
+                    <p className="text-indigo-500 text-xl">Web Designer</p>
+                  </div>
+                </div>
+                <div className="w-1/3 p-5">
+                  <img src="https://www.pngmart.com/files/9/Text-Message-PNG-HD.png" alt="" className="w-32" />
+                </div>
+              </div>
+            </div>
           </SwiperSlide>
           <SwiperSlide className="card mb-8 shadow-xl">
-            <Link to={'/course/bank-job'}><img src="https://i.postimg.cc/252Pjhct/18899245.png" alt="image" /></Link>
-          </SwiperSlide>
-          <SwiperSlide className="card mb-8 shadow-xl">
-            <Link to={'/course/corporate-job'}><img src="https://i.postimg.cc/jSWtfc9y/Black-Friday-Instagram-Story-01.png" alt="image" /></Link>
-          </SwiperSlide>
-          <SwiperSlide className="card mb-8 shadow-xl">
-            <Link to={'/course/improve-english-communcation-skills'}><img src="https://i.postimg.cc/QNg9z8fH/Black-Friday-Instagram-Story-05.png" alt="image" /></Link>
-          </SwiperSlide>
-          <SwiperSlide className="card mb-8 shadow-xl">
-            <Link to={'/course/chinese-for-beginners'}><img src="https://i.postimg.cc/fy2QtSfH/Black-Friday-Instagram-Story-10.png" alt="image" /></Link>
-          </SwiperSlide>
-          <SwiperSlide className="card mb-8 shadow-xl">
-            <Link to={'/course/developer-job'}><img src="https://i.postimg.cc/fRshrsgT/Black-Friday-Instagram-Story-14.png" alt="image" /></Link>
-          </SwiperSlide>
-          <SwiperSlide className="card mb-8 shadow-xl">
-            <Link to={'course/grammar-and-punctuation'}><img src="https://i.postimg.cc/dVPfV98W/Black-Friday-Instagram-Story-18.png" alt="image" /></Link>
-          </SwiperSlide>
-          <SwiperSlide className="card mb-8 shadow-xl">
-            <Link to={'/course/freelancer-job'}><img src="https://i.postimg.cc/RZCnxkW4/Black-Friday-Instagram-Story-20.png" alt="image" /></Link>
+          <div className="space-y-2 text-start bg-[#252525c2] px-5 py-2 rounded">
+              <h3 className="font-bold text-xl text-gray-300">The Process is Pragmatic and their team collaborates well to make sure requirements and understood.</h3>
+              <p className="text-sm text-gray-100 pt-3">Our Results have been exceptional. We use in different ways to create marketting page and websites for our clients. we send them our own designs to develop which we found to work better.</p>
+              <div className="flex justify-between gap-3 items-center w-full">
+                <div className="flex flex-row gap-3 items-center w-3/5">
+                  <div className="w-16 h-16">
+                    <img src="https://img.freepik.com/free-icon/avatar_318-201560.jpg" alt="" className="w-7 h-7" />
+                  </div>
+                  <div className="">
+                    <h3 className="text-xl font-bold text-gray-100">Lisa Ingrosso</h3>
+                    <p className="text-indigo-500 text-xl">Graphics Designer</p>
+                  </div>
+                </div>
+                <div className="w-1/3 p-5">
+                  <img src="https://www.pngmart.com/files/9/Text-Message-PNG-HD.png" alt="" className="w-32" />
+                </div>
+              </div>
+            </div>
           </SwiperSlide>
         </Swiper>
       </div>

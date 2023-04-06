@@ -14,7 +14,7 @@ const Animation = () => {
             <BusinessGrowingUp />
             <Strategy />
             <TrustedPartnersAnim />
-            {/* <Reviews /> */}
+            <Reviews />
         </div>
     );
 };

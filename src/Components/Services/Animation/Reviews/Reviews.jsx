@@ -12,7 +12,6 @@ import "swiper/css/pagination";
 import "./Reviews.css";
 
 // import required module
-import { Link } from "react-router-dom";
 import { EffectCoverflow, Pagination } from "swiper";
 
 const Reviews = () => {
@@ -71,7 +70,7 @@ const Reviews = () => {
           className="mySwiper"
         >
           <SwiperSlide className="card mb-8 shadow-xl">
-            <div className="space-y-2 text-start bg-[#252525c2] px-5 py-2 rounded">
+            <div className="space-y-2 text-start bg-[#252525] px-5 py-2 rounded">
               <h3 className="font-bold text-xl text-gray-300">The Process is Pragmatic and their team collaborates well to make sure requirements and understood.</h3>
               <p className="text-sm text-gray-100 pt-3">Our Results have been exceptional. We use in different ways to create marketting page and websites for our clients. we send them our own designs to develop which we found to work better.</p>
               <div className="flex justify-between gap-3 items-center w-full">
@@ -91,7 +90,7 @@ const Reviews = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide className="card mb-8 shadow-xl">
-          <div className="space-y-2 text-start bg-[#252525c2] px-5 py-2 rounded">
+          <div className="space-y-2 text-start bg-[#252525] px-5 py-2 rounded">
               <h3 className="font-bold text-xl text-gray-300">The Process is Pragmatic and their team collaborates well to make sure requirements and understood.</h3>
               <p className="text-sm text-gray-100 pt-3">Our Results have been exceptional. We use in different ways to create marketting page and websites for our clients. we send them our own designs to develop which we found to work better.</p>
               <div className="flex justify-between gap-3 items-center w-full">
@@ -111,7 +110,7 @@ const Reviews = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide className="card mb-8 shadow-xl">
-          <div className="space-y-2 text-start bg-[#252525c2] px-5 py-2 rounded">
+          <div className="space-y-2 text-start bg-[#252525] px-5 py-2 rounded">
               <h3 className="font-bold text-xl text-gray-300">The Process is Pragmatic and their team collaborates well to make sure requirements and understood.</h3>
               <p className="text-sm text-gray-100 pt-3">Our Results have been exceptional. We use in different ways to create marketting page and websites for our clients. we send them our own designs to develop which we found to work better.</p>
               <div className="flex justify-between gap-3 items-center w-full">
@@ -131,7 +130,7 @@ const Reviews = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide className="card mb-8 shadow-xl">
-          <div className="space-y-2 text-start bg-[#252525c2] px-5 py-2 rounded">
+          <div className="space-y-2 text-start bg-[#252525] px-5 py-2 rounded">
               <h3 className="font-bold text-xl text-gray-300">The Process is Pragmatic and their team collaborates well to make sure requirements and understood.</h3>
               <p className="text-sm text-gray-100 pt-3">Our Results have been exceptional. We use in different ways to create marketting page and websites for our clients. we send them our own designs to develop which we found to work better.</p>
               <div className="flex justify-between gap-3 items-center w-full">

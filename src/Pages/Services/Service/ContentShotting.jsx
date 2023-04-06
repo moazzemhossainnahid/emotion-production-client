@@ -54,26 +54,25 @@ const ContentShotting = () => {
             <div className='mt-5'>
                 <Slider {...settings}>
                     <div>
-                        <img src={"https://i.ibb.co/3dtzRwC/SL-100321-45940-56.jpg"} />
+                        <img src={"https://i.ibb.co/3dtzRwC/SL-100321-45940-56.jpg"} alt="" />
                     </div>
                     <div>
-                        <img src={"https://i.ibb.co/Fgn9XY0/20314239-SL-062121-43900-81.jpg"} />
+                        <img src={"https://i.ibb.co/Fgn9XY0/20314239-SL-062121-43900-81.jpg"} alt="" />
                     </div>
                     <div>
-                        <img src={"https://i.ibb.co/TtNThMm/20023212-SL-091320-34930-27.jpg"} />
+                        <img src={"https://i.ibb.co/TtNThMm/20023212-SL-091320-34930-27.jpg"} alt="" />
                     </div>
                     <div>
-                        <img src={"https://i.ibb.co/4V42gZr/34532469-sl-100622-53160-19.jpg"} />
+                        <img src={"https://i.ibb.co/4V42gZr/34532469-sl-100622-53160-19.jpg"} alt="" />
                     </div>
                     <div>
-                        <img src={"https://i.ibb.co/nzrmRdQ/33818883-sl-100622-53160-51.jpg"} />
+                        <img src={"https://i.ibb.co/nzrmRdQ/33818883-sl-100622-53160-51.jpg"} alt="" />
                     </div>
                     <div>
-                        <img src={"https://i.ibb.co/hfkbycZ/34085711-sl-100622-53160-07-1.jpg"} />
+                        <img src={"https://i.ibb.co/hfkbycZ/34085711-sl-100622-53160-07-1.jpg"} alt="" />
                     </div>
-
                     <div>
-                        <img src={"https://i.ibb.co/stXzZpY/10467516-9127.jpg"} />
+                        <img src={"https://i.ibb.co/stXzZpY/10467516-9127.jpg"} alt="" />
                     </div>
                     {/* <div>
                         <img src={"https://i.ibb.co/k5xKh2z/11052989-3062.jpg"} />

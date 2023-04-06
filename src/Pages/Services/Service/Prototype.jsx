@@ -1,10 +1,10 @@
 import React from 'react';
+import TopBannerPtt from '../../../Components/Services/Prototype/TopBannerPtt';
 
 const Prototype = () => {
     return (
-        <div>
-             <h3 className="text-5xl font-bold text-rose-600">This is Prototype Page</h3>
-           
+        <div className=''>
+            <TopBannerPtt />
         </div>
     );
 };

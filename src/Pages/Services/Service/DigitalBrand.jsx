@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import TrustedPartnersAnim from '../../../Components/Services/Animation/TrustedPartnersAnim';
+import { Fade, Slide } from 'react-reveal';
 
 const DigitalBrand = () => {
     const [counter, setCounter] = useState(0);
@@ -37,8 +38,9 @@ const DigitalBrand = () => {
                 </div>
             </div>
             {/*===========================our  Goal  =======================*/}
-            <div className='grid grid-cols-1  sm:grid-cols-3 place-items-center mt-36 gap-4 w-full md:w-5/6 mx-auto'>
+            <div className='grid grid-cols-1  sm:grid-cols-3 place-items-center mt-36 gap-5 w-full md:w-5/6 mx-auto'>
 
+                <Slide bottom duration={1000}>
                 <div className='flex justify-center items-start'>
                     <span className='mr-4'>
                         <img className='' src="https://i.ibb.co/Qn8Kttw/images-removebg-preview.png" alt="" />
@@ -49,7 +51,8 @@ const DigitalBrand = () => {
                         <button className='text-gray-500 flex pt-2 justify-items-end bottom-1 border-b'>Explore</button>
                     </span>
                 </div>
-
+                </Slide>
+                <Slide top duration={1500}>
                 <div className='flex justify-center items-start'>
                     <span className='mr-4'>
                         <img src="https://i.ibb.co/Qn8Kttw/images-removebg-preview.png" alt="" />
@@ -60,7 +63,8 @@ const DigitalBrand = () => {
                         <button className='text-gray-500 flex pt-2 justify-items-end bottom-1 border-b'>Explore</button>
                     </span>
                 </div>
-
+                </Slide>
+                <Slide bottom duration={1000}>
                 <div className='flex justify-center items-start'>
                     <span className='mr-4'>
                         <img src="https://i.ibb.co/Qn8Kttw/images-removebg-preview.png" alt="" />
@@ -71,23 +75,31 @@ const DigitalBrand = () => {
                         <button className='text-gray-500 flex pt-2 justify-items-end bottom-1 border-b'>Explore</button>
                     </span>
                 </div>
+                </Slide>
             </div>
 
             {/*=========================== Goal end content =======================*/}
             <div className='flex flex-col md:flex-row justify-between items-center  mt-36 w-full md:w-5/6 mx-auto'>
+                
                 <div className='w-full p-4'>
+                    <Fade bottom>
                     <img className=' w-full' src="https://i.ibb.co/sJ0chV2/ezgif-4-492a554f96.jpg" alt="" />
+                    </Fade>
                 </div>
 
-                <div class="divider bg-white lg:divider-horizontal"></div>
 
-                <div className='w-full p-4'>
-                    <h2 className='text-center text-white text-2xl sm:text-5xl sm:text-left'> Perfect Digital Start</h2>
-                    <p className='inline-block text-white align-middle  text-justify sm:text-left pt-3'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown print took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic.
-                    </p>
-                    <p className='inline-block text-white  align-middle  text-justify sm:text-left pt-3'> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown print took a galley of type and scrambled electronic.
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown print took a galley of type and scrambled electronic.
-                    </p>
+                <div class="w-1 rounded-xl hidden md:block h-40 bg-gray-200"></div>
+
+
+                <div className='w-full p-4 space-y-3 text-start'>
+                    <Slide right duration={1000}>
+                        <h2 className='text-left text-white text-3xl md:text-5xl'> Perfect Digital Start</h2>
+                    </Slide>
+                    <Slide right duration={1500}>
+                        <p className='inline-block text-white align-middle  text-justify sm:text-left pt-3'>
+                            Duis accumsan, neque at hendrerit sagittis, elit diam sodales nunc, at auctor leo purus sodales nunc. Maecenas ac lorem sit amet ligula viverra gravida non vel tortor. Phasellus dapibus leo non iaculis ultricies.
+                        </p>
+                    </Slide>
                 </div>
             </div>
 

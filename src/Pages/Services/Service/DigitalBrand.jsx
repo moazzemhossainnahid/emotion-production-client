@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import TrustedPartnersAnim from '../../../Components/Services/Animation/TrustedPartnersAnim';
 import { Fade, Slide } from 'react-reveal';
 import Slider from 'react-slick';
+import CountUp from 'react-countup';
 
 const DigitalBrand = () => {
     const [counter, setCounter] = useState(0);
@@ -264,7 +265,7 @@ const DigitalBrand = () => {
                         <div class="p-8 w-full ">
                             <div class="flex items-center justify-between">
                                 <span class="text-slate-400 font-black "> Development</span>
-                                <span class="px-2 py-1 bg-teal-50 rounded-lg text-xs text-teal-400 font-medium min-w-[46px] text-center">60%</span>
+                                <span class="px-2 py-1 rounded-lg text-xl text-white font-medium min-w-[46px] text-center"><CountUp delay={2} end={60} />%</span>
                             </div>
 
                             <div class="w-full bg-slate-100 h-2 mb-6 mt-2">
@@ -273,7 +274,7 @@ const DigitalBrand = () => {
 
                             <div class="flex items-center justify-between">
                                 <span class="text-slate-400 font-black ">Design</span>
-                                <span class="px-2 py-1 bg-teal-50 rounded-lg text-xs text-teal-400 font-medium min-w-[46px] text-center">85%</span>
+                                <span class="px-2 py-1 rounded-lg text-xl text-white font-medium min-w-[46px] text-center"><CountUp delay={2} end={85} />%</span>
                             </div>
 
                             <div class="w-full bg-slate-100 h-2 mb-6 mt-2">
@@ -282,7 +283,7 @@ const DigitalBrand = () => {
 
                             <div class="flex items-center justify-between">
                                 <span class="text-slate-400 font-black">Art</span>
-                                <span class="px-2 py-1 bg-teal-50 rounded-lg text-xs text-teal-400 font-medium min-w-[46px] text-center">50%</span>
+                                <span class="px-2 py-1 rounded-lg text-xl text-white font-medium min-w-[46px] text-center"><CountUp delay={2} end={50} />%</span>
                             </div>
 
                             <div class="w-full bg-slate-100 h-2 mb-6 mt-2">
@@ -291,7 +292,7 @@ const DigitalBrand = () => {
 
                             <div class="flex items-center justify-between">
                                 <span class="text-slate-400 font-black">Business</span>
-                                <span class="px-2 py-1 bg-teal-50 rounded-lg text-xs text-teal-400 font-medium min-w-[46px] text-center">75%</span>
+                                <span class="px-2 py-1 rounded-lg text-xl text-white font-medium min-w-[46px] text-center"><CountUp delay={2} end={75} />%</span>
                             </div>
 
                             <div class="w-full bg-slate-100 h-2 mb-6 mt-2">
@@ -300,7 +301,7 @@ const DigitalBrand = () => {
 
                             <div class="flex items-center justify-between">
                                 <span class="text-slate-400 font-black">LTS</span>
-                                <span class="px-2 py-1 bg-teal-50 rounded-lg text-xs text-teal-400 font-medium min-w-[46px] text-center">100%</span>
+                                <span class="px-2 py-1 rounded-lg text-xl text-white font-medium min-w-[46px] text-center"><CountUp delay={2} end={100} />%</span>
                             </div>
 
                             <div class="w-full bg-slate-100 h-2 mt-2">

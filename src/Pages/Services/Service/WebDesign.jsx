@@ -142,7 +142,7 @@ const WebDesign = () => {
             </div>
             {/*======== Portfulio =============== */}
             <div className='pb-10 w-full md:w-5/6 mx-auto space-y-3'>
-                <h2 className="text-3xl md:text-6xl text-white font-semibold text-center">Subscribe For Newsletter</h2>
+                <h2 style={{ fontFamily: "Rajdhani" }} className="text-3xl md:text-6xl text-white font-semibold text-center">Subscribe For Newsletter</h2>
                 <div className="flex flex-col md:flex-row justify-center items-center gap-3 py-10">
                 <input type="text" placeholder="demo@example.com" className="input input-bordered bg-transparent border-white rounded-3xl md:w-3/5" />
                 <input type="submit" value="Subscribe Now" className="btn bg-gray-600 border-white rounded-3xl" />

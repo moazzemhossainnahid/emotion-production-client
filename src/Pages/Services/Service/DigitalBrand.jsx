@@ -1,9 +1,44 @@
 import React, { useEffect, useState } from 'react';
 import TrustedPartnersAnim from '../../../Components/Services/Animation/TrustedPartnersAnim';
 import { Fade, Slide } from 'react-reveal';
+import Slider from 'react-slick';
 
 const DigitalBrand = () => {
     const [counter, setCounter] = useState(0);
+
+    const settings = {
+        dots: false,
+        autoplay: true,
+        infinite: true,
+        speed: 500,
+        autoplaySpeed: 3000,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        nextArrow: <SampleNextArrow />,
+        prevArrow: <SamplePrevArrow />,
+    };
+
+
+    function SampleNextArrow(props) {
+        const { className, style, onClick } = props;
+        return (
+            <div
+                className={className}
+                style={{ ...style, display: "none", background: "red" }}
+                onClick={onClick}
+            />
+        );
+    }
+    function SamplePrevArrow(props) {
+        const { className, style, onClick } = props;
+        return (
+            <div
+                className={className}
+                style={{ ...style, display: "none", background: "green" }}
+                onClick={onClick}
+            />
+        );
+    }
 
     useEffect(() => {
         const intervalId = setInterval(() => {
@@ -19,71 +54,83 @@ const DigitalBrand = () => {
     return (
         <div className='container mx-auto overflow-hidden'>
             {/*=========================== carousel  =======================*/}
-            <div className='flex flex-col md:flex-row justify-between items-center gap-3 mt-36'>
-                <div className="md:w-1/2 sm:pl-20 p-0 text-left space-y-5">
-                    <p className=' text-left text-gray-500 mb-2'> BUILDING THE NEXT GENERATION OF BOLD BRANDS</p>
-                    <h2 className="text-left font-thin text-3xl md:text-6xl text-white pb-10">Branding & Digital Agency</h2>
-                    <button className="text-left text-white relative group">
-                        <span className="bg-teal-600 px-7 p-4 z-10 relative group-hover:bg-indigo-950 duration-300">READ MORE</span>
-                        <img src="https://svgshare.com/i/rry.svg" alt="" className="z-0 absolute -bottom-7 -right-3 group-hover:-bottom-2 group-hover:-right-0 duration-300" />
-                    </button>
+            <div className='flex flex-col md:flex-row justify-between items-center gap-3'>
+                <div className="w-full md:w-1/2 p-0 md:pl-20 text-left space-y-5">
+                    <Slide left duration={1000}>
+                        <p className=' text-left text-gray-500 mb-2'> BUILDING THE NEXT GENERATION OF BOLD BRANDS</p>
+                    </Slide>
+                    <Slide left duration={1500}>
+                        <h2 className="text-left font-thin text-3xl md:text-6xl text-white pb-10">Branding & Digital Agency</h2>
+                    </Slide>
+                    <Slide bottom duration={2000}>
+                        <button className="text-left text-white relative group">
+                            <span className="bg-teal-600 px-7 p-4 z-10 relative group-hover:bg-indigo-950 duration-300">READ MORE</span>
+                            <img src="https://svgshare.com/i/rry.svg" alt="" className="z-0 absolute -bottom-7 -right-3 group-hover:-bottom-2 group-hover:-right-0 duration-300" />
+                        </button>
+                    </Slide>
                 </div>
 
-                <div className="carousel-container">
-                    <div className="carousel-slide" style={{ transform: `translateX(-${counter * 500}px)` }}>
-                        <img src="https://i.ibb.co/dK4QXQY/home-bg-01.jpg" alt='' />
-                        <img src="https://i.ibb.co/F6Pz9th/home-bg-03.jpg" alt='' />
-                        <img src="https://i.ibb.co/ygJDzXx/home-bg-02.jpg" alt='' />
-                    </div>
+                <div className="w-full md:w-1/2 mx-auto pt-7 md:pt-0 p-0">
+                    <Slider {...settings}>
+                        <div>
+                            <img className='md:h-[85vh] object-cover' src={"https://i.ibb.co/dK4QXQY/home-bg-01.jpg"} alt='' />
+                        </div>
+                        <div>
+                            <img className='md:h-[85vh] object-cover' src={"https://i.ibb.co/F6Pz9th/home-bg-03.jpg"} alt='' />
+                        </div>
+                        <div>
+                            <img className='md:h-[85vh] object-cover' src={"https://i.ibb.co/ygJDzXx/home-bg-02.jpg"} alt='' />
+                        </div>
+                    </Slider>
                 </div>
             </div>
             {/*===========================our  Goal  =======================*/}
             <div className='grid grid-cols-1  sm:grid-cols-3 place-items-center mt-36 gap-5 w-full md:w-5/6 mx-auto'>
 
                 <Slide bottom duration={1000}>
-                <div className='flex justify-center items-start'>
-                    <span className='mr-4'>
-                        <img className='' src="https://i.ibb.co/Qn8Kttw/images-removebg-preview.png" alt="" />
-                    </span>
-                    <span className=''>
-                        <h2 className='text-left text-white font-black'>Story</h2>
-                        <p className='text-white text-justify'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi soluta ipsum excepturi ex voluptatum quaerat, sint, quo inventore odit nesciunt quod pariatur quam veniam magni labore dolor! At, nulla fugit!</p>
-                        <button className='text-gray-500 flex pt-2 justify-items-end bottom-1 border-b'>Explore</button>
-                    </span>
-                </div>
+                    <div className='flex justify-center items-start'>
+                        <span className='mr-4'>
+                            <img className='' src="https://i.ibb.co/Qn8Kttw/images-removebg-preview.png" alt="" />
+                        </span>
+                        <span className=''>
+                            <h2 className='text-left text-white font-black'>Story</h2>
+                            <p className='text-white text-justify'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi soluta ipsum excepturi ex voluptatum quaerat, sint, quo inventore odit nesciunt quod pariatur quam veniam magni labore dolor! At, nulla fugit!</p>
+                            <button className='text-gray-500 flex pt-2 justify-items-end bottom-1 border-b'>Explore</button>
+                        </span>
+                    </div>
                 </Slide>
                 <Slide top duration={1500}>
-                <div className='flex justify-center items-start'>
-                    <span className='mr-4'>
-                        <img src="https://i.ibb.co/Qn8Kttw/images-removebg-preview.png" alt="" />
-                    </span>
-                    <span>
-                        <h2 className='text-left text-white font-black'>Goals</h2>
-                        <p className='text-white text-justify'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi soluta ipsum excepturi ex voluptatum quaerat, sint, quo inventore odit nesciunt quod pariatur quam veniam magni labore dolor! At, nulla fugit!</p>
-                        <button className='text-gray-500 flex pt-2 justify-items-end bottom-1 border-b'>Explore</button>
-                    </span>
-                </div>
+                    <div className='flex justify-center items-start'>
+                        <span className='mr-4'>
+                            <img src="https://i.ibb.co/Qn8Kttw/images-removebg-preview.png" alt="" />
+                        </span>
+                        <span>
+                            <h2 className='text-left text-white font-black'>Goals</h2>
+                            <p className='text-white text-justify'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi soluta ipsum excepturi ex voluptatum quaerat, sint, quo inventore odit nesciunt quod pariatur quam veniam magni labore dolor! At, nulla fugit!</p>
+                            <button className='text-gray-500 flex pt-2 justify-items-end bottom-1 border-b'>Explore</button>
+                        </span>
+                    </div>
                 </Slide>
                 <Slide bottom duration={1000}>
-                <div className='flex justify-center items-start'>
-                    <span className='mr-4'>
-                        <img src="https://i.ibb.co/Qn8Kttw/images-removebg-preview.png" alt="" />
-                    </span>
-                    <span>
-                        <h2 className='text-left text-white font-black'>Achievements</h2>
-                        <p className='text-white text-justify'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi soluta ipsum excepturi ex voluptatum quaerat, sint, quo inventore odit nesciunt quod pariatur quam veniam magni labore dolor! At, nulla fugit!</p>
-                        <button className='text-gray-500 flex pt-2 justify-items-end bottom-1 border-b'>Explore</button>
-                    </span>
-                </div>
+                    <div className='flex justify-center items-start'>
+                        <span className='mr-4'>
+                            <img src="https://i.ibb.co/Qn8Kttw/images-removebg-preview.png" alt="" />
+                        </span>
+                        <span>
+                            <h2 className='text-left text-white font-black'>Achievements</h2>
+                            <p className='text-white text-justify'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi soluta ipsum excepturi ex voluptatum quaerat, sint, quo inventore odit nesciunt quod pariatur quam veniam magni labore dolor! At, nulla fugit!</p>
+                            <button className='text-gray-500 flex pt-2 justify-items-end bottom-1 border-b'>Explore</button>
+                        </span>
+                    </div>
                 </Slide>
             </div>
 
             {/*=========================== Goal end content =======================*/}
             <div className='flex flex-col md:flex-row justify-between items-center  mt-36 w-full md:w-5/6 mx-auto'>
-                
+
                 <div className='w-full p-4'>
                     <Fade bottom>
-                    <img className=' w-full' src="https://i.ibb.co/sJ0chV2/ezgif-4-492a554f96.jpg" alt="" />
+                        <img className=' w-full' src="https://i.ibb.co/sJ0chV2/ezgif-4-492a554f96.jpg" alt="" />
                     </Fade>
                 </div>
 

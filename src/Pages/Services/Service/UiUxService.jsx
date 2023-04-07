@@ -6,7 +6,7 @@ const UiUxService = () => {
 
     return (
         <div className="container px-7 mx-auto w-full text-white">
-            <div className='flex flex-col md:flex-row justify-between items-center mt-14'>
+            <div className='flex flex-col md:flex-row justify-between items-center mt-14 pb-10'>
                 <div className='w-full md:w-3/6 p-0 sm:p-5'>
                     <h2 className='text-center text-2xl sm:text-5xl sm:text-left'>leading provider of
                         UI/UX design development
@@ -23,16 +23,16 @@ const UiUxService = () => {
                 </div>
             </div>
 
-            <div className='  mt-14'>
-                <h2 className='text-center text-3xl sm:text-6xl sm:text-left'>WHAT WE DO</h2>
-                <h1 className='text-center text-2xl sm:text-4xl sm:text-left'>We Design Visually Stunning &
+            <div className='w-full md:w-3/5 flex flex-col gap-3 space-y-4 justify-start items-center text-left py-12'>
+                <h2 className='text-left w-full text-3xl md:text-6xl'>WHAT WE DO</h2>
+                <h1 className='text-left w-full text-2xl md:text-4xl md:text-left'>We Design Visually Stunning & <br />
                     User-Friendly Customer Experience.</h1>
                 <p className='text-left'>With a distinct staff of User interface (UI) Designers, User Experience (UX) Designers,
                     Graphic Designers, and Animators, Emotion's Design section operates as a separate wing.</p>
             </div>
 
-            <div className='sm:flex inline-block justify-center items-center mt-14 '>
-                <div className=' w-full '>
+            <div className='flex flex-col md:flex-row gap-3 justify-center items-center mt-14 '>
+                <div className=' w-full md:w-3/6 mx-auto p-2 space-y-3'>
                     <h2 className='text-center text-3xl sm:text-6xl sm:text-left'>UI/UX for Mobile & Web</h2>
                     <p className='text-center pr-5 sm:text-left'>We adhere to industry norms and develop UI/UX using design
                         standards. Our UI/UX design services include the following:</p>
@@ -43,10 +43,8 @@ const UiUxService = () => {
                         <li className='flex items-center list'> <img className='w-5 mr-2' src={logo} alt="" />  <a href="">Interaction Design</a></li>
                         <li className='flex items-center list'> <img className='w-5 mr-2' src={logo} alt="" />  <a href="">Prototyping </a></li>
                     </div>
-
-
                 </div>
-                <div>
+                <div className=' w-full md:w-3/6 mx-auto'>
                     <img className=' w-full' src="https://i.ibb.co/KqBW8rM/5810325.png" alt="" />
 
                 </div>
@@ -61,16 +59,18 @@ const UiUxService = () => {
                 </div>
             </div>
 
-            <div className='mt-20  pb-28 discus'>
-                <h3 className='text-center text-white pt-28 text-xl'>
-                    Let's Discuss Your Project
-                </h3>
-                <p className='text-center text-xl pt-5 pb-5'>
-                    Get a free consultation and share your project concept with us
-                    so we can transform it into a fantastic digital product.
-                </p>
-                <button className='text-center p-3 border text-white border-white rounded-lg'>Talk To Our Experts</button>
+            <div className='mt-20 w-full pb-28 discus space-y-3'>
+                <div className="w-full md:w-3/5 mx-auto">
+                    <h3 className='text-center text-white pt-28 text-3xl md:text-5xl font-bold'>
+                        Let's Discuss Your Project
+                    </h3>
+                    <p className='text-center text-xl pt-5 pb-5'>
+                        Get a free consultation and share your project concept with us
+                        so we can transform it into a fantastic digital product.
+                    </p>
+                    <button className='text-center p-3 border text-white border-white rounded-lg'>Talk To Our Experts</button>
 
+                </div>
             </div>
 
             <div className='mb-16 mt-20'>

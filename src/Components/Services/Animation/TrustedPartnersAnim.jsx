@@ -44,7 +44,7 @@ const TrustedPartnersAnim = () => {
         ]
     };
     return (
-        <div className='w-full h-full md:w-5/6 mx-auto py-10'>
+        <div className='w-full h-full md:w-5/6 mx-auto'>
             <Fade bottom duration={2000}>
                 <h3 className="text-white text-2xl font-semibold text-center pb-10">JOIN THE 200+ COMPANIES TRUSTING ZEPTECH COMPANY</h3>
             </Fade>

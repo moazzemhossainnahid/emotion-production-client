@@ -17,11 +17,14 @@ const DigitalBrand = () => {
     return (
         <div className='container mx-auto overflow-hidden'>
             {/*=========================== carousel  =======================*/}
-            <div className='flex flex-col md:flex-row justify-between items-center  mt-36'>
-                <div className="w-1/2 sm:pl-20 p-0 text-left space-y-5">
-                    <p className=' text-left text-white mb-2'> BUILDING THE NEXT GENERATION OF BOLD BRANDS</p>
-                    <h2 className="text-left text-white font-black mb-2">Branding & Digital Agency</h2>
-                    <button className='bg-green-800 text-left border p-4 text-white'>READ MORE</button>
+            <div className='flex flex-col md:flex-row justify-between items-center gap-3 mt-36'>
+                <div className="md:w-1/2 sm:pl-20 p-0 text-left space-y-5">
+                    <p className=' text-left text-gray-500 mb-2'> BUILDING THE NEXT GENERATION OF BOLD BRANDS</p>
+                    <h2 className="text-left font-thin text-3xl md:text-6xl text-white pb-10">Branding & Digital Agency</h2>
+                    <button className="text-left text-white relative group">
+                        <span className="bg-teal-600 px-7 p-4 z-10 relative group-hover:bg-indigo-950 duration-300">READ MORE</span>
+                        <img src="https://svgshare.com/i/rry.svg" alt="" className="z-0 absolute -bottom-7 -right-3 group-hover:-bottom-2 group-hover:-right-0 duration-300" />
+                    </button>
                 </div>
 
                 <div className="carousel-container">
@@ -252,16 +255,19 @@ const DigitalBrand = () => {
                         <img class="transform hover:scale-110 transition duration-300" src="https://i.ibb.co/wKw0GgT/home-work-04-crop-u18684.jpg" alt="Your" />
                     </div>
                 </div>
-                <h2 className='text-white text-center font-black my-5'>Want to showcase your business?</h2>
+                <h2 className='text-white text-center text-2xl md:text-4xl font-black my-5 pb-4'>Want to showcase your business?</h2>
 
-                <button class="group relative h-12 w-48 overflow-hidden rounded-lg bg-white text-lg shadow">
-                    <div class="absolute inset-0 w-3 bg-amber-400 transition-all duration-[250ms] ease-out group-hover:w-full"></div>
-                    <span class="relative text-black group-hover:text-white">Contact Us</span>
-                </button>
+                {/* <button class="group relative h-12 w-48 overflow-hidden rounded-lg bg-white text-lg shadow"> */}
+                    {/* <div class="absolute inset-0 w-3 bg-amber-400 transition-all duration-[250ms] ease-out group-hover:w-full"></div> */}
+                    <button className="text-left text-white relative group">
+                        <span className="bg-teal-600 px-7 p-4 z-10 relative group-hover:bg-indigo-950 duration-300">Contact US</span>
+                        <img src="https://svgshare.com/i/rry.svg" alt="" className="z-0 absolute -bottom-7 -right-3 group-hover:-bottom-2 group-hover:-right-0 duration-300" />
+                    </button>
+                {/* </button> */}
             </div>
 
             {/*=========================== Briefing =======================*/}
-            <div className='flex flex-col md:flex-row justify-between items-center mb-36 px-3 mt-32 w-full md:w-5/6 mx-auto'>           
+            <div className='flex flex-col md:flex-row justify-between items-center mb-36 px-3 mt-32 w-full md:w-5/6 mx-auto'>
                 <div class="indicator">
                     <span class="indicator-item badge w-16 h-16  rounded-none bg-slate-600 ">
                         <h2 className=" text-white text-6xl font-bold">1</h2>
@@ -292,7 +298,7 @@ const DigitalBrand = () => {
                     </div>
                 </div>
             </div>
-            
+
             {/*===========================   showcase your business=======================*/}
             <div className='flex flex-col md:flex-row justify-between items-center mb-36 mt-36 w-full md:w-5/6 mx-auto'>
                 <div><img src="https://i.ibb.co/4NrZzv1/ezgif-com-gif-maker-4-removebg-preview.png" alt="" /></div>

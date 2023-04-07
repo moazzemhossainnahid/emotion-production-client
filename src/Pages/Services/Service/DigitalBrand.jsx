@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import TrustedPartnersAnim from '../../../Components/Services/Animation/TrustedPartnersAnim';
 
 const DigitalBrand = () => {
     const [counter, setCounter] = useState(0);
@@ -184,8 +185,8 @@ const DigitalBrand = () => {
 
             {/*=========================== Experts=======================*/}
             <div className='flex flex-col md:flex-row justify-between items-center  mt-32 w-full md:w-5/6 mx-auto'>
-                <div className='w-full p-4'>
-                    <h2 className='text-center text-white text-2xl sm:text-5xl sm:text-left'> Digital experts </h2>
+                <div className='w-full p-4 space-y-5'>
+                    <h2 className='text-center text-white text-2xl sm:text-5xl sm:text-left'> Digital Experts </h2>
                     <p className='text-left text-white '>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet consequuntur quos, hic quo laborum voluptatem ipsam odio aperiam esse commodi, dolorem, iste architecto quae ipsum ut dicta reiciendis quam dolorum.
                     </p>
                 </div>
@@ -211,30 +212,30 @@ const DigitalBrand = () => {
                         </div>
 
                         <div class="flex items-center justify-between">
-                            <span class="text-slate-400 text-sm">Progress 3</span>
+                            <span class="text-slate-400 font-black">Art</span>
                             <span class="px-2 py-1 bg-teal-50 rounded-lg text-xs text-teal-400 font-medium min-w-[46px] text-center">50%</span>
                         </div>
 
-                        <div class="w-full bg-slate-100 h-1 mb-6 mt-2">
-                            <div class="bg-teal-400 h-1 rounded" style={{ width: "55%" }}></div>
+                        <div class="w-full bg-slate-100 h-2 mb-6 mt-2">
+                            <div class="bg-teal-400 h-2 rounded" style={{ width: "55%" }}></div>
                         </div>
 
                         <div class="flex items-center justify-between">
-                            <span class="text-slate-400 text-sm">Progress 4</span>
+                            <span class="text-slate-400 font-black">Business</span>
                             <span class="px-2 py-1 bg-teal-50 rounded-lg text-xs text-teal-400 font-medium min-w-[46px] text-center">75%</span>
                         </div>
 
-                        <div class="w-full bg-slate-100 h-1 mb-6 mt-2">
-                            <div class="bg-teal-400 h-1 rounded" style={{ width: "75%" }}></div>
+                        <div class="w-full bg-slate-100 h-2 mb-6 mt-2">
+                            <div class="bg-teal-400 h-2 rounded" style={{ width: "75%" }}></div>
                         </div>
 
                         <div class="flex items-center justify-between">
-                            <span class="text-slate-400 text-sm">Progress 5</span>
+                            <span class="text-slate-400 font-black">LTS</span>
                             <span class="px-2 py-1 bg-teal-50 rounded-lg text-xs text-teal-400 font-medium min-w-[46px] text-center">100%</span>
                         </div>
 
-                        <div class="w-full bg-slate-100 h-1 mt-2">
-                            <div class="bg-teal-400 h-1 rounded" style={{ width: "100%" }}></div>
+                        <div class="w-full bg-slate-100 h-2 mt-2">
+                            <div class="bg-teal-400 h-2 rounded" style={{ width: "100%" }}></div>
                         </div>
                     </div>
                 </div>
@@ -255,15 +256,12 @@ const DigitalBrand = () => {
                         <img class="transform hover:scale-110 transition duration-300" src="https://i.ibb.co/wKw0GgT/home-work-04-crop-u18684.jpg" alt="Your" />
                     </div>
                 </div>
-                <h2 className='text-white text-center text-2xl md:text-4xl font-black my-5 pb-4'>Want to showcase your business?</h2>
+                <h2 className='text-white text-center text-2xl md:text-4xl font-black my-5 pb-4 pt-10'>Want to showcase your business?</h2>
 
-                {/* <button class="group relative h-12 w-48 overflow-hidden rounded-lg bg-white text-lg shadow"> */}
-                    {/* <div class="absolute inset-0 w-3 bg-amber-400 transition-all duration-[250ms] ease-out group-hover:w-full"></div> */}
-                    <button className="text-left text-white relative group">
-                        <span className="bg-teal-600 px-7 p-4 z-10 relative group-hover:bg-indigo-950 duration-300">Contact US</span>
-                        <img src="https://svgshare.com/i/rry.svg" alt="" className="z-0 absolute -bottom-7 -right-3 group-hover:-bottom-2 group-hover:-right-0 duration-300" />
-                    </button>
-                {/* </button> */}
+                <button className="text-left text-white relative group">
+                    <span className="bg-teal-600 px-7 p-4 z-10 relative group-hover:bg-indigo-950 duration-300">Contact US</span>
+                    <img src="https://svgshare.com/i/rry.svg" alt="" className="z-0 absolute -bottom-7 -right-3 group-hover:-bottom-2 group-hover:-right-0 duration-300" />
+                </button>
             </div>
 
             {/*=========================== Briefing =======================*/}
@@ -300,29 +298,19 @@ const DigitalBrand = () => {
             </div>
 
             {/*===========================   showcase your business=======================*/}
-            <div className='flex flex-col md:flex-row justify-between items-center mb-36 mt-36 w-full md:w-5/6 mx-auto'>
+            {/* <div className='flex flex-col md:flex-row justify-between items-center mb-36 mt-36 w-full md:w-5/6 mx-auto'>
                 <div><img src="https://i.ibb.co/4NrZzv1/ezgif-com-gif-maker-4-removebg-preview.png" alt="" /></div>
                 <div><img src="https://i.ibb.co/WsKZKPb/ezgif-com-gif-maker-1.png" alt="" /></div>
                 <div><img src="https://i.ibb.co/1qnrkFR/ezgif-com-gif-maker-removebg-preview-1.png" alt="" /></div>
                 <div><img src="https://i.ibb.co/64bjn0M/ezgif-com-gif-maker-removebg-preview.png" alt="" /></div>
                 <div><img src="https://i.ibb.co/ysQTR1Z/ezgif-com-gif-maker-1-removebg-preview.png" alt="" /></div>
                 <div><img src="https://i.ibb.co/whs0bgS/ezgif-com-gif-maker-2-removebg-preview.png" alt="" /></div>
-            </div>
+            </div> */}
+
+            <TrustedPartnersAnim />
+
         </div>
     );
 };
 
 export default DigitalBrand;
-
-
-
-        //   <img src="https://i.ibb.co/YNv6Tvc/01.png"/>
-        //   <img src="https://i.ibb.co/8s6BN0m/5810609.png" />
-        //   img src="https://i.ibb.co/pjqRNzZ/5806461.png" />
-
-        // https://i.ibb.co/4NrZzv1/ezgif-com-gif-maker-4-removebg-preview.png
-        // https://i.ibb.co/ZWf7Zxj/ezgif-com-gif-maker-5-removebg-preview.png
-        // https://i.ibb.co/1qnrkFR/ezgif-com-gif-maker-removebg-preview-1.png
-        // https://i.ibb.co/64bjn0M/ezgif-com-gif-maker-removebg-preview.png
-        // https://i.ibb.co/ysQTR1Z/ezgif-com-gif-maker-1-removebg-preview.png
-        // https://i.ibb.co/whs0bgS/ezgif-com-gif-maker-2-removebg-preview.png

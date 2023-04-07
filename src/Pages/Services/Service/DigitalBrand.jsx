@@ -233,70 +233,81 @@ const DigitalBrand = () => {
             {/*=========================== Goal end content =======================*/}
             <div className='flex flex-col md:flex-row justify-between items-center  mt-36 w-full md:w-5/6 mx-auto'>
                 <div className='w-full p-4'>
-                    <h2 className='text-center text-white text-2xl sm:text-5xl sm:text-left'> Innovative Approach</h2>
-                    <p className='inline-block text-white align-middle  text-justify sm:text-left pt-3'>Duis accumsan, neque at hendrerit sagittis, elit diam sodales nunc, at auctor leo purus sodales nunc. Maecenas ac lorem sit amet ligula viverra gravida non vel tortor. Phasellus dapibus leo non iaculis ultricies.
-                    </p>
+                    <Slide bottom duration={1000}>
+                        <h2 className='text-center text-white text-2xl sm:text-5xl sm:text-left'> Innovative Approach</h2>
+                    </Slide>
+                    <Slide bottom duration={1500}>
+                        <p className='inline-block text-white align-middle  text-justify sm:text-left pt-3'>Duis accumsan, neque at hendrerit sagittis, elit diam sodales nunc, at auctor leo purus sodales nunc. Maecenas ac lorem sit amet ligula viverra gravida non vel tortor. Phasellus dapibus leo non iaculis ultricies.
+                        </p>
+                    </Slide>
                 </div>
                 <div className='w-full p-4'>
-                    <img className=' w-full' src="https://i.ibb.co/dbqvNrX/home-img-right.jpg" alt="" />
+                    <Slide right duration={1000}>
+                        <img className=' w-full' src="https://i.ibb.co/dbqvNrX/home-img-right.jpg" alt="" />
+                    </Slide>
                 </div>
             </div>
 
             {/*=========================== Experts=======================*/}
             <div className='flex flex-col md:flex-row justify-between items-center  mt-32 w-full md:w-5/6 mx-auto'>
                 <div className='w-full p-4 space-y-5'>
-                    <h2 className='text-center text-white text-2xl sm:text-5xl sm:text-left'> Digital Experts </h2>
-                    <p className='text-left text-white '>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet consequuntur quos, hic quo laborum voluptatem ipsam odio aperiam esse commodi, dolorem, iste architecto quae ipsum ut dicta reiciendis quam dolorum.
-                    </p>
+                    <Slide bottom duration={1000}>
+                        <h2 className='text-center text-white text-2xl sm:text-5xl sm:text-left'> Digital Experts </h2>
+                    </Slide>
+                    <Slide bottom duration={1500}>
+                        <p className='text-left text-white '>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet consequuntur quos, hic quo laborum voluptatem ipsam odio aperiam esse commodi, dolorem, iste architecto quae ipsum ut dicta reiciendis quam dolorum.
+                        </p>
+                    </Slide>
                 </div>
                 <div className='w-full p-4'>
+                    <Slide right duration={1000}>
+                        <div class="p-8 w-full ">
+                            <div class="flex items-center justify-between">
+                                <span class="text-slate-400 font-black "> Development</span>
+                                <span class="px-2 py-1 bg-teal-50 rounded-lg text-xs text-teal-400 font-medium min-w-[46px] text-center">60%</span>
+                            </div>
 
-                    <div class="p-8 w-full ">
-                        <div class="flex items-center justify-between">
-                            <span class="text-slate-400 font-black "> Development</span>
-                            <span class="px-2 py-1 bg-teal-50 rounded-lg text-xs text-teal-400 font-medium min-w-[46px] text-center">60%</span>
-                        </div>
+                            <div class="w-full bg-slate-100 h-2 mb-6 mt-2">
+                                <div class="bg-teal-400 h-2 rounded" style={{ width: "60%" }}></div>
+                            </div>
 
-                        <div class="w-full bg-slate-100 h-2 mb-6 mt-2">
-                            <div class="bg-teal-400 h-2 rounded" style={{ width: "60%" }}></div>
-                        </div>
+                            <div class="flex items-center justify-between">
+                                <span class="text-slate-400 font-black ">Design</span>
+                                <span class="px-2 py-1 bg-teal-50 rounded-lg text-xs text-teal-400 font-medium min-w-[46px] text-center">85%</span>
+                            </div>
 
-                        <div class="flex items-center justify-between">
-                            <span class="text-slate-400 font-black ">Design</span>
-                            <span class="px-2 py-1 bg-teal-50 rounded-lg text-xs text-teal-400 font-medium min-w-[46px] text-center">85%</span>
-                        </div>
+                            <div class="w-full bg-slate-100 h-2 mb-6 mt-2">
+                                <div class="bg-teal-400 h-2 rounded" style={{ width: "85%" }}></div>
+                            </div>
 
-                        <div class="w-full bg-slate-100 h-2 mb-6 mt-2">
-                            <div class="bg-teal-400 h-2 rounded" style={{ width: "85%" }}></div>
-                        </div>
+                            <div class="flex items-center justify-between">
+                                <span class="text-slate-400 font-black">Art</span>
+                                <span class="px-2 py-1 bg-teal-50 rounded-lg text-xs text-teal-400 font-medium min-w-[46px] text-center">50%</span>
+                            </div>
 
-                        <div class="flex items-center justify-between">
-                            <span class="text-slate-400 font-black">Art</span>
-                            <span class="px-2 py-1 bg-teal-50 rounded-lg text-xs text-teal-400 font-medium min-w-[46px] text-center">50%</span>
-                        </div>
+                            <div class="w-full bg-slate-100 h-2 mb-6 mt-2">
+                                <div class="bg-teal-400 h-2 rounded" style={{ width: "55%" }}></div>
+                            </div>
 
-                        <div class="w-full bg-slate-100 h-2 mb-6 mt-2">
-                            <div class="bg-teal-400 h-2 rounded" style={{ width: "55%" }}></div>
-                        </div>
+                            <div class="flex items-center justify-between">
+                                <span class="text-slate-400 font-black">Business</span>
+                                <span class="px-2 py-1 bg-teal-50 rounded-lg text-xs text-teal-400 font-medium min-w-[46px] text-center">75%</span>
+                            </div>
 
-                        <div class="flex items-center justify-between">
-                            <span class="text-slate-400 font-black">Business</span>
-                            <span class="px-2 py-1 bg-teal-50 rounded-lg text-xs text-teal-400 font-medium min-w-[46px] text-center">75%</span>
-                        </div>
+                            <div class="w-full bg-slate-100 h-2 mb-6 mt-2">
+                                <div class="bg-teal-400 h-2 rounded" style={{ width: "75%" }}></div>
+                            </div>
 
-                        <div class="w-full bg-slate-100 h-2 mb-6 mt-2">
-                            <div class="bg-teal-400 h-2 rounded" style={{ width: "75%" }}></div>
-                        </div>
+                            <div class="flex items-center justify-between">
+                                <span class="text-slate-400 font-black">LTS</span>
+                                <span class="px-2 py-1 bg-teal-50 rounded-lg text-xs text-teal-400 font-medium min-w-[46px] text-center">100%</span>
+                            </div>
 
-                        <div class="flex items-center justify-between">
-                            <span class="text-slate-400 font-black">LTS</span>
-                            <span class="px-2 py-1 bg-teal-50 rounded-lg text-xs text-teal-400 font-medium min-w-[46px] text-center">100%</span>
+                            <div class="w-full bg-slate-100 h-2 mt-2">
+                                <div class="bg-teal-400 h-2 rounded" style={{ width: "100%" }}></div>
+                            </div>
                         </div>
-
-                        <div class="w-full bg-slate-100 h-2 mt-2">
-                            <div class="bg-teal-400 h-2 rounded" style={{ width: "100%" }}></div>
-                        </div>
-                    </div>
+                    </Slide>
                 </div>
             </div>
             {/*===========================   showcase your business=======================*/}

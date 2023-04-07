@@ -153,81 +153,84 @@ const DigitalBrand = () => {
 
             {/*=========================== Strategy =======================*/}
             <div className='grid grid-cols-1 sm:grid-cols-3 place-items-center mt-36  gap-24 w-full md:w-5/6 mx-auto'>
-                <div className=''>
-                    <span className='w-16 h-16 bg-slate-700 flex justify-center items-center rounded-full p-3'>
-                        <span className='flex justify-start'>
-                            <img className='' src="https://i.ibb.co/SBxcwVG/ezgif-com-gif-maker.png" alt="" />
+                <Fade bottom duration={1000}>
+                    <div className=''>
+                        <span className='w-16 h-16 bg-slate-700 flex justify-center items-center rounded-full p-3'>
+                            <span className='flex justify-start'>
+                                <img className='' src="https://i.ibb.co/SBxcwVG/ezgif-com-gif-maker.png" alt="" />
+                            </span>
                         </span>
-                    </span>
-                    <span className=''>
-                        <h2 className='mt-2 text-left text-white font-black'>Research</h2>
-                        <p className='text-white text-left '>Donec mattis odio dui, eget congue diam tempus a. Fusce viverra enim sit amet sagittis ultricies.</p>
-                    </span>
-                </div>
-
-                <div className=''>
-                    <span className='w-16 h-16 bg-slate-700 flex justify-center items-center rounded-full p-3'>
-                        <span className='flex justify-start'>
-                            <img className='' src="https://i.ibb.co/sQPTxd2/ezgif-com-gif-maker-1.png" alt="" />
+                        <span className=''>
+                            <h2 className='mt-2 text-left text-white font-black'>Research</h2>
+                            <p className='text-white text-left '>Donec mattis odio dui, eget congue diam tempus a. Fusce viverra enim sit amet sagittis ultricies.</p>
                         </span>
-                    </span>
-                    <span className=''>
-                        <h2 className='mt-2 text-left text-white font-black'>Brand Strategy</h2>
-                        <p className='text-white text-left '>Donec mattis odio dui, eget congue diam tempus a. Fusce viverra enim sit amet sagittis ultricies.</p>
-                    </span>
-                </div>
-
-                <div className=''>
-                    <span className='w-16 h-16 bg-slate-700 flex justify-center items-center rounded-full p-3'>
-                        <span className='flex justify-start'>
-                            <img className='' src="https://i.ibb.co/8DFvvBd/ezgif-com-gif-maker-4.png" alt="" />
+                    </div>
+                </Fade>
+                <Fade bottom duration={1500}>
+                    <div className=''>
+                        <span className='w-16 h-16 bg-slate-700 flex justify-center items-center rounded-full p-3'>
+                            <span className='flex justify-start'>
+                                <img className='' src="https://i.ibb.co/sQPTxd2/ezgif-com-gif-maker-1.png" alt="" />
+                            </span>
                         </span>
-                    </span>
-                    <span className=''>
-                        <h2 className='mt-2 text-left text-white font-black'>Naming</h2>
-                        <p className='text-white text-left '>Donec mattis odio dui, eget congue diam tempus a. Fusce viverra enim sit amet sagittis ultricies.</p>
-                    </span>
-                </div>
-
-
-                <div className=''>
-                    <span className='w-16 h-16 bg-slate-700 flex justify-center items-center rounded-full p-3'>
-                        <span className='flex justify-start'>
-                            <img className='' src="https://i.ibb.co/Tbbr8dm/ezgif-com-gif-maker.png" alt="" />
+                        <span className=''>
+                            <h2 className='mt-2 text-left text-white font-black'>Brand Strategy</h2>
+                            <p className='text-white text-left '>Donec mattis odio dui, eget congue diam tempus a. Fusce viverra enim sit amet sagittis ultricies.</p>
                         </span>
-                    </span>
-                    <span className=''>
-                        <h2 className='mt-2 text-left text-white font-black'>Web & Digital</h2>
-                        <p className='text-white text-left '>Donec mattis odio dui, eget congue diam tempus a. Fusce viverra enim sit amet sagittis ultricies.</p>
-                    </span>
-                </div>
-
-
-                <div className=''>
-                    <span className='w-16 h-16 bg-slate-700 flex justify-center items-center rounded-full p-3'>
-                        <span className='flex justify-start'>
-                            <img className='' src="https://i.ibb.co/8M59J1Q/ezgif-com-gif-maker-1.png" alt="" />
+                    </div>
+                </Fade>
+                <Fade bottom duration={2000}>
+                    <div className=''>
+                        <span className='w-16 h-16 bg-slate-700 flex justify-center items-center rounded-full p-3'>
+                            <span className='flex justify-start'>
+                                <img className='' src="https://i.ibb.co/8DFvvBd/ezgif-com-gif-maker-4.png" alt="" />
+                            </span>
                         </span>
-                    </span>
-                    <span className=''>
-                        <h2 className='mt-2 text-left text-white font-black'>Content Creation</h2>
-                        <p className='text-white text-left '>Donec mattis odio dui, eget congue diam tempus a. Fusce viverra enim sit amet sagittis ultricies.</p>
-                    </span>
-                </div>
-
-                <div className=''>
-                    <span className='w-16 h-16 bg-slate-700 flex justify-center items-center rounded-full p-3'>
-                        <span className='flex justify-start'>
-                            <img className='' src="https://i.ibb.co/tz4MXQF/ezgif-com-gif-maker-2.png" alt="" />
+                        <span className=''>
+                            <h2 className='mt-2 text-left text-white font-black'>Naming</h2>
+                            <p className='text-white text-left '>Donec mattis odio dui, eget congue diam tempus a. Fusce viverra enim sit amet sagittis ultricies.</p>
                         </span>
-                    </span>
-                    <span className=''>
-                        <h2 className='mt-2 text-left text-white font-black'>Consulting </h2>
-                        <p className='text-white text-left '>Donec mattis odio dui, eget congue diam tempus a. Fusce viverra enim sit amet sagittis ultricies.</p>
-                    </span>
-                </div>
-
-
+                    </div>
+                </Fade>
+                <Fade bottom duration={2500}>
+                    <div className=''>
+                        <span className='w-16 h-16 bg-slate-700 flex justify-center items-center rounded-full p-3'>
+                            <span className='flex justify-start'>
+                                <img className='' src="https://i.ibb.co/Tbbr8dm/ezgif-com-gif-maker.png" alt="" />
+                            </span>
+                        </span>
+                        <span className=''>
+                            <h2 className='mt-2 text-left text-white font-black'>Web & Digital</h2>
+                            <p className='text-white text-left '>Donec mattis odio dui, eget congue diam tempus a. Fusce viverra enim sit amet sagittis ultricies.</p>
+                        </span>
+                    </div>
+                </Fade>
+                <Fade bottom duration={3000}>
+                    <div className=''>
+                        <span className='w-16 h-16 bg-slate-700 flex justify-center items-center rounded-full p-3'>
+                            <span className='flex justify-start'>
+                                <img className='' src="https://i.ibb.co/8M59J1Q/ezgif-com-gif-maker-1.png" alt="" />
+                            </span>
+                        </span>
+                        <span className=''>
+                            <h2 className='mt-2 text-left text-white font-black'>Content Creation</h2>
+                            <p className='text-white text-left '>Donec mattis odio dui, eget congue diam tempus a. Fusce viverra enim sit amet sagittis ultricies.</p>
+                        </span>
+                    </div>
+                </Fade>
+                <Fade bottom duration={3500}>
+                    <div className=''>
+                        <span className='w-16 h-16 bg-slate-700 flex justify-center items-center rounded-full p-3'>
+                            <span className='flex justify-start'>
+                                <img className='' src="https://i.ibb.co/tz4MXQF/ezgif-com-gif-maker-2.png" alt="" />
+                            </span>
+                        </span>
+                        <span className=''>
+                            <h2 className='mt-2 text-left text-white font-black'>Consulting </h2>
+                            <p className='text-white text-left '>Donec mattis odio dui, eget congue diam tempus a. Fusce viverra enim sit amet sagittis ultricies.</p>
+                        </span>
+                    </div>
+                </Fade>
 
             </div>
 

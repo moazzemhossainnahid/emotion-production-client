@@ -313,22 +313,25 @@ const DigitalBrand = () => {
             </div>
             {/*===========================   showcase your business=======================*/}
             <div >
-                <div className='flex flex-col md:flex-row justify-between items-center  mt-36 w-full md:w-5/6 mx-auto'>
-                    <div class="w-64 h-64 overflow-hidden">
-                        <img class="transform hover:scale-110 transition duration-300" src="https://i.ibb.co/bdDjSMb/home-work-01-crop-u15974.jpg" alt="Your" />
+                <Slide bottom duration={1000}>
+                    <div className='flex flex-col md:flex-row justify-between items-center  mt-36 w-full md:w-5/6 mx-auto'>
+                        <div class="w-64 h-64 overflow-hidden">
+                            <img class="transform hover:scale-110 transition duration-300" src="https://i.ibb.co/bdDjSMb/home-work-01-crop-u15974.jpg" alt="Your" />
+                        </div>
+                        <div class="w-64 h-64 overflow-hidden">
+                            <img class="transform hover:scale-110 transition duration-300" src="https://i.ibb.co/vqKB8FW/home-work-02-crop-u18578.jpg" alt="Your" />
+                        </div>
+                        <div class="w-64 h-64 overflow-hidden">
+                            <img class="transform hover:scale-110 transition duration-300" src="https://i.ibb.co/dpFmsjM/home-work-03-crop-u18631.jpg" alt="Your" />
+                        </div>
+                        <div class="w-64 h-64 overflow-hidden">
+                            <img class="transform hover:scale-110 transition duration-300" src="https://i.ibb.co/wKw0GgT/home-work-04-crop-u18684.jpg" alt="Your" />
+                        </div>
                     </div>
-                    <div class="w-64 h-64 overflow-hidden">
-                        <img class="transform hover:scale-110 transition duration-300" src="https://i.ibb.co/vqKB8FW/home-work-02-crop-u18578.jpg" alt="Your" />
-                    </div>
-                    <div class="w-64 h-64 overflow-hidden">
-                        <img class="transform hover:scale-110 transition duration-300" src="https://i.ibb.co/dpFmsjM/home-work-03-crop-u18631.jpg" alt="Your" />
-                    </div>
-                    <div class="w-64 h-64 overflow-hidden">
-                        <img class="transform hover:scale-110 transition duration-300" src="https://i.ibb.co/wKw0GgT/home-work-04-crop-u18684.jpg" alt="Your" />
-                    </div>
-                </div>
-                <h2 className='text-white text-center text-2xl md:text-4xl font-black my-5 pb-4 pt-10'>Want to showcase your business?</h2>
-
+                </Slide>
+                <Slide top duration={1000}>
+                    <h2 className='text-white text-center text-2xl md:text-4xl font-black my-5 pb-4 pt-10'>Want to showcase your business?</h2>
+                </Slide>
                 <button className="text-left text-white relative group">
                     <span className="bg-teal-600 px-7 p-4 z-10 relative group-hover:bg-indigo-950 duration-300">Contact US</span>
                     <img src="https://svgshare.com/i/rry.svg" alt="" className="z-0 absolute -bottom-7 -right-3 group-hover:-bottom-2 group-hover:-right-0 duration-300" />
@@ -336,37 +339,41 @@ const DigitalBrand = () => {
             </div>
 
             {/*=========================== Briefing =======================*/}
-            <div className='flex flex-col md:flex-row justify-between items-center mb-36 px-3 mt-32 w-full md:w-5/6 mx-auto'>
-                <div class="indicator">
-                    <span class="indicator-item badge w-16 h-16  rounded-none bg-slate-600 ">
-                        <h2 className=" text-white text-6xl font-bold">1</h2>
-                    </span>
-                    <div class="grid gap-1 w-72 h-52 border place-items-center">
-                        <h2 className="text-white font-black text-left">Brifing</h2>
-                        <p className="text-white text-sm -mt-28">Donec mattis odio dui, eget congue diam tempus a. Proin sed urna et purus fringilla facilisis.</p>
+            <Slide top duration={1000}>
+                <div className='flex flex-col md:flex-row justify-between items-center mb-36 px-3 mt-32 w-full md:w-5/6 mx-auto'>
+                    <div class="indicator">
+                        <span class="indicator-item badge w-16 h-16  rounded-none bg-slate-600 ">
+                            <h2 className=" text-white text-6xl font-bold">1</h2>
+                        </span>
+                        <div class="grid gap-1 w-72 h-52 border place-items-center">
+                            <h2 className="text-white font-black text-left">Brifing</h2>
+                            <p className="text-white text-sm -mt-28">Donec mattis odio dui, eget congue diam tempus a. Proin sed urna et purus fringilla facilisis.</p>
+                        </div>
                     </div>
-                </div>
 
-                <div class="indicator">
-                    <span class="indicator-item badge w-16 h-16 rounded-none bg-zinc-500 ">
-                        <h2 className=" text-white text-6xl font-bold">2</h2>
-                    </span>
-                    <div class="grid gap-1 w-72 h-52 border place-items-center">
-                        <h2 className="text-white font-black text-left">Brand Strategy</h2>
-                        <p className="text-white text-sm -mt-28">Donec mattis odio dui, eget congue diam tempus a. Proin sed urna et purus fringilla facilisis.</p>
+                    <div class="indicator">
+                        <span class="indicator-item badge w-16 h-16 rounded-none bg-zinc-500 ">
+                            <h2 className=" text-white text-6xl font-bold">2</h2>
+                        </span>
+                        <div class="grid gap-1 w-72 h-52 border place-items-center">
+                            <h2 className="text-white font-black text-left">Brand Strategy</h2>
+                            <p className="text-white text-sm -mt-28">Donec mattis odio dui, eget congue diam tempus a. Proin sed urna et purus fringilla facilisis.</p>
+                        </div>
                     </div>
-                </div>
 
-                <div class="indicator">
-                    <span class="indicator-item badge w-16 h-16 rounded-none bg-base-500 ">
-                        <h2 className=" text-white text-6xl font-bold">3</h2>
-                    </span>
-                    <div class="grid gap-1 w-72 h-52 border place-items-center">
-                        <h2 className="text-white font-black text-left">Perfect Design</h2>
-                        <p className="text-white text-sm -mt-28">Donec mattis odio dui, eget congue diam tempus a. Proin sed urna et purus fringilla facilisis.</p>
+
+                    <div class="indicator">
+                        <span class="indicator-item badge w-16 h-16 rounded-none bg-base-500 ">
+                            <h2 className=" text-white text-6xl font-bold">3</h2>
+                        </span>
+                        <div class="grid gap-1 w-72 h-52 border place-items-center">
+                            <h2 className="text-white font-black text-left">Perfect Design</h2>
+                            <p className="text-white text-sm -mt-28">Donec mattis odio dui, eget congue diam tempus a. Proin sed urna et purus fringilla facilisis.</p>
+                        </div>
                     </div>
+
                 </div>
-            </div>
+            </Slide>
 
             {/*===========================   showcase your business=======================*/}
             {/* <div className='flex flex-col md:flex-row justify-between items-center mb-36 mt-36 w-full md:w-5/6 mx-auto'>

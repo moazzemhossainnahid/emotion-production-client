@@ -1,9 +1,16 @@
 import React from 'react';
+import { ProductData } from '../../../Data/ProductData';
 
 const ProductsSec1 = () => {
     return (
-        <div>
-            
+        <div className=''>
+            {
+                ProductData?.map(pd => (
+                    <div className="">
+                        {pd?.titile}
+                    </div>
+                ))
+            }
         </div>
     );
 };

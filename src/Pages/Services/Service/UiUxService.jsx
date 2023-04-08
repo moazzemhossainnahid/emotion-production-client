@@ -60,15 +60,15 @@ const UiUxService = () => {
             </div>
 
             <div className='mt-20 w-full pb-28 discus space-y-3'>
-                <div className="w-full md:w-3/5 mx-auto">
+                <div className="w-full md:w-3/5 mx-auto p-2">
                     <h3 className='text-center text-white pt-28 text-3xl md:text-5xl font-bold'>
                         Let's Discuss Your Project
                     </h3>
-                    <p className='text-center text-xl pt-5 pb-5'>
+                    <p className='text-center md:text-xl py-5'>
                         Get a free consultation and share your project concept with us
                         so we can transform it into a fantastic digital product.
                     </p>
-                    <button className='text-center p-3 border text-white border-white rounded-lg'>Talk To Our Experts</button>
+                    <button className='text-center p-3 border text-white border-white hover:text-gray-700 hover:bg-white rounded-lg duration-300'>Talk To Our Experts</button>
 
                 </div>
             </div>

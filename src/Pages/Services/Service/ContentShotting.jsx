@@ -49,7 +49,7 @@ const ContentShotting = () => {
     }
 
     return (
-        <div className='container mx-auto'>
+        <div className='container overflow-hidden mx-auto'>
             {/*=====================  carousel start =================*/}
             <div className='mt-5'>
                 <Slider {...settings}>

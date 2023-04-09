@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { FaArrowRight, FaBox, FaBoxes,  FaCheck, FaChevronDown, FaChevronUp, FaCut, FaEnvelope, FaPhone, FaTruck, } from "react-icons/fa";
+import { FaArrowRight, FaBox, FaBoxes, FaCheck, FaChevronDown, FaChevronUp, FaCut, FaEnvelope, FaPhone, FaTruck, } from "react-icons/fa";
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
@@ -120,14 +120,14 @@ const Packaging = () => {
         ],
     };
     return (
-        <div >
-            <div className='container mx-auto'>
+        <div className='container mx-auto overflow-hidden'>
+            <div className='w-full mx-auto'>
                 {/*====================================== Food Packaging  =============================*/}
-                <div className='flex flex-col md:flex-row justify-around items-center  mt-10 mb-24 '>
+                <div className='flex flex-col md:flex-row justify-around items-center gap-3 w-full md:w-5/6 mx-auto py-10 '>
                     {/*====================================== Food Packaging Left side  =============================*/}
-                    <div className="w-4/6 mx-auto">
-                        <h2 className="text-left text-3xl  font-bold text-white">About Food Packaging</h2>
-                        <p className='text-white text-left mt-5  pr-9  '>Pellentesque et scelerisque nunc. Sed vel ipsum auctor, iaculis arcu quis, posuere dui. Duis condimentum nunc metus, maximus porta velit temporin. Intincidunt leo viverra, sodales ex eu, posuere purus. Duis in augue vestibulum, aliquet nulla vitae</p>
+                    <div className="w-full md:w-4/6 mx-auto">
+                        <h2 className="text-left text-3xl md:text-5xl font-bold text-white">About Food Packaging</h2>
+                        <p className='text-gray-200 text-left py-5'>Pellentesque et scelerisque nunc. Sed vel ipsum auctor, iaculis arcu quis, posuere dui. Duis condimentum nunc metus, maximus porta velit temporin. Intincidunt leo viverra, sodales ex eu, posuere purus. Duis in augue vestibulum, aliquet nulla vitae</p>
 
                         <div className=" ">
                             <Slider {...settings}>
@@ -151,80 +151,84 @@ const Packaging = () => {
                                 </div>
                             </Slider>
                         </div>
-                        <div className='mt-9 flex justify-around items-center'>
+                        <div className='mt-9 flex flex-col md:flex-row gap-2 justify-around items-center'>
                             <div>
-                                <li className='flex justify-start items-center mb-5'>
-                                    <span> <FaCheck className='text-white' /> </span>
-                                    <span> <h3 className='text-white font-mono font-bold ml-3'>Design Packaging</h3></span>
+                                <li className='flex justify-start text-start text-sm md:text-md items-center mb-5'>
+                                    <span className='text-red-500'> <FaCheck className='' /> </span>
+                                    <span> <h3 className='text-white font-mono font-thin ml-3'>Design Packaging</h3></span>
                                 </li>
-                                <li className='flex justify-start items-center mb-5'>
-                                    <span> <FaCheck className='text-white' /> </span>
-                                    <span> <h3 className='text-white font-mono font-bold ml-3'>High quality Materials </h3></span>
+                                <li className='flex justify-start text-start text-sm md:text-md items-center mb-5'>
+                                    <span className='text-red-500'> <FaCheck className='' /> </span>
+                                    <span> <h3 className='text-white font-mono font-thin ml-3'>High quality Materials </h3></span>
                                 </li>
-                                <li className='flex justify-start items-center mb-5'>
-                                    <span> <FaCheck className='text-white' /> </span>
-                                    <span> <h3 className='text-white font-mono font-bold ml-3'>Food Grade </h3></span>
+                                <li className='flex justify-start text-start text-sm md:text-md items-center mb-5'>
+                                    <span className='text-red-500'> <FaCheck className='' /> </span>
+                                    <span> <h3 className='text-white font-mono font-thin ml-3'>Food Grade </h3></span>
                                 </li>
-                                <li className='flex justify-start items-center mb-5'>
-                                    <span> <FaCheck className='text-white' /> </span>
-                                    <span> <h3 className='text-white font-mono font-bold ml-3'>100% recyclable  </h3></span>
+                                <li className='flex justify-start text-start text-sm md:text-md items-center mb-5'>
+                                    <span className='text-red-500'> <FaCheck className='' /> </span>
+                                    <span> <h3 className='text-white font-mono font-thin ml-3'>100% recyclable  </h3></span>
                                 </li>
                             </div>
 
                             <div>
-                                <li className='flex justify-start items-center mb-5'>
-                                    <span> <FaCheck className='text-white' /> </span> <span> <h3 className='text-white font-bold font-mono ml-3'>Flexible & Cost-Effective</h3></span>
+                                <li className='flex justify-start text-start text-sm md:text-md items-center mb-5'>
+                                    <span> <FaCheck className='text-red-500' /> </span>
+                                    <span> <h3 className='text-white font-thin font-mono ml-3'>Flexible & Cost-Effective</h3></span>
                                 </li>
-                                <li className='flex justify-start items-center mb-5'>
-                                    <span> <FaCheck className='text-white' /> </span><span> <h3 className='text-white font-bold font-mono ml-3'>VIP & Annual Pass Programs</h3></span>
+                                <li className='flex justify-start text-start text-sm md:text-md items-center mb-5'>
+                                    <span> <FaCheck className='text-red-500' /> </span>
+                                    <span> <h3 className='text-white font-thin font-mono ml-3'>VIP & Annual Pass Programs</h3></span>
                                 </li>
-                                <li className='flex justify-start items-center mb-5'>
-                                    <span> <FaCheck className='text-white' /> </span><span> <h3 className='text-white font-bold font-mono ml-3'>Over 250,000 cleans</h3></span>
+                                <li className='flex justify-start text-start text-sm md:text-md items-center mb-5'>
+                                    <span> <FaCheck className='text-red-500' /> </span>
+                                    <span> <h3 className='text-white font-thin font-mono ml-3'>Over 250,000 cleans</h3></span>
                                 </li>
-                                <li className='flex justify-start items-center mb-5'>
-                                    <span> <FaCheck className='text-white' /> </span>                            <span> <h3 className='text-white  font-mono font-bold ml-3'>Satisfaction Guarantee</h3></span>
+                                <li className='flex justify-start text-start text-sm md:text-md items-center mb-5'>
+                                    <span> <FaCheck className='text-red-500' /> </span>
+                                    <span> <h3 className='text-white  font-mono font-thin ml-3'>Satisfaction Guarantee</h3></span>
                                 </li>
                             </div>
                         </div>
-                        <p className='text-white text-left mt-3  pr-9 divide-y-4 divide-sky-400  '>Pellentesque et scelerisque nunc. Sed vel ipsum auctor, iaculis arcu quis, posuere dui. Duis condimentum nunc metus, maximus porta velit temporin. Intincidunt leo viverra, sodales ex eu, posuere purus. Duis in augue vestibulum</p>
+                        <p className='text-gray-300 text-left mt-3  pr-9 divide-y-4 divide-sky-400'>Pellentesque et scelerisque nunc. Sed vel ipsum auctor, iaculis arcu quis, posuere dui. Duis condimentum nunc metus, maximus porta velit temporin. Intincidunt leo viverra, sodales ex eu, posuere purus. Duis in augue vestibulum</p>
                         <hr
                             class="my-8 h-0.5 border-t-0 bg-neutral-100 opacity-100 dark:opacity-50" />
-                        <div className='grid grid-cols-1  sm:grid-cols-3 place-items-center   gap-24'>
+                        <div className='grid grid-cols-1  sm:grid-cols-3 place-items-center gap-5'>
                             <div className=''>
-                                <span >
-                                    <img className='hover:p-1' src="https://i.ibb.co/SBxcwVG/ezgif-com-gif-maker.png" alt="" />
-                                </span>
-                                <span className=''>
-                                    <h2 className='mt-2 text-left text-white font-black'>Best Quality</h2>
-                                    <p className='text-white text-left '>Donec mattis odio dui, eget congue diam tempus a. Fusce viverra enim sit amet sagittis ultricies.</p>
-                                </span>
+                                <div className='pt-5 pb-3'>
+                                    <img className='w-12 hover:-translate-y-3 duration-300' src="https://i.ibb.co/SBxcwVG/ezgif-com-gif-maker.png" alt="" />
+                                </div>
+                                <div className=''>
+                                    <h2 className='my-2 text-left text-gray-200 text-2xl font-black'>Best Quality</h2>
+                                    <p className='text-gray-400 text-left '>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                                </div>
                             </div>
 
                             <div className=''>
-                                <span className=''>
-                                    <img className='hover:p-1' src="https://i.ibb.co/sQPTxd2/ezgif-com-gif-maker-1.png" alt="" />
-                                </span>
-                                <span className=''>
-                                    <h2 className='mt-2 text-left text-white font-black'>Creative Design </h2>
-                                    <p className='text-white text-left '>Donec mattis odio dui, eget congue diam tempus a. Fusce viverra enim sit amet sagittis ultricies.</p>
-                                </span>
+                                <div className='pt-5 pb-3'>
+                                    <img className='w-12 hover:-translate-y-3 duration-300' src="https://i.ibb.co/sQPTxd2/ezgif-com-gif-maker-1.png" alt="" />
+                                </div>
+                                <div className=''>
+                                    <h2 className='my-2 text-left text-gray-200 text-2xl font-black'>Creative Design </h2>
+                                    <p className='text-gray-400 text-left '>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                                </div>
                             </div>
 
                             <div className=''>
-                                <span>
-                                    <img className='hover:p-1' src="https://i.ibb.co/8DFvvBd/ezgif-com-gif-maker-4.png" alt="" />
-                                </span>
-                                <span className=''>
-                                    <h2 className='mt-2 text-left text-white font-black'>Eco Friendly</h2>
-                                    <p className='text-white text-left '>Donec mattis odio dui, eget congue diam tempus a. Fusce viverra enim sit amet sagittis ultricies.</p>
-                                </span>
+                                <div className='pt-5 pb-3'>
+                                    <img className='w-8 hover:-translate-y-3 duration-300' src="https://i.ibb.co/8DFvvBd/ezgif-com-gif-maker-4.png" alt="" />
+                                </div>
+                                <div className=''>
+                                    <h2 className='my-2 text-left text-gray-200 text-2xl font-black'>Eco Friendly</h2>
+                                    <p className='text-gray-400 text-left '>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                                </div>
                             </div>
 
                         </div>
 
                     </div>
                     {/*====================================== Food Packaging Left side  =============================*/}
-                    <div className="w-2/6 -mt-44 ">
+                    <div className="w-full md:w-2/6 md:-mt-44 ">
                         <div className='w-80 mx-auto border-box-5 opacity-100   bg-stone-900 shadow-2xl shadow-stone-900/50 p-4 rounded border'>
                             <h2 className='text-white text-center text-2xl mb-5 font-bold'>This Service Included</h2>
                             <li className='flex justify-start items-center mb-3'>
@@ -537,66 +541,66 @@ const Packaging = () => {
             </div>
             <div className='flex flex-col md:flex-row justify-around items-center gap-16  mt-24 mb-24 '>
                 <div className="w-full  h-screen mx-auto relative bg-cover bg-center  flex justify-center items-center  " style={{ backgroundImage: "url('https://i.ibb.co/tz7Fyxz/backgrounds12.jpg')" }}>
-                  <div className='container mx-auto  '>
-                  <div className='w-1/2 h-96  top-0 left-0 mt-48 ml-2  absolute '>
-                        <Slider  {...settings1} >
-                            <div className=' bg-yellow-950 p-5 '>
-                                <p className='text-left text-white mb-4'> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto et iusto</p>
-                                <img className='w-24' src="https://i.ibb.co/5MmfbBw/486-4861498-5-star-reviews-pink-5-star-rating-hd-removebg-preview.png" alt="" />
-                                <div className='flex justify-between items-center mt-5 p-3'>
-                                    <div className='flex justify-around items-center'>
-                                        <img className='w-16 rounded-full' src="https://i.ibb.co/nQH4Mz2/portrait-of-young-businesswoman-e1655091152346.jpg" alt="" />
-                                        <span className='ml-2'>
-                                            <h2 className='text-left text-3xl text-white'>Jhon Doe</h2>
-                                            <p className='text-left text-white'>Client</p>
-                                        </span>
-                                    </div>
-                                    <div>
-                                        <img className='w-24' src="https://i.ibb.co/0sJtjq3/blankstock180700130-removebg-preview.png" alt="" />
+                    <div className='container mx-auto  '>
+                        <div className='w-1/2 h-96  top-0 left-0 mt-48 ml-2  absolute '>
+                            <Slider  {...settings1} >
+                                <div className=' bg-yellow-950 p-5 '>
+                                    <p className='text-left text-white mb-4'> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto et iusto</p>
+                                    <img className='w-24' src="https://i.ibb.co/5MmfbBw/486-4861498-5-star-reviews-pink-5-star-rating-hd-removebg-preview.png" alt="" />
+                                    <div className='flex justify-between items-center mt-5 p-3'>
+                                        <div className='flex justify-around items-center'>
+                                            <img className='w-16 rounded-full' src="https://i.ibb.co/nQH4Mz2/portrait-of-young-businesswoman-e1655091152346.jpg" alt="" />
+                                            <span className='ml-2'>
+                                                <h2 className='text-left text-3xl text-white'>Jhon Doe</h2>
+                                                <p className='text-left text-white'>Client</p>
+                                            </span>
+                                        </div>
+                                        <div>
+                                            <img className='w-24' src="https://i.ibb.co/0sJtjq3/blankstock180700130-removebg-preview.png" alt="" />
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
 
-                            <div className=' bg-blue-950 p-5 '>
-                                <p className='text-left text-white mb-4'> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt, id magnam distinctio, totam vel suscipit numquam minima ab nisi, perspiciatis beatae mollitia. Pariatur quibusdam illo delectus repudiandae sapiente, ipsam minus.</p>
-                                <img className='w-24' src="https://i.ibb.co/5MmfbBw/486-4861498-5-star-reviews-pink-5-star-rating-hd-removebg-preview.png" alt="" />
-                                <div className='flex justify-between items-center mt-5 p-3'>
-                                    <div className='flex justify-around items-center'>
-                                        <img className='w-16 rounded-full' src="https://i.ibb.co/6m7BMSy/causal-young-two-businessman-looking-camera-and-front-of-information-room-e1655090842204.jpg" alt="" />
-                                        <span className='ml-2'>
-                                            <h2 className='text-left text-3xl text-white'>Jessika Fins</h2>
-                                            <p className='text-left text-white'>Client</p>
-                                        </span>
-                                    </div>
-                                    <div>
-                                        <img className='w-24' src="https://i.ibb.co/0sJtjq3/blankstock180700130-removebg-preview.png" alt="" />
+                                <div className=' bg-blue-950 p-5 '>
+                                    <p className='text-left text-white mb-4'> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt, id magnam distinctio, totam vel suscipit numquam minima ab nisi, perspiciatis beatae mollitia. Pariatur quibusdam illo delectus repudiandae sapiente, ipsam minus.</p>
+                                    <img className='w-24' src="https://i.ibb.co/5MmfbBw/486-4861498-5-star-reviews-pink-5-star-rating-hd-removebg-preview.png" alt="" />
+                                    <div className='flex justify-between items-center mt-5 p-3'>
+                                        <div className='flex justify-around items-center'>
+                                            <img className='w-16 rounded-full' src="https://i.ibb.co/6m7BMSy/causal-young-two-businessman-looking-camera-and-front-of-information-room-e1655090842204.jpg" alt="" />
+                                            <span className='ml-2'>
+                                                <h2 className='text-left text-3xl text-white'>Jessika Fins</h2>
+                                                <p className='text-left text-white'>Client</p>
+                                            </span>
+                                        </div>
+                                        <div>
+                                            <img className='w-24' src="https://i.ibb.co/0sJtjq3/blankstock180700130-removebg-preview.png" alt="" />
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
 
-                            <div className=' bg-green-950 p-5 '>
-                                <p className='text-left text-white mb-4'> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto et iusto</p>
-                                <img className='w-24' src="https://i.ibb.co/5MmfbBw/486-4861498-5-star-reviews-pink-5-star-rating-hd-removebg-preview.png" alt="" />
-                                <div className='flex justify-between items-center mt-5 p-3'>
-                                    <div className='flex justify-around items-center'>
-                                        <img className='w-16 rounded-full' src="https://i.ibb.co/FwpKrW1/young-businessman-smiling-and-looking-at-camera-e1655090996491.jpg" alt="" />
-                                        <span className='ml-2'>
-                                            <h2 className='text-left text-3xl text-white'>William Boer</h2>
-                                            <p className='text-left text-white'>Client</p>
-                                        </span>
-                                    </div>
-                                    <div>
-                                        <img className='w-24' src="https://i.ibb.co/0sJtjq3/blankstock180700130-removebg-preview.png" alt="" />
+                                <div className=' bg-green-950 p-5 '>
+                                    <p className='text-left text-white mb-4'> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto et iusto</p>
+                                    <img className='w-24' src="https://i.ibb.co/5MmfbBw/486-4861498-5-star-reviews-pink-5-star-rating-hd-removebg-preview.png" alt="" />
+                                    <div className='flex justify-between items-center mt-5 p-3'>
+                                        <div className='flex justify-around items-center'>
+                                            <img className='w-16 rounded-full' src="https://i.ibb.co/FwpKrW1/young-businessman-smiling-and-looking-at-camera-e1655090996491.jpg" alt="" />
+                                            <span className='ml-2'>
+                                                <h2 className='text-left text-3xl text-white'>William Boer</h2>
+                                                <p className='text-left text-white'>Client</p>
+                                            </span>
+                                        </div>
+                                        <div>
+                                            <img className='w-24' src="https://i.ibb.co/0sJtjq3/blankstock180700130-removebg-preview.png" alt="" />
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                        </Slider>
+                            </Slider>
+                        </div>
+                        <div className='w-1/2 mt-48 p-16  absolute top-0 right-0'>
+                            <h2 className='text-5xl text-left text-red-950'>Our Client Said</h2>
+                            <p className='text-left text-yellow-950'>Donec mattis odio dui, eget congue diam tempus a. Fusce viverra enim sit amet sagittis ultricies.Pellentesque et scelerisque nunc. Sed vel ipsum auctor, iaculis arcu quis, posuere dui. Duis condimentum nunc metus, maximus porta velit temporin. Intincidunt leo viverra, sodales ex eu, posuere purus. Duis in augue vestibulum</p>
+                        </div>
                     </div>
-                    <div className='w-1/2 mt-48 p-16  absolute top-0 right-0'>
-                        <h2 className='text-5xl text-left text-red-950'>Our Client Said</h2>
-                        <p className='text-left text-yellow-950'>Donec mattis odio dui, eget congue diam tempus a. Fusce viverra enim sit amet sagittis ultricies.Pellentesque et scelerisque nunc. Sed vel ipsum auctor, iaculis arcu quis, posuere dui. Duis condimentum nunc metus, maximus porta velit temporin. Intincidunt leo viverra, sodales ex eu, posuere purus. Duis in augue vestibulum</p>
-                    </div>
-                  </div>
                 </div>
             </div>
         </div>

@@ -209,26 +209,26 @@ const Packaging = () => {
                                 </div>
                             </Fade>
                             <Fade bottom duration={2000}>
-                            <div className=''>
-                                <div className='pt-5 pb-3'>
-                                    <img className='w-12 hover:-translate-y-3 duration-300' src="https://i.ibb.co/sQPTxd2/ezgif-com-gif-maker-1.png" alt="" />
-                                </div>
                                 <div className=''>
-                                    <h2 className='my-2 text-left text-gray-200 text-2xl font-black'>Creative Design </h2>
-                                    <p className='text-gray-400 text-left '>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                                    <div className='pt-5 pb-3'>
+                                        <img className='w-12 hover:-translate-y-3 duration-300' src="https://i.ibb.co/sQPTxd2/ezgif-com-gif-maker-1.png" alt="" />
+                                    </div>
+                                    <div className=''>
+                                        <h2 className='my-2 text-left text-gray-200 text-2xl font-black'>Creative Design </h2>
+                                        <p className='text-gray-400 text-left '>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                                    </div>
                                 </div>
-                            </div>
                             </Fade>
                             <Fade top duration={1000}>
-                            <div className=''>
-                                <div className='pt-5 pb-3'>
-                                    <img className='w-8 hover:-translate-y-3 duration-300' src="https://i.ibb.co/8DFvvBd/ezgif-com-gif-maker-4.png" alt="" />
-                                </div>
                                 <div className=''>
-                                    <h2 className='my-2 text-left text-gray-200 text-2xl font-black'>Eco Friendly</h2>
-                                    <p className='text-gray-400 text-left '>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                                    <div className='pt-5 pb-3'>
+                                        <img className='w-8 hover:-translate-y-3 duration-300' src="https://i.ibb.co/8DFvvBd/ezgif-com-gif-maker-4.png" alt="" />
+                                    </div>
+                                    <div className=''>
+                                        <h2 className='my-2 text-left text-gray-200 text-2xl font-black'>Eco Friendly</h2>
+                                        <p className='text-gray-400 text-left '>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                                    </div>
                                 </div>
-                            </div>
                             </Fade>
 
                         </div>
@@ -316,10 +316,10 @@ const Packaging = () => {
 
                     <div className='w-full md:w-1/2 mx-auto bg-[#252525c3] px-5 md:px-20 py-1'>
                         <Slide top>
-                            <h3 className="text-[50px] md:text-[120px] flex font-bold text-black"><Slide top duration={1000}>W</Slide> <Slide top duration={1500}>h</Slide> <Slide top duration={2000}>y</Slide> <span className="p-3"></span> <Slide top duration={2500}>U</Slide> <Slide top duration={3000}>s</Slide> </h3>
+                            <h3 className="text-[50px] md:text-[120px] w-full mx-auto flex justify-center font-bold text-black"><Slide top duration={1000}>W</Slide> <Slide top duration={1500}>h</Slide> <Slide top duration={2000}>y</Slide> <span className="p-3"></span> <Slide top duration={2500}>U</Slide> <Slide top duration={3000}>s</Slide> </h3>
                         </Slide>
                         <Fade bottom>
-                            <h4 className="text-2xl md:text-4xl font-bold text-white uppercase text-center -mt-20 tracking-[7px] leading-10" style={{ fontFamily: "Rajdhani" }}>Accelerating Innovations In Packaging</h4>
+                            <h4 className="text-2xl md:text-4xl font-bold text-white uppercase text-center -mt-7 md:-mt-20 tracking-[7px] leading-10" style={{ fontFamily: "Rajdhani" }}>Accelerating Innovations In Packaging</h4>
                         </Fade>
                         <Fade right duration={1000}>
                             <div className='mb-3 pt-10'>
@@ -356,10 +356,15 @@ const Packaging = () => {
 
                 </div>
                 {/*====================================== Our Service section  =============================*/}
-                <div className='mt-24 mb-24'>
-                    <div className='flex flex-col md:flex-row justify-around items-center p-10 gap-10 '>
-                        <div className='w-1/2'>
-                            <h2 className='text-4xl text-left text-white mb-10'>We Provide Various Kinds Of Packaging</h2>
+                <div className='w-full py-10'>
+                    <div className='flex flex-col md:flex-row justify-around items-center md:p-10 gap-10 '>
+                        <div className='w-full md:w-1/2 mx-auto'>
+                            <Slide top>
+                                <h3 className="text-[50px] md:text-[110px] flex justify-center w-full mx-auto font-bold text-black"><Slide top duration={1000}>O</Slide> <Slide top duration={1500}>u</Slide> <Slide top duration={2000}>r</Slide> <span className="p-3"></span> <Slide top duration={2500}>S</Slide> <Slide top duration={3000}>e</Slide> <Slide top duration={3500}>r</Slide> <Slide top duration={4000}>v</Slide> <Slide top duration={4500}>i</Slide> <Slide top duration={5000}>c</Slide> <Slide top duration={5500}>e</Slide> </h3>
+                            </Slide>
+                            <Fade bottom>
+                                <h4 className="text-2xl flex md:text-4xl font-bold w-full text-white uppercase text-center -mt-5 md:-mt-12 pb-10 tracking-[7px] leading-10" style={{ fontFamily: "Rajdhani" }}>We Provide Various Kinds Of Packaging</h4>
+                            </Fade>
                             <div class='flex items-center justify-center mb-10'>
                                 <div class="  aspect-video bg-red-400 cursor-pointer rounded-xl relative group" >
                                     <div class="rounded-xl z-50 opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out cursor-pointer absolute from-black/80 to-transparent bg-gradient-to-t inset-x-0 -bottom-2 text-white flex items-end">
@@ -402,7 +407,7 @@ const Packaging = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className='w-1/2'>
+                        <div className='w-full md:w-1/2 mx-auto'>
                             <p className='text-white text-left mb-10'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eius tempor incididunt ut labore et dolore magna aliqua. Ut enim adiqua minim veniam quis nostrud exercitation ullamco laboris sed</p>
                             <div class='flex items-center justify-center mb-10'>
                                 <div class="  aspect-video bg-red-400 cursor-pointer rounded-xl relative group" >
@@ -469,11 +474,13 @@ const Packaging = () => {
 
                         </div>
                     </div>
-                    <li className='list-none text-2xl text-white flex justify-center p-3 items-center text-center '><a href="#">Click Here</a>
-                        <FaArrowRight className='ml-3' />
+                    <div className="flex justify-center w-full mx-auto py-7">
+                    <li className='list-none text-xl flex p-3 hover:text-red-600 hover:p-4 h-10 text-white hover:translate-x-3 duration-300 items-center text-center '>Click Here
+                        <FaArrowRight className='ml-3 mt-1 duration-300' />
                     </li>
+                    </div>
 
-                    <div className='flex flex-col md:flex-row justify-around items-center mt-7 '>
+                    <div className='flex flex-col md:flex-row gap-3 justify-around items-center py-7 w-full md:w-5/6 mx-auto'>
                         <div className=''>
                             <h2 className='text-left text-white text-3xl'>Choose Your packaging</h2>
                             <p className='text-white text-left pr-7'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil dignissimos optio placeat aperiam dolores non, totam enim minima officiis nisi quae odio amet dicta, suscipit ut qui tempora fuga! Et.</p>

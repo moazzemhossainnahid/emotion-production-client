@@ -2,7 +2,7 @@ import React from 'react';
 import Slider from "react-slick";
 import categories from '../../../Data/Categories'
 import { useState } from 'react';
-import { FaArrowRight } from "react-icons/fa";
+import { FaArrowRight, FaPlus, FaStar } from "react-icons/fa";
 
 const Accessories = () => {
     const [data, setData] = useState(categories);
@@ -131,26 +131,26 @@ const Accessories = () => {
             <div className='mt-20'>
                 <Slider {...settings}>
                     <div>
-                        <img src={"https://i.ibb.co/3dtzRwC/SL-100321-45940-56.jpg"} />
+                        <img src={"https://i.ibb.co/3dtzRwC/SL-100321-45940-56.jpg"} alt='' />
                     </div>
                     <div>
-                        <img src={"https://i.ibb.co/Fgn9XY0/20314239-SL-062121-43900-81.jpg"} />
+                        <img src={"https://i.ibb.co/Fgn9XY0/20314239-SL-062121-43900-81.jpg"} alt='' />
                     </div>
                     <div>
-                        <img src={"https://i.ibb.co/TtNThMm/20023212-SL-091320-34930-27.jpg"} />
+                        <img src={"https://i.ibb.co/TtNThMm/20023212-SL-091320-34930-27.jpg"} alt='' />
                     </div>
                     <div>
-                        <img src={"https://i.ibb.co/4V42gZr/34532469-sl-100622-53160-19.jpg"} />
+                        <img src={"https://i.ibb.co/4V42gZr/34532469-sl-100622-53160-19.jpg"} alt='' />
                     </div>
                     <div>
-                        <img src={"https://i.ibb.co/nzrmRdQ/33818883-sl-100622-53160-51.jpg"} />
+                        <img src={"https://i.ibb.co/nzrmRdQ/33818883-sl-100622-53160-51.jpg"} alt='' />
                     </div>
                     <div>
-                        <img src={"https://i.ibb.co/hfkbycZ/34085711-sl-100622-53160-07-1.jpg"} />
+                        <img src={"https://i.ibb.co/hfkbycZ/34085711-sl-100622-53160-07-1.jpg"} alt='' />
                     </div>
 
                     <div>
-                        <img src={"https://i.ibb.co/stXzZpY/10467516-9127.jpg"} />
+                        <img src={"https://i.ibb.co/stXzZpY/10467516-9127.jpg"} alt='' />
                     </div>
                     {/* <div>
                         <img src={"https://i.ibb.co/k5xKh2z/11052989-3062.jpg"} />
@@ -198,9 +198,9 @@ const Accessories = () => {
             </div>
 
             <div>
-                <h2 className='text-5xl text-center text-white font-black mb-5'>TOP CATEGORIES</h2>
-                <p className='text-white text-center'>Find an good Engineer for your movement $ go anywhere</p>
-                <div className='flex justify-center items-center mt-7'>
+                <h2 style={{ fontFamily: "Rajdhani" }} className='text-3xl md:text-5xl text-center text-white font-black mb-5'>TOP CATEGORIES</h2>
+                <p className='text-white text-center'>Find an good bike for your movement & go anywhere</p>
+                <div className='flex flex-col md:flex-row gap-3 w-full mx-auto justify-center items-center mt-7'>
                     <button className='text-white bg-black p-3 mr-3' onClick={() => setData(categories)} >All Engineer </button>
                     <button className='text-white bg-black p-3 mr-3 ' onClick={() => filterResult('Mobile')}>Mobile App</button>
                     <button className='text-white bg-black p-3 mr-3' onClick={() => filterResult('Web')}>Web App</button>
@@ -215,13 +215,20 @@ const Accessories = () => {
                                 <>
                                     <div className='w-72 mx-auto bg-stone-900 ' key={id}>
                                         <span className=''>
-                                            <img src={picture} alt="" />
+                                            <img className='' src={picture} alt="" />
                                         </span>
-                                        <div className='mt-3 border-t-sky-100 px-5'>
+                                        <div className='mt-3 border-t-sky-100 px-5 py-3'>
                                             {/* <p className='mt-5 text-white font-sans text-left mb-1'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas animi, consectetur quod asperiores sint minima ea sit provident aliquam possimus quo fugiat eum fuga. Ex deserunt officiis totam labore quasi!</p> */}
                                             <h2 className='text-left text-white font-black  text-xl'>{name}</h2>
-                                            <p className='text-white my-1  text-left '>per hour: {balance}</p>
-                                            <button className='flex justify-end text-white px-4 text-xl font-black rounded bg-gray-600'>Hire</button>
+                                            <p className='text-white my-1 text-left '>${balance}</p>
+                                            <div className="flex gap-2">
+                                                <FaStar />
+                                                <FaStar />
+                                                <FaStar />
+                                                <FaStar />
+                                                <FaStar />
+                                            </div>
+                                            {/* <button className='flex justify-end text-white px-4 text-xl font-black rounded bg-gray-600'>Hire</button> */}
                                         </div>
                                     </div>
                                 </>
@@ -231,19 +238,21 @@ const Accessories = () => {
 
                     </div>
                 </div>
-                <li className='flex justify-center  hover:text-gray-500 mt-6 items-center text-white font-black text-2xl p-1'>
-                    <a href="">Explore More</a>
-                    <FaArrowRight className='mt-2 ml-3' />
+                <li className='flex cursor-pointer pt-10 group justify-center hover:text-gray-500 mt-6 items-center text-white text-2xl p-1'>
+                    <div className="flex group-hover:bg-red-600 group-hover:text-white duration-300 py-2 px-5">
+                        <span className="">More Products</span>
+                        <span className="m-2 group-hover:translate-x-4 duration-200"><FaPlus /></span>
+                    </div>
                 </li>
             </div>
 
-            <div className='flex items-center justify-between gap-20 my-24'>
-                <div className='w-1/2 mx-auto'>
-                    <div className="bg-cover bg-center h-screen relative" style={{ backgroundImage: "url('https://i.ibb.co/nzrmRdQ/33818883-sl-100622-53160-51.jpg')" }}>
-                        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-center">
-                            <h1 className="text-4xl font-bold text-left mb-4">Heading Here</h1>
-                            <p className="text-lg text-left mb-8">Paragraph here Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                            <a href="#" className="border p-1 text-white font-bold py-2 px-4 rounded py-4 px-8 hover:bg-green-900 ">
+            <div className='flex flex-col md:flex-row items-center justify-between gap-7 py-20'>
+                <div className='w-full md:w-1/2 mx-auto'>
+                    <div className="bg-[url('https://vonica.themekitify.com/wp-content/uploads/2023/02/m1_banner_04.jpg')] saturate-50 hover:saturate-100 duration-300 bg-cover bg-center h-96 relative">
+                        <div className=" flex flex-col w-5/6 mx-auto h-full justify-center items-center text-white text-center">
+                            <h1 style={{fontFamily:"Rajdhani"}} className="text-4xl font-bold uppercase text-left mb-4">Speak to The Team</h1>
+                            <p className="text-lg text-center mb-8">Paragraph here Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <a href="#" className="border p-1 text-white font-bold py-2 px-4 rounded py-4 px-8 hover:bg-gray-200 hover:text-gray-600 ">
                                 Get In Touch
                             </a>
                         </div>
@@ -251,12 +260,13 @@ const Accessories = () => {
 
 
                 </div>
-                <div className='w-1/2 mx-auto'>
-                    <div className="bg-cover bg-center h-screen relative" style={{ backgroundImage: "url('https://i.ibb.co/hfkbycZ/34085711-sl-100622-53160-07-1.jpg')" }}>
-                        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-center">
-                            <h1 className="text-4xl font-bold text-left mb-4">Heading Here</h1>
-                            <p className="text-lg text-left mb-8">Paragraph here Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                            <a href="#" className="border  text-white font-bold py-4 px-8 hover:bg-green-900 rounded">
+                <div className='w-full md:w-1/2 mx-auto'>
+                    <div className="bg-[url('https://vonica.themekitify.com/wp-content/uploads/2023/02/m1_banner_05.jpg')] saturate-50 hover:saturate-100 duration-300 bg-cover bg-center h-96 relative">
+                        <div className=" flex flex-col w-5/6 mx-auto h-full justify-center items-center text-white text-center">
+                        {/* <img decoding="async" src="https://vonica.themekitify.com/wp-content/uploads/2023/02/m1_banner_05.jpg" alt="m1_banner_05" class="kitify-banner__img"/> */}
+                            <h1 style={{fontFamily:"Rajdhani"}} className="text-4xl font-bold uppercase text-left mb-4">Mountain Bike Guide</h1>
+                            <p className="text-lg text-center mb-8">Paragraph here Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <a href="#" className="border  text-white font-bold py-4 px-8 hover:bg-gray-200 hover:text-gray-600  rounded">
                                 Discover Now
                             </a>
                         </div>
@@ -354,7 +364,7 @@ const Accessories = () => {
                     <div> <img className='p-3 ml-2' src="https://i.ibb.co/znv3CpL/ezgif-com-gif-maker-2.png" alt="" /></div>
                 </div>
 
-                 <div className='flex my-20 justify-around items-center border p-3 border-stone-900'>
+                <div className='flex my-20 justify-around items-center border p-3 border-stone-900'>
                     <div>
                         <h2 className='text-white text-left font-black text-xl'>BEST BUILT QUALITY </h2>
                         <p className='text-gray-400 text-left'> Its gurantee</p>
@@ -362,7 +372,7 @@ const Accessories = () => {
                     <div> <img className='p-3 ml-2' src="https://i.ibb.co/Mnp284M/ezgif-com-gif-maker.png" alt="" /></div>
                 </div>
 
-                 <div className='flex my-20 justify-around items-center border p-3 border-stone-900'>
+                <div className='flex my-20 justify-around items-center border p-3 border-stone-900'>
                     <div>
                         <h2 className='text-white text-left font-black text-xl'>24/7 ONLINE SUPPORT </h2>
                         <p className='text-gray-400 text-left'> We are here </p>

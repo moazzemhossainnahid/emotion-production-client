@@ -7,7 +7,7 @@ const ProductsSec1 = () => {
             {
                 ProductData?.map(pd => (
                     <div className="">
-                        {pd?.titile}
+                        {pd?.title}
                     </div>
                 ))
             }

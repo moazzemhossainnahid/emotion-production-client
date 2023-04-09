@@ -74,82 +74,96 @@ const ContentShotting = () => {
                     <div>
                         <img src={"https://i.ibb.co/stXzZpY/10467516-9127.jpg"} alt="" />
                     </div>
-                    {/* <div>
-                        <img src={"https://i.ibb.co/k5xKh2z/11052989-3062.jpg"} />
-                    </div> */}
-                    {/* <div>
-                        <img src={"https://i.ibb.co/M5mSGJJ/18774188-6024960.jpg"} />
-                    </div> */}
                 </Slider>
             </div>
 
             {/*=====================  creative start =================*/}
-            <div className=' my-24'>
-                <h2 className='text-4xl text-center font-black text-white'>WE ARE CREATIVE WE ARE XEN</h2>
-                <div className='flex flex-col md:flex-row justify-center items-center gap-20 my-7'>
-                    <p className='inline-block align-middle text-justify   text-white'>Affogato thundercats quinoa, portland cold-pressed edison bulb artisan paleo banjo tousled try-hard food truck pop-up bushwick godard. Occupy 90's try-hard tote bag chicharrones stumptown polaroid hashtag cliche +1, tousled fanny pack. Tote bag iPhone crucifix hella helvetica food truck bicycle rights cloud bread. Yr iPhone asymmetrical, next level vexillologist godard blog green juice chia. Tacos jean shorts pickled PBR&B poutine.</p>
-                    <p className='inline-block align-middle text-justify text-white '>Godard slow-carb chartreuse occupy, tumblr letterpress pok pok tattooed yr lyft yuccie kinfolk. IPhone kombucha shaman gastropub snackwave 90's lo-fi pug chillwave pok pok tofu. Swag deep v listicle roof party seitan man braid raclette church-key trust fund locavore vexillologist green juice raw denim tilde meh. Austin thundercats locavore taiyaki snackwave hoodie put a bird on it tattooed selvage kitsch ramps.</p>
+            <div className='w-full md:w-5/6 mx-auto py-10'>
+                <Fade bottom duration={1000}>
+                    <h2 className='text-3xl md:text-6xl md:w-2/3 w-full mx-auto text-center font-black py-7 text-white duration-300'>WE ARE CREATIVE <br /> WE ARE XEN</h2>
+                </Fade>
+                <div className='flex flex-col md:flex-row justify-center items-start gap-10 my-7'>
+                    <Fade left duration={1000}>
+                        <p className='inline-block align-middle text-justify   text-white'>Affogato thundercats quinoa, portland cold-pressed edison bulb artisan paleo banjo tousled try-hard food truck pop-up bushwick godard. Occupy 90's try-hard tote bag chicharrones stumptown polaroid hashtag cliche +1, tousled fanny pack. Tote bag iPhone crucifix hella helvetica food truck bicycle rights cloud bread. Yr iPhone asymmetrical, next level vexillologist godard blog green juice chia. Tacos jean shorts pickled PBR&B poutine.</p>
+                    </Fade>
+                    <Fade right duration={1000}>
+                        <p className='inline-block align-middle text-justify text-white '>Godard slow-carb chartreuse occupy, tumblr letterpress pok pok tattooed yr lyft yuccie kinfolk. IPhone kombucha shaman gastropub snackwave 90's lo-fi pug chillwave pok pok tofu. Swag deep v listicle roof party seitan man braid raclette church-key trust fund locavore vexillologist green juice raw denim tilde meh. Austin thundercats locavore taiyaki snackwave hoodie put a bird on it tattooed selvage kitsch ramps.</p>
+                    </Fade>
                 </div>
-                <p className='text-white font-mono'>GODARD SLOW-CARB CHARTREUSE OCCUPY, TUMBLR LETTERPRESS</p>
+                <Fade bottom duration={1000}>
+                    <p className='text-white font-mono leading-7 tracking-widest py-7'>GODARD SLOW-CARB CHARTREUSE OCCUPY, TUMBLR LETTERPRESS</p>
+                </Fade>
             </div>
 
             {/*=====================  Recent work start =================*/}
-            <div className=''>
-                <h2 className='text-4xl text-center font-black text-white'>RECENT WORK</h2>
-                <p className='text-white text-center font-mono'>WE OFFER DIGITAL SOLUTIONS</p>
-                <div className='flex flex-col md:flex-row justify-around items-center gap-20 my-7'>
-                    <div className='w-1/2'>
-                        <p className='text-white text-left font-mono'>COMMERCIAL</p>
-                        <h2 className='text-2xl text-left font-black text-white'>BUSHWICK SELFIESPORK BELLY LYFT BROOKLYN MESSENG</h2>
-                        <p className='text-white text-left my-4 pr-10'>Narwhal pop-up intelligentsia tbh pinterest, microdosing tilde cloud bread gochujang tattooed leggings cornhole 8-bit. Austin fam chia cold-pressed raw denim. Glossier drinking vinegar portland lo-fi, polaroid bespoke lomo. Banjo art party XOXO, fashion axe sustainable retro ethical gentrify.</p>
-                        <span className='flex justify-start items-center text-white font-black text-xl'>
-                            <a href="">Read More </a><FaArrowRight className='mt-1 ml-2' />
-                        </span>
+            <div className='space-y-3'>
+                <Fade bottom duration={1000}>
+                    <h2 className='text-4xl md:text-6xl text-center font-black pb-5 text-white'>RECENT WORK</h2>
+                </Fade>
+                <Fade bottom duration={1000}>
+                    <p className='text-white text-center pb-7 font-mono tracking-widest'>WE OFFER DIGITAL SOLUTIONS</p>
+                </Fade>
+                <div className='flex flex-col md:flex-row justify-around items-center gap-20 my-7 pb-5'>
+                    <div className='w-full md:w-1/2 md:px-20 '>
+                        <p className='text-red-600 text-left font-mono'>COMMERCIAL</p>
+                        <h2 className='text-2xl md:text-4xl pb-4 text-left font-black text-white'>BUSHWICK SELFIESPORK BELLY LYFT BROOKLYN MESSENG</h2>
+                        <p className='text-gray-300 text-left my-4 pr-10'>Narwhal pop-up intelligentsia tbh pinterest, microdosing tilde cloud bread gochujang tattooed leggings cornhole 8-bit. Austin fam chia cold-pressed raw denim. Glossier drinking vinegar portland lo-fi, polaroid bespoke lomo. Banjo art party XOXO, fashion axe sustainable retro ethical gentrify.</p>
+                        <div className="">
+                            <button className='flex justify-start group items-center bg-white px-7 py-2 text-gray-600 tracking-wider font-semibold text-xl'>
+                                <a href="">Read More </a><FaArrowRight className='mt-1 group-hover:translate-x-3 duration-300 ml-2' />
+                            </button>
+                        </div>
                     </div>
-                    <div className='w-1/2'>
-                        <img class="transform hover:scale-110 transition duration-300" src="https://i.ibb.co/HtTghY4/pexels-photo-1619654.jpg" alt="Your" />
+                    <div className='w-full md:w-1/2 overflow-hidden'>
+                        <img class="transform hover:scale-110 transition object-cover duration-300" src="https://i.ibb.co/HtTghY4/pexels-photo-1619654.jpg" alt="Your" />
                     </div>
                 </div>
 
-                <div className='flex flex-col md:flex-row justify-around items-center gap-20 my-13'>
-                    <div className='w-1/2'>
+                <div className='flex flex-col md:flex-row justify-around items-center gap-20 my-13 pb-5'>
+                    <div className='w-full md:w-1/2 overflow-hidden'>
                         <img class="transform hover:scale-110 transition duration-300" src="https://i.ibb.co/cDTPCBy/audio-cassette-cassette-tape-1626481.jpg" alt="Your" />
                     </div>
-                    <div className='w-1/2'>
-                        <p className='text-white text-left font-mono'>Graphsic Design</p>
-                        <h2 className='text-2xl text-left font-black text-white'>TUMERIC TUMBLR GLUTEN-FREE MAN BUN SMALL</h2>
-                        <p className='text-white text-left my-4 pr-10'>Slow-carb green juice subway tile bicycle rights, fanny pack raclette palo santo put a bird on it mustache actually fam mumblecore iPhone. Iceland post-ironic health goth snackwave, mixtape synth four dollar toast sartorial. Health goth la croix vexillologist, before they sold out shabby chic.</p>
-                        <span className='flex justify-start items-center text-white font-black text-xl'>
-                            <a href="">Read More </a><FaArrowRight className='mt-1 ml-2' />
-                        </span>
+                    <div className='w-full md:w-1/2 md:px-20 '>
+                        <p className='text-red-600 text-left font-mono'>Graphsic Design</p>
+                        <h2 className='text-2xl md:text-4xl pb-4 text-left font-black text-white'>TUMERIC TUMBLR GLUTEN-FREE MAN BUN SMALL</h2>
+                        <p className='text-gray-300 text-left my-4 pr-10'>Slow-carb green juice subway tile bicycle rights, fanny pack raclette palo santo put a bird on it mustache actually fam mumblecore iPhone. Iceland post-ironic health goth snackwave, mixtape synth four dollar toast sartorial. Health goth la croix vexillologist, before they sold out shabby chic.</p>
+                        <div className="">
+                            <button className='flex justify-start group items-center bg-white px-7 py-2 text-gray-600 tracking-wider font-semibold text-xl'>
+                                <a href="">Read More </a><FaArrowRight className='mt-1 group-hover:translate-x-3 duration-300 ml-2' />
+                            </button>
+                        </div>
                     </div>
                 </div>
 
-                <div className='flex flex-col md:flex-row justify-around items-center gap-20 '>
-                    <div className='w-1/2'>
-                        <p className='text-white text-left font-mono'>BRANDING</p>
-                        <h2 className='text-2xl text-left font-black text-white'> BRANDING BATCH KOMBUCHA SUBWAY TILE SALVIA BROOKLYN</h2>
-                        <p className='text-white text-left my-4 pr-10'>Mlkshk YOLO wolf, leggings vinyl crucifix stumptown tousled. Pabst venmo gentrify deep v microdosing migas occupy master cleanse intelligentsia sartorial chia activated charcoal. Iceland small batch live-edge raclette roof party dreamcatcher austin pickled. Chillwave cronut messenger bag truffaut.</p>
-                        <span className='flex justify-start items-center text-white font-black text-xl'>
-                            <a href="">Read More </a><FaArrowRight className='mt-1 ml-2' />
-                        </span>
+                <div className='flex flex-col md:flex-row justify-around items-center gap-20 my-13 pb-5'>
+                    <div className='w-full md:w-1/2 md:px-20 '>
+                        <p className='text-red-600 text-left font-mono'>BRANDING</p>
+                        <h2 className='text-2xl md:text-4xl pb-4 text-left font-black text-white'> BRANDING BATCH KOMBUCHA SUBWAY TILE SALVIA BROOKLYN</h2>
+                        <p className='text-gray-300 text-left my-4 pr-10'>Mlkshk YOLO wolf, leggings vinyl crucifix stumptown tousled. Pabst venmo gentrify deep v microdosing migas occupy master cleanse intelligentsia sartorial chia activated charcoal. Iceland small batch live-edge raclette roof party dreamcatcher austin pickled. Chillwave cronut messenger bag truffaut.</p>
+                        <div className="">
+                            <button className='flex justify-start group items-center bg-white px-7 py-2 text-gray-600 tracking-wider font-semibold text-xl'>
+                                <a href="">Read More </a><FaArrowRight className='mt-1 group-hover:translate-x-3 duration-300 ml-2' />
+                            </button>
+                        </div>
                     </div>
-                    <div className='w-1/2'>
+                    <div className='w-full md:w-1/2 overflow-hidden'>
                         <img class="transform hover:scale-110 transition duration-300" src="https://i.ibb.co/QvHXBzs/blur-close-up-equipment-1034651.jpg" alt="Your" />
                     </div>
                 </div>
 
-                <div className='flex flex-col md:flex-row justify-around items-center gap-20 my-13'>
-                    <div className='w-1/2'>
+                <div className='flex flex-col md:flex-row justify-around items-center gap-20 my-13 pb-5'>
+                    <div className='w-full md:w-1/2 overflow-hidden'>
                         <img class="transform  hover:scale-110 transition duration-300" src="https://i.ibb.co/CKBXvhT/template.png" alt="Your" />
                     </div>
-                    <div className='w-1/2'>
-                        <p className='text-white text-left font-mono'>WEB DESIGN</p>
-                        <h2 className='text-2xl text-left font-black text-white'> ORGANIC ACTIVATED CHARCOAL VAPE VIRAL ENNUI</h2>
-                        <p className='text-white text-left my-4 pr-10'>Tote bag cornhole pork belly swag, cronut hoodie snackwave 90's messenger bag pour-over disrupt chartreuse. Vape ugh cardigan hell of. Vaporware umami master cleanse neutra, chartreuse flexitarian lo-fi selvage hella hoodie freegan gentrify. 8-bit air plant umami asymmetrical franzen semiotics before.</p>
-                        <span className='flex justify-start items-center text-white font-black text-xl'>
-                            <a href="">Read More </a><FaArrowRight className='mt-1 ml-2' />
-                        </span>
+                    <div className='w-full md:w-1/2 md:px-20 '>
+                        <p className='text-red-600 text-left font-mono'>WEB DESIGN</p>
+                        <h2 className='text-2xl md:text-4xl pb-4 text-left font-black text-white'> ORGANIC ACTIVATED CHARCOAL VAPE VIRAL ENNUI</h2>
+                        <p className='text-gray-300 text-left my-4 pr-10'>Tote bag cornhole pork belly swag, cronut hoodie snackwave 90's messenger bag pour-over disrupt chartreuse. Vape ugh cardigan hell of. Vaporware umami master cleanse neutra, chartreuse flexitarian lo-fi selvage hella hoodie freegan gentrify. 8-bit air plant umami asymmetrical franzen semiotics before.</p>
+                        <div className="">
+                            <button className='flex justify-start group items-center bg-white px-7 py-2 text-gray-600 tracking-wider font-semibold text-xl'>
+                                <a href="">Read More </a><FaArrowRight className='mt-1 group-hover:translate-x-3 duration-300 ml-2' />
+                            </button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -243,7 +257,7 @@ const ContentShotting = () => {
             </div>
 
             {/*=====================  Blogs =================*/}
-               
+
             <div className=" blog ">
                 {/* <h2 className="text-center text-white">Blog</h2> */}
                 <h4 className='sm:text-center text-white text-2xl sm:text-4xl text-left' >FROM THE BLOG</h4>
@@ -285,7 +299,7 @@ const ContentShotting = () => {
                 </div>
                 <span className='flex justify-end items-center mt-5 '>
                     <a className='text-white font-black text-xl' href="">View All </a>
-                    <FaArrowRight className='text-white font-black text-xl ml-3'/>
+                    <FaArrowRight className='text-white font-black text-xl ml-3' />
                 </span>
             </div>
 

@@ -74,9 +74,9 @@ const UiUxService = () => {
             </div>
 
             <div className='mb-16 mt-20'>
-                <h2 className='sm:text-center text-2xl sm:text-4xl text-left' >DESIGNING TOOLS WE USE</h2>
-                <div className="sm:flex inline-block justify-around items-center">
-                    <div>
+                <h2 className='sm:text-center text-2xl sm:text-4xl text-left pb-5' >DESIGNING TOOLS WE USE</h2>
+                <div className="sm:flex inline-block justify-around items-start">
+                    <div className='space-y-2'>
                         <p className='text-left'>UI/UX</p>
                         <li className='flex items-center list'> <img className='w-5 mr-2' src={logo} alt="" />  <a href="">Sketch</a></li>
                         <li className='flex items-center list'> <img className='w-5 mr-2' src={logo} alt="" />  <a href="">Adob XD</a></li>
@@ -84,14 +84,14 @@ const UiUxService = () => {
                         <li className='flex items-center list'> <img className='w-5 mr-2' src={logo} alt="" />  <a href="">Illustrator </a></li>
                         <li className='flex items-center list'> <img className='w-5 mr-2' src={logo} alt="" />  <a href="">Figma </a></li>
                     </div>
-                    <div>
+                    <div className='space-y-2'>
                         <p className='text-left'>Prototyping</p>
                         <li className='flex items-center list'> <img className='w-5 mr-2' src={logo} alt="" />  <a href="">Adob XD</a></li>
                         <li className='flex items-center list'> <img className='w-5 mr-2' src={logo} alt="" />  <a href="">Invision Studio</a></li>
                         <li className='flex items-center list'> <img className='w-5 mr-2' src={logo} alt="" />  <a href="">Figma</a></li>
                         <li className='flex items-center list'> <img className='w-5 mr-2' src={logo} alt="" />  <a href="">Sketch </a></li>
                     </div>
-                    <div>
+                    <div className='space-y-2'>
                         <p className='text-left'>Illustrator& Graphic Design</p>
                         <li className='flex items-center list'> <img className='w-5 mr-2' src={logo} alt="" />  <a href="">Illustrator</a></li>
                         <li className='flex items-center list'> <img className='w-5 mr-2' src={logo} alt="" />  <a href="">Photoshop</a></li>
@@ -105,7 +105,7 @@ const UiUxService = () => {
                 <img className='w-24' src="https://i.ibb.co/Y8cfKgX/ezgif-com-gif-maker-1.png" alt="" />
                 <img className='w-24' src="https://i.ibb.co/BnNHcJz/ezgif-com-gif-maker-2.png" alt="" />
                 <img className='w-24' src="https://i.ibb.co/BgqkZXZ/sketch.png" alt="" />
-                <img className='w-24' src="https://i.ibb.co/S3XcPhs/figma.png" alt="" />
+                <img className='w-20' src="https://i.ibb.co/S3XcPhs/figma.png" alt="" />
             </div>
 
             <div className=" service mb-36">

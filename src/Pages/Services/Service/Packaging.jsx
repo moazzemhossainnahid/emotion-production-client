@@ -475,23 +475,46 @@ const Packaging = () => {
                         </div>
                     </div>
                     <div className="flex justify-center w-full mx-auto py-7">
-                    <li className='list-none text-xl flex p-3 hover:text-red-600 hover:p-4 h-10 text-white hover:translate-x-3 duration-300 items-center text-center '>Click Here
-                        <FaArrowRight className='ml-3 mt-1 duration-300' />
-                    </li>
+                        <li className='list-none text-xl flex p-3 hover:text-red-600 hover:p-4 h-10 text-white hover:translate-x-3 duration-300 items-center text-center '>Click Here
+                            <FaArrowRight className='ml-3 mt-1 duration-300' />
+                        </li>
                     </div>
 
                     <div className='flex flex-col md:flex-row gap-3 justify-around items-center py-7 w-full md:w-5/6 mx-auto'>
                         <div className=''>
-                            <h2 className='text-left text-white text-3xl'>Choose Your packaging</h2>
-                            <p className='text-white text-left pr-7'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil dignissimos optio placeat aperiam dolores non, totam enim minima officiis nisi quae odio amet dicta, suscipit ut qui tempora fuga! Et.</p>
+                            <Slide top duration={1000}>
+                                <h3 className="text-[50px] md:text-[70px] flex justify-start w-full mx-auto font-bold text-black"><Slide top duration={1000}>0</Slide> <Slide top duration={1500}>1</Slide> <span className="p-3"></span> <Slide top duration={2000}>S</Slide> <Slide top duration={2500}>t</Slide> <Slide top duration={3000}>e</Slide> <Slide top duration={3500}>p</Slide> </h3>
+                            </Slide>
+                            <Fade bottom duration={1500}>
+                                <h2 className='text-left -mt-7 pb-3 md:-mt-12 text-white text-3xl font-semibold'>Choose Your packaging</h2>
+                            </Fade>
+                            <Fade bottom duration={2000}>
+                                <p className='text-white text-left pr-7'>Lorem ipsum dolor sit amet, consectetu adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua minim veniam</p>
+                            </Fade>
                         </div>
                         <div className=''>
-                            <h2 className='text-left text-white text-3xl'>Packaging Ready To Use</h2>
-                            <p className='text-white text-left pr-7'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil dignissimos optio placeat aperiam dolores non, totam enim minima officiis nisi quae odio amet dicta, suscipit ut qui tempora fuga! Et.</p>
+                            <Slide top duration={1000}>
+                                <h3 className="text-[50px] md:text-[70px] flex justify-start w-full mx-auto font-bold text-black"><Slide top duration={1000}>0</Slide> <Slide top duration={1500}>2</Slide> <span className="p-3"></span> <Slide top duration={2000}>S</Slide> <Slide top duration={2500}>t</Slide> <Slide top duration={3000}>e</Slide> <Slide top duration={3500}>p</Slide> </h3>
+                            </Slide>
+                            <Fade bottom duration={1500}>
+                                <h2 className='text-left -mt-7 pb-3 md:-mt-12 text-white text-3xl font-semibold'>Packaging In Process
+                                </h2>
+                            </Fade>
+                            <Fade bottom duration={2000}>
+                                <p className='text-white text-left pr-7'>Lorem ipsum dolor sit amet, consectetu adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua minim veniam</p>
+                            </Fade>
                         </div>
                         <div className=''>
-                            <h2 className='text-left text-white text-3xl'>Packaging In Process</h2>
-                            <p className='text-white text-left pr-7'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil dignissimos optio placeat aperiam dolores non, totam enim minima officiis nisi quae odio amet dicta, suscipit ut qui tempora fuga! Et.</p>
+                            <Slide top duration={1000}>
+                                <h3 className="text-[50px] md:text-[70px] flex justify-start w-full mx-auto font-bold text-black"><Slide top duration={1000}>0</Slide> <Slide top duration={1500}>3</Slide> <span className="p-3"></span> <Slide top duration={2000}>S</Slide> <Slide top duration={2500}>t</Slide> <Slide top duration={3000}>e</Slide> <Slide top duration={3500}>p</Slide> </h3>
+                            </Slide>
+                            <Fade bottom duration={1500}>
+                                <h2 className='text-left -mt-7 pb-3 md:-mt-12 text-white text-3xl font-semibold'>Packaging Ready To Use
+                                </h2>
+                            </Fade>
+                            <Fade bottom duration={2000}>
+                                <p className='text-white text-left pr-7'>Lorem ipsum dolor sit amet, consectetu adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua minim veniam</p>
+                            </Fade>
                         </div>
                     </div>
                 </div>

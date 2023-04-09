@@ -2,8 +2,8 @@ import React from 'react';
 import Slider from "react-slick";
 import categories from '../../../Data/Categories'
 import { useState } from 'react';
-import { FaArrowRight, FaPlus, FaStar } from "react-icons/fa";
-
+import { FaPlus, FaStar } from "react-icons/fa";
+import { Fade, Slide } from 'react-reveal';
 const Accessories = () => {
     const [data, setData] = useState(categories);
     console.log(data);
@@ -35,44 +35,6 @@ const Accessories = () => {
         );
     }
 
-    var settings = {
-        dots: true,
-        autoplay: true,
-        infinite: true,
-        speed: 500,
-        autoplaySpeed: 3000,
-        slidesToShow: 4,
-        slidesToScroll: 4,
-        initialSlide: 0,
-        nextArrow: <SampleNextArrow />,
-        prevArrow: <SamplePrevArrow />,
-        responsive: [
-            {
-                breakpoint: 1024,
-                settings: {
-                    slidesToShow: 3,
-                    slidesToScroll: 3,
-                    infinite: true,
-                    dots: true
-                }
-            },
-            {
-                breakpoint: 600,
-                settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 2,
-                    initialSlide: 2
-                }
-            },
-            {
-                breakpoint: 480,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1
-                }
-            }
-        ]
-    };
     var settings1 = {
         dots: true,
         autoplay: true,
@@ -128,69 +90,63 @@ const Accessories = () => {
     };
     return (
         <div className='container mx-auto'>
-            <div className='mt-20'>
-                <Slider {...settings}>
-                    <div>
-                        <img src={"https://i.ibb.co/3dtzRwC/SL-100321-45940-56.jpg"} alt='' />
+            <div className='flex flex-col md:flex-row justify-between items-center gap-3 pb-32 overflow-hidden'>
+                <div className='w-full flex items-center md:w-3/6 p-0'>
+                    <div className="relative py-10 p-5 ">
+                        {/* <img draggable="false" style={{ animation: `bounce-in 10s` }} className='w-4/5 mx-auto p-5 absolute top-0 left-0' src="https://droitthemes.com/html/wavee/img/home_one/circle_line.png" alt="" /> */}
+                        <div className="space-y-4 text-left">
+                            <Fade bottom duration={1000}>
+                                <h3 className="text-[40px] md:text-[90px] flex font-bold text-[#ffffff]">Wise Stone</h3>
+                            </Fade>
+                            <Fade bottom duration={2000}>
+                                <p className="text-gray-200">Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiu smod tempor incididunt ut labore et dolore magnan aliqua. Quis ipsum suspendisse ultrices gravida.</p>
+                            </Fade>
+                            <Fade bottom duration={3000}>
+                                <button className="border border-white text-white hover:bg-white hover:text-black px-7 py-2 uppercase duration-300">Case Study</button>                                </Fade>
+                        </div>
+                        <img draggable="false" className='animate-pulse w-28 mx-auto p-5 absolute rotate-3 top-3 right-0' src="https://droitthemes.com/html/wavee/img/home_one/triangle_shap_three.png" alt="" />
+                        <img draggable="false" style={{ animation: `rubberBand 5s infinite` }} className='w-28 mx-auto p-5 absolute rotate-3 top-0 left-0' src="https://droitthemes.com/html/wavee/img/home_one/triangle_shap_two.png" alt="" />
                     </div>
-                    <div>
-                        <img src={"https://i.ibb.co/Fgn9XY0/20314239-SL-062121-43900-81.jpg"} alt='' />
+                </div>
+                <div className='w-full md:w-3/6 p-0 '>
+                    <div className="w-full relative py-10">
+                        <img draggable="false" style={{ animation: `bounce-in 10s` }} className='w-full mx-auto p-5' src="https://droitthemes.com/html/wavee/img/home_one/laptop_w.png" alt="" />
+                        <img draggable="false" style={{ animation: `rubberBand 5s infinite` }} className='w-28 mx-auto p-5 mt-7 absolute bottom-0 right-0' src="https://droitthemes.com/html/wavee/img/home_one/triangle_shap_two.png" alt="" />
                     </div>
-                    <div>
-                        <img src={"https://i.ibb.co/TtNThMm/20023212-SL-091320-34930-27.jpg"} alt='' />
-                    </div>
-                    <div>
-                        <img src={"https://i.ibb.co/4V42gZr/34532469-sl-100622-53160-19.jpg"} alt='' />
-                    </div>
-                    <div>
-                        <img src={"https://i.ibb.co/nzrmRdQ/33818883-sl-100622-53160-51.jpg"} alt='' />
-                    </div>
-                    <div>
-                        <img src={"https://i.ibb.co/hfkbycZ/34085711-sl-100622-53160-07-1.jpg"} alt='' />
-                    </div>
+                </div>
 
-                    <div>
-                        <img src={"https://i.ibb.co/stXzZpY/10467516-9127.jpg"} alt='' />
-                    </div>
-                    {/* <div>
-                        <img src={"https://i.ibb.co/k5xKh2z/11052989-3062.jpg"} />
-                    </div> */}
-                    {/* <div>
-                        <img src={"https://i.ibb.co/M5mSGJJ/18774188-6024960.jpg"} />
-                    </div> */}
-                </Slider>
             </div>
 
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 justify-around items-center my-24'>
-                <div className='flex justify-between items-center w-96 bg-stone-900	p-3 mx-auto'>
-                    <div className='w-1/2'>
+            <div className='w-full md:w-5/6 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 justify-around items-center my-24'>
+                <div className='flex justify-between group items-center w-full h-full gap-3 bg-stone-900	p-3 mx-auto'>
+                    <div className='w-2/3'>
                         <h2 className='text-white text-left font-black text-xl '>25% OFFER ON HINKING PRODUCT</h2>
-                        <button className='text-white hover:bg-black p-3 mt-10 flex justify-start'>View Collection</button>
+                        <button className='text-white group-hover:bg-black p-3 mt-10 flex justify-start'>View Collection</button>
                     </div>
-                    <div className='w-1/2'>
-                        <img className='w-full p-2' src="https://i.ibb.co/Y73WJzG/online-shopping.png" alt="" />
+                    <div className='w-1/3'>
+                        <img className='w-full p-1' src="https://i.ibb.co/Y73WJzG/online-shopping.png" alt="" />
                     </div>
                 </div>
 
-                <div className='flex justify-between items-center w-96 bg-stone-900	p-3 mx-auto'>
-                    <div className='w-1/2'>
+                <div className='flex justify-between group items-center gap-3 w-full h-full bg-stone-900	p-3 mx-auto'>
+                    <div className='w-1/3'>
+                        <img className='w-full p-1' src="https://i.ibb.co/NnMJkHh/car.png" alt="" />
+                    </div>
+                    <div className='w-2/3'>
                         <h2 className='text-white text-left font-black text-xl '>OFFER IN ACCESSORIES </h2>
-                        <button className='text-white hover:bg-black p-3 mt-10 flex justify-start'>View Collection</button>
-                    </div>
-                    <div className='w-1/2'>
-                        <img className='w-full p-2' src="https://i.ibb.co/NnMJkHh/car.png" alt="" />
+                        <button className='text-white group-hover:bg-black p-3 mt-10 flex justify-start'>View Collection</button>
                     </div>
                 </div>
 
 
 
-                <div className='flex justify-between items-center w-96 bg-stone-900	p-3 mx-auto'>
-                    <div className='w-1/2'>
+                <div className='flex justify-between group items-center w-full h-full gap-3 bg-stone-900	p-3 mx-auto'>
+                    <div className='w-2/3'>
                         <h2 className='text-white text-left font-black text-xl '>CLASSIX SERVICE COLLECTIONS</h2>
-                        <button className='text-white hover:bg-black p-3 mt-10 flex justify-start'>View Collection</button>
+                        <button className='text-white group-hover:bg-black p-3 mt-10 flex justify-start'>View Collection</button>
                     </div>
-                    <div className='w-1/2'>
-                        <img className='w-full p-2' src="https://i.ibb.co/YytHML0/online-shop.png" alt="" />
+                    <div className='w-1/3'>
+                        <img className='w-full p-1' src="https://i.ibb.co/YytHML0/online-shop.png" alt="" />
                     </div>
                 </div>
 
@@ -250,7 +206,7 @@ const Accessories = () => {
                 <div className='w-full md:w-1/2 mx-auto'>
                     <div className="bg-[url('https://vonica.themekitify.com/wp-content/uploads/2023/02/m1_banner_04.jpg')] saturate-50 hover:saturate-100 duration-300 bg-cover bg-center h-96 relative">
                         <div className=" flex flex-col w-5/6 mx-auto h-full justify-center items-center text-white text-center">
-                            <h1 style={{fontFamily:"Rajdhani"}} className="text-4xl font-bold uppercase text-left mb-4">Speak to The Team</h1>
+                            <h1 style={{ fontFamily: "Rajdhani" }} className="text-4xl font-bold uppercase text-left mb-4">Speak to The Team</h1>
                             <p className="text-lg text-center mb-8">Paragraph here Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                             <a href="#" className="border p-1 text-white font-bold py-2 px-4 rounded py-4 px-8 hover:bg-gray-200 hover:text-gray-600 ">
                                 Get In Touch
@@ -263,8 +219,8 @@ const Accessories = () => {
                 <div className='w-full md:w-1/2 mx-auto'>
                     <div className="bg-[url('https://vonica.themekitify.com/wp-content/uploads/2023/02/m1_banner_05.jpg')] saturate-50 hover:saturate-100 duration-300 bg-cover bg-center h-96 relative">
                         <div className=" flex flex-col w-5/6 mx-auto h-full justify-center items-center text-white text-center">
-                        {/* <img decoding="async" src="https://vonica.themekitify.com/wp-content/uploads/2023/02/m1_banner_05.jpg" alt="m1_banner_05" class="kitify-banner__img"/> */}
-                            <h1 style={{fontFamily:"Rajdhani"}} className="text-4xl font-bold uppercase text-left mb-4">Mountain Bike Guide</h1>
+                            {/* <img decoding="async" src="https://vonica.themekitify.com/wp-content/uploads/2023/02/m1_banner_05.jpg" alt="m1_banner_05" class="kitify-banner__img"/> */}
+                            <h1 style={{ fontFamily: "Rajdhani" }} className="text-4xl font-bold uppercase text-left mb-4">Mountain Bike Guide</h1>
                             <p className="text-lg text-center mb-8">Paragraph here Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                             <a href="#" className="border  text-white font-bold py-4 px-8 hover:bg-gray-200 hover:text-gray-600  rounded">
                                 Discover Now
@@ -347,34 +303,34 @@ const Accessories = () => {
                 </div>
             </div>
 
-            <div className='flex mb-16 justify-around gap-10 items-center '>
-                <div className='flex my-20 justify-around items-center border p-3 border-stone-900'>
+            <div className='w-full md:w-5/6 mx-auto flex flex-col md:flex-row py-10 justify-around gap-7 items-center  '>
+                <div className='flex justify-around items-center border p-3 px-5 bg-[#252525c3] border-stone-900'>
                     <div>
-                        <h2 className='text-white text-left font-black text-xl'>ON DEMAND PRICING</h2>
+                        <h2 className='text-white text-left font-thin text-xl'>ON DEMAND PRICING</h2>
                         <p className='text-gray-400 text-left'> Make $20 order</p>
                     </div>
                     <div> <img className='p-3 ml-2' src="https://i.ibb.co/Lzgsf2j/ezgif-com-gif-maker-3.png" alt="" /></div>
                 </div>
 
-                <div className='flex my-20 justify-around items-center border p-3 border-stone-900'>
+                <div className='flex justify-around items-center border p-3 px-5 bg-[#252525c3] border-stone-900'>
                     <div>
-                        <h2 className='text-white text-left font-black text-xl'>QUALITY PRODUCTS</h2>
+                        <h2 className='text-white text-left font-thin text-xl'>QUALITY PRODUCTS</h2>
                         <p className='text-gray-400 text-left'> We made for you</p>
                     </div>
                     <div> <img className='p-3 ml-2' src="https://i.ibb.co/znv3CpL/ezgif-com-gif-maker-2.png" alt="" /></div>
                 </div>
 
-                <div className='flex my-20 justify-around items-center border p-3 border-stone-900'>
+                <div className='flex justify-around items-center border p-3 px-5 bg-[#252525c3] border-stone-900'>
                     <div>
-                        <h2 className='text-white text-left font-black text-xl'>BEST BUILT QUALITY </h2>
+                        <h2 className='text-white text-left font-thin text-xl'>BEST BUILT QUALITY </h2>
                         <p className='text-gray-400 text-left'> Its gurantee</p>
                     </div>
                     <div> <img className='p-3 ml-2' src="https://i.ibb.co/Mnp284M/ezgif-com-gif-maker.png" alt="" /></div>
                 </div>
 
-                <div className='flex my-20 justify-around items-center border p-3 border-stone-900'>
+                <div className='flex justify-around items-center border p-3 px-5 bg-[#252525c3] border-stone-900'>
                     <div>
-                        <h2 className='text-white text-left font-black text-xl'>24/7 ONLINE SUPPORT </h2>
+                        <h2 className='text-white text-left font-thin text-xl'>24/7 ONLINE SUPPORT </h2>
                         <p className='text-gray-400 text-left'> We are here </p>
                     </div>
                     <div> <img className='p-3 ml-2' src="https://i.ibb.co/Lzgsf2j/ezgif-com-gif-maker-3.png" alt="" /></div>

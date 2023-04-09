@@ -3,7 +3,7 @@ import Slider from "react-slick";
 import categories from '../../../Data/Categories'
 import { useState } from 'react';
 import { FaPlus, FaStar } from "react-icons/fa";
-import { Fade, Slide } from 'react-reveal';
+import { Fade } from 'react-reveal';
 const Accessories = () => {
     const [data, setData] = useState(categories);
     console.log(data);

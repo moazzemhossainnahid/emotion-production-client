@@ -3,7 +3,7 @@ import { FaArrowRight, FaBox, FaBoxes, FaCheck, FaChevronDown, FaChevronUp, FaCu
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-
+import { Fade, Slide } from 'react-reveal';
 // import { ChevronUpIcon, ChevronDownIcon } from "@heroicons/react/solid";
 
 const questions = [
@@ -126,9 +126,12 @@ const Packaging = () => {
                 <div className='flex flex-col md:flex-row justify-around items-center gap-3 w-full md:w-5/6 mx-auto py-10 '>
                     {/*====================================== Food Packaging Left side  =============================*/}
                     <div className="w-full md:w-4/6 mx-auto">
-                        <h2 className="text-left text-3xl md:text-5xl font-bold text-white">About Food Packaging</h2>
-                        <p className='text-gray-200 text-left py-5'>Pellentesque et scelerisque nunc. Sed vel ipsum auctor, iaculis arcu quis, posuere dui. Duis condimentum nunc metus, maximus porta velit temporin. Intincidunt leo viverra, sodales ex eu, posuere purus. Duis in augue vestibulum, aliquet nulla vitae</p>
-
+                        <Fade left duration={1000}>
+                            <h2 className="text-left text-3xl md:text-5xl font-bold text-white">About Food Packaging</h2>
+                        </Fade>
+                        <Fade left duration={1500}>
+                            <p className='text-gray-200 text-left py-5'>Pellentesque et scelerisque nunc. Sed vel ipsum auctor, iaculis arcu quis, posuere dui. Duis condimentum nunc metus, maximus porta velit temporin. Intincidunt leo viverra, sodales ex eu, posuere purus. Duis in augue vestibulum, aliquet nulla vitae</p>
+                        </Fade>
                         <div className=" ">
                             <Slider {...settings}>
                                 <div>
@@ -194,16 +197,18 @@ const Packaging = () => {
                         <hr
                             class="my-8 h-0.5 border-t-0 bg-neutral-100 opacity-100 dark:opacity-50" />
                         <div className='grid grid-cols-1  sm:grid-cols-3 place-items-center gap-5'>
-                            <div className=''>
-                                <div className='pt-5 pb-3'>
-                                    <img className='w-12 hover:-translate-y-3 duration-300' src="https://i.ibb.co/SBxcwVG/ezgif-com-gif-maker.png" alt="" />
-                                </div>
+                            <Fade top duration={1000}>
                                 <div className=''>
-                                    <h2 className='my-2 text-left text-gray-200 text-2xl font-black'>Best Quality</h2>
-                                    <p className='text-gray-400 text-left '>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                                    <div className='pt-5 pb-3'>
+                                        <img className='w-12 hover:-translate-y-3 duration-300' src="https://i.ibb.co/SBxcwVG/ezgif-com-gif-maker.png" alt="" />
+                                    </div>
+                                    <div className=''>
+                                        <h2 className='my-2 text-left text-gray-200 text-2xl font-black'>Best Quality</h2>
+                                        <p className='text-gray-400 text-left '>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                                    </div>
                                 </div>
-                            </div>
-
+                            </Fade>
+                            <Fade bottom duration={2000}>
                             <div className=''>
                                 <div className='pt-5 pb-3'>
                                     <img className='w-12 hover:-translate-y-3 duration-300' src="https://i.ibb.co/sQPTxd2/ezgif-com-gif-maker-1.png" alt="" />
@@ -213,7 +218,8 @@ const Packaging = () => {
                                     <p className='text-gray-400 text-left '>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                                 </div>
                             </div>
-
+                            </Fade>
+                            <Fade top duration={1000}>
                             <div className=''>
                                 <div className='pt-5 pb-3'>
                                     <img className='w-8 hover:-translate-y-3 duration-300' src="https://i.ibb.co/8DFvvBd/ezgif-com-gif-maker-4.png" alt="" />
@@ -223,116 +229,128 @@ const Packaging = () => {
                                     <p className='text-gray-400 text-left '>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                                 </div>
                             </div>
+                            </Fade>
 
                         </div>
 
                     </div>
                     {/*====================================== Food Packaging Left side  =============================*/}
                     <div className="w-full md:w-2/6 md:-mt-44 ">
-                        <div className='w-80 mx-auto border-box-5 opacity-100   bg-stone-900 shadow-2xl shadow-stone-900/50 p-4 rounded border'>
-                            <h2 className='text-white text-center text-2xl mb-5 font-bold'>This Service Included</h2>
-                            <li className='flex justify-start items-center mb-3'>
-                                <span> <FaCut className='text-white font-black' /> </span>
-                                <span> <h3 className='text-white font-bold ml-3'>V-Cute</h3></span>
-                            </li>
-                            <li className='flex justify-start items-center mb-3'>
-                                <span> <FaBox className='text-white font-black' /> </span>
-                                <span> <h3 className='text-white font-bold ml-3'>Finish</h3></span>
-                            </li>
-                            <li className='flex justify-start items-center mb-3'>
-                                <span> <FaTruck className='text-white font-black' /> </span>
-                                <span> <h3 className='text-white font-bold ml-3'>Delivery</h3></span>
-                            </li>
-                            <li className='flex justify-start items-center mb-5'>
-                                <span> <FaBoxes className='text-white font-black' /> </span>
-                                <span> <h3 className='text-white font-bold ml-3'>500 pcs Packaging</h3></span>
-                            </li>
-                            <button type="button" class="text-white border focus:ring-4 focus:outline-none font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center ">
-                                Book Now
-                                <svg aria-hidden="true" class="w-5 h-5 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
-                            </button>
-                        </div>
-                        <div className='mt-5'>
-                            <div className="w-80  h-80 mx-auto relative bg-cover bg-center  flex justify-center items-center  " style={{ backgroundImage: "url('https://i.ibb.co/7t7L7Zw/background.jpg')" }}>
-                                <div className="absolute text-white text-center background">
-                                    <h1 className="text-3xl font-bold mb-4">Need For Some Help ?</h1>
-                                    <p className='mb-4'>Lorem ipsum dolor sit amet consectetur adipiscing elit dolor</p>
-
-                                    <div className=''>
-                                        <li className='flex justify-start items-center mb-6 pl-3'>
-                                            <span>
-                                                <FaPhone className='text-4xl mr-5' />
-                                            </span>
-                                            <span >
-                                                <h2 className='text-left text-4xl' >Phone</h2>
-                                                <p>(+62) 8152 254 239</p>
-                                            </span>
-                                        </li>
-
-                                        <li className='flex justify-start items-center pl-3'>
-                                            <span>
-                                                <FaEnvelope className='text-4xl mr-5' />
-                                            </span>
-                                            <span >
-                                                <h2 className='text-left text-4xl' >Email</h2>
-                                                <p>support@domain.com</p>
-                                            </span>
-                                        </li>
-                                    </div>
-
-                                </div>
+                        <Slide bottom duration={1000}>
+                            <div className='w-80 mx-auto border-box-5 opacity-100   bg-stone-900 shadow-2xl shadow-stone-900/50 p-4 rounded border'>
+                                <h2 className='text-white text-center text-2xl mb-5 font-bold'>This Service Included</h2>
+                                <li className='flex justify-start items-center mb-3'>
+                                    <span> <FaCut className='text-white font-black' /> </span>
+                                    <span> <h3 className='text-white font-bold ml-3'>V-Cute</h3></span>
+                                </li>
+                                <li className='flex justify-start items-center mb-3'>
+                                    <span> <FaBox className='text-white font-black' /> </span>
+                                    <span> <h3 className='text-white font-bold ml-3'>Finish</h3></span>
+                                </li>
+                                <li className='flex justify-start items-center mb-3'>
+                                    <span> <FaTruck className='text-white font-black' /> </span>
+                                    <span> <h3 className='text-white font-bold ml-3'>Delivery</h3></span>
+                                </li>
+                                <li className='flex justify-start items-center mb-5'>
+                                    <span> <FaBoxes className='text-white font-black' /> </span>
+                                    <span> <h3 className='text-white font-bold ml-3'>500 pcs Packaging</h3></span>
+                                </li>
+                                <button type="button" class="text-white border focus:ring-4 focus:outline-none font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center ">
+                                    Book Now
+                                    <svg aria-hidden="true" class="w-5 h-5 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                                </button>
                             </div>
+                        </Slide>
+                        <Slide bottom duration={2000}>
+                            <div className='mt-5'>
+                                <div className="w-80  h-80 mx-auto relative bg-cover bg-center  flex justify-center items-center  " style={{ backgroundImage: "url('https://i.ibb.co/7t7L7Zw/background.jpg')" }}>
+                                    <div className="absolute text-white text-center background">
+                                        <h1 className="text-3xl font-bold mb-4">Need For Some Help ?</h1>
+                                        <p className='mb-4'>Lorem ipsum dolor sit amet consectetur adipiscing elit dolor</p>
 
-                        </div>
+                                        <div className=''>
+                                            <li className='flex justify-start items-center mb-6 pl-3'>
+                                                <span>
+                                                    <FaPhone className='text-4xl mr-5' />
+                                                </span>
+                                                <span >
+                                                    <h2 className='text-left text-4xl' >Phone</h2>
+                                                    <p>(+62) 8152 254 239</p>
+                                                </span>
+                                            </li>
+
+                                            <li className='flex justify-start items-center pl-3'>
+                                                <span>
+                                                    <FaEnvelope className='text-4xl mr-5' />
+                                                </span>
+                                                <span >
+                                                    <h2 className='text-left text-4xl' >Email</h2>
+                                                    <p>support@domain.com</p>
+                                                </span>
+                                            </li>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </Slide>
                     </div>
 
                 </div>
                 {/*====================================== Why Us section  =============================*/}
-                <div className='flex flex-col md:flex-row justify-around items-center  mt-24 mb-24 '>
+                <div className='flex flex-col md:flex-row justify-around items-center py-10'>
 
-                    <div className="w-1/2  h-screen mx-auto relative bg-cover bg-center  flex justify-center items-center  " style={{ backgroundImage: "url('https://i.ibb.co/7t7L7Zw/background.jpg')" }}>
-                        <div className="absolute text-white text-center bottom-0 left-0 w-96 bg-red-950">
-                            <h1 className="text-2xl text-left font-bold p-3 ">We Production Best Packaging!</h1>
-                            <p className='mb-4  text-left p-3'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae repellat velit quod aliquam nesciunt eum labore! Aperiam ut temporibus praesentium! Maxime possimus totam velit numquam distinctio mollitia ab non eveniet! Lorem ipsum dolor sit amet consectetur adipiscing elit dolor</p>
-                            <li className='list-none text-2xl flex p-3 hover:text-green-900 hover:p-4 items-center text-left '><a href="#">View Project</a>
-                                <FaArrowRight className='ml-3' />
-                            </li>
-                        </div>
+                    <div className="w-full md:w-1/2 bg-[url('https://i.ibb.co/7t7L7Zw/background.jpg')] h-screen mx-auto relative bg-cover bg-center flex justify-center items-center">
+                        <Slide left duration={1000}>
+                            <div className="absolute text-white text-center bottom-0 left-0 p-4 md:w-2/3 bg-[#172F3B]">
+                                <h1 className="text-2xl md:text-3xl text-left font-bold p-3 ">We Production Best Packaging!</h1>
+                                <p className='mb-4 font-thin text-left p-3'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae repellat velit quod aliquam nesciunt eum labore! Aperiam ut temporibus praesentium! Maxime possimus totam velit numquam distinctio mollitia ab non eveniet! Lorem ipsum dolor sit amet consectetur adipiscing elit dolor</p>
+                                <li className='list-none text-xl flex p-3 hover:text-red-600 hover:p-4 h-10 hover:translate-x-3 duration-300 items-center text-left '>View Project
+                                    <FaArrowRight className='ml-3 mt-1 duration-300' />
+                                </li>
+                            </div>
+                        </Slide>
                     </div>
 
 
-                    <div className='w-1/2 ml-5'>
-                        <h1 className="text-2xl text-left font-bold p-3 text-white ">Accelerating Innovations In Packaging</h1>
-                        <p className='mb-4  text-left p-3 text-white'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae repellat velit quod aliquam nesciunt eum labore! Aperiam ut temporibus praesentium! Maxime possimus totam velit numquam distinctio mollitia ab non eveniet! Lorem ipsum dolor sit amet consectetur adipiscing elit dolor</p>
-                        <div className='mb-3'>
-                            <li className='list-none text-2xl flex p-3 text-white items-center text-left '>
-                                <img className='w-10 ' src="https://i.ibb.co/680ZbjT/Asset-1.png" alt="" />
-                                <h1 className='ml-4 font-black'>Best Quality Of Packaging</h1>
-                            </li>
-                            <p className='text-white text-left text-sm'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit soluta eum molestias libero saepe? Quis voluptatum blanditiis ea, soluta aspernatur perferendis pariatur inventore dolorum enim atque, voluptatibus, magni nemo corporis.\</p>
-                            <hr
-                                class="my-1 h-0.5 border-t-0 bg-neutral-100 opacity-100 dark:opacity-50" />
-                        </div>
-
-                        <div className='mb-3'>
-                            <li className='list-none text-2xl flex p-3 text-white items-center text-left '>
-                                <img className='w-10 ' src="https://i.ibb.co/64dyypp/Asset-3.png" alt="" />
-                                <h1 className='ml-4 font-black'>Creative Packaging</h1>
-                            </li>
-                            <p className='text-white text-left text-sm'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit soluta eum molestias libero saepe? Quis voluptatum blanditiis ea, soluta aspernatur perferendis pariatur inventore dolorum enim atque, voluptatibus, magni nemo corporis.\</p>
-                            <hr
-                                class="my-1 h-0.5 border-t-0 bg-neutral-100 opacity-100 dark:opacity-50" />
-                        </div>
-
-                        <div className='mb-3'>
-                            <li className='list-none text-2xl flex p-3 text-white items-center text-left '>
-                                <img className='w-10 ' src="https://i.ibb.co/r2f49yF/Asset-2.png" alt="" />
-                                <h1 className='ml-4 font-black'>Environmentally Friendly</h1>
-                            </li>
-                            <p className='text-white text-left text-sm'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit soluta eum molestias libero saepe? Quis voluptatum blanditiis ea, soluta aspernatur perferendis pariatur inventore dolorum enim atque, voluptatibus, magni nemo corporis.\</p>
-                            <hr
-                                class="my-1 h-0.5 border-t-0 bg-neutral-100 opacity-100 dark:opacity-50" />
-                        </div>
+                    <div className='w-full md:w-1/2 mx-auto bg-[#252525c3] px-5 md:px-20 py-1'>
+                        <Slide top>
+                            <h3 className="text-[50px] md:text-[120px] flex font-bold text-black"><Slide top duration={1000}>W</Slide> <Slide top duration={1500}>h</Slide> <Slide top duration={2000}>y</Slide> <span className="p-3"></span> <Slide top duration={2500}>U</Slide> <Slide top duration={3000}>s</Slide> </h3>
+                        </Slide>
+                        <Fade bottom>
+                            <h4 className="text-2xl md:text-4xl font-bold text-white uppercase text-center -mt-20 tracking-[7px] leading-10" style={{ fontFamily: "Rajdhani" }}>Accelerating Innovations In Packaging</h4>
+                        </Fade>
+                        <Fade right duration={1000}>
+                            <div className='mb-3 pt-10'>
+                                <li className='list-none text-2xl flex p-3 text-white items-center text-left '>
+                                    <img className='w-10 ' src="https://i.ibb.co/680ZbjT/Asset-1.png" alt="" />
+                                    <h1 className='ml-4 font-black'>Best Quality Of Packaging</h1>
+                                </li>
+                                <p className='text-white text-left text-sm pb-3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                                <hr class="my-1 h-0.5 border-t-0 bg-neutral-100 opacity-100 dark:opacity-50" />
+                            </div>
+                        </Fade>
+                        <Fade right duration={2000}>
+                            <div className='mb-3'>
+                                <li className='list-none text-2xl flex p-3 text-white items-center text-left '>
+                                    <img className='w-10 ' src="https://i.ibb.co/64dyypp/Asset-3.png" alt="" />
+                                    <h1 className='ml-4 font-black'>Creative Packaging</h1>
+                                </li>
+                                <p className='text-white text-left text-sm pb-3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                                <hr class="my-1 h-0.5 border-t-0 bg-neutral-100 opacity-100 dark:opacity-50" />
+                            </div>
+                        </Fade>
+                        <Fade right duration={3000}>
+                            <div className='mb-3'>
+                                <li className='list-none text-2xl flex p-3 text-white items-center text-left '>
+                                    <img className='w-10 ' src="https://i.ibb.co/r2f49yF/Asset-2.png" alt="" />
+                                    <h1 className='ml-4 font-black'>Environmentally Friendly</h1>
+                                </li>
+                                <p className='text-white text-left text-sm pb-3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                                <hr class="my-1 h-0.5 border-t-0 bg-neutral-100 opacity-100 dark:opacity-50" />
+                            </div>
+                        </Fade>
                     </div>
 
 
@@ -603,7 +621,7 @@ const Packaging = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </div >
     );
 };
 

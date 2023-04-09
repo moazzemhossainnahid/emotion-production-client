@@ -5,7 +5,7 @@ export const ProductData = [
         "title": "Black and white world",
         "desc": "Graphic Print, Work",
         "category": "",
-        "balance": "100.00"
+        "price": "100.00"
     },
     {
         "id": "2",
@@ -13,7 +13,7 @@ export const ProductData = [
         "title": "Yellow rain",
         "desc": "Graphic Print, Work",
         "category": "Mobile ",
-        "balance": "90.00"
+        "price": "90.00"
     },
     {
         "id": "3",
@@ -21,7 +21,7 @@ export const ProductData = [
         "title": "Various Posters",
         "desc": "Graphic Print, Work",
         "category": "Mobile ",
-        "balance": "45.00"
+        "price": "45.00"
     },
     {
         "id": "4",
@@ -29,7 +29,7 @@ export const ProductData = [
         "title": "This is more Important",
         "desc": "Graphic Print, Work",
         "category": "Web",
-        "balance": "52.00"
+        "price": "52.00"
     },
     {
         "id": "5",
@@ -37,7 +37,7 @@ export const ProductData = [
         "title": "Graphical frenzy",
         "desc": "Graphic Print, Work",
         "category": "Web ",
-        "balance": "67.00"
+        "price": "67.00"
     },
     {
         "id": "6",
@@ -45,7 +45,7 @@ export const ProductData = [
         "title": "Power of Mind",
         "desc": "Graphic Print, Work",
         "category": "Web ",
-        "balance": "70.00"
+        "price": "70.00"
     },
     {
         "id": "7",
@@ -53,7 +53,7 @@ export const ProductData = [
         "title": "In The Mind",
         "desc": "Graphic Print, Work",
         "category": "Uxui ",
-        "balance": "92.00"
+        "price": "92.00"
     },
     {
         "id": "8",
@@ -61,7 +61,7 @@ export const ProductData = [
         "title": "Different Duck",
         "desc": "Graphic Print, Work",
         "category": "Uxui ",
-        "balance": "120.00"
+        "price": "120.00"
     },
     {
         "id": "9",
@@ -69,7 +69,7 @@ export const ProductData = [
         "title": "Universe Poster",
         "desc": "Graphic Print, Work",
         "category": "Uxui",
-        "balance": "110.00"
+        "price": "110.00"
     },
     {
         "id": "10",
@@ -77,7 +77,7 @@ export const ProductData = [
         "title": "Stories About Berta",
         "desc": "Graphic Print, Work",
         "category": "Animation ",
-        "balance": "150.00"
+        "price": "150.00"
     },
     {
         "id": "11",
@@ -85,7 +85,7 @@ export const ProductData = [
         "title": "Animal house",
         "desc": "Graphic Print, Work",
         "category": "Animation ",
-        "balance": "99.00"
+        "price": "99.00"
     },
     {
         "id": "12",
@@ -93,7 +93,7 @@ export const ProductData = [
         "title": "Around the world",
         "desc": "Graphic Print, Work",
         "category": "Animation",
-        "balance": "60.00"
+        "price": "60.00"
     },
     {
         "id": "13",
@@ -101,7 +101,7 @@ export const ProductData = [
         "title": "Play City",
         "desc": "Graphic Print, Work",
         "category": "Animation ",
-        "balance": "99.00"
+        "price": "99.00"
     },
     {
         "id": "14",
@@ -109,7 +109,7 @@ export const ProductData = [
         "title": "World power",
         "desc": "Graphic Print, Work",
         "category": "Animation",
-        "balance": "60.00"
+        "price": "60.00"
     },
     {
         "id": "15",
@@ -117,7 +117,7 @@ export const ProductData = [
         "title": "Untitled Graphics",
         "desc": "Graphic Print, Work",
         "category": "Animation ",
-        "balance": "99.00"
+        "price": "99.00"
     },
     {
         "id": "16",
@@ -125,6 +125,6 @@ export const ProductData = [
         "title": "The Dark Knight Trilogy",
         "desc": "Graphic Print, Work",
         "category": "Animation",
-        "balance": "60.00"
+        "price": "60.00"
     }
 ]

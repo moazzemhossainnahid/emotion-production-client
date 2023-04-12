@@ -1,5 +1,4 @@
 import React from 'react';
-import Slider from "react-slick";
 import categories from '../../../Data/Categories'
 import { useState } from 'react';
 import { FaPlus, FaStar } from "react-icons/fa";
@@ -164,15 +163,15 @@ const Accessories = () => {
                     <button className='text-white bg-black p-3 ' onClick={() => filterResult('Animation')}>Animation </button>
                 </div>
                 <div>
-                    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 justify-around items-center mt-5'>
+                    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 justify-around items-center mt-5'>
                         {data.map((values) => {
                             const { id, name, picture, balance } = values;
                             return (
                                 <>
-                                    <div className='w-72 mx-auto bg-stone-900 ' key={id}>
-                                        <span className=''>
-                                            <img className='' src={picture} alt="" />
-                                        </span>
+                                    <div className='w-64 mx-auto group bg-stone-900 ' key={id}>
+                                        <div className='h-60 w-full overflow-hidden'>
+                                            <img className='transform h-full w-full object-fill group-hover:scale-110 relative transition duration-300' src={picture} alt="" />
+                                        </div>
                                         <div className='mt-3 border-t-sky-100 px-5 py-3'>
                                             {/* <p className='mt-5 text-white font-sans text-left mb-1'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas animi, consectetur quod asperiores sint minima ea sit provident aliquam possimus quo fugiat eum fuga. Ex deserunt officiis totam labore quasi!</p> */}
                                             <h2 className='text-left text-white font-black  text-xl'>{name}</h2>

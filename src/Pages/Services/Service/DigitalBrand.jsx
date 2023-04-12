@@ -74,17 +74,18 @@ const DigitalBrand = () => {
                 <div className="w-full md:w-1/2 mx-auto pt-7 md:pt-0 p-0">
                     <Slider {...settings}>
                         <div>
-                            <img className='md:h-[85vh] object-cover' src={"https://i.ibb.co/dK4QXQY/home-bg-01.jpg"} alt='' />
+                            <img className='md:h-[85vh] w-full object-cover' src={"https://i.ibb.co/zfrHFBp/17.png"} alt='' />
                         </div>
                         <div>
-                            <img className='md:h-[85vh] object-cover' src={"https://i.ibb.co/F6Pz9th/home-bg-03.jpg"} alt='' />
+                            <img className='md:h-[85vh] w-full object-cover' src={"https://i.ibb.co/Q9qyYg9/14.png"} alt='' />
                         </div>
                         <div>
-                            <img className='md:h-[85vh] object-cover' src={"https://i.ibb.co/ygJDzXx/home-bg-02.jpg"} alt='' />
+                            <img className='md:h-[85vh] w-full object-cover' src={"https://i.ibb.co/Lpx3MFV/4.png"} alt='' />
                         </div>
                     </Slider>
                 </div>
             </div>
+            
             {/*===========================our  Goal  =======================*/}
             <div className='grid grid-cols-1  sm:grid-cols-3 place-items-center mt-36 gap-5 w-full md:w-5/6 mx-auto'>
 
@@ -131,7 +132,7 @@ const DigitalBrand = () => {
 
                 <div className='w-full p-4'>
                     <Fade bottom>
-                        <img className=' w-full' src="https://i.ibb.co/sJ0chV2/ezgif-4-492a554f96.jpg" alt="" />
+                        <img className=' w-full h-96 object-cover rounded' src="https://i.ibb.co/t4hX8tS/verpakking-Balteum.jpg" alt="" />
                     </Fade>
                 </div>
 
@@ -247,7 +248,7 @@ const DigitalBrand = () => {
                 </div>
                 <div className='w-full p-4'>
                     <Slide right duration={1000}>
-                        <img className=' w-full' src="https://i.ibb.co/dbqvNrX/home-img-right.jpg" alt="" />
+                        <img className=' w-full h-96 object-cover rounded' src="https://i.ibb.co/cXg7Dqc/belladi-packaging.jpg" alt="" />
                     </Slide>
                 </div>
             </div>

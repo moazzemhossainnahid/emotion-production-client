@@ -25,7 +25,7 @@ const WebDesign = () => {
                 </Bounce>
                 <Bounce bottom>
                     <div className='w-full p-4'>
-                        <img className=' w-full' src="https://i.ibb.co/sJ0chV2/ezgif-4-492a554f96.jpg" alt="" />
+                        <img className=' w-full' src="https://i.ibb.co/TBGYp09/bag-with-measurements.jpg" alt="" />
                     </div>
                 </Bounce>
             </div>

@@ -135,23 +135,18 @@ const Packaging = () => {
                         <div className=" ">
                             <Slider {...settings}>
                                 <div>
-                                    <img src="https://i.ibb.co/ryhpJTS/paper-bags-with-take-away-food-and-coffee-cups-containers-1-e1656316684658-1.jpg" alt="slide 1" />
+                                    <img src="https://i.ibb.co/QMWgWDL/16.jpg" alt="slide 1" />
                                 </div>
                                 <div>
-                                    <img src="https://i.ibb.co/QHgrXcr/paper-bags-with-take-away-food-and-coffee-cups-containers-1-e1656316684658.jpg" alt="slide 2" />
+                                    <img src="https://i.ibb.co/yYSQf6g/15.jpg" alt="slide 2" />
                                 </div>
                                 <div>
-                                    <img src="https://i.ibb.co/X2fwh5P/the-idea-of-packaging-and-gift-a-box-for-an-autumn-or-winter-gift-with-sweets-and-dried-vegetables-1.jpg" alt="slide 3" />
+                                    <img src="https://i.ibb.co/Rjf09Bm/12.jpg" alt="slide 3" />
                                 </div>
                                 <div>
-                                    <img src="https://i.ibb.co/GsKkLM2/the-idea-of-packaging-and-gift-a-box-for-an-autumn-or-winter-gift-with-sweets-and-dried-vegetables-e.jpg" alt="slide 1" />
+                                    <img src="https://i.ibb.co/59D8Q53/4.jpg" alt="slide 4" />
                                 </div>
-                                <div>
-                                    <img src="https://i.ibb.co/Sm2ptTT/packages-of-sweet-dried-fruit-e1656317146758-1.jpg" alt="slide 2" />
-                                </div>
-                                <div>
-                                    <img src="https://i.ibb.co/r6Wx73b/packages-of-sweet-dried-fruit-e1656317146758.jpg" alt="slide 3" />
-                                </div>
+                                
                             </Slider>
                         </div>
                         <div className='mt-9 flex flex-col md:flex-row gap-2 justify-around items-center'>
@@ -208,6 +203,7 @@ const Packaging = () => {
                                     </div>
                                 </div>
                             </Fade>
+                            
                             <Fade bottom duration={2000}>
                                 <div className=''>
                                     <div className='pt-5 pb-3'>
@@ -263,7 +259,7 @@ const Packaging = () => {
                         </Slide>
                         <Slide bottom duration={2000}>
                             <div className='mt-5'>
-                                <div className="w-80  h-80 mx-auto relative bg-cover bg-center  flex justify-center items-center  " style={{ backgroundImage: "url('https://i.ibb.co/7t7L7Zw/background.jpg')" }}>
+                                <div className="w-80  h-80 mx-auto relative bg-cover bg-center  flex justify-center items-center  " style={{ backgroundImage: "url('https://i.ibb.co/FzDCtXG/7.jpg')" }}>
                                     <div className="absolute text-white text-center background">
                                         <h1 className="text-3xl font-bold mb-4">Need For Some Help ?</h1>
                                         <p className='mb-4'>Lorem ipsum dolor sit amet consectetur adipiscing elit dolor</p>
@@ -301,7 +297,7 @@ const Packaging = () => {
                 {/*====================================== Why Us section  =============================*/}
                 <div className='flex flex-col md:flex-row justify-around items-center py-10'>
 
-                    <div className="w-full md:w-1/2 bg-[url('https://i.ibb.co/7t7L7Zw/background.jpg')] h-screen mx-auto relative bg-cover bg-center flex justify-center items-center">
+                    <div className="w-full md:w-1/2 bg-[url('https://i.ibb.co/3W577y0/1.jpg')] h-screen mx-auto relative bg-cover bg-center flex justify-center items-center">
                         <Slide left duration={1000}>
                             <div className="absolute text-white text-center bottom-0 left-0 p-4 md:w-2/3 bg-[#172F3B]">
                                 <h1 className="text-2xl md:text-3xl text-left font-bold p-3 ">We Production Best Packaging!</h1>
@@ -381,11 +377,10 @@ const Packaging = () => {
                                             </div>
                                         </div>
                                     </div>
-                                    <img alt=""
-                                        class="object-cover w-full aspect-square group-hover:scale-110 transition duration-300 ease-in-out" src="https://i.ibb.co/thh30Q0/Beef-mince-package-mockup-02.jpg" />
+                                    <img alt="" class="object-cover w-full aspect-square group-hover:scale-110 transition duration-300 ease-in-out" src="https://i.ibb.co/dgk192G/11.jpg" />
                                 </div>
                             </div>
-
+                            
                             <div class='flex items-center justify-center '>
                                 <div class="  aspect-video bg-red-400 cursor-pointer rounded-xl relative group" >
                                     <div class="rounded-xl z-50 opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out cursor-pointer absolute from-black/80 to-transparent bg-gradient-to-t inset-x-0 -bottom-2 text-white flex items-end">
@@ -402,8 +397,7 @@ const Packaging = () => {
                                             </div>
                                         </div>
                                     </div>
-                                    <img alt=""
-                                        class="object-cover w-full aspect-square group-hover:scale-110 transition duration-300 ease-in-out" src="https://i.ibb.co/0jtB354/7-View-dark-edition.jpg" />
+                                    <img alt="" class="object-cover w-full aspect-square group-hover:scale-110 transition duration-300 ease-in-out" src="https://i.ibb.co/zQdqhf7/8.jpg" />
                                 </div>
                             </div>
                         </div>
@@ -425,8 +419,7 @@ const Packaging = () => {
                                             </div>
                                         </div>
                                     </div>
-                                    <img alt=""
-                                        class="object-cover w-full aspect-square group-hover:scale-110 transition duration-300 ease-in-out" src="https://i.ibb.co/p0P7q5D/Coffee-Pouch-Packaging-Mockup-01.jpg" />
+                                    <img alt="" class="object-cover w-full aspect-square group-hover:scale-110 transition duration-300 ease-in-out" src="https://i.ibb.co/MDT3qWv/6.jpg" />
                                 </div>
                             </div>
 
@@ -446,8 +439,7 @@ const Packaging = () => {
                                             </div>
                                         </div>
                                     </div>
-                                    <img alt=""
-                                        class="object-cover w-full aspect-square group-hover:scale-110 transition duration-300 ease-in-out" src="https://i.ibb.co/C5dmKfG/noodle-box-mockup-07-2.jpg" />
+                                    <img alt="" class="object-cover w-full aspect-square group-hover:scale-110 transition duration-300 ease-in-out" src="https://i.ibb.co/r5RGtkG/3.jpg" />
                                 </div>
                             </div>
 
@@ -467,8 +459,7 @@ const Packaging = () => {
                                             </div>
                                         </div>
                                     </div>
-                                    <img alt=""
-                                        class="object-cover w-full aspect-square group-hover:scale-110 transition duration-300 ease-in-out" src="https://i.ibb.co/p0P7q5D/Coffee-Pouch-Packaging-Mockup-01.jpg" />
+                                    <img alt=""  class="object-cover w-full aspect-square group-hover:scale-110 transition duration-300 ease-in-out" src="https://i.ibb.co/7VxrJZh/01.jpg" />
                                 </div>
                             </div>
 
@@ -570,7 +561,7 @@ const Packaging = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="w-full md:w-1/2 h-screen mx-auto relative bg-cover bg-center  flex justify-center items-center  " style={{ backgroundImage: "url('https://i.ibb.co/jR65LZT/backgrounds.jpg')" }}>
+                        <div className="w-full md:w-1/2 h-screen mx-auto relative bg-cover bg-center  flex justify-center items-center  " style={{ backgroundImage: "url('https://i.ibb.co/r5RGtkG/3.jpg')" }}>
                             <Slide right duration={1000}>
                                 <div className="absolute text-white text-center bottom-0 right-0 p-4 md:w-2/3 bg-[#172F3B]">
                                     <h1 className="text-2xl md:text-3xl text-left font-bold p-3 ">We Production Best Packaging!</h1>

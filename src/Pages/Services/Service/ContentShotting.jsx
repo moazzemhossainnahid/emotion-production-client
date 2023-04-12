@@ -44,7 +44,7 @@ const ContentShotting = () => {
             <div className='flex flex-col md:flex-row justify-between items-center gap-3'>
                 <div className="w-full md:w-1/2 p-0 md:pl-20 text-left space-y-5">
                     <Slide left duration={1000}>
-                        <p className=' text-left text-gray-500 mb-2'> autofocus tracking varies depending on shooting</p>
+                        <p className=' text-left text-gray-500 mb-2'>autofocus tracking varies depending on shooting</p>
                     </Slide>
                     <Slide left duration={1500}>
                         <h2 className="text-left font-thin text-3xl md:text-6xl text-white pb-10">Continuous Shooting speed and Availability</h2>
@@ -100,13 +100,13 @@ const ContentShotting = () => {
                         </div>
                     </div>
                     <div className='w-full md:w-1/2 overflow-hidden'>
-                        <img class="transform hover:scale-110 transition object-cover duration-300" src="https://i.ibb.co/HtTghY4/pexels-photo-1619654.jpg" alt="Your" />
+                        <img class="transform hover:scale-110 transition object-cover duration-300" src="https://i.ibb.co/cXg7Dqc/belladi-packaging.jpg" alt="Your" />
                     </div>
                 </div>
 
                 <div className='flex flex-col md:flex-row justify-around items-center gap-20 my-13 pb-5'>
                     <div className='w-full md:w-1/2 overflow-hidden'>
-                        <img class="transform hover:scale-110 transition duration-300" src="https://i.ibb.co/cDTPCBy/audio-cassette-cassette-tape-1626481.jpg" alt="Your" />
+                        <img class="transform hover:scale-110 transition duration-300" src="https://i.ibb.co/TBGYp09/bag-with-measurements.jpg" alt="Your" />
                     </div>
                     <div className='w-full md:w-1/2 md:px-20 '>
                         <p className='text-red-600 text-left font-mono'>Graphsic Design</p>
@@ -132,13 +132,13 @@ const ContentShotting = () => {
                         </div>
                     </div>
                     <div className='w-full md:w-1/2 overflow-hidden'>
-                        <img class="transform hover:scale-110 transition duration-300" src="https://i.ibb.co/QvHXBzs/blur-close-up-equipment-1034651.jpg" alt="Your" />
+                        <img class="transform hover:scale-110 transition duration-300" src="https://i.ibb.co/t4hX8tS/verpakking-Balteum.jpg" alt="Your" />
                     </div>
                 </div>
 
                 <div className='flex flex-col md:flex-row justify-around items-center gap-20 my-13 pb-5'>
                     <div className='w-full md:w-1/2 overflow-hidden'>
-                        <img class="transform  hover:scale-110 transition duration-300" src="https://i.ibb.co/CKBXvhT/template.png" alt="Your" />
+                        <img class="transform  hover:scale-110 transition duration-300" src="https://i.ibb.co/Rjf09Bm/12.jpg" alt="Your" />
                     </div>
                     <div className='w-full md:w-1/2 md:px-20 '>
                         <p className='text-red-600 text-left font-mono'>WEB DESIGN</p>
@@ -229,7 +229,7 @@ const ContentShotting = () => {
 
             {/*=====================  Video =================*/}
             <div className='my-24'>
-                <div className="bg-[url('https://i.ibb.co/10qkN6M/business-calligraphy-chinese-lanterns-1455969.jpg')] hover:bg-blend-darken bg-blend-exclusion backdrop-saturate-125 bg-white/30 h-screen w-full bg-cover bg-center hover:duration-300">
+                <div className="bg-[url('https://i.ibb.co/4YNfWBH/JOR08662.jpg')] hover:bg-blend-darken bg-blend-exclusion backdrop-saturate-125 bg-white/30 h-screen w-full bg-cover bg-center hover:duration-300">
                     <div className="flex flex-col justify-center items-center h-full">
                         <Fade bottom>
                             <a class="video-link absolute" target="_blank" href="" rel="nofollow"><img width="120" height="120" src="https://edusphere.radiantthemes.com/wp-content/uploads/2020/06/Video-Icon.png" class="attachment-full size-full" alt="" srcset="https://edusphere.radiantthemes.com/wp-content/uploads/2020/06/Video-Icon.png 120w, https://edusphere.radiantthemes.com/wp-content/uploads/2020/06/Video-Icon-100x100.png 100w" sizes="(max-width: 120px) 100vw, 120px" data-no-retina="" /></a>

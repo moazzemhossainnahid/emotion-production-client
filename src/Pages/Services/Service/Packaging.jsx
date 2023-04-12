@@ -576,7 +576,7 @@ const Packaging = () => {
                 </div>
                 {/*====================================== Testimonials Our Client Said  =============================*/}
             </div>
-            <div className='flex flex-col md:flex-row justify-around items-center gap-16 py-10 '>
+            {/* <div className='flex flex-col md:flex-row justify-around items-center gap-16 py-10 '>
                 <div className="w-full h-screen mx-auto relative bg-cover bg-center flex justify-center items-center  " style={{ backgroundImage: "url('https://i.ibb.co/tz7Fyxz/backgrounds12.jpg')" }}>
                     <div className='container mx-auto h-full '>
                         <Slide left duration={1000}>
@@ -643,7 +643,7 @@ const Packaging = () => {
                         </Slide>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </div >
     );
 };

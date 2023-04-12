@@ -73,21 +73,21 @@ const Accessories = () => {
             }
         ]
     };
-    var settings2 = {
-        className: "center",
-        centerMode: true,
-        autoplay: true,
-        infinite: true,
-        centerPadding: "60px",
-        slidesToShow: 3,
-        speed: 500,
-        autoplaySpeed: 3000,
-        rows: 1,
-        slidesPerRow: 2,
-        nextArrow: <SampleNextArrow />,
-        prevArrow: <SamplePrevArrow />,
+    // var settings2 = {
+    //     className: "center",
+    //     centerMode: true,
+    //     autoplay: true,
+    //     infinite: true,
+    //     centerPadding: "60px",
+    //     slidesToShow: 3,
+    //     speed: 500,
+    //     autoplaySpeed: 3000,
+    //     rows: 1,
+    //     slidesPerRow: 2,
+    //     nextArrow: <SampleNextArrow />,
+    //     prevArrow: <SamplePrevArrow />,
 
-    };
+    // };
     return (
         <div className='container mx-auto'>
             <div className='flex flex-col md:flex-row justify-between items-center gap-3 pb-32 overflow-hidden'>
@@ -124,13 +124,13 @@ const Accessories = () => {
                         <button className='text-white group-hover:bg-black p-3 mt-10 flex justify-start'>View Collection</button>
                     </div>
                     <div className='w-1/3'>
-                        <img className='w-full p-1' src="https://i.ibb.co/Y73WJzG/online-shopping.png" alt="" />
+                        <img className='w-full h-36 p-1' src="https://i.ibb.co/TRNYVCM/key-holder.png" alt="" />
                     </div>
                 </div>
 
                 <div className='flex justify-between group items-center gap-3 w-full h-full bg-stone-900	p-3 mx-auto'>
                     <div className='w-1/3'>
-                        <img className='w-full p-1' src="https://i.ibb.co/NnMJkHh/car.png" alt="" />
+                        <img className='w-full h-36 p-1' src="https://i.ibb.co/mXs3qNR/Package-belladi.jpg" alt="" />
                     </div>
                     <div className='w-2/3'>
                         <h2 className='text-white text-left font-black text-xl '>OFFER IN ACCESSORIES </h2>
@@ -146,7 +146,7 @@ const Accessories = () => {
                         <button className='text-white group-hover:bg-black p-3 mt-10 flex justify-start'>View Collection</button>
                     </div>
                     <div className='w-1/3'>
-                        <img className='w-full p-1' src="https://i.ibb.co/YytHML0/online-shop.png" alt="" />
+                        <img className='w-full h-36 p-1' src="https://i.ibb.co/JcFk1nn/Carabinier.jpg" alt="" />
                     </div>
                 </div>
 
@@ -204,8 +204,9 @@ const Accessories = () => {
 
             <div className='flex flex-col md:flex-row items-center justify-between gap-7 py-20'>
                 <div className='w-full md:w-1/2 mx-auto'>
-                    <div className="bg-[url('https://vonica.themekitify.com/wp-content/uploads/2023/02/m1_banner_04.jpg')] saturate-50 hover:saturate-100 duration-300 bg-cover bg-center h-96 relative">
-                        <div className=" flex flex-col w-5/6 mx-auto h-full justify-center items-center text-white text-center">
+                    <div className="duration-300 bg-cover bg-center group h-96 relative">
+                        <img src="https://i.ibb.co/MDT3qWv/6.jpg" alt="" className="w-full saturate-50 group-hover:saturate-100 relative h-full mix-blend-overlay" />
+                        <div className=" flex-col w-5/6 mx-auto h-full absolute top-0 left-12 flex justify-center items-center text-white text-center">
                             <h1 style={{ fontFamily: "Rajdhani" }} className="text-4xl font-bold uppercase text-left mb-4">Speak to The Team</h1>
                             <p className="text-lg text-center mb-8">Paragraph here Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                             <a href="#" className="border p-1 text-white font-bold py-2 px-4 rounded py-4 px-8 hover:bg-gray-200 hover:text-gray-600 ">
@@ -217,9 +218,10 @@ const Accessories = () => {
 
                 </div>
                 <div className='w-full md:w-1/2 mx-auto'>
-                    <div className="bg-[url('https://vonica.themekitify.com/wp-content/uploads/2023/02/m1_banner_05.jpg')] saturate-50 hover:saturate-100 duration-300 bg-cover bg-center h-96 relative">
-                        <div className=" flex flex-col w-5/6 mx-auto h-full justify-center items-center text-white text-center">
-                            {/* <img decoding="async" src="https://vonica.themekitify.com/wp-content/uploads/2023/02/m1_banner_05.jpg" alt="m1_banner_05" class="kitify-banner__img"/> */}
+                    <div className="duration-300 bg-cover group bg-center h-96 relative">
+                        <img src="https://i.ibb.co/dgk192G/11.jpg" alt="" className="w-full saturate-50 group-hover:saturate-100 relative h-full mix-blend-overlay" />
+
+                        <div className=" flex-col w-5/6 mx-auto h-full absolute top-0 left-12 flex justify-center items-center text-white text-center">
                             <h1 style={{ fontFamily: "Rajdhani" }} className="text-4xl font-bold uppercase text-left mb-4">Mountain Bike Guide</h1>
                             <p className="text-lg text-center mb-8">Paragraph here Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                             <a href="#" className="border  text-white font-bold py-4 px-8 hover:bg-gray-200 hover:text-gray-600  rounded">
@@ -231,7 +233,7 @@ const Accessories = () => {
 
             </div>
 
-            <div className=''>
+            {/* <div className=''>
                 <Slider {...settings1}>
                     <div>
                         <img src={"https://i.ibb.co/Vg3c2Gr/template-3.jpg"} />
@@ -262,9 +264,9 @@ const Accessories = () => {
                         <img src={" https://i.ibb.co/pZT8Ynp/template-7.jpg"} />
                     </div>
                 </Slider>
-            </div>
+            </div> */}
 
-            <div className='flex my-24 justify-center items-center bg-stone-900'>
+            {/* <div className='flex my-24 justify-center items-center bg-stone-900'>
                 <div className='w-3/12 ml-3'>
                     <h2 className='text-white text-left font-black text-4xl'>TOP BRAND</h2>
                     <p className='text-gray-400 text-left'> 1000+ Brand Collections</p>
@@ -301,7 +303,7 @@ const Accessories = () => {
                         </div>
                     </Slider>
                 </div>
-            </div>
+            </div> */}
 
             <div className='w-full md:w-5/6 mx-auto flex flex-col md:flex-row py-10 justify-around gap-7 items-center  '>
                 <div className='flex justify-around items-center border p-3 px-5 bg-[#252525c3] border-stone-900'>

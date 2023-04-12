@@ -7,8 +7,8 @@ const ProductsSec2 = () => {
             {
                 ProductData?.slice(8,16)?.map(pd => (
                     <div key={pd?.id} className="bg-[#252525c3] w-full group mx-auto pb-5">
-                        <div className="relative overflow-hidden">
-                            <img className='transform group-hover:scale-110 relative transition duration-300' src={pd?.picture} alt="" />
+                        <div className="relative h-80 overflow-hidden">
+                            <img className='transform h-full w-full object-fill group-hover:scale-110 relative transition duration-300' src={pd?.picture} alt="" />
                             <button className="bg-black text-white py-2 w-full group-hover:opacity-100 group-hover:translate-y-0 translate-y-10 transform transition duration-300 ease-in-out absolute bottom-0 left-0">View Product</button>
                         </div>
                         <div className="space-y-3 px-2">

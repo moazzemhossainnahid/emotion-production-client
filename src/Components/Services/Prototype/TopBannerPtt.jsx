@@ -46,8 +46,8 @@ const TopBannerPtt = () => {
                     data-te-carousel-item
                     style={{ backfaceVisibility: "hidden" }}>
                     <img
-                        src="https://tecdn.b-cdn.net/img/Photos/Slides/img%20(15).jpg"
-                        class="block object-fill h-[80vh] w-full"
+                        src="https://i.ibb.co/TBGYp09/bag-with-measurements.jpg"
+                        class="block object-cover mix-blend-overlay duration-75 h-[80vh] w-full"
                         alt="..." />
                     <div class="absolute space-y-5 inset-x-[15%] mb-40 bottom-5 hidden py-5 text-center text-white md:block">
                         <Slide top duration={1500}>
@@ -66,8 +66,8 @@ const TopBannerPtt = () => {
                     data-te-carousel-item
                     style={{ backfaceVisibility: "hidden" }}>
                     <img
-                        src="https://tecdn.b-cdn.net/img/Photos/Slides/img%20(22).jpg"
-                        class="block object-fill h-[80vh] w-full"
+                        src="https://i.ibb.co/zF6YNSN/BELLADI-TAG.jpg"
+                        class="block object-cover mix-blend-overlay duration-75 h-[80vh] w-full"
                         alt="..." />
                     <div class="absolute space-y-5 inset-x-[15%] mb-40 bottom-5 hidden py-5 text-center text-white md:block">
                         <Slide top duration={1500}>
@@ -86,8 +86,8 @@ const TopBannerPtt = () => {
                     data-te-carousel-item
                     style={{ backfaceVisibility: "hidden" }}>
                     <img
-                        src="https://tecdn.b-cdn.net/img/Photos/Slides/img%20(23).jpg"
-                        class="block object-fill h-[80vh] w-full"
+                        src="https://i.ibb.co/ccp7N5v/Belladi-package-3-D.jpg"
+                        class="block object-cover mix-blend-overlay duration-75 h-[80vh] w-full"
                         alt="..." />
                     <div class="absolute space-y-5 inset-x-[15%] mb-40 bottom-5 hidden py-5 text-center text-white md:block">
                         <Slide top duration={1500}>

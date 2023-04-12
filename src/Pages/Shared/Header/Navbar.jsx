@@ -413,13 +413,13 @@ const Navbar = ({ handleThemeChange, theme }) => {
 
             {/* Put this part before </body> tag */}
             <input type="checkbox" id="my-modal-3" className="modal-toggle" />
-            <div className="modal z-50 h-screen w-full">
-                <div className="modal-box w-11/12 max-w-5xl relative bg-[#000000]">
+            <div className="modal z-50 h-screen w-full overflow-hidden">
+                <div className="modal-box w-11/12 max-w-5xl overflow-hidden relative bg-[#000000] ">
                     <label htmlFor="my-modal-3" className="btn btn-sm btn-circle absolute right-2 top-2">✕</label>
                     <div className="text-white">
                         <div className="flex items-center min-h-full p-4 lg:justify-center">
                             <div className="flex flex-col overflow-hidden mx-auto bg-transparent rounded-md shadow-lg max md:flex-row md:flex-1 lg:max-w-screen-md drop-shadow-2xl">
-                                <div className="hidden p-4 py-6 text-white text-start bg-transparent md:w-80 md:flex-shrink-0 md:flex md:flex-col md:items-center md:justify-evenly">
+                                <div className="hidden p-3 text-white text-start bg-transparent md:w-80 md:flex-shrink-0 md:flex md:flex-col md:items-center md:justify-evenly">
                                     <h3 className="text-5xl font-bold text-start">Contact US</h3>
                                     <h3 className="text-2xl font-semibold">We'd Love to Hear from You</h3>
                                     <p className="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quo commodi ratione obcaecati dolores quos sunt sed rerum laborum? Vel!</p>
@@ -431,14 +431,14 @@ const Navbar = ({ handleThemeChange, theme }) => {
                                         <span className="text-xl p-1 bg-white text-gray-600"><FaLinkedin /></span>
                                     </div>
                                 </div>
-                                <div className="p-5 bg-transparent md:flex-1">
+                                <div className="p-3 bg-transparent md:flex-1">
                                     <h3 className="my-4 text-3xl font-bold text-[#A25BF7] text-center ">
                                         Contact Form
                                     </h3>
                                     <form
                                         onSubmit={handleSubmit(onSubmit)}
                                         action="#"
-                                        className="flex flex-col"
+                                        className="flex flex-col space-y-2"
                                     >
                                         <div className="flex flex-col space-y-1">
                                             <label
@@ -458,7 +458,7 @@ const Navbar = ({ handleThemeChange, theme }) => {
                                                     }
                                                 })}
                                             />
-                                            <label className="label">
+                                            {/* <label className="label">
                                                 {errors.name?.type === "required" && (
                                                     <span className="label-text-alt text-red-700">
                                                         {errors.name.message}
@@ -469,7 +469,7 @@ const Navbar = ({ handleThemeChange, theme }) => {
                                                         {errors.name.message}
                                                     </span>
                                                 )}
-                                            </label>
+                                            </label> */}
                                         </div>
                                         <div className="flex flex-col space-y-1">
                                             <label
@@ -489,7 +489,7 @@ const Navbar = ({ handleThemeChange, theme }) => {
                                                     }
                                                 })}
                                             />
-                                            <label className="label">
+                                            {/* <label className="label">
                                                 {errors.phone?.type === "required" && (
                                                     <span className="label-text-alt text-red-700">
                                                         {errors.phone.message}
@@ -500,7 +500,7 @@ const Navbar = ({ handleThemeChange, theme }) => {
                                                         {errors.phone.message}
                                                     </span>
                                                 )}
-                                            </label>
+                                            </label> */}
                                         </div>
                                         <div className="flex flex-col space-y-1">
                                             <label
@@ -524,7 +524,7 @@ const Navbar = ({ handleThemeChange, theme }) => {
                                                     },
                                                 })}
                                             />
-                                            <label className="label">
+                                            {/* <label className="label">
                                                 {errors.email?.type === "required" && (
                                                     <span className="label-text-alt text-red-700">
                                                         {errors.email.message}
@@ -535,7 +535,7 @@ const Navbar = ({ handleThemeChange, theme }) => {
                                                         {errors.email.message}
                                                     </span>
                                                 )}
-                                            </label>
+                                            </label> */}
                                         </div>
                                         <div className="flex flex-col space-y-1">
                                             <label

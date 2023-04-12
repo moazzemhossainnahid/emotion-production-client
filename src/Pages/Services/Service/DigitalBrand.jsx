@@ -319,19 +319,20 @@ const DigitalBrand = () => {
             <div >
                 <Slide bottom duration={1000}>
                     <div className='flex flex-col md:flex-row justify-between items-center  mt-36 w-full md:w-5/6 mx-auto'>
-                        <div class="w-64 h-64 overflow-hidden">
-                            <img class="transform hover:scale-110 transition duration-300" src="https://i.ibb.co/bdDjSMb/home-work-01-crop-u15974.jpg" alt="Your" />
+                        <div class="w-64 h-80 overflow-hidden">
+                            <img class="transform object-cover hover:scale-110 transition duration-300" src="https://i.ibb.co/JcFk1nn/Carabinier.jpg" alt="Your" />
                         </div>
-                        <div class="w-64 h-64 overflow-hidden">
-                            <img class="transform hover:scale-110 transition duration-300" src="https://i.ibb.co/vqKB8FW/home-work-02-crop-u18578.jpg" alt="Your" />
+                        <div class="w-64 h-80 overflow-hidden">
+                            <img class="transform object-cover hover:scale-110 transition duration-300" src="https://i.ibb.co/jGgmfN6/Carabinier-black.jpg" alt="Your" />
                         </div>
-                        <div class="w-64 h-64 overflow-hidden">
-                            <img class="transform hover:scale-110 transition duration-300" src="https://i.ibb.co/dpFmsjM/home-work-03-crop-u18631.jpg" alt="Your" />
+                        <div class="w-64 h-80 overflow-hidden">
+                            <img class="transform object-cover hover:scale-110 transition duration-300" src="https://i.ibb.co/N6PdV7z/carabinier-Black-red.jpg" alt="Your" />
                         </div>
-                        <div class="w-64 h-64 overflow-hidden">
-                            <img class="transform hover:scale-110 transition duration-300" src="https://i.ibb.co/wKw0GgT/home-work-04-crop-u18684.jpg" alt="Your" />
+                        <div class="w-64 h-80 overflow-hidden">
+                            <img class="transform object-cover hover:scale-110 transition duration-300" src="https://i.ibb.co/gZvmtB3/3d-view-2.jpg" alt="Your" />
                         </div>
                     </div>
+
                 </Slide>
                 <Slide top duration={1000}>
                     <h2 className='text-white text-center text-2xl md:text-4xl font-black my-5 pb-4 pt-10'>Want to showcase your business?</h2>

@@ -17,7 +17,7 @@ const Banner = () => {
                 </Fade>
                 <input type="checkbox" id="my-modal-5" className="modal-toggle" />
                 <div className="modal">
-                    <div className="modal-box max-w-2xl rounded-lg bg-base-300 p-4">
+                    <div className="modal-box w-11/12 max-w-5xl rounded-lg bg-base-300 p-4">
                         <iframe
                             className="mx-auto w-full lg:h-96 h-48 md:h-96 rounded-lg"
                             src="https://www.youtube.com/embed/NsWz_3KmCdY"

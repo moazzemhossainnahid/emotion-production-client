@@ -231,9 +231,35 @@ const ContentShotting = () => {
             <div className='my-24'>
                 <div className="bg-[url('https://i.ibb.co/4YNfWBH/JOR08662.jpg')] hover:bg-blend-darken bg-blend-exclusion backdrop-saturate-125 bg-white/30 h-screen w-full bg-cover bg-center hover:duration-300">
                     <div className="flex flex-col justify-center items-center h-full">
-                        <Fade bottom>
-                            <a class="video-link absolute" target="_blank" href="" rel="nofollow"><img width="120" height="120" src="https://edusphere.radiantthemes.com/wp-content/uploads/2020/06/Video-Icon.png" class="attachment-full size-full" alt="" srcset="https://edusphere.radiantthemes.com/wp-content/uploads/2020/06/Video-Icon.png 120w, https://edusphere.radiantthemes.com/wp-content/uploads/2020/06/Video-Icon-100x100.png 100w" sizes="(max-width: 120px) 100vw, 120px" data-no-retina="" /></a>
-                        </Fade>
+                    <Fade bottom>
+                    <div className="hero-content text-center text-neutral-content">
+                        <label htmlFor="my-modal-5" className="w-full modal-button">
+                            <h1 className="bg-white w-full h-full hover:bg-white btn hover:bg-opacity-60 bg-opacity-40 btn-circle text-white text-3xl">
+                                <img width="120" height="120" src="https://edusphere.radiantthemes.com/wp-content/uploads/2020/06/Video-Icon.png" class="attachment-full size-full" alt="" srcset="https://edusphere.radiantthemes.com/wp-content/uploads/2020/06/Video-Icon.png 120w, https://edusphere.radiantthemes.com/wp-content/uploads/2020/06/Video-Icon-100x100.png 100w" sizes="(max-width: 120px) 100vw, 120px" data-no-retina="" />
+                                {/* <i className="fa-solid fa-circle-play bg-red-600 rounded-full"></i> */}
+                            </h1>
+                        </label>
+                    </div>
+                </Fade>
+                <input type="checkbox" id="my-modal-5" className="modal-toggle" />
+                <div className="modal">
+                    <div className="modal-box w-11/12 max-w-5xl rounded-lg bg-base-300 p-4">
+                        <iframe
+                            className="mx-auto w-full lg:h-96 h-48 md:h-96 rounded-lg"
+                            src="https://www.youtube.com/embed/XFNSqxa-9gY"
+                            title="YouTube video player"
+                            frameBorder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowFullScreen
+                        ></iframe>
+                        <div className="modal-action mt-3">
+                            <label htmlFor="my-modal-5" className="btn btn-primary btn-sm text-white">
+                                Close
+                            </label>
+
+                        </div>
+                    </div>
+                </div>
                     </div>
                 </div>
             </div>

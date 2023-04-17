@@ -414,7 +414,7 @@ const Navbar = ({ handleThemeChange, theme }) => {
             {/* Put this part before </body> tag */}
             <input type="checkbox" id="my-modal-3" className="modal-toggle" />
             <div className="modal z-50 h-screen w-full overflow-hidden">
-                <div className="modal-box w-11/12 max-w-5xl bg-[url('https://i.ibb.co/CHCgRJv/Schermafbeelding-2021-02-25-om-01-50-16-1.png')] bg-cover overflow-hidden relative bg-[#000000] ">
+                <div className="modal-box w-11/12 max-w-5xl bg-[url('https://i.ibb.co/g6RtRmC/JOR08547-1.jpg')] bg-cover overflow-hidden relative bg-[#000000] ">
                     <label htmlFor="my-modal-3" className="btn btn-sm btn-circle absolute right-2 top-2">✕</label>
                     <div className="text-white">
                         <div className="flex items-center min-h-full p-4 lg:justify-center">

@@ -414,7 +414,7 @@ const Navbar = ({ handleThemeChange, theme }) => {
             {/* Put this part before </body> tag */}
             <input type="checkbox" id="my-modal-3" className="modal-toggle" />
             <div className="modal z-50 h-screen w-full overflow-hidden">
-                <div className="modal-box w-11/12 max-w-5xl overflow-hidden relative bg-[#000000] ">
+                <div className="modal-box w-11/12 max-w-5xl bg-[url('https://i.ibb.co/CHCgRJv/Schermafbeelding-2021-02-25-om-01-50-16-1.png')] bg-cover overflow-hidden relative bg-[#000000] ">
                     <label htmlFor="my-modal-3" className="btn btn-sm btn-circle absolute right-2 top-2">✕</label>
                     <div className="text-white">
                         <div className="flex items-center min-h-full p-4 lg:justify-center">
@@ -432,7 +432,7 @@ const Navbar = ({ handleThemeChange, theme }) => {
                                     </div>
                                 </div>
                                 <div className="p-3 bg-transparent md:flex-1">
-                                    <h3 className="my-4 text-3xl font-bold text-[#A25BF7] text-center ">
+                                    <h3 className="my-4 text-3xl font-bold text-yellow-300 text-center ">
                                         Contact Form
                                     </h3>
                                     <form
@@ -566,7 +566,7 @@ const Navbar = ({ handleThemeChange, theme }) => {
 
                                             <button
                                                 type="submit"
-                                                className="w-full px-4 py-2 text-lg font-semibold text-white transition-colors duration-300 bg-gradient-to-r from-[#4828A9] to-[#A25BF7] rounded-md shadow  hover:bg-gradient-to-l focus:outline-none focus:ring-blue-200 focus:ring-4"
+                                                className="w-full px-4 py-2 text-lg font-semibold text-gray-700 transition-colors duration-300 bg-gradient-to-r from-[#bfcc35] to-[#fff30a] rounded-md shadow  hover:bg-gradient-to-l focus:outline-none focus:ring-blue-200 focus:ring-4"
                                             >
                                                 Send
                                             </button>

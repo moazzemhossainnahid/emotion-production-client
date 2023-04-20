@@ -19,11 +19,12 @@ import WebDesign from './Pages/Services/Service/WebDesign';
 import Footer from './Pages/Shared/Footer/Footer';
 
 import Navbar from './Pages/Shared/Header/Navbar';
+import UnderConstruction from './Components/Others/UnderConstruction';
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
+      {/* <Navbar />
       <Routes>
         <Route path='/' element={<Home />}>
           <Route index element={<Company />} />
@@ -44,7 +45,8 @@ function App() {
         <Route path='blogs/:id' element={<SingleBlog />} />
         <Route path='*' element={<NotFound />} />
       </Routes>
-      <Footer />
+      <Footer /> */}
+      <UnderConstruction/>
     </div>
   );
 }

@@ -24,7 +24,7 @@ import UnderConstruction from './Components/Others/UnderConstruction';
 function App() {
   return (
     <div className="App">
-      {/* <Navbar />
+      <Navbar />
       <Routes>
         <Route path='/' element={<Home />}>
           <Route index element={<Company />} />
@@ -45,8 +45,8 @@ function App() {
         <Route path='blogs/:id' element={<SingleBlog />} />
         <Route path='*' element={<NotFound />} />
       </Routes>
-      <Footer /> */}
-      <UnderConstruction/>
+      <Footer />
+      {/* <UnderConstruction/> */}
     </div>
   );
 }

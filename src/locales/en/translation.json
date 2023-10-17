@@ -61,35 +61,110 @@
       "s8": "Accessories"
     }
   },
-  "aboutUsPage":{
-"aboutEP":{
-  "title":"About Emotion Production",
-  "desc1":"Planning to launch your start-up?",
-  "desc2":"Or do you want to avoid waiting for potential customers and not getting the right reach on the internet?",
-  "desc3":"Well, we have a solution to all your problems!",
-  "desc4":"Emotion Production is the one-stop solution to all your hurdles—partner with us to improve your branding and make your presence and impact in the digital world. We aim to support and help grow small businesses and create a better market for all. From reaching the right connections to effectively marketing your skills and product, we have all the resources and services. You can find anything from logo printing to advisory on marketing strategy here. We understand the brand, making procedures deploy, and we take care of minor details that choose your path of growing into a brand.",
-  "desc5":"From prototype making to launching your products, marketing, and delivering, we are there for you at each step. Not only that, but we also take care of your business image, and from tailored suits for you to wear to meetings to sending out souvenirs, our team can manage it all."
-},
-"mission":{
-  "title":"Mission",
-  "desc":"At Emotion Production, we believe that each business has a right to become a brand, and we provide a helping hand to reach that dream position. From guiding them about packaging and marketing to solving their regular logistic issues, we are problem solvers to have their path to success. We aim to see more small businesses grow into big names and impact the world market with innovative ideas, exceptional products, and unbeatable zest."
-},
-"vision":{
-  "title":"Vision",
-  "desc":"We see the future of world economics as more diverse and extensive, with many brands on the map rather than just a few dots on the graph. Expanding the market will give consumers and business owners more chances to have different tastes and options. So, we envision ourselves as a leading brand-making agency or service provider that plays a vital role in building up many of the big names that will shine on the economic forum of the globe."
-},
-"faq":{
-  "title":"Frequently Asked Questions",
-  "desc":"Here is the Set of Questionaries May be comes up on your mind.If You do have have more question, You Can Contact Us",
-  "t1":"What kind of services do you offer?",
-  "d1":"We offer business marketing, packaging, digital platform design, and management services. In addition, we have advisory and strategy-making services that you can avail of.",
-  "t2":"Do you provide fashion products and accessories?",
-  "d2":"Yes, we have fabric, and in the fashion products range, from tailored suits to accessories and other items, we have much more to offer our clients.",
-  "t3":"Does working with multiple businesses of the same domain affect performance?",
-  "d3":"We understand the conflict of interest scenario, so we have separate teams or agents dedicated to each business. Even if we have multiple companies from the same category, we give each our 100 percent without any issues.",
-  "t4":"Are your products eco-friendly?",
-  "d4":"Yes, all of our packaging is biodegradable and eco-friendly. Also, we keep care that we use less synthetic products and have minimal waste production to help the environmental cause."
-}
+  "aboutUsPage": {
+    "aboutEP": {
+      "title": "About Emotion Production",
+      "desc1": "Planning to launch your start-up?",
+      "desc2": "Or do you want to avoid waiting for potential customers and not getting the right reach on the internet?",
+      "desc3": "Well, we have a solution to all your problems!",
+      "desc4": "Emotion Production is the one-stop solution to all your hurdles—partner with us to improve your branding and make your presence and impact in the digital world. We aim to support and help grow small businesses and create a better market for all. From reaching the right connections to effectively marketing your skills and product, we have all the resources and services. You can find anything from logo printing to advisory on marketing strategy here. We understand the brand, making procedures deploy, and we take care of minor details that choose your path of growing into a brand.",
+      "desc5": "From prototype making to launching your products, marketing, and delivering, we are there for you at each step. Not only that, but we also take care of your business image, and from tailored suits for you to wear to meetings to sending out souvenirs, our team can manage it all."
+    },
+    "mission": {
+      "title": "Mission",
+      "desc": "At Emotion Production, we believe that each business has a right to become a brand, and we provide a helping hand to reach that dream position. From guiding them about packaging and marketing to solving their regular logistic issues, we are problem solvers to have their path to success. We aim to see more small businesses grow into big names and impact the world market with innovative ideas, exceptional products, and unbeatable zest."
+    },
+    "vision": {
+      "title": "Vision",
+      "desc": "We see the future of world economics as more diverse and extensive, with many brands on the map rather than just a few dots on the graph. Expanding the market will give consumers and business owners more chances to have different tastes and options. So, we envision ourselves as a leading brand-making agency or service provider that plays a vital role in building up many of the big names that will shine on the economic forum of the globe."
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "desc": "Here is the Set of Questionaries May be comes up on your mind.If You do have have more question, You Can Contact Us",
+      "t1": "What kind of services do you offer?",
+      "d1": "We offer business marketing, packaging, digital platform design, and management services. In addition, we have advisory and strategy-making services that you can avail of.",
+      "t2": "Do you provide fashion products and accessories?",
+      "d2": "Yes, we have fabric, and in the fashion products range, from tailored suits to accessories and other items, we have much more to offer our clients.",
+      "t3": "Does working with multiple businesses of the same domain affect performance?",
+      "d3": "We understand the conflict of interest scenario, so we have separate teams or agents dedicated to each business. Even if we have multiple companies from the same category, we give each our 100 percent without any issues.",
+      "t4": "Are your products eco-friendly?",
+      "d4": "Yes, all of our packaging is biodegradable and eco-friendly. Also, we keep care that we use less synthetic products and have minimal waste production to help the environmental cause."
+    }
+  },
+  "services": {
+    "digitalBrandPage": {
+      "subTitle": "Crafting the Future of Digital Brands",
+      "title": "Branding & Digital Agency",
+      "topCrd": {
+        "crd1": {
+          "title": "Expertise speaks volume",
+          "desc": "We shape your digital identities with mastery. The expertise of our team is beyond measure, and we have honed our skills to help you make impactful digital identities. We have covered you with our unmatched expertise, from brand strategy to digital design."
+        },
+        "crd2": {
+          "title": "Tailored excellence",
+          "desc": "Since every brand is unique, we utilize a customized approach to cater to your needs. Our tailored solutions reflect your brand’s essence and audience. We believe in personalized experience and collaborate with you, ensuring you get a digital identity that truly represents you."
+        },
+        "crd3": {
+          "title": "Results that resonate",
+          "desc": "Beyond aesthetics, we believe in building brands that drive real-world, impactful results. We ensure our branding strategies resonate with the targeted audience. With a focus on making worthy connections and shaping digital identities, our team of experts is dedicated to building brands that thrive in the digital world."
+        }
+      },
+      "digitalStart": {
+        "title": "Perfect Digital Start",
+        "desc": "Our digital wizards and technology geeks conjure intuitive and unique websites that reflect your brand's heartbeat. We put in our efforts to drive engagement and conversions. With a blend of artistry and technical finesse, we craft digital destinations that captivate and convert.",
+        "cards": {
+          "crd1": {
+            "title": "Research",
+            "desc": "Research fuels our strategies to ignite the path of the digital journey. We immerse ourselves in your industry and analyze competitors to set your brand apart. This way, we understand the DNA of your niche and identify hidden gems that others miss."
+          },
+          "crd2": {
+            "title": "Brand Strategy",
+            "desc": "Crafting powerful brand strategies that connect with your audience is our strength. By understanding your beliefs, goals, vision, and values, we formulate a plan that guides every digital interaction. It's more than getting noticed and making a lasting impression."
+          },
+          "crd3": {
+            "title": "Naming",
+            "desc": "Haven't you decided on the names of your brands? From sophisticated titles to playful monikers, you can get creative name ideas that encapsulate your brand's essence. Further, we create names that stay in our minds for years and effortlessly roll off tongues. "
+          },
+          "crd4": {
+            "title": "Web & Digital",
+            "desc": "Our digital wizards and technology geeks conjure intuitive and unique websites that reflect your brand's heartbeat. We put in our efforts to drive engagement and conversions. With a blend of artistry and technical finesse, we craft digital destinations that captivate and convert."
+          },
+          "crd5": {
+            "title": "Content Creation",
+            "desc": "Our team of wordsmiths creates content that echoes your brand's soul. Whether you want to educate, inspire, or entertain your audience, we have you covered."
+          },
+          "crd6": {
+            "title": "Consulting",
+            "desc": "What's better than a reliable guide that helps you navigate the digital world? With our consulting service, you can easily navigate the digital sea. Our experts help you understand data and new trends and stay on the right track that leads to success."
+          }
+        },
+        "innApp": {
+          "title": "Innovative Approach",
+          "desc": "We believe in thinking differently, so we take in new creative ideas to give you unique designs every time. We have a team that brainstorms new approaches and applies strategies that are unique in their way, so you get branding strategies that are unpredictable and gain higher response."
+        },
+        "digiExp": {
+          "title": "Digital Experts ",
+          "desc": "We are visionaries who breathe life into your brand through innovative designs. Our experts strive hard to stay ahead by watching for upcoming trends. We decode them before they happen and utilize cutting-edge strategies to boost your digital presence. "
+        },
+        "showcase": {
+          "title": "Want to showcase your business?",
+          "cards": {
+            "crd1": {
+              "title": "Briefing",
+              "desc": "We pay attention to the minutest details, so what you have in mind comes to reality. We draft a personalized game plan and strategy to fit your needs and goals and see the future as you envisioned to deliver the expected results."
+            },
+            "crd2": {
+              "title": "Brand Strategy",
+              "desc": "Our brand strategies are not one-size-fits-all. We crave a separate stencil to set the strategy that fits your business model. Each branding campaign and blueprint is unique and personalized. Our vital core strategic planning sets the stage for your campaign and gives your business reach beyond expectations.."
+            },
+            "crd3": {
+              "title": "Perfect Designs",
+              "desc": "We create the most fascinating and artistic designs for your websites and apps. Each feature will reflect your brand message and theory, from logos to background themes. We blend in the aesthetics and simplicity so you get the artistic touch without overwhelming it. Keep your users captivated by our design's beauty while you effectively communicate your message and services. "
+            }
+          }
+        }
+      }
+    }
   },
   "greeting": "Hello, world!",
   "content": "This is a React website.",

@@ -1,3 +1,4 @@
+import { t } from 'i18next';
 import React from 'react';
 import Rotate from 'react-reveal/Rotate';
 import Zoom from 'react-reveal/Zoom';
@@ -5,16 +6,15 @@ import Zoom from 'react-reveal/Zoom';
 const OurWorks = () => {
     return (
         <div className='container p-3 md:p-1 w-full md:w-5/6 mx-auto py-10'>
-            <div className="flex flex-col md:flex-row justify-between items-center gap-5 md:py-20">
+            <div className="flex flex-col md:flex-row justify-between items-center gap-10 md:py-20">
                 <div className="text-white md:text-start order-2 md:order-1">
                     <Zoom left>
-                        <h3 className="text-3xl md:text-4xl">Lorem Ipsum is simply</h3>
+                        <h3 className="text-3xl md:text-4xl">{t("homepage.digitalSuccess.title")}</h3>
                     </Zoom>
-                    <div className="pt-3">
+                    <div className="pt-5">
                         <Zoom bottom>
-                            <p className="tracking-widest text-justify"></p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has <br />
-                            been the industry's standard dummy text ever since the 1500s, when an unknown printer took a <br />
-                            galley of type and scrambled it to make a type specimen book. <br />
+                            <p className="tracking-widest text-justify">{t("homepage.digitalSuccess.desc1")}</p> <br />
+                            <p className="tracking-widest text-justify">{t("homepage.digitalSuccess.desc2")}</p> <br />
                         </Zoom>
                     </div>
                 </div>

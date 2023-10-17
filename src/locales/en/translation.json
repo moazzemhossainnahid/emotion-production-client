@@ -61,6 +61,36 @@
       "s8": "Accessories"
     }
   },
+  "aboutUsPage":{
+"aboutEP":{
+  "title":"About Emotion Production",
+  "desc1":"Planning to launch your start-up?",
+  "desc2":"Or do you want to avoid waiting for potential customers and not getting the right reach on the internet?",
+  "desc3":"Well, we have a solution to all your problems!",
+  "desc4":"Emotion Production is the one-stop solution to all your hurdles—partner with us to improve your branding and make your presence and impact in the digital world. We aim to support and help grow small businesses and create a better market for all. From reaching the right connections to effectively marketing your skills and product, we have all the resources and services. You can find anything from logo printing to advisory on marketing strategy here. We understand the brand, making procedures deploy, and we take care of minor details that choose your path of growing into a brand.",
+  "desc5":"From prototype making to launching your products, marketing, and delivering, we are there for you at each step. Not only that, but we also take care of your business image, and from tailored suits for you to wear to meetings to sending out souvenirs, our team can manage it all."
+},
+"mission":{
+  "title":"Mission",
+  "desc":"At Emotion Production, we believe that each business has a right to become a brand, and we provide a helping hand to reach that dream position. From guiding them about packaging and marketing to solving their regular logistic issues, we are problem solvers to have their path to success. We aim to see more small businesses grow into big names and impact the world market with innovative ideas, exceptional products, and unbeatable zest."
+},
+"vision":{
+  "title":"Vision",
+  "desc":"We see the future of world economics as more diverse and extensive, with many brands on the map rather than just a few dots on the graph. Expanding the market will give consumers and business owners more chances to have different tastes and options. So, we envision ourselves as a leading brand-making agency or service provider that plays a vital role in building up many of the big names that will shine on the economic forum of the globe."
+},
+"faq":{
+  "title":"Frequently Asked Questions",
+  "desc":"Here is the Set of Questionaries May be comes up on your mind.If You do have have more question, You Can Contact Us",
+  "t1":"What kind of services do you offer?",
+  "d1":"We offer business marketing, packaging, digital platform design, and management services. In addition, we have advisory and strategy-making services that you can avail of.",
+  "t2":"Do you provide fashion products and accessories?",
+  "d2":"Yes, we have fabric, and in the fashion products range, from tailored suits to accessories and other items, we have much more to offer our clients.",
+  "t3":"Does working with multiple businesses of the same domain affect performance?",
+  "d3":"We understand the conflict of interest scenario, so we have separate teams or agents dedicated to each business. Even if we have multiple companies from the same category, we give each our 100 percent without any issues.",
+  "t4":"Are your products eco-friendly?",
+  "d4":"Yes, all of our packaging is biodegradable and eco-friendly. Also, we keep care that we use less synthetic products and have minimal waste production to help the environmental cause."
+}
+  },
   "greeting": "Hello, world!",
   "content": "This is a React website.",
   "valueableSpeech": "Valuable Speech From Our CEO & Founder",

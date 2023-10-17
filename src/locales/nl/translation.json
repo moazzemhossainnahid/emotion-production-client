@@ -61,6 +61,36 @@
       "s8": "Accessoires"
     }
   },
+  "aboutUsPage": {
+    "aboutEP": {
+      "title": "Over Emotie Productie",
+      "desc1": "Bent u van plan uw start-up te lanceren?",
+      "desc2": "Of wilt u voorkomen dat u wacht op potentiële klanten en niet het juiste bereik op internet krijgt?",
+      "desc3": "Welnu, wij hebben een oplossing voor al uw problemen!",
+      "desc4": "Emotion Production is de totaaloplossing voor al uw hindernissen: werk met ons samen om uw branding te verbeteren en uw aanwezigheid en impact in de digitale wereld te vergroten. Wij streven ernaar kleine bedrijven te ondersteunen en te helpen groeien en een betere markt voor iedereen te creëren. Van het bereiken van de juiste connecties tot het effectief op de markt brengen van uw vaardigheden en product: wij hebben alle middelen en diensten. Hier vindt u alles, van het afdrukken van logo's tot advies over de marketingstrategie. We begrijpen het merk, zorgen ervoor dat procedures worden ingezet en we zorgen voor de kleine details die jouw pad bepalen om uit te groeien tot een merk.",
+      "desc5": "Van het maken van prototypes tot het lanceren van uw producten, de marketing en de levering: wij staan voor u klaar bij elke stap. Niet alleen dat, maar wij zorgen ook voor uw bedrijfsimago, en van maatpakken die u kunt dragen tot vergaderingen en het versturen van souvenirs, ons team kan het allemaal regelen."
+    },
+    "mission": {
+      "title": "Missie",
+      "desc": "Bij Emotion Production geloven we dat elk bedrijf het recht heeft om een merk te worden, en bieden we een helpende hand om die droompositie te bereiken. Van het begeleiden van hen over verpakking en marketing tot het oplossen van hun reguliere logistieke problemen, wij zijn probleemoplossers om hun weg naar succes te vinden. Wij streven ernaar dat meer kleine bedrijven uitgroeien tot grote namen en de wereldmarkt zullen beïnvloeden met innovatieve ideeën, uitzonderlijke producten en een onverslaanbaar enthousiasme."
+    },
+    "vision": {
+      "title": "Visie",
+      "desc": "Wij zien de toekomst van de wereldeconomie als diverser en uitgebreider, met veel merken op de kaart in plaats van slechts een paar stippen in de grafiek. Het uitbreiden van de markt zal consumenten en ondernemers meer kansen geven om verschillende smaken en opties te hebben. We zien onszelf dus als een toonaangevend merkbureau of dienstverlener die een cruciale rol speelt bij het opbouwen van veel van de grote namen die zullen schitteren op het economische forum van de wereld."
+    },
+    "faq": {
+      "title": "Veel Gestelde Vragen",
+      "desc": "Hier vindt u de reeks vragen die u wellicht te binnen schiet. Als u nog meer vragen heeft, kunt u contact met ons opnemen",
+      "t1": "Wat voor soort diensten biedt u aan?",
+      "d1": "Wij bieden zakelijke marketing-, verpakkings-, digitale platformontwerp- en beheerdiensten. Daarnaast bieden wij advies- en strategievormingsdiensten waar u gebruik van kunt maken.",
+      "t2": "Levert u modeproducten en accessoires?",
+      "d2": "Ja, we hebben stoffen, en op het gebied van modeproducten, van maatpakken tot accessoires en andere items, hebben we onze klanten nog veel meer te bieden.",
+      "t3": "Heeft het werken met meerdere bedrijven binnen hetzelfde domein invloed op de prestaties?",
+      "d3": "We begrijpen het scenario van belangenverstrengeling, dus hebben we voor elk bedrijf afzonderlijke teams of agenten. Zelfs als we meerdere bedrijven uit dezelfde categorie hebben, geven we ieder zonder problemen de volle 100 procent.",
+      "t4": "Zijn uw producten milieuvriendelijk?",
+      "d4": "Ja, al onze verpakkingen zijn biologisch afbreekbaar en milieuvriendelijk. We zorgen er ook voor dat we minder synthetische producten gebruiken en een minimale afvalproductie hebben om het milieu te helpen."
+    }
+  },
   "greeting": "Hallo, wereld!",
   "content": "Dit is een React-website.",
   "valueableSpeech": "Waardevolle toespraak van onze CEO en oprichter",

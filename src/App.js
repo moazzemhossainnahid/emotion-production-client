@@ -20,11 +20,32 @@ import Footer from './Pages/Shared/Footer/Footer';
 
 import Navbar from './Pages/Shared/Header/Navbar';
 import UnderConstruction from './Components/Others/UnderConstruction';
+import { useTranslation } from 'react-i18next';
+import cookies from 'js-cookie';
+
+const languages = [
+  {
+    code: 'en',
+    name: 'English',
+    flag: 'us'
+  },
+  {
+    code: 'nl',
+    name: 'Dutch',
+    flag: 'nl'
+  }
+
+]
 
 function App() {
+
+  
+  const currentLanguageCode = cookies.get('i18next') || 'en';
+  const { t } = useTranslation();
+
   return (
     <div className="App">
-      <Navbar />
+      <Navbar languages={languages} currentLanguageCode={currentLanguageCode} />
       <Routes>
         <Route path='/' element={<Home />}>
           <Route index element={<Company />} />

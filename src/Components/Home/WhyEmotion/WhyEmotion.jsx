@@ -1,7 +1,9 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import { Link, Outlet } from 'react-router-dom';
 
 const WhyEmotion = () => {
+    const {t} = useTranslation();
     return (
         <div className='container h-full pt-5 md:pt-10 w-full mx-auto'>
             <h3 className="text-2xl md:text-3xl text-white font-bold">Why Emotion</h3>

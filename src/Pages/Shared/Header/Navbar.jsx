@@ -8,13 +8,15 @@ import { Link, NavLink } from "react-router-dom";
 import { HiBars3CenterLeft } from "react-icons/hi2";
 import logo from '../../../Assets/Public/Logo.png';
 import { useForm } from "react-hook-form";
-import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter, FaYoutube } from "react-icons/fa";
+import { FaFacebook, FaGlobeAsia, FaInstagram, FaLinkedin, FaTwitter, FaYoutube } from "react-icons/fa";
+import { useTranslation } from "react-i18next";
+import i18next from 'i18next';
 
 
-const Navbar = ({ handleThemeChange, theme }) => {
+const Navbar = ({ currentLanguageCode, languages }) => {
     // const [user] = useAuthState(auth);
     const { register, formState: { errors }, handleSubmit } = useForm();
-
+    const { t } = useTranslation();
     const [isOpen, setIsOpen] = useState(false);
     const toggleDrawer = () => {
         setIsOpen((prevState) => !prevState);
@@ -126,6 +128,22 @@ const Navbar = ({ handleThemeChange, theme }) => {
             <li>
                 <NavLink to="blogs">Blogs</NavLink>
             </li>
+
+            <div className="">
+
+<div className="dropdown dropdown-end p-0">
+    <label tabIndex={0} className="btn bg-transparent outline-none border-none text-white focus:bg-transparent hover:bg-transparent btn-sm"><FaGlobeAsia /></label>
+    <ul tabIndex={0} className="dropdown-content text-sm z-[1] menu p-1 shadow bg-base-100 rounded">
+        {languages.map(({ code, name, flag }) => (
+            <li className='p-1' key={code} >
+                <button className={`${code === currentLanguageCode && 'bg-primary text-white'} p-2 text-black`} onClick={() => { i18next.changeLanguage(code) }}
+                    disabled={code === currentLanguageCode} > <span className={`fi fi-${flag}`}></span>{name} 
+                </button>
+            </li>
+        ))}
+    </ul>
+</div>
+</div>
         </>
     );
 

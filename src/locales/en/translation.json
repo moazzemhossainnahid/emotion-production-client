@@ -164,6 +164,52 @@
           }
         }
       }
+    },
+    "webDesignPage":{
+      "banner":{
+        "title":"Make your service/products look appealing with attractive web pages and Apps",
+        "desc1":"The online world is a great platform to market your skills, products, and services, but the competition to enter the digital world is tough. In digital media, gaining more potential customers and getting higher traffic is a hard nut to crack.",
+        "desc2":"But with our enticing web pages and apps, you can significantly increase customer stay time and reduce the bounce back rate. The customer communicates with your website and apps on the internet, so they must be clear, engaging, and user-friendly to get the message you want to convey.",
+        "desc3":"Whether you offer complex courses or innovation, you can efficiently market your products with the correct webpage.",
+        "desc4":"So stop wasting your time and money on web pages that take too long to load, users can't find desired tabs, or the information is vague and difficult to read. Hire us to get a user-friendly web page and apps with a faster loading and unique design."
+      },
+      "whyChooseUs":{
+        "title":"Why Choose Us?",
+        "desc1":"When web design is integral to marketing your products and affecting overall sales, you can't risk that much stakes with a low-quality page. Many brands and businesses fail to increase reach due to an outdated, dull, or slow webpage.",
+        "desc2":"We know how to crack the digital algorithms and will design a website or page that gets you more customers and ROI. Some of the key reasons that make us your best picks for the job include:",
+      "card":{
+        "crd1":{
+          "title":"Leadership",
+          "desc":"We lead from the front. From thinking out of the box to trying new techniques and handling risk factors gracefully, we will give you the best web design with complete response and confidence."
+        },
+        "crd2":{
+          "title":"Team Work",
+          "desc":"We know that there is no one-person show for creating something big. So, we employ multiple people who specialize in different domains to deliver a web design that is perfect in all aspects. From brilliant graphics to backend coding, each job is done by specialists."
+        },
+        "crd3":{
+          "title":"Flexibility",
+          "desc":"We never hesitate to try new things or make changes as we develop the design. Whether you want a theme change at the end or want to add some new content to your plan, you can always incorporate it into your webpage or app. "
+        }
+      }
+      },
+      "OurService":{
+        "title":"Discover the world of immense creativity, technology, and SEO-friendly web designs that will level up your digital marketing strategy.",
+        "subTitle":"Services you can get from us are:",
+        "card":{
+          "crd1":{
+            "title":"Web Design",
+            "desc":"Beautiful web designs and websites that are reliable, engaging, and out of the world. We use the best graphics and color aesthetics so anybody who lands on your page gets to know your services or products instantly."
+          },
+          "crd2":{
+            "title":"UX/UI Design",
+            "desc":"User experience and GUI are the leading players in engaging the customers and viewers on the site or App. With easy-to-use and navigate interfaces, we make sure no one leaves your page or App without knowing what you are offering,"
+          },
+          "crd3":{
+            "title":"APP Design",
+            "desc":"We design remarkable APPs compatible with all software versions, so you get a more extensive network without fail."
+          }
+        }
+      }
     }
   },
   "greeting": "Hello, world!",

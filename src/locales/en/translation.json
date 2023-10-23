@@ -165,50 +165,228 @@
         }
       }
     },
-    "webDesignPage":{
-      "banner":{
-        "title":"Make your service/products look appealing with attractive web pages and Apps",
-        "desc1":"The online world is a great platform to market your skills, products, and services, but the competition to enter the digital world is tough. In digital media, gaining more potential customers and getting higher traffic is a hard nut to crack.",
-        "desc2":"But with our enticing web pages and apps, you can significantly increase customer stay time and reduce the bounce back rate. The customer communicates with your website and apps on the internet, so they must be clear, engaging, and user-friendly to get the message you want to convey.",
-        "desc3":"Whether you offer complex courses or innovation, you can efficiently market your products with the correct webpage.",
-        "desc4":"So stop wasting your time and money on web pages that take too long to load, users can't find desired tabs, or the information is vague and difficult to read. Hire us to get a user-friendly web page and apps with a faster loading and unique design."
+    "webDesignPage": {
+      "banner": {
+        "title": "Make your service/products look appealing with attractive web pages and Apps",
+        "desc1": "The online world is a great platform to market your skills, products, and services, but the competition to enter the digital world is tough. In digital media, gaining more potential customers and getting higher traffic is a hard nut to crack.",
+        "desc2": "But with our enticing web pages and apps, you can significantly increase customer stay time and reduce the bounce back rate. The customer communicates with your website and apps on the internet, so they must be clear, engaging, and user-friendly to get the message you want to convey.",
+        "desc3": "Whether you offer complex courses or innovation, you can efficiently market your products with the correct webpage.",
+        "desc4": "So stop wasting your time and money on web pages that take too long to load, users can't find desired tabs, or the information is vague and difficult to read. Hire us to get a user-friendly web page and apps with a faster loading and unique design."
       },
-      "whyChooseUs":{
-        "title":"Why Choose Us?",
-        "desc1":"When web design is integral to marketing your products and affecting overall sales, you can't risk that much stakes with a low-quality page. Many brands and businesses fail to increase reach due to an outdated, dull, or slow webpage.",
-        "desc2":"We know how to crack the digital algorithms and will design a website or page that gets you more customers and ROI. Some of the key reasons that make us your best picks for the job include:",
-      "card":{
-        "crd1":{
-          "title":"Leadership",
-          "desc":"We lead from the front. From thinking out of the box to trying new techniques and handling risk factors gracefully, we will give you the best web design with complete response and confidence."
-        },
-        "crd2":{
-          "title":"Team Work",
-          "desc":"We know that there is no one-person show for creating something big. So, we employ multiple people who specialize in different domains to deliver a web design that is perfect in all aspects. From brilliant graphics to backend coding, each job is done by specialists."
-        },
-        "crd3":{
-          "title":"Flexibility",
-          "desc":"We never hesitate to try new things or make changes as we develop the design. Whether you want a theme change at the end or want to add some new content to your plan, you can always incorporate it into your webpage or app. "
-        }
-      }
-      },
-      "OurService":{
-        "title":"Discover the world of immense creativity, technology, and SEO-friendly web designs that will level up your digital marketing strategy.",
-        "subTitle":"Services you can get from us are:",
-        "card":{
-          "crd1":{
-            "title":"Web Design",
-            "desc":"Beautiful web designs and websites that are reliable, engaging, and out of the world. We use the best graphics and color aesthetics so anybody who lands on your page gets to know your services or products instantly."
+      "whyChooseUs": {
+        "title": "Why Choose Us?",
+        "desc1": "When web design is integral to marketing your products and affecting overall sales, you can't risk that much stakes with a low-quality page. Many brands and businesses fail to increase reach due to an outdated, dull, or slow webpage.",
+        "desc2": "We know how to crack the digital algorithms and will design a website or page that gets you more customers and ROI. Some of the key reasons that make us your best picks for the job include:",
+        "card": {
+          "crd1": {
+            "title": "Leadership",
+            "desc": "We lead from the front. From thinking out of the box to trying new techniques and handling risk factors gracefully, we will give you the best web design with complete response and confidence."
           },
-          "crd2":{
-            "title":"UX/UI Design",
-            "desc":"User experience and GUI are the leading players in engaging the customers and viewers on the site or App. With easy-to-use and navigate interfaces, we make sure no one leaves your page or App without knowing what you are offering,"
+          "crd2": {
+            "title": "Team Work",
+            "desc": "We know that there is no one-person show for creating something big. So, we employ multiple people who specialize in different domains to deliver a web design that is perfect in all aspects. From brilliant graphics to backend coding, each job is done by specialists."
           },
-          "crd3":{
-            "title":"APP Design",
-            "desc":"We design remarkable APPs compatible with all software versions, so you get a more extensive network without fail."
+          "crd3": {
+            "title": "Flexibility",
+            "desc": "We never hesitate to try new things or make changes as we develop the design. Whether you want a theme change at the end or want to add some new content to your plan, you can always incorporate it into your webpage or app. "
           }
         }
+      },
+      "OurService": {
+        "title": "Discover the world of immense creativity, technology, and SEO-friendly web designs that will level up your digital marketing strategy.",
+        "subTitle": "Services you can get from us are:",
+        "card": {
+          "crd1": {
+            "title": "Web Design",
+            "desc": "Beautiful web designs and websites that are reliable, engaging, and out of the world. We use the best graphics and color aesthetics so anybody who lands on your page gets to know your services or products instantly."
+          },
+          "crd2": {
+            "title": "UX/UI Design",
+            "desc": "User experience and GUI are the leading players in engaging the customers and viewers on the site or App. With easy-to-use and navigate interfaces, we make sure no one leaves your page or App without knowing what you are offering,"
+          },
+          "crd3": {
+            "title": "APP Design",
+            "desc": "We design remarkable APPs compatible with all software versions, so you get a more extensive network without fail."
+          }
+        }
+      }
+    },
+    "packagingPage": {
+      "aboutFoodPackaging": {
+        "title": "About Food Packaging",
+        "desc1": "We offer safe and hygienic packaging for the food industry start-ups that keeps your food safe, secure, and healthy. What most packaging companies miss is that they use hazardous or chemical-based boxes and packaging that affects the health of food products and dents the environment.",
+        "desc2": "But with Emotion Production, that won't happen ever. We use the best and most eco-friendly packaging that is appealing and innovative in design and ensures zero spills, leakages, or any risk of food degradation."
+      },
+      "whyChoosePackaging": {
+        "title": "Why choose our packaging",
+        "desc1": "Emotion Production is a name known for its performance and quality. We offer great deals that benefit small businesses",
+        "desc2": " in growing and marketing their name. Some of the reasons that make us best are:",
+        "card": {
+          "crd1": {
+            "title": "Unique Designs",
+            "desc": "At EMotion Production, you will find the most out-of-the-box ideas that are unique and appealing, and you will surely attract more customers."
+          },
+          "crd2": {
+            "title": "Eco-Friendly",
+            "desc": "All our packaging products, labels, and other materials are made from eco-friendly materials, so there is no harm in using them, and you will also have a share in benefitting the planet."
+          },
+          "crd3": {
+            "title": "Best quality",
+            "desc": "We deliver the best quality packaging that is safe for the environment and will keep your products and items safe and free from chemicals."
+          }
+        }
+      },
+      "anotherPackOffer": {
+        "title": "Another packaging we offer",
+        "desc": "Not only our food packaging service is incredible, but we offer other types of packaging, such as:",
+        "card": {
+          "crd1": {
+            "title": "Gift Packaging",
+            "desc": "Get your precious gifts packaged with love and care and a touch of perfection and beauty to them with our remarkable gift packaging services. From using the best color palates and unique styles, we wrap up your gifts with emotion and add a touch of art that will keep the receiver spellbound for a while,"
+          },
+          "crd2": {
+            "title": "Ready Use Packages",
+            "desc": "We have ready-to-use food and other boxes, tins, shoppers, and cases that you can buy and use for your catering, decoration, baking, or any other type of business. You can also get pre-made packing wraps, shoppers, or boxes for your companies to use for deliveries."
+          },
+          "crd3": {
+            "title": "Packaging in Process",
+            "desc": "We also offer packaging services for product manufacturing sites where you require packaging during the process, and we will help you seal and pack the consequences before you dispatch them."
+          }
+        }
+      },
+      "weProvidePack": {
+        "title": "We Provide the Best Packaging!",
+        "desc": "Avail the most economical, safe, and secure packing for your products to reach your customers as they leave your hands. We ensure that your gifts, food, and products are caked with care, precision, and uniqueness that no other brand offers."
+      },
+      "wePay": "We pay attention to details. From attaching the notecard to choosing the right color, we create a package that amazes the customers. We offer luxury packaging to regular ones, but each style is innovative, sustainable, and cost-friendly",
+      "needMoreInfo": {
+        "title": "Need more information?",
+        "desc": "Want to know about our services and charges? Get in touch with our experts or explore our website for detailed information.",
+        "faqs": {
+          "t1": "Do you provide packaging services for luxury items?",
+          "d1": "We offer luxury packaging to wrap and safely deliver your expensive items carefully.",
+          "t2": "Do you sell bulk packaging materials?",
+          "d2": "Yes, you can buy shoppers, bubble wraps, boxes, and other packaging items from us or get customized ones made to orders."
+        }
+      }
+    },
+    "animationPage": {
+      "topBanner": {
+        "title": "MEASURABLE & EFFECTIVE RESULTS FOR CUSTOMERS",
+        "desc": "Redefine your digital presence with an immersive and more attractive display and strategy. Add some colors and life to your websites and age with incredible animation to engage more viewers and tie them up to buy from you.",
+        "card": {
+          "crd1": {
+            "title": "Digital Solutions",
+            "desc": "It is the digital era; you must be fast and think creatively to gain pace. Our brilliant animations and digital tools create an interactive platform to convey the right message to your customers. Create a lasting impact on their minds that your brand remains when they think of a service or product you sell."
+          },
+          "crd2": {
+            "title": "Smart Experience",
+            "desc": "With colorful animations, moving images, and pop-up navigation buttons, you create a better and smarter user experience that pumps up your brand image and helps you grow faster."
+          },
+          "crd3": {
+            "title": "Results with Profit",
+            "desc": "Use the right tools and services to get the best returns on your investment. Enhance your user experience and make your websites and digital platforms more engaging and colorful to gain higher turnout and more sales."
+          }
+        }
+      },
+      "weHelp": {
+        "title": "WE HELP BUSINESS GROWING UP",
+        "desc": "With the best creative ideas and classic designs, we build a stand-out brand image to help you climb the sales ladder and grow into a more prominent company. Better digital strategy and a more immersive user experience are keys to more vital branding and marketing.",
+        "p1": "Creating a great digital experience",
+        "p2": "Focus on people, interactions and collaboration",
+        "p3": "High standards of professionalism",
+        "p4": "A different way of thinking, both inside"
+      },
+      "whyChoose": {
+        "title": "Why choose us?",
+        "desc": "Wondering what makes us stand out in the market. Let's have a look!",
+        "card": {
+          "crd1": {
+            "title": "CUSTOM TARGETING",
+            "desc": "We know what your market is and which customers to target."
+          },
+          "crd2": {
+            "title": "BUSINESS TOOLS",
+            "desc": "We provide all the business tools in one platform to grow your business."
+          },
+          "crd3": {
+            "title": "SEO SOLUTIONS",
+            "desc": "We understand the digital market and provide you with search engine-optimized solutions"
+          },
+          "crd4": {
+            "title": "IMPROVEMENTS",
+            "desc": "we are always open to feedback to improve our performance and deliver you the best services"
+          },
+          "crd5": {
+            "title": "PROJECT STRATEGY",
+            "desc": "We strategize for each step to build up a brand and carefully weigh all the decisions"
+          },
+          "crd6": {
+            "title": "ONLINE SUPPORT",
+            "desc": "You get 24/7 online support at Emotion production to resolve any problem "
+          }
+        }
+      },
+      "joinCo": "JOIN THE 200+ COMPANIES TRUSTING ZEPTECH COMPANY"
+    },
+    "contentShootingPage": {
+      "topBanner": {
+        "title": "Continuous Shooting speed and Availability",
+        "desc1": "Are you Worried about clicking appealing pictures of your products or presenting your best samples?",
+        "desc2": "Don't worry, as we are there to handle that for you."
+      },
+      "creativeMasters": {
+        "title": "We are creative masters",
+        "desc1": "With the right angles, shots, and content, we create magical ads and pictures for your site and campaign. Revamp your gray and colorless pages and places, and let us show the creativity that will change the outlook of simple things and products.",
+        "desc2": "GODARD SLOW-CARB CHARTREUSE OCCUPY, TUMBLR LETTERPRESS"
+      },
+      "dsForAll": {
+        "title": "Digital Solutions for All!",
+        "desc1": "Whether you want to get a logo made or need a commercial ad shoot, branding content, or create fabulous web designs, our talent shooting team is available non-stop to shoot and generate content for you.",
+        "desc2": "Change the dynamics of your sales through brilliant graphic designs, stunning shots, and innovative marketing ideas that will boost your reach and brand presentation."
+      }
+    },
+    "uiUxDesignPage": {
+      "topBanner": {
+        "title": "Leading UX/UI designer design ",
+        "desc1": "We are a team of most enthusiastic and experienced developers and UI designers that create incredibly fast-loading websites and apps. Our designs and landing pages will reflect your brand theory and communicate the right message you want to convey to your customers.",
+        "desc2": "From easy-to-use and exciting app designs to ticking all the right tools and tabs on pages, we ensure there is no loophole in the design.",
+        "desc3": "A good app or website will create more interest in the users and build brand trust that will keep them connected to you forever."
+      },
+      "whatWeDo": {
+        "title": "What we do",
+        "desc1": "At Emotion Production, we create incredible apps and websites for PCs and mobile phones. Also, if you are trying to launch your software or App, we help you generate the prototype and test run it through our platform to improve it before launching the final product.",
+        "desc2": "We also provide graphic designing, animation, and content creation for your sites and apps to make them more engaging and interactive."
+      },
+      "interactiveExp": {
+        "title": "Interactive and classic UX for enhanced user experience",
+        "desc": "Get faster-loading pages, easy-to-navigate sites, and apps that are light and high in performance and made with unique graphics and features only by the best developers and coders. Come to Emotion Production and level up your users' experience to gain loyal clients and a stronger brand image."
+      },
+      "mobileWeb": {
+        "title": "UX/UI for mobile and Web",
+        "desc": "We design and create user interfaces for mobile and Websites and use tools to make your existing Apps or sites more efficient and exciting."
+      },
+      "toolsUse": {
+        "title": "Tools we Use",
+        "desc": "We have the best tools to create enticing designs and web pages. Some of the tools we have are",
+        "p1": "Sketch",
+        "p2": "Adobe Illustrator",
+        "p3": "Adobe Photoshop",
+        "p4": "Figma",
+        "p5": "Invision Studio",
+        "p6": "Adobe XD"
+      },
+      "letsDiscuss": {
+        "title": "Let's Discuss Your Project",
+        "desc": "Get a free consultation and share your project concept with us so we can transform it into a fantastic digital product.",
+        "btn": "Talk to Our Experts"
+      }
+    },
+    "prototypePage": {},
+    "accessoriesPage": {
+      "topBanner": {
+        "title": "About Our Accessories",
+        "desc": "You are at the right spot if you want the right accessories with your meeting outfit or need clarification about what to give your clients or investors. From bags, glasses, and businesses to shoes, we have everything for you. Pick your favorite ones for gift boxes or books in your suit for essential meetings from us."
       }
     }
   },

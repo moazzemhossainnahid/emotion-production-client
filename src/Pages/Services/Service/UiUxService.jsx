@@ -108,7 +108,7 @@ const UiUxService = () => {
                 <img className='w-20' src="https://i.ibb.co/S3XcPhs/figma.png" alt="" />
             </div>
 
-            <div className=" service mb-36">
+            {/* <div className=" service mb-36">
                 <h2 className="text-center">Our Services</h2>
                 <p className="text-center p-3 sm:pl-40 sm:pr-40">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,.</p>
                 <div className='grid grid-cols-1 mt-16 sm:grid-cols-4 place-items-center gap-4'>
@@ -160,7 +160,7 @@ const UiUxService = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
 
 
 

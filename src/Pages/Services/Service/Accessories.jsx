@@ -119,7 +119,7 @@ const Accessories = () => {
             <div className='w-full md:w-5/6 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 justify-around items-center my-24'>
                 <div className='flex justify-between group items-center w-full h-full gap-3 bg-stone-900	p-3 mx-auto'>
                     <div className='w-2/3'>
-                        <h2 className='text-white text-left font-black text-xl '>25% OFFER ON HINKING PRODUCT</h2>
+                        <h2 className='text-white text-left font-black font-mono text-xl'>25% OFFER ON HINKING PRODUCT</h2>
                         <button className='text-white group-hover:bg-black p-3 mt-10 flex justify-start'>View Collection</button>
                     </div>
                     <div className='w-1/3'>
@@ -128,12 +128,12 @@ const Accessories = () => {
                 </div>
 
                 <div className='flex justify-between group items-center gap-3 w-full h-full bg-stone-900	p-3 mx-auto'>
+                    <div className='w-2/3'>
+                        <h2 className='text-white text-left font-black font-mono text-xl'>OFFER IN OUR ACCESSORIES </h2>
+                        <button className='text-white group-hover:bg-black p-3 mt-10 flex justify-start'>View Collection</button>
+                    </div>
                     <div className='w-1/3'>
                         <img className='w-full h-36 p-1' src="https://i.ibb.co/mXs3qNR/Package-belladi.jpg" alt="" />
-                    </div>
-                    <div className='w-2/3'>
-                        <h2 className='text-white text-left font-black text-xl '>OFFER IN ACCESSORIES </h2>
-                        <button className='text-white group-hover:bg-black p-3 mt-10 flex justify-start'>View Collection</button>
                     </div>
                 </div>
 
@@ -141,7 +141,7 @@ const Accessories = () => {
 
                 <div className='flex justify-between group items-center w-full h-full gap-3 bg-stone-900	p-3 mx-auto'>
                     <div className='w-2/3'>
-                        <h2 className='text-white text-left font-black text-xl '>CLASSIX SERVICE COLLECTIONS</h2>
+                        <h2 className='text-white text-left font-black font-mono text-xl'>CLASSIX SERVICE COLLECTIONS</h2>
                         <button className='text-white group-hover:bg-black p-3 mt-10 flex justify-start'>View Collection</button>
                     </div>
                     <div className='w-1/3'>
@@ -208,7 +208,7 @@ const Accessories = () => {
                         <div className=" flex-col w-5/6 mx-auto h-full absolute top-0 left-12 flex justify-center items-center text-white text-center">
                             <h1 style={{ fontFamily: "Rajdhani" }} className="text-4xl font-bold uppercase text-left mb-4">Speak to The Team</h1>
                             <p className="text-lg text-center mb-8">Paragraph here Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                            <a href="#" className="border p-1 text-white font-bold py-2 px-4 rounded py-4 px-8 hover:bg-gray-200 hover:text-gray-600 ">
+                            <a href="#!" className="border p-1 text-white font-bold py-2 px-4 rounded py-4 px-8 hover:bg-gray-200 hover:text-gray-600 ">
                                 Get In Touch
                             </a>
                         </div>
@@ -223,7 +223,7 @@ const Accessories = () => {
                         <div className=" flex-col w-5/6 mx-auto h-full absolute top-0 left-12 flex justify-center items-center text-white text-center">
                             <h1 style={{ fontFamily: "Rajdhani" }} className="text-4xl font-bold uppercase text-left mb-4">Mountain Bike Guide</h1>
                             <p className="text-lg text-center mb-8">Paragraph here Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                            <a href="#" className="border  text-white font-bold py-4 px-8 hover:bg-gray-200 hover:text-gray-600  rounded">
+                            <a href="#!" className="border  text-white font-bold py-4 px-8 hover:bg-gray-200 hover:text-gray-600  rounded">
                                 Discover Now
                             </a>
                         </div>
@@ -308,7 +308,7 @@ const Accessories = () => {
                 <div className='flex justify-around items-center border p-3 px-5 bg-[#252525c3] border-stone-900'>
                     <div>
                         <h2 className='text-white text-left font-thin text-xl'>ON DEMAND PRICING</h2>
-                        <p className='text-gray-400 text-left'> Make $20 order</p>
+                        {/* <p className='text-gray-400 text-left'> Make $20 order</p> */}
                     </div>
                     <div> <img className='p-3 ml-2' src="https://i.ibb.co/Lzgsf2j/ezgif-com-gif-maker-3.png" alt="" /></div>
                 </div>
@@ -316,7 +316,7 @@ const Accessories = () => {
                 <div className='flex justify-around items-center border p-3 px-5 bg-[#252525c3] border-stone-900'>
                     <div>
                         <h2 className='text-white text-left font-thin text-xl'>QUALITY PRODUCTS</h2>
-                        <p className='text-gray-400 text-left'> We made for you</p>
+                        {/* <p className='text-gray-400 text-left'> We made for you</p> */}
                     </div>
                     <div> <img className='p-3 ml-2' src="https://i.ibb.co/znv3CpL/ezgif-com-gif-maker-2.png" alt="" /></div>
                 </div>
@@ -324,18 +324,17 @@ const Accessories = () => {
                 <div className='flex justify-around items-center border p-3 px-5 bg-[#252525c3] border-stone-900'>
                     <div>
                         <h2 className='text-white text-left font-thin text-xl'>BEST BUILT QUALITY </h2>
-                        <p className='text-gray-400 text-left'> Its gurantee</p>
+                        {/* <p className='text-gray-400 text-left'> Its gurantee</p> */}
                     </div>
                     <div> <img className='p-3 ml-2' src="https://i.ibb.co/Mnp284M/ezgif-com-gif-maker.png" alt="" /></div>
                 </div>
 
-                <div className='flex justify-around items-center border p-3 px-5 bg-[#252525c3] border-stone-900'>
+                {/* <div className='flex justify-around items-center border p-3 px-5 bg-[#252525c3] border-stone-900'>
                     <div>
                         <h2 className='text-white text-left font-thin text-xl'>24/7 ONLINE SUPPORT </h2>
-                        <p className='text-gray-400 text-left'> We are here </p>
                     </div>
                     <div> <img className='p-3 ml-2' src="https://i.ibb.co/Lzgsf2j/ezgif-com-gif-maker-3.png" alt="" /></div>
-                </div>
+                </div> */}
             </div>
         </div>
     );

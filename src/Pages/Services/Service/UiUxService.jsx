@@ -128,7 +128,7 @@ const UiUxService = () => {
 
                     <div className="w-64 pb-9 pt-9 bg-info rounded-2xl">
                         <div className="flex justify-evenly item-center">
-                            <img className="w-7" src=" https://i.ibb.co/XkFg5PV/package-box.png" alt="" />
+                            <img className="w-7" src="https://svgshare.com/i/rRP.svg" alt="" />
                             <button className="text-white text-xl">Packaging </button>
                         </div>
                     </div>

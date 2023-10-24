@@ -3,6 +3,7 @@ import categories from '../../../Data/Categories'
 import { useState } from 'react';
 import { FaPlus, FaStar } from "react-icons/fa";
 import { Fade } from 'react-reveal';
+import { t } from 'i18next';
 const Accessories = () => {
     const [data, setData] = useState(categories);
     console.log(data);
@@ -95,10 +96,10 @@ const Accessories = () => {
                         {/* <img draggable="false" style={{ animation: `bounce-in 10s` }} className='w-4/5 mx-auto p-5 absolute top-0 left-0' src="https://droitthemes.com/html/wavee/img/home_one/circle_line.png" alt="" /> */}
                         <div className="space-y-4 text-left">
                             <Fade bottom duration={1000}>
-                                <h3 className="text-[40px] md:text-[90px] flex font-bold text-[#ffffff]">Wise Stone</h3>
+                                <h3 className="text-[40px] md:text-[90px] flex font-bold text-[#ffffff]">{t("services.accessoriesPage.topBanner.title")}</h3>
                             </Fade>
                             <Fade bottom duration={2000}>
-                                <p className="text-gray-200">Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiu smod tempor incididunt ut labore et dolore magnan aliqua. Quis ipsum suspendisse ultrices gravida.</p>
+                                <p className="text-gray-200">{t("services.accessoriesPage.topBanner.desc")}</p>
                             </Fade>
                             <Fade bottom duration={3000}>
                                 <button className="border border-white text-white hover:bg-white hover:text-black px-7 py-2 uppercase duration-300">Case Study</button>                                </Fade>
@@ -109,7 +110,7 @@ const Accessories = () => {
                 </div>
                 <div className='w-full md:w-3/6 p-0 '>
                     <div className="w-full relative py-10">
-                        <img draggable="false" style={{ animation: `bounce-in 10s` }} className='w-full mx-auto p-5' src="https://droitthemes.com/html/wavee/img/home_one/laptop_w.png" alt="" />
+                        <img draggable="false" style={{ animation: `bounce-in 10s` }} className='w-full mx-auto p-5' src="https://static.vecteezy.com/system/resources/previews/019/860/331/original/startup-business-concept-with-rocket-and-laptop-png.png" alt="" />
                         <img draggable="false" style={{ animation: `rubberBand 5s infinite` }} className='w-28 mx-auto p-5 mt-7 absolute bottom-0 right-0' src="https://droitthemes.com/html/wavee/img/home_one/triangle_shap_two.png" alt="" />
                     </div>
                 </div>

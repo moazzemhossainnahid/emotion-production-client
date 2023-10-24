@@ -1,3 +1,4 @@
+import { t } from 'i18next';
 import React from 'react';
 const UiUxService = () => {
 
@@ -8,15 +9,10 @@ const UiUxService = () => {
         <div className="container px-7 mx-auto w-full text-white">
             <div className='flex flex-col md:flex-row justify-between items-center mt-14 pb-10'>
                 <div className='w-full md:w-3/6 p-0 sm:p-5'>
-                    <h2 className='text-center text-2xl sm:text-5xl sm:text-left'>leading provider of
-                        UI/UX design development
-                        services</h2>
-                    <p className='text-center sm:text-left pt-3'>Emotion continues to place a lot of emphasis on UI/UX Design development. For platforms
-                        such as Android, iOS, desktops, and others, we create UI/UX. We rely on our technically
-                        proficient skilled developers to be able to comprehend your ideas and give them life. To meet
-                        the demands of each project, we provide cutting-edge research, HCD UI & UX design, and
-                        application development. For examples of dozens of unique and effective UI/UX for Android,
-                        iOS, desktop, and other platforms, visit our portfolio.</p>
+                    <h2 className='text-center text-2xl sm:text-5xl sm:text-left'>{t("services.uiUxDesignPage.topBanner.title")}</h2>
+                    <p className='text-center sm:text-left pt-3'>{t("services.uiUxDesignPage.topBanner.desc1")}</p>
+                    <p className='text-center sm:text-left pt-3'>{t("services.uiUxDesignPage.topBanner.desc2")}</p>
+                    <p className='text-center sm:text-left pt-3'>{t("services.uiUxDesignPage.topBanner.desc3")}</p>
                 </div>
                 <div className='w-full md:w-3/6 mx-auto p-4'>
                     <img className=' w-full' src={image} alt="" />
@@ -24,18 +20,19 @@ const UiUxService = () => {
             </div>
 
             <div className='w-full md:w-3/5 flex flex-col gap-3 space-y-4 justify-start items-center text-left py-12'>
-                <h2 className='text-left w-full text-3xl md:text-6xl'>WHAT WE DO</h2>
-                <h1 className='text-left w-full text-2xl md:text-4xl md:text-left'>We Design Visually Stunning & <br />
-                    User-Friendly Customer Experience.</h1>
-                <p className='text-left'>With a distinct staff of User interface (UI) Designers, User Experience (UX) Designers,
-                    Graphic Designers, and Animators, Emotion's Design section operates as a separate wing.</p>
+                <h2 className='text-left w-full text-3xl md:text-6xl'>{t("services.uiUxDesignPage.whatWeDo.title")}</h2>
+                <p className='text-left'>{t("services.uiUxDesignPage.whatWeDo.desc1")}</p>
+                <p className='text-left'>{t("services.uiUxDesignPage.whatWeDo.desc2")}</p>
+            </div>
+            <div className="pt-10 space-y-4">
+                <h1 className='text-left w-full text-2xl md:text-4xl md:text-left'>{t("services.uiUxDesignPage.interactiveExp.title")}</h1>
+                <p className='text-left'>{t("services.uiUxDesignPage.interactiveExp.desc")}</p>
             </div>
 
             <div className='flex flex-col md:flex-row gap-3 justify-center items-center mt-14 '>
                 <div className=' w-full md:w-3/6 mx-auto p-2 space-y-3'>
-                    <h2 className='text-center text-3xl sm:text-6xl sm:text-left'>UI/UX for Mobile & Web</h2>
-                    <p className='text-center pr-5 sm:text-left'>We adhere to industry norms and develop UI/UX using design
-                        standards. Our UI/UX design services include the following:</p>
+                    <h2 className='text-center text-3xl sm:text-6xl sm:text-left'>{t("services.uiUxDesignPage.mobileWeb.title")}</h2>
+                    <p className='text-center pr-5 sm:text-left'>{t("services.uiUxDesignPage.mobileWeb.desc")}</p>
 
                     <div className="space-y-1">
                         <li className='flex items-center list'> <img className='w-5 mr-2' src={logo} alt="" />  <a href="">UI Design</a></li>
@@ -62,19 +59,19 @@ const UiUxService = () => {
             <div className='mt-20 w-full pb-28 discus space-y-3'>
                 <div className="w-full md:w-3/5 mx-auto p-2">
                     <h3 className='text-center text-white pt-28 text-3xl md:text-5xl font-bold'>
-                        Let's Discuss Your Project
+                    {t("services.uiUxDesignPage.letsDiscuss.title")}
                     </h3>
                     <p className='text-center md:text-xl py-5'>
-                        Get a free consultation and share your project concept with us
-                        so we can transform it into a fantastic digital product.
+                    {t("services.uiUxDesignPage.letsDiscuss.desc")}
                     </p>
-                    <button className='text-center p-3 border text-white border-white hover:text-gray-700 hover:bg-white rounded-lg duration-300'>Talk To Our Experts</button>
+                    <button className='text-center p-3 border text-white border-white hover:text-gray-700 hover:bg-white rounded-lg duration-300'>{t("services.uiUxDesignPage.letsDiscuss.btn")}</button>
 
                 </div>
             </div>
 
             <div className='mb-16 mt-20'>
-                <h2 className='sm:text-center text-2xl sm:text-4xl text-left pb-5' >DESIGNING TOOLS WE USE</h2>
+                <h2 className='sm:text-center text-2xl sm:text-4xl text-left pb-5' >{t("services.uiUxDesignPage.toolsUse.title")}</h2>
+                <p className="py-5 text-center">{t("services.uiUxDesignPage.toolsUse.desc")}</p>
                 <div className="sm:flex inline-block justify-around items-start">
                     <div className='space-y-2'>
                         <p className='text-left'>UI/UX</p>

@@ -4,6 +4,7 @@ import { FaArrowRight } from "react-icons/fa";
 import Fade from 'react-reveal/Fade';
 import Slide from 'react-reveal/Slide';
 import ReactPlayer from 'react-player';
+import { t } from 'i18next';
 
 const ContentShotting = () => {
     const settings1 = {
@@ -48,7 +49,7 @@ const ContentShotting = () => {
                         <p className=' text-left text-gray-500 mb-2'>autofocus tracking varies depending on shooting</p>
                     </Slide>
                     <Slide left duration={1500}>
-                        <h2 className="text-left font-thin text-3xl md:text-6xl text-white pb-10">Continuous Shooting speed and Availability</h2>
+                        <h2 className="text-left font-thin text-3xl md:text-6xl text-white pb-10">{t("services.contentShootingPage.topBanner.title")}</h2>
                     </Slide>
                     <Slide bottom duration={2000}>
                         <button className="text-left text-white relative group">
@@ -66,18 +67,15 @@ const ContentShotting = () => {
             {/*=====================  creative start =================*/}
             <div className='w-full md:w-5/6 mx-auto py-10'>
                 <Fade bottom duration={1000}>
-                    <h2 className='text-3xl md:text-6xl md:w-2/3 w-full mx-auto text-center font-black py-7 text-white duration-300'>WE ARE CREATIVE <br /> WE ARE XEN</h2>
+                    <h2 className='text-3xl md:text-6xl md:w-2/3 w-full mx-auto text-center font-black py-7 text-white duration-300'>{t("services.contentShootingPage.creativeMasters.title")}</h2>
                 </Fade>
                 <div className='flex flex-col md:flex-row justify-center items-start gap-10 my-7'>
                     <Fade left duration={1000}>
-                        <p className='inline-block align-middle text-justify   text-white'>Affogato thundercats quinoa, portland cold-pressed edison bulb artisan paleo banjo tousled try-hard food truck pop-up bushwick godard. Occupy 90's try-hard tote bag chicharrones stumptown polaroid hashtag cliche +1, tousled fanny pack. Tote bag iPhone crucifix hella helvetica food truck bicycle rights cloud bread. Yr iPhone asymmetrical, next level vexillologist godard blog green juice chia. Tacos jean shorts pickled PBR&B poutine.</p>
-                    </Fade>
-                    <Fade right duration={1000}>
-                        <p className='inline-block align-middle text-justify text-white '>Godard slow-carb chartreuse occupy, tumblr letterpress pok pok tattooed yr lyft yuccie kinfolk. IPhone kombucha shaman gastropub snackwave 90's lo-fi pug chillwave pok pok tofu. Swag deep v listicle roof party seitan man braid raclette church-key trust fund locavore vexillologist green juice raw denim tilde meh. Austin thundercats locavore taiyaki snackwave hoodie put a bird on it tattooed selvage kitsch ramps.</p>
+                        <p className='inline-block align-middle text-justify   text-white'>{t("services.contentShootingPage.creativeMasters.desc1")}</p>
                     </Fade>
                 </div>
                 <Fade bottom duration={1000}>
-                    <p className='text-white font-mono leading-7 tracking-widest py-7'>GODARD SLOW-CARB CHARTREUSE OCCUPY, TUMBLR LETTERPRESS</p>
+                    <p className='text-white font-mono leading-7 tracking-widest py-7'>{t("services.contentShootingPage.creativeMasters.desc2")}</p>
                 </Fade>
             </div>
 
@@ -87,7 +85,9 @@ const ContentShotting = () => {
                     <h2 className='text-4xl md:text-6xl text-center font-black pb-5 text-white'>RECENT WORK</h2>
                 </Fade>
                 <Fade bottom duration={1000}>
-                    <p className='text-white text-center pb-7 font-mono tracking-widest'>WE OFFER DIGITAL SOLUTIONS</p>
+                    <p className='text-white text-center pb-7 font-mono tracking-widest'>{t("services.contentShootingPage.dsForAll.title")}</p>
+                    <p className='w-full md:w-4/5 mx-auto pb-7 text-white text-center pt-7 font-sans'>{t("services.contentShootingPage.dsForAll.desc1")}</p>
+
                 </Fade>
                 <div className='flex flex-col md:flex-row justify-around items-center gap-20 my-7 pb-5'>
                     <div className='w-full md:w-1/2 md:px-20 '>
@@ -96,7 +96,7 @@ const ContentShotting = () => {
                         <p className='text-gray-300 text-left my-4 pr-10'>Narwhal pop-up intelligentsia tbh pinterest, microdosing tilde cloud bread gochujang tattooed leggings cornhole 8-bit. Austin fam chia cold-pressed raw denim. Glossier drinking vinegar portland lo-fi, polaroid bespoke lomo. Banjo art party XOXO, fashion axe sustainable retro ethical gentrify.</p>
                         <div className="">
                             <button className='flex justify-start group items-center bg-white px-7 py-2 text-gray-600 tracking-wider font-semibold text-xl'>
-                                <a href="">Read More </a><FaArrowRight className='mt-1 group-hover:translate-x-3 duration-300 ml-2' />
+                                <a href="#!">Read More </a><FaArrowRight className='mt-1 group-hover:translate-x-3 duration-300 ml-2' />
                             </button>
                         </div>
                     </div>

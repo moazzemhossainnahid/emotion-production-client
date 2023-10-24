@@ -4,6 +4,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { PartnersData } from '../../../Data/PartnersData';
 import Fade from 'react-reveal/Fade';
+import { t } from 'i18next';
 
 const TrustedPartnersAnim = () => {
     const settings = {
@@ -46,7 +47,7 @@ const TrustedPartnersAnim = () => {
     return (
         <div className='w-full h-full md:w-5/6 mx-auto'>
             <Fade bottom duration={2000}>
-                <h3 className="text-white text-2xl font-semibold text-center pb-10">JOIN THE 200+ COMPANIES TRUSTING ZEPTECH COMPANY</h3>
+                <h3 className="text-white text-2xl font-semibold text-center pb-10">{t("services.animationPage.joinCo")}</h3>
             </Fade>
             <Fade bottom duration={2000}>
                 <div className="">

@@ -1,3 +1,4 @@
+import { t } from 'i18next';
 import React from 'react';
 import { FaTelegram } from 'react-icons/fa';
 import Fade from 'react-reveal/Fade';
@@ -14,8 +15,8 @@ const TopBannerAnim = () => {
                             <h3 className="text-[70px] md:text-[150px] flex uppercase font-bold text-[#1E1E1E]"><Slide top duration={1000}>D</Slide> <Slide top duration={1500}>I</Slide> <Slide top duration={2000}>G</Slide> <Slide top duration={2500}>I</Slide> <Slide top duration={3000}>T</Slide> <Slide top duration={4000}>A</Slide> <Slide top duration={4500}>L</Slide></h3>
                         </Slide>
                         <Fade bottom>
-                            <h4 className="text-3xl md:text-5xl font-bold text-white uppercase text-start -mt-24 tracking-[7px] leading-10" style={{ fontFamily: "Rajdhani" }}>Measurable & Effective Results for Customers</h4>
-                            <p className="text-gray-200 text-xl font-thin py-5 text-start">Your Business is Creative Idea to Launching.</p>
+                            <h4 className="text-3xl md:text-5xl font-bold text-white uppercase text-start -mt-24 tracking-[7px] leading-10" style={{ fontFamily: "Rajdhani" }}>{t("services.animationPage.topBanner.title")}</h4>
+                            <p className="text-gray-200 text-xl font-thin py-5 text-start">{t("services.animationPage.topBanner.desc")}</p>
                             <hr />
                         </Fade>
                         <Fade bottom>

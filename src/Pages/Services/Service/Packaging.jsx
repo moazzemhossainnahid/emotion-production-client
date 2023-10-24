@@ -4,26 +4,19 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import { Fade, Slide } from 'react-reveal';
+import { t } from 'i18next';
 // import { ChevronUpIcon, ChevronDownIcon } from "@heroicons/react/solid";
 
 const questions = [
     {
         id: 1,
-        question: "What is Tailwind?",
-        answer:
-            "Tailwind CSS is a highly customizable, low-level CSS framework that gives you all of the building blocks you need to build bespoke designs without any annoying opinionated styles you have to fight to override. Tailwind is designed for building modern web applications, and it is ideal for building complex, responsive user interfaces.",
+        question: t("services.packagingPage.needMoreInfo.faqs.t1"),
+        answer: t("services.packagingPage.needMoreInfo.faqs.d1"),
     },
     {
         id: 2,
-        question: "What are the benefits of using Tailwind?",
-        answer:
-            "Tailwind saves development time and increases productivity. It provides a robust set of utility classes that allows you to style your components without writing custom CSS. It also allows you to easily create responsive designs that work on all devices.",
-    },
-    {
-        id: 3,
-        question: "How do I install Tailwind in my project?",
-        answer:
-            "You can install Tailwind in your project using npm or yarn. First, create a new project or navigate to an existing project, then run the following command: npm install tailwindcss. After installing Tailwind, you need to create a configuration file by running the following command: npx tailwindcss init. This will create a tailwind.config.js file that you can customize to your needs.",
+        question: t("services.packagingPage.needMoreInfo.faqs.t2"),
+        answer:t("services.packagingPage.needMoreInfo.faqs.d2"),
     },
 ];
 
@@ -127,10 +120,11 @@ const Packaging = () => {
                     {/*====================================== Food Packaging Left side  =============================*/}
                     <div className="w-full md:w-4/6 mx-auto">
                         <Fade left duration={1000}>
-                            <h2 className="text-left text-3xl md:text-5xl font-bold text-white">About Food Packaging</h2>
+                            <h2 className="text-left text-3xl md:text-5xl font-bold text-white">{t("services.packagingPage.aboutFoodPackaging.title")}</h2>
                         </Fade>
                         <Fade left duration={1500}>
-                            <p className='text-gray-200 text-left py-5'>Pellentesque et scelerisque nunc. Sed vel ipsum auctor, iaculis arcu quis, posuere dui. Duis condimentum nunc metus, maximus porta velit temporin. Intincidunt leo viverra, sodales ex eu, posuere purus. Duis in augue vestibulum, aliquet nulla vitae</p>
+                            <p className='text-gray-200 text-left py-5'>{t("services.packagingPage.aboutFoodPackaging.desc1")}</p>
+                            <p className='text-gray-200 text-left py-5'>{t("services.packagingPage.aboutFoodPackaging.desc2")}</p>
                         </Fade>
                         <div className=" ">
                             <Slider {...settings}>
@@ -146,7 +140,7 @@ const Packaging = () => {
                                 <div>
                                     <img src="https://i.ibb.co/59D8Q53/4.jpg" alt="slide 4" />
                                 </div>
-                                
+
                             </Slider>
                         </div>
                         <div className='mt-9 flex flex-col md:flex-row gap-2 justify-around items-center'>
@@ -188,7 +182,7 @@ const Packaging = () => {
                                 </li>
                             </div>
                         </div>
-                        <p className='text-gray-300 text-left mt-3  pr-9 divide-y-4 divide-sky-400'>Pellentesque et scelerisque nunc. Sed vel ipsum auctor, iaculis arcu quis, posuere dui. Duis condimentum nunc metus, maximus porta velit temporin. Intincidunt leo viverra, sodales ex eu, posuere purus. Duis in augue vestibulum</p>
+                        <p className='text-gray-300 text-left mt-3  pr-9 divide-y-4 divide-sky-400'>{t("services.packagingPage.whyChoosePackaging.desc1")}</p>
                         <hr
                             class="my-8 h-0.5 border-t-0 bg-neutral-100 opacity-100 dark:opacity-50" />
                         <div className='grid grid-cols-1  sm:grid-cols-3 place-items-center gap-5'>
@@ -198,20 +192,20 @@ const Packaging = () => {
                                         <img className='w-12 hover:-translate-y-3 duration-300' src="https://i.ibb.co/SBxcwVG/ezgif-com-gif-maker.png" alt="" />
                                     </div>
                                     <div className=''>
-                                        <h2 className='my-2 text-left text-gray-200 text-2xl font-black'>Best Quality</h2>
-                                        <p className='text-gray-400 text-left '>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                                        <h2 className='my-2 text-left text-gray-200 text-2xl font-black'>{t("services.packagingPage.whyChoosePackaging.card.crd1.title")}</h2>
+                                        <p className='text-gray-400 text-left '>{t("services.packagingPage.whyChoosePackaging.card.crd1.desc")}</p>
                                     </div>
                                 </div>
                             </Fade>
-                            
+
                             <Fade bottom duration={2000}>
                                 <div className=''>
                                     <div className='pt-5 pb-3'>
                                         <img className='w-12 hover:-translate-y-3 duration-300' src="https://i.ibb.co/sQPTxd2/ezgif-com-gif-maker-1.png" alt="" />
                                     </div>
                                     <div className=''>
-                                        <h2 className='my-2 text-left text-gray-200 text-2xl font-black'>Creative Design </h2>
-                                        <p className='text-gray-400 text-left '>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                                        <h2 className='my-2 text-left text-gray-200 text-2xl font-black'>{t("services.packagingPage.whyChoosePackaging.card.crd2.title")}</h2>
+                                        <p className='text-gray-400 text-left '>{t("services.packagingPage.whyChoosePackaging.card.crd2.desc")}</p>
                                     </div>
                                 </div>
                             </Fade>
@@ -221,8 +215,8 @@ const Packaging = () => {
                                         <img className='w-8 hover:-translate-y-3 duration-300' src="https://i.ibb.co/8DFvvBd/ezgif-com-gif-maker-4.png" alt="" />
                                     </div>
                                     <div className=''>
-                                        <h2 className='my-2 text-left text-gray-200 text-2xl font-black'>Eco Friendly</h2>
-                                        <p className='text-gray-400 text-left '>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                                        <h2 className='my-2 text-left text-gray-200 text-2xl font-black'>{t("services.packagingPage.whyChoosePackaging.card.crd3.title")}</h2>
+                                        <p className='text-gray-400 text-left '>{t("services.packagingPage.whyChoosePackaging.card.crd3.desc")}</p>
                                     </div>
                                 </div>
                             </Fade>
@@ -301,7 +295,7 @@ const Packaging = () => {
                         <Slide left duration={1000}>
                             <div className="absolute text-white text-center bottom-0 left-0 p-4 md:w-2/3 bg-[#172F3B]">
                                 <h1 className="text-2xl md:text-3xl text-left font-bold p-3 ">We Production Best Packaging!</h1>
-                                <p className='mb-4 font-thin text-left p-3'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae repellat velit quod aliquam nesciunt eum labore! Aperiam ut temporibus praesentium! Maxime possimus totam velit numquam distinctio mollitia ab non eveniet! Lorem ipsum dolor sit amet consectetur adipiscing elit dolor</p>
+                                <p className='mb-4 font-thin text-left p-3'>{t("services.packagingPage.wePay")}</p>
                                 <li className='list-none text-xl flex p-3 hover:text-red-600 hover:p-4 h-10 hover:translate-x-3 duration-300 items-center text-left '>View Project
                                     <FaArrowRight className='ml-3 mt-1 duration-300' />
                                 </li>
@@ -359,7 +353,7 @@ const Packaging = () => {
                                 <h3 className="text-[50px] md:text-[110px] flex justify-center w-full mx-auto font-bold text-black"><Slide top duration={1000}>O</Slide> <Slide top duration={1500}>u</Slide> <Slide top duration={2000}>r</Slide> <span className="p-3"></span> <Slide top duration={2500}>S</Slide> <Slide top duration={3000}>e</Slide> <Slide top duration={3500}>r</Slide> <Slide top duration={4000}>v</Slide> <Slide top duration={4500}>i</Slide> <Slide top duration={5000}>c</Slide> <Slide top duration={5500}>e</Slide> </h3>
                             </Slide>
                             <Fade bottom>
-                                <h4 className="text-2xl flex md:text-4xl font-bold w-full text-white uppercase text-center -mt-5 md:-mt-12 pb-10 tracking-[7px] leading-10" style={{ fontFamily: "Rajdhani" }}>We Provide Various Kinds Of Packaging</h4>
+                                <h4 className="text-2xl flex md:text-4xl font-bold w-full text-white uppercase text-center -mt-5 md:-mt-12 pb-10 tracking-[7px] leading-10" style={{ fontFamily: "Rajdhani" }}>{t("services.packagingPage.weProvidePack.title")}</h4>
                             </Fade>
                             <div class='flex items-center justify-center mb-10'>
                                 <div class="  aspect-video bg-red-400 cursor-pointer rounded-xl relative group" >
@@ -380,7 +374,7 @@ const Packaging = () => {
                                     <img alt="" class="object-cover w-full aspect-square group-hover:scale-110 transition duration-300 ease-in-out" src="https://i.ibb.co/dgk192G/11.jpg" />
                                 </div>
                             </div>
-                            
+
                             <div class='flex items-center justify-center '>
                                 <div class="  aspect-video bg-red-400 cursor-pointer rounded-xl relative group" >
                                     <div class="rounded-xl z-50 opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out cursor-pointer absolute from-black/80 to-transparent bg-gradient-to-t inset-x-0 -bottom-2 text-white flex items-end">
@@ -402,7 +396,7 @@ const Packaging = () => {
                             </div>
                         </div>
                         <div className='w-full md:w-1/2 mx-auto'>
-                            <p className='text-white text-left mb-10'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eius tempor incididunt ut labore et dolore magna aliqua. Ut enim adiqua minim veniam quis nostrud exercitation ullamco laboris sed</p>
+                            <p className='text-white text-left mb-10'>{t("services.packagingPage.weProvidePack.desc")}</p>
                             <div class='flex items-center justify-center mb-10'>
                                 <div class="  aspect-video bg-red-400 cursor-pointer rounded-xl relative group" >
                                     <div class="rounded-xl z-50 opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out cursor-pointer absolute from-black/80 to-transparent bg-gradient-to-t inset-x-0 -bottom-2 text-white flex items-end">
@@ -459,7 +453,7 @@ const Packaging = () => {
                                             </div>
                                         </div>
                                     </div>
-                                    <img alt=""  class="object-cover w-full aspect-square group-hover:scale-110 transition duration-300 ease-in-out" src="https://i.ibb.co/7VxrJZh/01.jpg" />
+                                    <img alt="" class="object-cover w-full aspect-square group-hover:scale-110 transition duration-300 ease-in-out" src="https://i.ibb.co/7VxrJZh/01.jpg" />
                                 </div>
                             </div>
 
@@ -471,41 +465,52 @@ const Packaging = () => {
                         </li>
                     </div>
 
-                    <div className='flex flex-col md:flex-row gap-3 justify-around items-center py-7 w-full md:w-5/6 mx-auto'>
-                        <div className=''>
-                            <Slide top duration={1000}>
-                                <h3 className="text-[50px] md:text-[70px] flex justify-start w-full mx-auto font-bold text-black"><Slide top duration={1000}>0</Slide> <Slide top duration={1500}>1</Slide> <span className="p-3"></span> <Slide top duration={2000}>S</Slide> <Slide top duration={2500}>t</Slide> <Slide top duration={3000}>e</Slide> <Slide top duration={3500}>p</Slide> </h3>
+                    <div className="">
+                        <div className="text-white">
+                            <Slide bottom>
+                                <h2 className='sm:text-center text-2xl sm:text-5xl text-left'>{t("services.packagingPage.anotherPackOffer.title")}</h2>
                             </Slide>
-                            <Fade bottom duration={1500}>
-                                <h2 className='text-left -mt-7 pb-3 md:-mt-12 text-white text-3xl font-semibold'>Choose Your packaging</h2>
-                            </Fade>
-                            <Fade bottom duration={2000}>
-                                <p className='text-white text-left pr-7'>Lorem ipsum dolor sit amet, consectetu adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua minim veniam</p>
+                            <Fade>
+                                <p className="inline-block align-middle p-4 text-justify md:text-center pt-7">{t("services.packagingPage.anotherPackOffer.desc")}</p>
                             </Fade>
                         </div>
-                        <div className=''>
-                            <Slide top duration={1000}>
-                                <h3 className="text-[50px] md:text-[70px] flex justify-start w-full mx-auto font-bold text-black"><Slide top duration={1000}>0</Slide> <Slide top duration={1500}>2</Slide> <span className="p-3"></span> <Slide top duration={2000}>S</Slide> <Slide top duration={2500}>t</Slide> <Slide top duration={3000}>e</Slide> <Slide top duration={3500}>p</Slide> </h3>
-                            </Slide>
-                            <Fade bottom duration={1500}>
-                                <h2 className='text-left -mt-7 pb-3 md:-mt-12 text-white text-3xl font-semibold'>Packaging In Process
-                                </h2>
-                            </Fade>
-                            <Fade bottom duration={2000}>
-                                <p className='text-white text-left pr-7'>Lorem ipsum dolor sit amet, consectetu adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua minim veniam</p>
-                            </Fade>
-                        </div>
-                        <div className=''>
-                            <Slide top duration={1000}>
-                                <h3 className="text-[50px] md:text-[70px] flex justify-start w-full mx-auto font-bold text-black"><Slide top duration={1000}>0</Slide> <Slide top duration={1500}>3</Slide> <span className="p-3"></span> <Slide top duration={2000}>S</Slide> <Slide top duration={2500}>t</Slide> <Slide top duration={3000}>e</Slide> <Slide top duration={3500}>p</Slide> </h3>
-                            </Slide>
-                            <Fade bottom duration={1500}>
-                                <h2 className='text-left -mt-7 pb-3 md:-mt-12 text-white text-3xl font-semibold'>Packaging Ready To Use
-                                </h2>
-                            </Fade>
-                            <Fade bottom duration={2000}>
-                                <p className='text-white text-left pr-7'>Lorem ipsum dolor sit amet, consectetu adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua minim veniam</p>
-                            </Fade>
+                        <div className='flex flex-col md:flex-row gap-3 justify-around items-center py-7 w-full md:w-5/6 mx-auto'>
+                            <div className=''>
+                                <Slide top duration={1000}>
+                                    <h3 className="text-[50px] md:text-[70px] flex justify-start w-full mx-auto font-bold text-black"><Slide top duration={1000}>0</Slide> <Slide top duration={1500}>1</Slide> <span className="p-3"></span> <Slide top duration={2000}>S</Slide> <Slide top duration={2500}>t</Slide> <Slide top duration={3000}>e</Slide> <Slide top duration={3500}>p</Slide> </h3>
+                                </Slide>
+                                <Fade bottom duration={1500}>
+                                    <h2 className='text-left -mt-7 pb-3 md:-mt-12 text-white text-3xl font-semibold'>{t("services.packagingPage.anotherPackOffer.card.crd1.title")}</h2>
+                                </Fade>
+                                <Fade bottom duration={2000}>
+                                    <p className='text-white text-left pr-7'>{t("services.packagingPage.anotherPackOffer.card.crd1.desc")}</p>
+                                </Fade>
+                            </div>
+                            <div className=''>
+
+                                <Slide top duration={1000}>
+                                    <h3 className="text-[50px] md:text-[70px] flex justify-start w-full mx-auto font-bold text-black"><Slide top duration={1000}>0</Slide> <Slide top duration={1500}>2</Slide> <span className="p-3"></span> <Slide top duration={2000}>S</Slide> <Slide top duration={2500}>t</Slide> <Slide top duration={3000}>e</Slide> <Slide top duration={3500}>p</Slide> </h3>
+                                </Slide>
+                                <Fade bottom duration={1500}>
+                                    <h2 className='text-left -mt-7 pb-3 md:-mt-12 text-white text-3xl font-semibold'>{t("services.packagingPage.anotherPackOffer.card.crd2.title")}
+                                    </h2>
+                                </Fade>
+                                <Fade bottom duration={2000}>
+                                    <p className='text-white text-left pr-7'>{t("services.packagingPage.anotherPackOffer.card.crd2.desc")}</p>
+                                </Fade>
+                            </div>
+                            <div className=''>
+                                <Slide top duration={1000}>
+                                    <h3 className="text-[50px] md:text-[70px] flex justify-start w-full mx-auto font-bold text-black"><Slide top duration={1000}>0</Slide> <Slide top duration={1500}>3</Slide> <span className="p-3"></span> <Slide top duration={2000}>S</Slide> <Slide top duration={2500}>t</Slide> <Slide top duration={3000}>e</Slide> <Slide top duration={3500}>p</Slide> </h3>
+                                </Slide>
+                                <Fade bottom duration={1500}>
+                                    <h2 className='text-left -mt-7 pb-3 md:-mt-12 text-white text-3xl font-semibold'>{t("services.packagingPage.anotherPackOffer.card.crd3.title")}
+                                    </h2>
+                                </Fade>
+                                <Fade bottom duration={2000}>
+                                    <p className='text-white text-left pr-7'>{t("services.packagingPage.anotherPackOffer.card.crd3.desc")}</p>
+                                </Fade>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -516,15 +521,15 @@ const Packaging = () => {
                                 <div className="max-w-3xl mx-auto">
                                     <Fade left duration={1000}>
                                         <h2 className="text-3xl text-left font-extrabold text-white mb-3 sm:text-4xl">
-                                            General Question
+                                        {t("services.packagingPage.needMoreInfo.title")}
                                         </h2>
                                     </Fade>
                                     <Fade laft duration={2000}>
-                                        <p className='text-white text-left'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident quis adipisci laudantium aliquam, accusamus expedita molestias, asperiores ratione tempora sed quae alias. Suscipit delectus aliquam excepturi sint, ut autem nihil!</p>
+                                        <p className='text-white text-left'>{t("services.packagingPage.needMoreInfo.desc")}</p>
                                     </Fade>
                                     <div className="mt-12">
                                         <dl className="space-y-8">
-                                            {questions.map((q) => (
+                                            {questions?.map((q) => (
                                                 <Slide bottom duration={1000}>
                                                     <div key={q.id}>
                                                         <dt className="text-lg leading-6 font-medium bg-black p-3 text-gray-900 duration-300">
@@ -565,7 +570,7 @@ const Packaging = () => {
                             <Slide right duration={1000}>
                                 <div className="absolute text-white text-center bottom-0 right-0 p-4 md:w-2/3 bg-[#172F3B]">
                                     <h1 className="text-2xl md:text-3xl text-left font-bold p-3 ">We Production Best Packaging!</h1>
-                                    <p className='mb-4 font-thin text-left p-3'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae repellat velit quod aliquam nesciunt eum labore! Aperiam ut temporibus praesentium! Maxime possimus totam velit numquam distinctio mollitia ab non eveniet! Lorem ipsum dolor sit amet consectetur adipiscing elit dolor</p>
+                                    <p className='mb-4 font-thin text-left p-3'>{t("services.packagingPage.wePay")}</p>
                                     <li className='list-none text-xl flex p-3 hover:text-red-600 hover:p-4 h-10 hover:translate-x-3 duration-300 items-center text-left '>View Project
                                         <FaArrowRight className='ml-3 mt-1 duration-300' />
                                     </li>

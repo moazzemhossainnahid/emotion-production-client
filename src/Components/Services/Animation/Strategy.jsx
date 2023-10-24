@@ -1,3 +1,4 @@
+import { t } from 'i18next';
 import React from 'react';
 import Fade from 'react-reveal/Fade';
 import Slide from 'react-reveal/Slide';
@@ -12,7 +13,8 @@ const Strategy = () => {
                             <h3 className="text-[70px] md:text-[150px] text-center flex mx-auto w-full justify-center uppercase font-bold text-[#1E1E1E]"><Slide top duration={1000}>S</Slide> <Slide top duration={1500}>T</Slide> <Slide top duration={2000}>R</Slide> <Slide top duration={2500}>A</Slide> <Slide top duration={3000}>T</Slide> <Slide top duration={4000}>E</Slide> <Slide top duration={4500}>G</Slide> <Slide top duration={5000}>Y</Slide></h3>
                         </Slide>
                         <Fade bottom>
-                            <h4 className="text-2xl md:text-5xl text-center w-full font-bold text-white capitalize md:uppercase -mt-10 md:-mt-24 tracking-[7px] leading-10" style={{ fontFamily: "Rajdhani" }}>Measurable & Effective Results for Customers</h4>
+                            <h4 className="text-2xl md:text-5xl text-center w-full font-bold text-white capitalize md:uppercase -mt-10 md:-mt-24 tracking-[7px] leading-10" style={{ fontFamily: "Rajdhani" }}>{t("services.animationPage.whyChoose.title")}</h4>
+                            <p className="text-md text-center w-full font-semibold text-white capitalize tracking-[7px] leading-10" style={{ fontFamily: "Rajdhani" }}>{t("services.animationPage.whyChoose.desc")}</p>
                         </Fade>
                     </div>
                     <div className="relative w-full h-full">
@@ -26,8 +28,8 @@ const Strategy = () => {
                                         <div className="flex justify-between items-center px-5 py-5 gap-2 group bg-[#2525259c] hover:bg-slate-300 border rounded w-full md:w-2/6">
                                             <img src="https://wgl-demo.net/zeptech/wp-content/uploads/2021/07/ib-icon-1.png" alt="" className="w-10 h-10 md:w-16 md:h-16" />
                                             <div className="space-y-2 text-start pl-5">
-                                                <h3 className="md:text-md font-bold uppercase text-teal-700">custom targeting</h3>
-                                                <p className="text-sm text-white group-hover:text-gray-700">Personalization assumed up an excess of position showcasing</p>
+                                                <h3 className="md:text-md font-bold uppercase text-teal-700">{t("services.animationPage.whyChoose.card.crd1.title")}</h3>
+                                                <p className="text-sm text-white group-hover:text-gray-700">{t("services.animationPage.whyChoose.card.crd1.desc")}</p>
                                             </div>
                                         </div>
                                     </Slide>
@@ -35,8 +37,8 @@ const Strategy = () => {
                                         <div className="flex justify-between items-center px-5 py-5 gap-2 group bg-[#2525259c] hover:bg-slate-300 border rounded w-full md:w-2/6">
                                             <img src="https://wgl-demo.net/zeptech/wp-content/uploads/2021/07/vector-img-6.png" alt="" className="w-10 h-10 md:w-16 md:h-16" />
                                             <div className="space-y-2 text-start pl-5">
-                                                <h3 className="md:text-md font-bold uppercase text-teal-700">Business Tools</h3>
-                                                <p className="text-sm text-white group-hover:text-gray-700">Personalization assumed up an excess of position showcasing</p>
+                                                <h3 className="md:text-md font-bold uppercase text-teal-700">{t("services.animationPage.whyChoose.card.crd2.title")}</h3>
+                                                <p className="text-sm text-white group-hover:text-gray-700">{t("services.animationPage.whyChoose.card.crd2.desc")}</p>
                                             </div>
                                         </div>
                                     </Slide>
@@ -47,8 +49,8 @@ const Strategy = () => {
                                         <div className="flex justify-between items-center px-5 py-5 gap-2 md:-ml-20 group bg-[#2525259c] hover:bg-slate-300 border rounded w-full md:w-2/6">
                                             <img src="https://wgl-demo.net/zeptech/wp-content/uploads/2021/07/ib-icon-6.png" alt="" className="w-10 h-10 md:w-16 md:h-16" />
                                             <div className="space-y-2 text-start pl-5">
-                                                <h3 className="md:text-md font-bold uppercase text-teal-700">SEO Solutions</h3>
-                                                <p className="text-sm text-white group-hover:text-gray-700">Personalization assumed up an excess of position showcasing</p>
+                                                <h3 className="md:text-md font-bold uppercase text-teal-700">{t("services.animationPage.whyChoose.card.crd3.title")}</h3>
+                                                <p className="text-sm text-white group-hover:text-gray-700">{t("services.animationPage.whyChoose.card.crd3.desc")}</p>
                                             </div>
                                         </div>
                                     </Slide>
@@ -56,8 +58,8 @@ const Strategy = () => {
                                         <div className="flex justify-between items-center px-5 py-5 gap-2 md:-mr-20 group bg-[#2525259c] hover:bg-slate-300 border rounded w-full md:w-2/6">
                                             <img src="https://wgl-demo.net/zeptech/wp-content/uploads/2021/07/ib-icon-5.png" alt="" className="w-10 h-10 md:w-16 md:h-16" />
                                             <div className="space-y-2 text-start pl-5">
-                                                <h3 className="md:text-md font-bold uppercase text-teal-700">Improvements</h3>
-                                                <p className="text-sm text-white group-hover:text-gray-700">Personalization assumed up an excess of position showcasing</p>
+                                                <h3 className="md:text-md font-bold uppercase text-teal-700">{t("services.animationPage.whyChoose.card.crd4.title")}</h3>
+                                                <p className="text-sm text-white group-hover:text-gray-700">{t("services.animationPage.whyChoose.card.crd4.desc")}</p>
                                             </div>
                                         </div>
                                     </Slide>
@@ -69,8 +71,8 @@ const Strategy = () => {
                                         <div className="flex justify-between items-center px-5 py-5 gap-2 group bg-[#2525259c] hover:bg-slate-300 border rounded w-full md:w-2/6">
                                             <img src="https://wgl-demo.net/zeptech/wp-content/uploads/2021/07/ib-icon-4.png" alt="" className="w-10 h-10 md:w-16 md:h-16" />
                                             <div className="space-y-2 text-start pl-5">
-                                                <h3 className="md:text-md font-bold uppercase text-teal-700">Project Strategy</h3>
-                                                <p className="text-sm text-white group-hover:text-gray-700">Personalization assumed up an excess of position showcasing</p>
+                                                <h3 className="md:text-md font-bold uppercase text-teal-700">{t("services.animationPage.whyChoose.card.crd5.title")}</h3>
+                                                <p className="text-sm text-white group-hover:text-gray-700">{t("services.animationPage.whyChoose.card.crd5.desc")}</p>
                                             </div>
                                         </div>
                                     </Slide>
@@ -78,8 +80,8 @@ const Strategy = () => {
                                         <div className="flex justify-between items-center px-5 py-5 gap-2 group bg-[#2525259c] hover:bg-slate-300 border rounded w-full md:w-2/6">
                                             <img src="https://wgl-demo.net/zeptech/wp-content/uploads/2021/07/ib-icon-7.png" alt="" className="w-10 h-10 md:w-16 md:h-16" />
                                             <div className="space-y-2 text-start pl-5">
-                                                <h3 className="md:text-md font-bold uppercase text-teal-700">Online Support</h3>
-                                                <p className="text-sm text-white group-hover:text-gray-700">Personalization assumed up an excess of position showcasing</p>
+                                                <h3 className="md:text-md font-bold uppercase text-teal-700">{t("services.animationPage.whyChoose.card.crd6.title")}</h3>
+                                                <p className="text-sm text-white group-hover:text-gray-700">{t("services.animationPage.whyChoose.card.crd6.desc")}</p>
                                             </div>
                                         </div>
                                     </Slide>

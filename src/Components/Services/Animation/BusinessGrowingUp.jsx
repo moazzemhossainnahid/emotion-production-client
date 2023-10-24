@@ -1,3 +1,4 @@
+import { t } from 'i18next';
 import React from 'react';
 import { FaCheckCircle } from 'react-icons/fa';
 import { Slide } from 'react-reveal';
@@ -20,27 +21,27 @@ const BusinessGrowingUp = () => {
                         <h3 className="text-[100px] md:text-[200px] flex uppercase font-bold text-[#1E1E1E]"><Slide top duration={3000}>W</Slide> <Slide top duration={3500}>H</Slide> <Slide top duration={4000}>Y</Slide></h3>
                     </Slide>
                     <Fade bottom>
-                        <h4 className="text-3xl md:text-5xl font-bold text-white uppercase text-start -mt-24 tracking-[7px] leading-10" style={{ fontFamily: "Rajdhani" }}>WE HELP BUSINESS GROWING UP</h4>
-                        <p className="text-gray-200 text-xl font-thin py-5 text-start">Personalization assumed up an excess of position in the showcasing space and has made each and every one of your messages exhausting and without feelings.</p>
+                        <h4 className="text-3xl md:text-5xl font-bold text-white uppercase text-start -mt-24 tracking-[7px] leading-10" style={{ fontFamily: "Rajdhani" }}>{t("services.animationPage.weHelp.title")}</h4>
+                        <p className="text-gray-200 text-xl font-thin py-5 text-start">{t("services.animationPage.weHelp.desc")}</p>
                         <hr />
                     </Fade>
                     <Fade bottom>
                         <div className="w-full flex flex-col justify-start text-left items-center gap-3 mt-10">
                             <div className="flex items-center gap-3 justify-start w-full">
                                 <span className="text-2xl text-indigo-700"><FaCheckCircle /></span>
-                                <h3 className="text-white text-xl">Creating a great digital experience</h3>
+                                <h3 className="text-white text-xl">{t("services.animationPage.weHelp.p1")}</h3>
                             </div>
                             <div className="flex items-center gap-3 justify-start w-full">
                                 <span className="text-2xl text-indigo-700"><FaCheckCircle /></span>
-                                <h3 className="text-white text-xl">Focus on people, interactions and collaboration</h3>
+                                <h3 className="text-white text-xl">{t("services.animationPage.weHelp.p2")}</h3>
                             </div>
                             <div className="flex items-center gap-3 justify-start w-full">
                                 <span className="text-2xl text-indigo-700"><FaCheckCircle /></span>
-                                <h3 className="text-white text-xl">High standards of professionalism</h3>
+                                <h3 className="text-white text-xl">{t("services.animationPage.weHelp.p3")}</h3>
                             </div>
                             <div className="flex items-center gap-3 justify-start w-full">
                                 <span className="text-2xl text-indigo-700"><FaCheckCircle /></span>
-                                <h3 className="text-white text-xl">A different way of thinking, both inside</h3>
+                                <h3 className="text-white text-xl">{t("services.animationPage.weHelp.p4")}</h3>
                             </div>
                         </div>
                     </Fade>

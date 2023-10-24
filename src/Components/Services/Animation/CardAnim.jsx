@@ -1,3 +1,4 @@
+import { t } from 'i18next';
 import React from 'react';
 import { FaArrowRight } from 'react-icons/fa';
 import Fade from 'react-reveal/Fade';
@@ -10,8 +11,8 @@ const CardAnim = () => {
                     <div className="grid card rounded-box place-items-center">
                         <div className="grid card rounded-box place-items-center p-3 space-y-2">
                             <img src="https://i.ibb.co/c2LyLcF/1.png" alt="" className="p-5" />
-                            <h3 className="text-2xl leading-tight">DIGITAL SOLUTIONS</h3>
-                            <p className="pb-3 px-3">We want to bring a splash of colour into a see mingly grey world and become</p>
+                            <h3 className="text-2xl leading-tight">{t("services.animationPage.topBanner.card.crd1.title")}</h3>
+                            <p className="pb-3 px-3">{t("services.animationPage.topBanner.card.crd1.desc")?.slice(0,120)}</p>
                             <button className="text-indigo-500 group flex gap-2 hover:gap-7 items-center justify-center font-semibold duration-300"> <span className="hidden group-hover:block group-hover:translate-x-5 group-hover:gap-7 duration-300"><FaArrowRight /></span> <span className="text-indigo-500 group-hover:text-indigo-600 -mt-1 group-hover:gap-7 duration-300">Learn More</span> <span className="block group-hover:hidden group-hover:translate-x-5 duration-300"><FaArrowRight /></span> </button>
                         </div>
                     </div>
@@ -21,8 +22,8 @@ const CardAnim = () => {
                     <div className="grid card rounded-box place-items-center">
                         <div className="grid card rounded-box place-items-center p-3 space-y-2">
                             <img src="https://i.ibb.co/tY8KFJp/2.png" alt="" className="p-5" />
-                            <h3 className="text-2xl leading-tight">SMART EXPERIENCE</h3>
-                            <p className="pb-3 px-3">We want to bring a splash of colour into a see mingly grey world and become</p>
+                            <h3 className="text-2xl leading-tight">{t("services.animationPage.topBanner.card.crd2.title")}</h3>
+                            <p className="pb-3 px-3">{t("services.animationPage.topBanner.card.crd2.desc")?.slice(0,120)}</p>
                             <button className="text-indigo-500 group flex gap-2 hover:gap-7 items-center justify-center font-semibold duration-300"> <span className="hidden group-hover:block group-hover:translate-x-5 group-hover:gap-7 duration-300"><FaArrowRight /></span> <span className="text-indigo-500 group-hover:text-indigo-600 -mt-1 group-hover:gap-7 duration-300">Learn More</span> <span className="block group-hover:hidden group-hover:translate-x-5 duration-300"><FaArrowRight /></span> </button>
                         </div>
                     </div>
@@ -32,8 +33,8 @@ const CardAnim = () => {
                     <div className="grid card rounded-box place-items-center">
                         <div className="grid card rounded-box place-items-center p-3 space-y-2">
                             <img src="https://i.ibb.co/JxR4ZBN/3.png" alt="" className="p-5" />
-                            <h3 className="text-2xl leading-tight">RESULTS WITH PROFIT</h3>
-                            <p className="pb-3 px-3">We want to bring a splash of colour into a see mingly grey world and become</p>
+                            <h3 className="text-2xl leading-tight">{t("services.animationPage.topBanner.card.crd3.title")}</h3>
+                            <p className="pb-3 px-3">{t("services.animationPage.topBanner.card.crd3.desc")?.slice(0,120)}</p>
                             <button className="text-indigo-500 group flex gap-2 hover:gap-7 items-center justify-center font-semibold duration-300"> <span className="hidden group-hover:block group-hover:translate-x-5 group-hover:gap-7 duration-300"><FaArrowRight /></span> <span className="text-indigo-500 group-hover:text-indigo-600 -mt-1 group-hover:gap-7 duration-300">Learn More</span> <span className="block group-hover:hidden group-hover:translate-x-5 duration-300"><FaArrowRight /></span> </button>
                         </div>
                     </div>

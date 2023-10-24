@@ -1,3 +1,4 @@
+import { t } from 'i18next';
 import React from 'react';
 import { Bounce } from 'react-reveal';
 
@@ -9,21 +10,13 @@ const AboutEmotion = () => {
 
             <div className='w-full md:w-3/5 order-2 md:order-1 mx-auto md:text-left'>
                 <Bounce left>
-                    <h2 className='text-white font-bold text-3xl pb-2'>About Emotion</h2>
+                    <h2 className='text-white font-bold text-3xl pb-2'>{t("aboutUsPage.aboutEP.title")}</h2>
                     <div className="text-[#C9C9C9] space-y-2 text-start">
-                        <p className='mt-2' >Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                            been the industry's standard dummy text ever since the 1500s, when an unknown printer
-                            took a galley of type and scrambled it to make a type specimen book. It has survived not
-                            only five centuries, but also the leap into electronic typesetting, remaining essentially
-                            unchanged.</p>
-                        <p className='mt-1'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                            been the industry's standard dummy text ever since the 1500s, when an unknown printer
-                            took a galley of type and scrambled it to make a type specimen book. It has survived not
-                            only five centuries, but also the leap into electronic typesetting.</p>
-
-                        <p className='mt-1'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                            been the industry's standard dummy text ever since the 1500s, when an unknown printer
-                            took a galley of type and scrambled it to make a type specimen book. </p>
+                        <p className='mt-2' >{t("aboutUsPage.aboutEP.desc1")}</p>
+                        <p className='mt-1'>{t("aboutUsPage.aboutEP.desc2")}</p>
+                        <p className='mt-1'>{t("aboutUsPage.aboutEP.desc3")}</p>
+                        <p className='mt-1'>{t("aboutUsPage.aboutEP.desc4")}</p>
+                        <p className='mt-1'>{t("aboutUsPage.aboutEP.desc5")}</p>
 
                     </div>
                 </Bounce>

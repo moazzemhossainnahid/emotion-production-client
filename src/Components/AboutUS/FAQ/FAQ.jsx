@@ -1,3 +1,4 @@
+import { t } from 'i18next';
 import React from 'react';
 import { Bounce } from 'react-reveal';
 import { Link } from 'react-router-dom';
@@ -20,7 +21,7 @@ const FAQ = () => {
                                         data-te-target="#collapseOne"
                                         aria-expanded="true"
                                         aria-controls="collapseOne">
-                                        Lorem Ipsum is simply dummy text of the printing
+                                        {t("aboutUsPage.faq.t1")}
                                         <span
                                             class="ml-auto h-5 w-5 shrink-0 rotate-[-180deg] fill-[#336dec] transition-transform duration-200 ease-in-out group-[[data-te-collapse-collapsed]]:rotate-0 group-[[data-te-collapse-collapsed]]:fill-[#212529] motion-reduce:transition-none dark:fill-blue-300 dark:group-[[data-te-collapse-collapsed]]:fill-white">
                                             <svg
@@ -46,14 +47,7 @@ const FAQ = () => {
                                     aria-labelledby="headingOne"
                                     data-te-parent="#accordionExample">
                                     <div class="py-4 px-5 text-gray-600">
-                                        <strong>This is the first item's accordion body.</strong> It is
-                                        shown by default, until the collapse plugin adds the appropriate
-                                        classes that we use to style each element. These classes control
-                                        the overall appearance, as well as the showing and hiding via CSS
-                                        transitions. You can modify any of this with custom CSS or
-                                        overriding our default variables. It's also worth noting that just
-                                        about any HTML can go within the <code>.accordion-body</code>,
-                                        though the transition does limit overflow.
+                                    {t("aboutUsPage.faq.d1")}
                                     </div>
                                 </div>
                             </div>
@@ -68,7 +62,7 @@ const FAQ = () => {
                                         data-te-target="#collapseTwo"
                                         aria-expanded="false"
                                         aria-controls="collapseTwo">
-                                        Lorem Ipsum is simply dummy text of the printing
+                                        {t("aboutUsPage.faq.t2")}
                                         <span
                                             class="ml-auto -mr-1 h-5 w-5 shrink-0 rotate-[-180deg] fill-[#336dec] transition-transform duration-200 ease-in-out group-[[data-te-collapse-collapsed]]:mr-0 group-[[data-te-collapse-collapsed]]:rotate-0 group-[[data-te-collapse-collapsed]]:fill-[#212529] motion-reduce:transition-none dark:fill-blue-300 dark:group-[[data-te-collapse-collapsed]]:fill-white">
                                             <svg
@@ -93,14 +87,7 @@ const FAQ = () => {
                                     aria-labelledby="headingTwo"
                                     data-te-parent="#accordionExample">
                                     <div class="py-4 px-5 text-gray-600">
-                                        <strong>This is the second item's accordion body.</strong> It is
-                                        hidden by default, until the collapse plugin adds the appropriate
-                                        classes that we use to style each element. These classes control
-                                        the overall appearance, as well as the showing and hiding via CSS
-                                        transitions. You can modify any of this with custom CSS or
-                                        overriding our default variables. It's also worth noting that just
-                                        about any HTML can go within the <code>.accordion-body</code>,
-                                        though the transition does limit overflow.
+                                    {t("aboutUsPage.faq.d2")}
                                     </div>
                                 </div>
                             </div>
@@ -115,7 +102,7 @@ const FAQ = () => {
                                         data-te-target="#collapseThree"
                                         aria-expanded="false"
                                         aria-controls="collapseThree">
-                                        Lorem Ipsum is simply dummy text of the printing
+                                        {t("aboutUsPage.faq.t3")}
                                         <span
                                             class="ml-auto -mr-1 h-5 w-5 shrink-0 rotate-[-180deg] fill-[#336dec] transition-transform duration-200 ease-in-out group-[[data-te-collapse-collapsed]]:mr-0 group-[[data-te-collapse-collapsed]]:rotate-0 group-[[data-te-collapse-collapsed]]:fill-[#212529] motion-reduce:transition-none dark:fill-blue-300 dark:group-[[data-te-collapse-collapsed]]:fill-white">
                                             <svg
@@ -140,14 +127,7 @@ const FAQ = () => {
                                     aria-labelledby="headingThree"
                                     data-te-parent="#accordionExample">
                                     <div class="py-4 px-5 text-gray-600">
-                                        <strong>This is the third item's accordion body.</strong> It is
-                                        hidden by default, until the collapse plugin adds the appropriate
-                                        classes that we use to style each element. These classes control
-                                        the overall appearance, as well as the showing and hiding via CSS
-                                        transitions. You can modify any of this with custom CSS or
-                                        overriding our default variables. It's also worth noting that just
-                                        about any HTML can go within the <code>.accordion-body</code>,
-                                        though the transition does limit overflow.
+                                    {t("aboutUsPage.faq.d3")}
                                     </div>
                                 </div>
                             </div>
@@ -162,7 +142,7 @@ const FAQ = () => {
                                         data-te-target="#collapseFour"
                                         aria-expanded="false"
                                         aria-controls="collapseFour">
-                                        Lorem Ipsum is simply dummy text of the printing
+                                        {t("aboutUsPage.faq.t4")}
                                         <span
                                             class="ml-auto -mr-1 h-5 w-5 shrink-0 rotate-[-180deg] fill-[#336dec] transition-transform duration-200 ease-in-out group-[[data-te-collapse-collapsed]]:mr-0 group-[[data-te-collapse-collapsed]]:rotate-0 group-[[data-te-collapse-collapsed]]:fill-[#212529] motion-reduce:transition-none dark:fill-blue-300 dark:group-[[data-te-collapse-collapsed]]:fill-white">
                                             <svg
@@ -187,14 +167,7 @@ const FAQ = () => {
                                     aria-labelledby="headingFour"
                                     data-te-parent="#accordionExample">
                                     <div class="py-4 px-5 text-gray-600">
-                                        <strong>This is the third item's accordion body.</strong> It is
-                                        hidden by default, until the collapse plugin adds the appropriate
-                                        classes that we use to style each element. These classes control
-                                        the overall appearance, as well as the showing and hiding via CSS
-                                        transitions. You can modify any of this with custom CSS or
-                                        overriding our default variables. It's also worth noting that just
-                                        about any HTML can go within the <code>.accordion-body</code>,
-                                        though the transition does limit overflow.
+                                    {t("aboutUsPage.faq.d4")}
                                     </div>
                                 </div>
                             </div>
@@ -205,10 +178,8 @@ const FAQ = () => {
             </div>
             <Bounce>
                 <div className='w-full md:w-3/6 order-1 -p-2 md:order-2 mx-auto text-start px-3 rounded'>
-                    <h3 className="text-white text-5xl font-bold">Frequently <br />
-                        Asked Questions</h3>
-                    <p className="py-5 text-sm text-white">Here is the Set of Questionaries May be comes up on your mind.If You do have
-                        have more question, You Can Contact Us</p>
+                    <h3 className="text-white text-5xl font-bold">{t("aboutUsPage.faq.title")}</h3>
+                    <p className="py-5 text-sm text-white">{t("aboutUsPage.faq.desc")}</p>
                     <div className="pt-5 flex justify-start">
                         <Link to="meeting" className="text-center text-white">
                             <h3 className="px-5 py-2 border flex justify-center items-center hover:border-primary hover:duration-150 rounded w-[200px] mx-auto">Make a Meeting <span className="text-white pl-2">&rarr;</span></h3>

@@ -1,3 +1,4 @@
+import { t } from 'i18next';
 import React from 'react';
 import { Bounce } from 'react-reveal';
 
@@ -18,22 +19,9 @@ const MissionVision = () => {
 
                     <div className='w-full md:w-3/5 order-1 md:order-2 mx-auto md:text-left px-3'>
                         <Bounce bottom>
-                            <h2 className='text-white font-bold text-3xl pb-2'>Mission Vision</h2>
+                            <h2 className='text-white font-bold text-3xl pb-2'>{t("aboutUsPage.mission.title")}</h2>
                             <div className="text-[#C9C9C9] space-y-2 text-start">
-                                <p className='mt-2' >Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                                    been the industry's standard dummy text ever since the 1500s, when an unknown printer
-                                    took a galley of type and scrambled it to make a type specimen book. It has survived not
-                                    only five centuries, but also the leap into electronic typesetting, remaining essentially
-                                    unchanged.</p>
-                                <p className='mt-1'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                                    been the industry's standard dummy text ever since the 1500s, when an unknown printer
-                                    took a galley of type and scrambled it to make a type specimen book. It has survived not
-                                    only five centuries, but also the leap into electronic typesetting.</p>
-
-                                <p className='mt-1'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                                    been the industry's standard dummy text ever since the 1500s, when an unknown printer
-                                    took a galley of type and scrambled it to make a type specimen book. </p>
-
+                                <p className='mt-2' >{t("aboutUsPage.mission.desc")}</p>
                             </div>
                         </Bounce>
                     </div>
@@ -49,22 +37,9 @@ const MissionVision = () => {
 
                     <div className='w-full md:w-3/5 order-2 md:order-1 mx-auto md:text-left px-3'>
                         <Bounce left>
-                            <h2 className='text-white font-bold text-3xl pb-2'>Mission Vision</h2>
+                            <h2 className='text-white font-bold text-3xl pb-2'>{t("aboutUsPage.vision.title")}</h2>
                             <div className="text-[#C9C9C9] space-y-2 text-start">
-                                <p className='mt-2' >Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                                    been the industry's standard dummy text ever since the 1500s, when an unknown printer
-                                    took a galley of type and scrambled it to make a type specimen book. It has survived not
-                                    only five centuries, but also the leap into electronic typesetting, remaining essentially
-                                    unchanged.</p>
-                                <p className='mt-1'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                                    been the industry's standard dummy text ever since the 1500s, when an unknown printer
-                                    took a galley of type and scrambled it to make a type specimen book. It has survived not
-                                    only five centuries, but also the leap into electronic typesetting.</p>
-
-                                <p className='mt-1'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                                    been the industry's standard dummy text ever since the 1500s, when an unknown printer
-                                    took a galley of type and scrambled it to make a type specimen book. </p>
-
+                                <p className='mt-2' >{t("aboutUsPage.vision.desc")}</p>
                             </div>
                         </Bounce>
                     </div>

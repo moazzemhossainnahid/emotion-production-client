@@ -134,7 +134,7 @@ const Navbar = ({ currentLanguageCode, languages }) => {
 <div className="dropdown dropdown-end p-0">
     <label tabIndex={0} className="btn bg-transparent outline-none border-none text-white focus:bg-transparent hover:bg-transparent btn-sm"><FaGlobeAsia /></label>
     <ul tabIndex={0} className="dropdown-content text-sm z-[1] menu p-1 shadow bg-base-100 rounded">
-        {languages.map(({ code, name, flag }) => (
+        {languages?.map(({ code, name, flag }) => (
             <li className='p-1' key={code} >
                 <button className={`${code === currentLanguageCode && 'bg-primary text-white'} p-2 text-black`} onClick={() => { i18next.changeLanguage(code) }}
                     disabled={code === currentLanguageCode} > <span className={`fi fi-${flag}`}></span>{name} 

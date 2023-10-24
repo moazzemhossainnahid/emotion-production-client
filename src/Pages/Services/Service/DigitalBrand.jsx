@@ -3,6 +3,7 @@ import TrustedPartnersAnim from '../../../Components/Services/Animation/TrustedP
 import { Fade, Slide } from 'react-reveal';
 import Slider from 'react-slick';
 import CountUp from 'react-countup';
+import { t } from 'i18next';
 
 const DigitalBrand = () => {
     const [counter, setCounter] = useState(0);
@@ -58,10 +59,10 @@ const DigitalBrand = () => {
             <div className='flex flex-col md:flex-row justify-between items-center gap-3'>
                 <div className="w-full md:w-1/2 p-0 md:pl-20 text-left space-y-5">
                     <Slide left duration={1000}>
-                        <p className=' text-left text-gray-500 mb-2'> BUILDING THE NEXT GENERATION OF BOLD BRANDS</p>
+                        <p className=' text-left text-gray-500 mb-2'>{t("services.digitalBrandPage.subTitle")}</p>
                     </Slide>
                     <Slide left duration={1500}>
-                        <h2 className="text-left font-thin text-3xl md:text-6xl text-white pb-10">Branding & Digital Agency</h2>
+                        <h2 className="text-left font-thin text-3xl md:text-6xl text-white pb-10">{t("services.digitalBrandPage.title")}</h2>
                     </Slide>
                     <Slide bottom duration={2000}>
                         <button className="text-left text-white relative group">
@@ -95,8 +96,8 @@ const DigitalBrand = () => {
                             <img className='' src="https://i.ibb.co/Qn8Kttw/images-removebg-preview.png" alt="" />
                         </span>
                         <span className=''>
-                            <h2 className='text-left text-white font-black'>Story</h2>
-                            <p className='text-white text-justify'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi soluta ipsum excepturi ex voluptatum quaerat, sint, quo inventore odit nesciunt quod pariatur quam veniam magni labore dolor! At, nulla fugit!</p>
+                            <h2 className='text-left text-white font-black'>{t("services.digitalBrandPage.topCrd.crd1.title")}</h2>
+                            <p className='text-white text-justify'>{t("services.digitalBrandPage.topCrd.crd1.desc")}</p>
                             <button className='text-gray-500 flex pt-2 justify-items-end bottom-1 border-b'>Explore</button>
                         </span>
                     </div>
@@ -107,8 +108,8 @@ const DigitalBrand = () => {
                             <img src="https://i.ibb.co/Qn8Kttw/images-removebg-preview.png" alt="" />
                         </span>
                         <span>
-                            <h2 className='text-left text-white font-black'>Goals</h2>
-                            <p className='text-white text-justify'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi soluta ipsum excepturi ex voluptatum quaerat, sint, quo inventore odit nesciunt quod pariatur quam veniam magni labore dolor! At, nulla fugit!</p>
+                            <h2 className='text-left text-white font-black'>{t("services.digitalBrandPage.topCrd.crd2.title")}</h2>
+                            <p className='text-white text-justify'>{t("services.digitalBrandPage.topCrd.crd2.desc")}</p>
                             <button className='text-gray-500 flex pt-2 justify-items-end bottom-1 border-b'>Explore</button>
                         </span>
                     </div>
@@ -119,8 +120,8 @@ const DigitalBrand = () => {
                             <img src="https://i.ibb.co/Qn8Kttw/images-removebg-preview.png" alt="" />
                         </span>
                         <span>
-                            <h2 className='text-left text-white font-black'>Achievements</h2>
-                            <p className='text-white text-justify'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi soluta ipsum excepturi ex voluptatum quaerat, sint, quo inventore odit nesciunt quod pariatur quam veniam magni labore dolor! At, nulla fugit!</p>
+                            <h2 className='text-left text-white font-black'>{t("services.digitalBrandPage.topCrd.crd3.title")}</h2>
+                            <p className='text-white text-justify'>{t("services.digitalBrandPage.topCrd.crd3.desc")}</p>
                             <button className='text-gray-500 flex pt-2 justify-items-end bottom-1 border-b'>Explore</button>
                         </span>
                     </div>
@@ -142,11 +143,11 @@ const DigitalBrand = () => {
 
                 <div className='w-full p-4 space-y-3 text-start'>
                     <Slide right duration={1000}>
-                        <h2 className='text-left text-white text-3xl md:text-5xl'> Perfect Digital Start</h2>
+                        <h2 className='text-left text-white text-3xl md:text-5xl'>{t("services.digitalBrandPage.digitalStart.title")}</h2>
                     </Slide>
                     <Slide right duration={1500}>
                         <p className='inline-block text-white align-middle  text-justify sm:text-left pt-3'>
-                            Duis accumsan, neque at hendrerit sagittis, elit diam sodales nunc, at auctor leo purus sodales nunc. Maecenas ac lorem sit amet ligula viverra gravida non vel tortor. Phasellus dapibus leo non iaculis ultricies.
+                        {t("services.digitalBrandPage.digitalStart.desc")}
                         </p>
                     </Slide>
                 </div>
@@ -162,8 +163,8 @@ const DigitalBrand = () => {
                             </span>
                         </span>
                         <span className=''>
-                            <h2 className='mt-2 text-left text-white font-black'>Research</h2>
-                            <p className='text-white text-left '>Donec mattis odio dui, eget congue diam tempus a. Fusce viverra enim sit amet sagittis ultricies.</p>
+                            <h2 className='mt-2 text-left text-white font-black'>{t("services.digitalBrandPage.digitalStart.cards.crd1.title")}</h2>
+                            <p className='text-white text-left '>{t("services.digitalBrandPage.digitalStart.cards.crd1.desc")}</p>
                         </span>
                     </div>
                 </Fade>
@@ -175,8 +176,8 @@ const DigitalBrand = () => {
                             </span>
                         </span>
                         <span className=''>
-                            <h2 className='mt-2 text-left text-white font-black'>Brand Strategy</h2>
-                            <p className='text-white text-left '>Donec mattis odio dui, eget congue diam tempus a. Fusce viverra enim sit amet sagittis ultricies.</p>
+                            <h2 className='mt-2 text-left text-white font-black'>{t("services.digitalBrandPage.digitalStart.cards.crd2.title")}</h2>
+                            <p className='text-white text-left '>{t("services.digitalBrandPage.digitalStart.cards.crd2.desc")}</p>
                         </span>
                     </div>
                 </Fade>
@@ -188,8 +189,8 @@ const DigitalBrand = () => {
                             </span>
                         </span>
                         <span className=''>
-                            <h2 className='mt-2 text-left text-white font-black'>Naming</h2>
-                            <p className='text-white text-left '>Donec mattis odio dui, eget congue diam tempus a. Fusce viverra enim sit amet sagittis ultricies.</p>
+                            <h2 className='mt-2 text-left text-white font-black'>{t("services.digitalBrandPage.digitalStart.cards.crd3.title")}</h2>
+                            <p className='text-white text-left '>{t("services.digitalBrandPage.digitalStart.cards.crd3.desc")}</p>
                         </span>
                     </div>
                 </Fade>
@@ -201,8 +202,8 @@ const DigitalBrand = () => {
                             </span>
                         </span>
                         <span className=''>
-                            <h2 className='mt-2 text-left text-white font-black'>Web & Digital</h2>
-                            <p className='text-white text-left '>Donec mattis odio dui, eget congue diam tempus a. Fusce viverra enim sit amet sagittis ultricies.</p>
+                            <h2 className='mt-2 text-left text-white font-black'>{t("services.digitalBrandPage.digitalStart.cards.crd4.title")}</h2>
+                            <p className='text-white text-left '>{t("services.digitalBrandPage.digitalStart.cards.crd4.desc")}</p>
                         </span>
                     </div>
                 </Fade>
@@ -214,8 +215,8 @@ const DigitalBrand = () => {
                             </span>
                         </span>
                         <span className=''>
-                            <h2 className='mt-2 text-left text-white font-black'>Content Creation</h2>
-                            <p className='text-white text-left '>Donec mattis odio dui, eget congue diam tempus a. Fusce viverra enim sit amet sagittis ultricies.</p>
+                            <h2 className='mt-2 text-left text-white font-black'>{t("services.digitalBrandPage.digitalStart.cards.crd5.title")}</h2>
+                            <p className='text-white text-left '>{t("services.digitalBrandPage.digitalStart.cards.crd5.desc")}</p>
                         </span>
                     </div>
                 </Fade>
@@ -227,8 +228,8 @@ const DigitalBrand = () => {
                             </span>
                         </span>
                         <span className=''>
-                            <h2 className='mt-2 text-left text-white font-black'>Consulting </h2>
-                            <p className='text-white text-left '>Donec mattis odio dui, eget congue diam tempus a. Fusce viverra enim sit amet sagittis ultricies.</p>
+                            <h2 className='mt-2 text-left text-white font-black'>{t("services.digitalBrandPage.digitalStart.cards.crd6.title")}</h2>
+                            <p className='text-white text-left '>{t("services.digitalBrandPage.digitalStart.cards.crd6.desc")}</p>
                         </span>
                     </div>
                 </Fade>
@@ -239,10 +240,10 @@ const DigitalBrand = () => {
             <div className='flex flex-col md:flex-row justify-between items-center  mt-36 w-full md:w-5/6 mx-auto'>
                 <div className='w-full p-4'>
                     <Slide bottom duration={1000}>
-                        <h2 className='text-center text-white text-2xl sm:text-5xl sm:text-left'> Innovative Approach</h2>
+                        <h2 className='text-center text-white text-2xl sm:text-5xl sm:text-left'>{t("services.digitalBrandPage.digitalStart.innApp.title")}</h2>
                     </Slide>
                     <Slide bottom duration={1500}>
-                        <p className='inline-block text-white align-middle  text-justify sm:text-left pt-3'>Duis accumsan, neque at hendrerit sagittis, elit diam sodales nunc, at auctor leo purus sodales nunc. Maecenas ac lorem sit amet ligula viverra gravida non vel tortor. Phasellus dapibus leo non iaculis ultricies.
+                        <p className='inline-block text-white align-middle  text-justify sm:text-left pt-3'>{t("services.digitalBrandPage.digitalStart.innApp.desc")}
                         </p>
                     </Slide>
                 </div>
@@ -257,10 +258,10 @@ const DigitalBrand = () => {
             <div className='flex flex-col md:flex-row justify-between items-center  mt-32 w-full md:w-5/6 mx-auto'>
                 <div className='w-full p-4 space-y-5'>
                     <Slide bottom duration={1000}>
-                        <h2 className='text-center text-white text-2xl sm:text-5xl sm:text-left'> Digital Experts </h2>
+                        <h2 className='text-center text-white text-2xl sm:text-5xl sm:text-left'>{t("services.digitalBrandPage.digitalStart.digiExp.title")}</h2>
                     </Slide>
                     <Slide bottom duration={1500}>
-                        <p className='text-left text-white '>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet consequuntur quos, hic quo laborum voluptatem ipsam odio aperiam esse commodi, dolorem, iste architecto quae ipsum ut dicta reiciendis quam dolorum.
+                        <p className='text-left text-white '>{t("services.digitalBrandPage.digitalStart.digiExp.desc")}
                         </p>
                     </Slide>
                 </div>
@@ -335,7 +336,7 @@ const DigitalBrand = () => {
 
                 </Slide>
                 <Slide top duration={1000}>
-                    <h2 className='text-white text-center text-2xl md:text-4xl font-black my-5 pb-4 pt-10'>Want to showcase your business?</h2>
+                    <h2 className='text-white text-center text-2xl md:text-4xl font-black my-5 pb-4 pt-10'>{t("services.digitalBrandPage.digitalStart.showcase.title")}</h2>
                 </Slide>
                 <button className="text-left text-white relative group">
                     <span className="bg-teal-600 px-7 p-4 z-10 relative group-hover:bg-indigo-950 duration-300">Contact US</span>
@@ -350,9 +351,9 @@ const DigitalBrand = () => {
                         <span class="indicator-item badge w-16 h-16  rounded-none bg-slate-600 ">
                             <h2 className=" text-white text-6xl font-bold">1</h2>
                         </span>
-                        <div class="grid gap-1 w-72 h-52 border place-items-center">
-                            <h2 className="text-white font-black text-left">Brifing</h2>
-                            <p className="text-white text-sm -mt-28">Donec mattis odio dui, eget congue diam tempus a. Proin sed urna et purus fringilla facilisis.</p>
+                        <div class="grid gap-1 w-72 h-72 border place-items-center">
+                            <h2 className="text-white text-xl font-black text-left">{t("services.digitalBrandPage.digitalStart.showcase.cards.crd1.title")}</h2>
+                            <p className="text-white text-sm -mt-20">{t("services.digitalBrandPage.digitalStart.showcase.cards.crd1.desc")}</p>
                         </div>
                     </div>
 
@@ -360,9 +361,9 @@ const DigitalBrand = () => {
                         <span class="indicator-item badge w-16 h-16 rounded-none bg-zinc-500 ">
                             <h2 className=" text-white text-6xl font-bold">2</h2>
                         </span>
-                        <div class="grid gap-1 w-72 h-52 border place-items-center">
-                            <h2 className="text-white font-black text-left">Brand Strategy</h2>
-                            <p className="text-white text-sm -mt-28">Donec mattis odio dui, eget congue diam tempus a. Proin sed urna et purus fringilla facilisis.</p>
+                        <div class="grid gap-1 w-72 h-72 border place-items-center">
+                            <h2 className="text-white text-xl font-black text-left">{t("services.digitalBrandPage.digitalStart.showcase.cards.crd2.title")}</h2>
+                            <p className="text-white text-sm -mt-20">{t("services.digitalBrandPage.digitalStart.showcase.cards.crd2.desc")}</p>
                         </div>
                     </div>
 
@@ -371,9 +372,9 @@ const DigitalBrand = () => {
                         <span class="indicator-item badge w-16 h-16 rounded-none bg-base-500 ">
                             <h2 className=" text-white text-6xl font-bold">3</h2>
                         </span>
-                        <div class="grid gap-1 w-72 h-52 border place-items-center">
-                            <h2 className="text-white font-black text-left">Perfect Design</h2>
-                            <p className="text-white text-sm -mt-28">Donec mattis odio dui, eget congue diam tempus a. Proin sed urna et purus fringilla facilisis.</p>
+                        <div class="grid gap-1 w-72 h-72 border place-items-center">
+                            <h2 className="text-white font-black text-xl text-left">{t("services.digitalBrandPage.digitalStart.showcase.cards.crd3.title")}</h2>
+                            <p className="text-white text-sm -mt-20">{t("services.digitalBrandPage.digitalStart.showcase.cards.crd3.desc")}</p>
                         </div>
                     </div>
 

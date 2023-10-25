@@ -129,16 +129,17 @@ const Packaging = () => {
                         <div className=" ">
                             <Slider {...settings}>
                                 <div>
-                                    <img src="https://i.ibb.co/QMWgWDL/16.jpg" alt="slide 1" />
+                                
+                                    <img src="https://i.ibb.co/cy0R42J/bag-with-measurements.jpg" alt="slide 1" />
                                 </div>
                                 <div>
-                                    <img src="https://i.ibb.co/yYSQf6g/15.jpg" alt="slide 2" />
+                                    <img src="https://i.ibb.co/mqCqZLf/Verpakking-Brando-zijkant.jpg" alt="slide 2" />
                                 </div>
                                 <div>
-                                    <img src="https://i.ibb.co/Rjf09Bm/12.jpg" alt="slide 3" />
+                                    <img src="https://i.ibb.co/1ZL483C/Vi-Balteum-Kaartje.png" alt="slide 3" />
                                 </div>
                                 <div>
-                                    <img src="https://i.ibb.co/59D8Q53/4.jpg" alt="slide 4" />
+                                    <img src="https://i.ibb.co/YhXFPR9/Vi-Balteum-Less-is-more-design-box.png" alt="slide 4" />
                                 </div>
 
                             </Slider>
@@ -189,7 +190,7 @@ const Packaging = () => {
                             <Fade top duration={1000}>
                                 <div className=''>
                                     <div className='pt-5 pb-3'>
-                                        <img className='w-12 hover:-translate-y-3 duration-300' src="https://i.ibb.co/SBxcwVG/ezgif-com-gif-maker.png" alt="" />
+                                        <img className='w-12 hover:-translate-y-3 duration-300' src="https://i.ibb.co/X8tKd9n/11.jpg" alt="" />
                                     </div>
                                     <div className=''>
                                         <h2 className='my-2 text-left text-gray-200 text-2xl font-black'>{t("services.packagingPage.whyChoosePackaging.card.crd1.title")}</h2>
@@ -212,7 +213,7 @@ const Packaging = () => {
                             <Fade top duration={1000}>
                                 <div className=''>
                                     <div className='pt-5 pb-3'>
-                                        <img className='w-8 hover:-translate-y-3 duration-300' src="https://i.ibb.co/8DFvvBd/ezgif-com-gif-maker-4.png" alt="" />
+                                        <img className='w-8 hover:-translate-y-3 duration-300' src="https://i.ibb.co/X8tKd9n/11.jpg" alt="" />
                                     </div>
                                     <div className=''>
                                         <h2 className='my-2 text-left text-gray-200 text-2xl font-black'>{t("services.packagingPage.whyChoosePackaging.card.crd3.title")}</h2>
@@ -253,7 +254,7 @@ const Packaging = () => {
                         </Slide>
                         <Slide bottom duration={2000}>
                             <div className='mt-5'>
-                                <div className="w-80  h-80 mx-auto relative bg-cover bg-center  flex justify-center items-center  " style={{ backgroundImage: "url('https://i.ibb.co/FzDCtXG/7.jpg')" }}>
+                                <div className="w-80  h-80 mx-auto relative bg-cover bg-center  flex justify-center items-center  " style={{ backgroundImage: "url('https://i.ibb.co/X8tKd9n/11.jpg')" }}>
                                     <div className="absolute text-white text-center background">
                                         <h1 className="text-3xl font-bold mb-4">Need For Some Help ?</h1>
                                         <p className='mb-4'>Lorem ipsum dolor sit amet consectetur adipiscing elit dolor</p>
@@ -371,7 +372,7 @@ const Packaging = () => {
                                             </div>
                                         </div>
                                     </div>
-                                    <img alt="" class="object-cover w-full aspect-square group-hover:scale-110 transition duration-300 ease-in-out" src="https://i.ibb.co/dgk192G/11.jpg" />
+                                    <img alt="" class="object-cover w-full aspect-square group-hover:scale-110 transition duration-300 ease-in-out" src="https://i.ibb.co/0Q6ZC12/LUENGI-Box-design.jpg" />
                                 </div>
                             </div>
 
@@ -391,7 +392,7 @@ const Packaging = () => {
                                             </div>
                                         </div>
                                     </div>
-                                    <img alt="" class="object-cover w-full aspect-square group-hover:scale-110 transition duration-300 ease-in-out" src="https://i.ibb.co/zQdqhf7/8.jpg" />
+                                    <img alt="" class="object-cover w-full aspect-square group-hover:scale-110 transition duration-300 ease-in-out" src="https://i.ibb.co/47Jcyg5/Schermafbeelding-2021-06-01-om-17-15-31.png" />
                                 </div>
                             </div>
                         </div>
